@@ -3,7 +3,8 @@
 //   #/region/vidarbha        one region
 //   #/district/Q1797367      one district (Wikidata id)
 //   #/place/Q4386            one place (Wikidata id)
-//   #/trip                   saved places
+//   #/trip                   my saved places
+//   #/trip/Q1,Q2,Q3          a trip someone shared
 import { getDistrict, getPlace, getRegion } from './catalogue';
 
 const HOME = { view: 'home' };
@@ -11,13 +12,20 @@ const exists = { region: getRegion, district: getDistrict, place: getPlace };
 
 export function parseHash(hash) {
   const [, view, id] = hash.replace(/^#/, '').split('/');
-  if (view === 'trip') return { view };
+  if (view === 'trip') {
+    const ids = (id ?? '').split(',').filter((x) => getPlace(x));
+    return ids.length ? { view, ids } : { view };
+  }
   if (exists[view]?.(id)) return { view, id };
   return HOME;
 }
 
-export function toHash({ view, id }) {
+export function toHash({ view, id, ids }) {
   if (view === 'home') return '#/';
-  if (view === 'trip') return '#/trip';
+  if (view === 'trip') return ids?.length ? `#/trip/${ids.join(',')}` : '#/trip';
   return `#/${view}/${id}`;
 }
+
+/** A full link to a shared trip, for copying or the share sheet. */
+export const tripLink = (ids) =>
+  `${window.location.origin}${window.location.pathname}${toHash({ view: 'trip', ids })}`;

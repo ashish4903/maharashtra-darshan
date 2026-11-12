@@ -121,10 +121,35 @@ describe('App', () => {
 
     await go('#/trip');
     expect(await screen.findByRole('heading', { level: 1, name: 'My trip' })).toBeTruthy();
-    expect(screen.getByRole('heading', { level: 3, name: 'Ajanta Caves' })).toBeTruthy();
+    const day1 = screen.getByRole('region', { name: 'Day 1' });
+    expect(within(day1).getByText('Ajanta Caves')).toBeTruthy();
+    expect(screen.getByRole('link', { name: 'Stop 1: Ajanta Caves' })).toBeTruthy();
 
     await user.click(screen.getByRole('button', { name: 'Clear all' }));
     expect(screen.getByText(/Nothing saved yet/)).toBeTruthy();
+  });
+
+  it('plans a trip into days with Google Maps directions, and opens shared trips', async () => {
+    const user = userEvent.setup();
+    const pick = ['Ajanta Caves', 'Ellora Caves', 'Daulatabad Fort', 'Bibi Ka Maqbara', 'Shaniwar Wada'].map(
+      (name) => places.find((p) => p.name === name).id,
+    );
+    window.location.hash = `#/trip/${pick.join(',')}`;
+    render(<App />);
+
+    expect(screen.getByRole('heading', { level: 1, name: 'A shared trip' })).toBeTruthy();
+    expect(screen.getByText(/5 stops/)).toBeTruthy();
+    // 3 stops a day by default, and Pune is far from the Sambhajinagar sites
+    expect(screen.getAllByRole('region', { name: /^Day \d$/ }).length).toBeGreaterThanOrEqual(2);
+    const directions = screen.getAllByRole('link', { name: /Directions/ })[0].getAttribute('href');
+    expect(directions).toMatch(/^https:\/\/www\.google\.com\/maps\/dir\/\?api=1&/);
+
+    await user.selectOptions(screen.getByRole('combobox', { name: /Stops a day/ }), '6');
+    expect(screen.getAllByRole('region', { name: /^Day \d$/ }).length).toBeGreaterThanOrEqual(1);
+
+    await user.click(screen.getByRole('button', { name: /Save all to my trip/ }));
+    expect(JSON.parse(localStorage.getItem('maharashtra-darshan-trip-v1'))).toEqual(pick);
+    expect(screen.getByRole('button', { name: /Saved to my trip/ })).toBeTruthy();
   });
 
   it('searches in Marathi', async () => {
