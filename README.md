@@ -9,7 +9,8 @@ One place to explore Maharashtra region by region: Konkan, Western Maharashtra, 
 - **Interactive map:** hover over or tap any of the 36 districts, or highlight a region from the legend.
 - **Browse by area:** region, then district, then its talukas.
 - **District pages:** what the district is known for (for example, Yavatmal: cotton, “Cotton City”), its places by taluka, its food, and an About tab with the Wikipedia summary.
-- **Places to visit:** 313 forts, caves, places of worship, pilgrim towns, museums, lakes, waterfalls, wildlife sanctuaries, hill stations, beaches and well-known villages, most with photos. Filter them by type or by taluka.
+- **Places to visit:** 379 forts, caves, places of worship, pilgrim towns, museums, lakes, waterfalls, wildlife sanctuaries, hill stations, beaches and well-known villages, most with photos. Filter them by type or by taluka.
+- **Food to try:** 37 dishes and GI-tagged local produce, such as Sangli turmeric, Mahabaleshwar strawberries, Jalgaon bananas and Vengurla cashew, for each region and district.
 - **A page for every place:** each one has:
   - the opening paragraph of its Wikipedia article
   - its region and district, and its location on the map
@@ -30,6 +31,7 @@ Nothing is written from memory. Every entry has a source:
 | --- | --- |
 | Districts, talukas, Marathi names, descriptions, map coordinates | [Wikidata](https://www.wikidata.org/) (CC0) |
 | Places and dishes | A curated list of [Wikipedia](https://en.wikipedia.org/) articles, linked from every card |
+| “Known for” facts | The district's Wikipedia article, or a linked article such as a GI product's page |
 | Which districts belong to each region | The Wikipedia article for each division or region |
 | Photos | The lead image of each Wikipedia article, only when it is freely licensed, from [Wikimedia Commons](https://commons.wikimedia.org/). Each place's page links to the photo's file page for author and licence. |
 | Place summaries | Loaded live from the Wikipedia article when a place's page opens, and credited there (CC BY-SA 4.0) |
@@ -51,7 +53,7 @@ If any check fails, the build stops.
 2. Add a line to [`data/curated.json`](data/curated.json). The format is in [`.claude/skills/add-place-or-food/SKILL.md`](.claude/skills/add-place-or-food/SKILL.md).
 3. Run `npm run data`, then `npm test`, and open a pull request.
 
-Suggestions without a source can't be added, but feel free to open an issue.
+Other sites, including the official [Maharashtra Tourism](https://maharashtratourism.gov.in) district pages, are used only to spot what's missing. Their text and photos are never copied, and every entry still needs its own Wikipedia article. Suggestions without a source can't be added, but feel free to open an issue.
 
 ## Development
 

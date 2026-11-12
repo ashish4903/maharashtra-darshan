@@ -23,7 +23,7 @@ export default function SearchResults({ query }) {
             {r.districts.map((x) => (
               <li key={x.id}>
                 <a href={`#/district/${x.id}`}>{x.name}</a>
-                {x.knownFor?.length > 0 && <span className="muted"> · known for {x.knownFor.join(', ')}</span>}
+                {x.knownFor?.length > 0 && <span className="muted"> · known for {x.knownFor.map((k) => k.label).join(', ')}</span>}
               </li>
             ))}
             {r.talukas.map((x) => (

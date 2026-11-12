@@ -6,6 +6,12 @@ All notable changes to this project are listed here. The format follows [Keep a 
 
 ### Added
 
+- Gaps found by comparing with the official Maharashtra Tourism district pages and Wikipedia's Maharashtra lists. Each new entry was then checked against its own Wikipedia article:
+  - 379 places, up from 313. Every district now has at least 2.
+  - New places include Jalna Fort, Ambad (Matsyodari Devi), Poharadevi, Aner Dam sanctuary, Mumbai landmarks, and Sahyadri trek forts.
+- 37 foods, up from 16, including GI-tagged local produce shown with a 🧺 badge.
+- 74 “known for” facts across 34 districts, each linked to the Wikipedia article that backs it, for example Bhandara “Brass City”, Gondia “Rice City”, Nagpur oranges and Warli painting.
+
 - 313 places to visit, up from 155, found from each district's Wikipedia categories and tourism sections. Includes pilgrim towns such as Kalamb (Shree Chintamani Ganesh temple), Alandi, Dehu, Paithan and Tuljapur, and all five Ashtavinayak temples in Pune district.
 - District pages show what the district is known for (29 districts, each fact checked against the district's article), with an About tab and a filter for places by taluka.
 - Places show a verified highlight and their taluka where known. Search also finds highlights and “known for”.

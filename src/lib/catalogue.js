@@ -82,7 +82,7 @@ const matches = (item, q) =>
   item.name.toLowerCase().includes(q) ||
   (item.nameMr ?? '').includes(q) ||
   (item.highlight ?? '').toLowerCase().includes(q) ||
-  (item.knownFor ?? []).some((k) => k.toLowerCase().includes(q));
+  (item.knownFor ?? []).some((k) => k.label.toLowerCase().includes(q));
 
 /** Places in each taluka of a district: Map(talukaId -> count) */
 export const talukaCounts = (districtId) =>

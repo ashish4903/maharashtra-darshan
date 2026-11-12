@@ -55,6 +55,17 @@ describe('generated data', () => {
     expect([...counts.values()].reduce((a, b) => a + b, 0)).toBeLessThanOrEqual(placesIn({ district: yavatmal.id }).length);
   });
 
+  it('links every known-for fact and marks produce', () => {
+    for (const d of districts) {
+      for (const k of d.knownFor ?? []) {
+        expect(k.label).toBeTruthy();
+        expect(k.source).toMatch(/^https:\/\/en\.wikipedia\.org\/wiki\//);
+      }
+    }
+    expect(foods.every((f) => ['dish', 'produce'].includes(f.type))).toBe(true);
+    expect(search('strawberr').foods.map((f) => f.type)).toContain('produce');
+  });
+
   it('has no duplicate places or dishes', () => {
     expect(new Set(places.map((p) => p.id)).size).toBe(places.length);
     expect(new Set(foods.map((f) => f.id)).size).toBe(foods.length);
