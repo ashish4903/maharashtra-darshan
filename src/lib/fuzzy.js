@@ -13,12 +13,18 @@ const SYNONYMS = [
   [/\b(abhayaranya|abhayaranya)\b/g, 'sanctuary'],
 ];
 
+// Built from escape strings on purpose: only Latin combining accents
+// (U+0300–U+036F) are removed, never Devanagari vowel signs, and letters
+// outside a–z, 0–9 and Devanagari (U+0900–U+097F) become spaces.
+const LATIN_ACCENTS = new RegExp('[\\u0300-\\u036f]', 'g');
+const NOT_WORD = new RegExp('[^a-z0-9\\u0900-\\u097f]+', 'g');
+
 /** A loose spelling key: lowercase, no accents, folded vowels and aspirates. */
 export function phonetic(text) {
-  let s = text.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
+  let s = text.toLowerCase().normalize('NFD').replace(LATIN_ACCENTS, '');
   for (const [re, word] of SYNONYMS) s = s.replace(re, word);
   return s
-    .replace(/[^a-z0-9ऀ-ॿ]+/g, ' ')
+    .replace(NOT_WORD, ' ')
     .replace(/aa/g, 'a')
     .replace(/ee|ii/g, 'i')
     .replace(/oo|uu/g, 'u')
