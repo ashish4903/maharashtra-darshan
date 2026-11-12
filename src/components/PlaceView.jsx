@@ -29,6 +29,7 @@ export default function PlaceView({ placeId }) {
         title={place.name}
         titleMr={place.nameMr}
       >
+        {place.highlight && <p className="banner-highlight">★ {place.highlight}</p>}
         {place.description && <p className="banner-stats">{place.description}</p>}
       </Banner>
 

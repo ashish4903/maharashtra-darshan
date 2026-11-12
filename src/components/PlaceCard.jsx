@@ -6,6 +6,7 @@ import { formatKm } from '../lib/geo';
 export default function PlaceCard({ place, showDistrict = false, km }) {
   const kind = KINDS[place.kind];
   const district = getDistrict(place.district);
+  const taluka = place.taluka && district.talukas.find((t) => t.id === place.taluka);
   return (
     <div className={`card place-card region-${place.region}`}>
       <a href={`#/place/${place.id}`} className="card-link">
@@ -22,9 +23,11 @@ export default function PlaceCard({ place, showDistrict = false, km }) {
               {place.nameMr}
             </p>
           )}
+          {place.highlight && <p className="card-highlight">★ {place.highlight}</p>}
           {place.description && <p className="card-text">{place.description}</p>}
           <p className="card-meta">
             {showDistrict && <span>📍 {shortName(district.name)}</span>}
+            {taluka && <span>{shortName(taluka.name)} taluka</span>}
             {km !== undefined && <span>{formatKm(km)} away</span>}
           </p>
         </div>

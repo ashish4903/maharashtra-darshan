@@ -11,6 +11,7 @@ export const KINDS = {
   nature: { one: 'Nature & wildlife', label: 'Nature & wildlife', icon: '🌿' },
   'hill-station': { one: 'Hill station', label: 'Hill stations', icon: '⛰️' },
   beach: { one: 'Beach', label: 'Beaches', icon: '🏖️' },
+  town: { one: 'Town', label: 'Towns', icon: '🏘️' },
   village: { one: 'Village', label: 'Villages', icon: '🏡' },
 };
 
@@ -77,7 +78,15 @@ export function foodsIn({ region, district } = {}) {
 export const countKinds = (list) =>
   list.reduce((counts, p) => ({ ...counts, [p.kind]: (counts[p.kind] ?? 0) + 1 }), {});
 
-const matches = (item, q) => item.name.toLowerCase().includes(q) || (item.nameMr ?? '').includes(q);
+const matches = (item, q) =>
+  item.name.toLowerCase().includes(q) ||
+  (item.nameMr ?? '').includes(q) ||
+  (item.highlight ?? '').toLowerCase().includes(q) ||
+  (item.knownFor ?? []).some((k) => k.toLowerCase().includes(q));
+
+/** Places in each taluka of a district: Map(talukaId -> count) */
+export const talukaCounts = (districtId) =>
+  placesIn({ district: districtId }).reduce((m, p) => (p.taluka ? m.set(p.taluka, (m.get(p.taluka) ?? 0) + 1) : m), new Map());
 
 /** Searches regions, districts, talukas, places and dishes in English or Marathi. */
 export function search(query) {

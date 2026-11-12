@@ -6,6 +6,11 @@ All notable changes to this project are listed here. The format follows [Keep a 
 
 ### Added
 
+- 313 places to visit, up from 155, found from each district's Wikipedia categories and tourism sections. Includes pilgrim towns such as Kalamb (Shree Chintamani Ganesh temple), Alandi, Dehu, Paithan and Tuljapur, and all five Ashtavinayak temples in Pune district.
+- District pages show what the district is known for (29 districts, each fact checked against the district's article), with an About tab and a filter for places by taluka.
+- Places show a verified highlight and their taluka where known. Search also finds highlights and “known for”.
+- `npm run suggest` lists candidate places for a district.
+
 - Interactive map of the 36 districts, with region highlighting, on the home, region, district and place pages.
 - A page for every place, with:
   - a photo and the Wikipedia summary

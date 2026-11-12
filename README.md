@@ -8,7 +8,8 @@ One place to explore Maharashtra region by region: Konkan, Western Maharashtra, 
 
 - **Interactive map:** hover over or tap any of the 36 districts, or highlight a region from the legend.
 - **Browse by area:** region, then district, then its talukas.
-- **Places to visit:** 155 forts, caves, places of worship, museums, wildlife sanctuaries, hill stations, beaches and well-known villages, with photos. Filter them by type.
+- **District pages:** what the district is known for (for example, Yavatmal: cotton, “Cotton City”), its places by taluka, its food, and an About tab with the Wikipedia summary.
+- **Places to visit:** 313 forts, caves, places of worship, pilgrim towns, museums, lakes, waterfalls, wildlife sanctuaries, hill stations, beaches and well-known villages, most with photos. Filter them by type or by taluka.
 - **A page for every place:** each one has:
   - the opening paragraph of its Wikipedia article
   - its region and district, and its location on the map
@@ -38,12 +39,15 @@ Nothing is written from memory. Every entry has a source:
 - Each district must be named on its region's source page.
 - Each place must sit in its district, according to Wikidata or its own article.
 - Each dish's article must name its region.
+- Each place highlight (for example, “Shree Chintamani Ganesh temple” for Kalamb) must appear in the place's article.
+- Each “known for” fact must appear in the district's article.
+- A place is linked to a taluka only when Wikidata or its article says so.
 
 If any check fails, the build stops.
 
 ## Adding a place or dish
 
-1. Find the place's or dish's English Wikipedia article.
+1. Find the place's or dish's English Wikipedia article. `npm run suggest -- <District>` lists candidates from the district's Wikipedia categories and its tourism sections.
 2. Add a line to [`data/curated.json`](data/curated.json). The format is in [`.claude/skills/add-place-or-food/SKILL.md`](.claude/skills/add-place-or-food/SKILL.md).
 3. Run `npm run data`, then `npm test`, and open a pull request.
 

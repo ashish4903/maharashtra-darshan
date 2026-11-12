@@ -11,7 +11,7 @@ export default function Tabs({ tabs, active, onChange }) {
           onClick={() => onChange(tab.id)}
         >
           {tab.label}
-          <span className="tab-count">{tab.count}</span>
+          {tab.count !== '' && <span className="tab-count">{tab.count}</span>}
         </button>
       ))}
     </div>

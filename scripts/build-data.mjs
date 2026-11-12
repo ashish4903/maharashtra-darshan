@@ -71,6 +71,22 @@ const point = (wkt) => {
   return m ? [+(+m[2]).toFixed(3), +(+m[1]).toFixed(3)] : undefined;
 };
 
+/**
+ * The taluka a place is in, when Wikidata doesn't say:
+ *  - the place is the taluka's headquarters town ("Kalamb, Yavatmal" -> Kalamb), or
+ *  - its article names exactly one of the district's talukas as "<name> taluka/tehsil".
+ */
+function talukaFromText(district, page) {
+  const placeBase = base(page.title).toLowerCase();
+  const own = district.talukas.find((t) => base(t.name).toLowerCase() === placeBase);
+  if (own) return own;
+  const text = page.text.toLowerCase();
+  const named = district.talukas.filter((t) =>
+    ['taluka', 'tehsil', 'taluk'].some((w) => text.includes(`${base(t.name).toLowerCase()} ${w}`)),
+  );
+  return named.length === 1 ? named[0] : undefined;
+}
+
 const mentions = (text, names) => names.some((n) => text.toLowerCase().includes(n.toLowerCase()));
 
 async function loadDistricts(curated) {
@@ -132,24 +148,26 @@ function districtFinder(districts) {
   };
 }
 
+// Separate small queries in batches: one combined query multiplies rows
+// (labels × districts × talukas) and can grow to many megabytes.
 async function wikidataDetails(ids) {
-  const rows = await sparql(`
-    SELECT ?p ?mr ?desc ?d ?t WHERE {
-      VALUES ?p { ${ids.map((id) => 'wd:' + id).join(' ')} }
+  const out = new Map(ids.map((id) => [id, { districts: new Set(), talukas: new Set() }]));
+  for (let i = 0; i < ids.length; i += 60) {
+    const values = `VALUES ?p { ${ids.slice(i, i + 60).map((id) => 'wd:' + id).join(' ')} }`;
+    const labels = await sparql(`SELECT ?p ?mr ?desc WHERE { ${values}
       OPTIONAL { ?p rdfs:label ?mr FILTER(lang(?mr) = "mr") }
-      OPTIONAL { ?p schema:description ?desc FILTER(lang(?desc) = "en") }
-      OPTIONAL { ?p wdt:P131+ ?d . ?d wdt:P31 wd:${DISTRICT_OF_INDIA} . }
-      OPTIONAL { ?p wdt:P131+ ?t . ?t wdt:P31 wd:${TALUKA_OF_MAHARASHTRA} . }
-    }`);
-  const out = new Map();
-  for (const r of rows) {
-    const id = qid(r.p.value);
-    const e = out.get(id) ?? { districts: new Set(), talukas: new Set() };
-    e.nameMr ??= r.mr?.value;
-    e.description ??= r.desc?.value;
-    if (r.d) e.districts.add(qid(r.d.value));
-    if (r.t) e.talukas.add(qid(r.t.value));
-    out.set(id, e);
+      OPTIONAL { ?p schema:description ?desc FILTER(lang(?desc) = "en") } }`);
+    const areas = await sparql(`SELECT DISTINCT ?p ?a ?kind WHERE { ${values}
+      ?p wdt:P131+ ?a . VALUES ?kind { wd:${DISTRICT_OF_INDIA} wd:${TALUKA_OF_MAHARASHTRA} } ?a wdt:P31 ?kind . }`);
+    for (const r of labels) {
+      const e = out.get(qid(r.p.value));
+      e.nameMr ??= r.mr?.value;
+      e.description ??= r.desc?.value;
+    }
+    for (const r of areas) {
+      const e = out.get(qid(r.p.value));
+      (qid(r.kind.value) === DISTRICT_OF_INDIA ? e.districts : e.talukas).add(qid(r.a.value));
+    }
   }
   return out;
 }
@@ -187,6 +205,17 @@ async function main() {
     d.region = assigned.get(d.id);
   }
 
+  // "Known for": each label must be backed by its evidence in the district's article
+  for (const [name, facts] of Object.entries(curated.knownFor ?? {})) {
+    const d = findDistrict(name);
+    const page = d.wikipedia && (await wikipedia(decodeURIComponent(d.wikipedia.split('/wiki/')[1]).replace(/_/g, ' ')));
+    d.knownFor = [];
+    for (const f of facts) {
+      if (page && mentions(page.text, [f.evidence])) d.knownFor.push(f.label);
+      else problems.push(`Known for "${f.label}" in ${d.name}: "${f.evidence}" not found in the district article`);
+    }
+  }
+
   async function resolve(entries, label) {
     const pages = [];
     for (const e of entries) {
@@ -210,13 +239,18 @@ async function main() {
         continue;
       }
     }
-    const taluka = d.talukas.find((t) => wd?.talukas.has(t.id));
+    if (e.highlight && !mentions(page.text, [e.evidence])) {
+      problems.push(`Place "${page.title}": highlight evidence "${e.evidence}" not found in its article`);
+      continue;
+    }
+    const taluka = d.talukas.find((t) => wd?.talukas.has(t.id)) ?? talukaFromText(d, page);
     places.push({
       id: page.wikidata,
       name: page.title,
       nameMr: wd?.nameMr,
       description: wd?.description,
       kind: e.kind,
+      highlight: e.highlight,
       region: d.region,
       district: d.id,
       taluka: taluka?.id,
