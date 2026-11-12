@@ -36,7 +36,12 @@ One place to explore Maharashtra region by region: Konkan, Western Maharashtra, 
   Every stop is checked against the circuit’s Wikipedia source or the stop’s own article.
 - **Near me:** lists the places closest to you. Your location never leaves your device.
 - **Surprise me:** opens a random place.
-- **Search:** works in English or Marathi, for example `Lonar` or `वडापाव`. Press <kbd>/</kbd> to jump to the search box.
+- **Search:** works in English or Marathi and forgives spelling. For example:
+  - `Kolhapoor` finds Kolhapur, and the typo `ajnta` finds Ajanta.
+  - `Shivneri killa` and `ganpati` work, because Marathi words typed in English letters are understood.
+  - `fort pune` lists Pune’s forts.
+
+  The best matches come first. Press <kbd>/</kbd> to jump to the search box.
 - **Shareable links:** every page has its own link, for example `#/region/vidarbha`.
 - **Responsive:** works on phones first, and adapts to larger screens and dark mode.
 
