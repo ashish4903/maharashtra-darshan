@@ -205,14 +205,16 @@ async function main() {
     d.region = assigned.get(d.id);
   }
 
-  // "Known for": each label must be backed by its evidence in the district's article
+  // "Known for": each label must be backed by its evidence, in the district's
+  // article or in the article named by `source` (e.g. a GI product's page)
   for (const [name, facts] of Object.entries(curated.knownFor ?? {})) {
     const d = findDistrict(name);
-    const page = d.wikipedia && (await wikipedia(decodeURIComponent(d.wikipedia.split('/wiki/')[1]).replace(/_/g, ' ')));
+    const districtTitle = d.wikipedia && decodeURIComponent(d.wikipedia.split('/wiki/')[1]).replace(/_/g, ' ');
     d.knownFor = [];
     for (const f of facts) {
-      if (page && mentions(page.text, [f.evidence])) d.knownFor.push(f.label);
-      else problems.push(`Known for "${f.label}" in ${d.name}: "${f.evidence}" not found in the district article`);
+      const page = await wikipedia(f.source ?? districtTitle);
+      if (page && mentions(page.text, [f.evidence])) d.knownFor.push({ label: f.label, source: wikiUrl(page.title) });
+      else problems.push(`Known for "${f.label}" in ${d.name}: "${f.evidence}" not found in "${f.source ?? districtTitle}"`);
     }
   }
 
@@ -278,6 +280,7 @@ async function main() {
       name: page.title,
       nameMr: wd?.nameMr,
       description: wd?.description,
+      type: e.type === 'produce' ? 'produce' : 'dish',
       region: e.region,
       district: d?.id,
       image: page.image,

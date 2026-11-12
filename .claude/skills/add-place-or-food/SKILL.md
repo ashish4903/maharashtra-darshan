@@ -25,7 +25,9 @@ Add one line, keeping the region grouping:
   - `kind` is one of `fort`, `temple`, `pilgrimage`, `heritage`, `nature`, `hill-station`, `beach`, `town`, `village` (see `KINDS` in `src/lib/catalogue.js`).
   - `district` is the short name, for example `Pune` or `Chhatrapati Sambhajinagar`.
   - Optional `"highlight"` and `"evidence"`: a short reason to visit, for example `"Shree Chintamani Ganesh temple"`. `evidence` must appear in the place's own article.
-- Known for: `"knownFor": { "<district>": [{ "label": "...", "evidence": "..." }] }`. `evidence` must appear in the district's Wikipedia article.
+- Known for: `"knownFor": { "<district>": [{ "label": "...", "evidence": "...", "source": "<optional article>" }] }`. `evidence` must appear in the district's Wikipedia article, or in `source` when given (for example `"Nagpur orange"`).
+- Dish entries may add `"type": "produce"` for GI-tagged produce such as Sangli turmeric.
+- Other tourism sites can be used to spot what is missing. Never copy their text or photos; every entry still needs a Wikipedia article.
 
 To find candidates, run `npm run suggest -- <District>`. It lists articles from the district's Wikipedia categories and its tourism sections. Many famous temples have no article of their own; use the town's article and give it a highlight, as with `Kalamb, Yavatmal`.
 - Dish: `{ "wiki": "<exact title>", "region": "<region id or statewide>", "district": "<optional>", "evidence": "<word>" }`

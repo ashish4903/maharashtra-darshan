@@ -163,8 +163,14 @@
    ],
    "region": "north-maharashtra",
    "knownFor": [
-    "Sugar co-operatives",
-    "Shirdi Sai Baba"
+    {
+     "label": "Sugar co-operatives",
+     "source": "https://en.wikipedia.org/wiki/Ahmednagar_district"
+    },
+    {
+     "label": "Shirdi Sai Baba",
+     "source": "https://en.wikipedia.org/wiki/Ahmednagar_district"
+    }
    ]
   },
   {
@@ -209,8 +215,14 @@
    ],
    "region": "vidarbha",
    "knownFor": [
-    "Cotton",
-    "Soybean"
+    {
+     "label": "Cotton",
+     "source": "https://en.wikipedia.org/wiki/Akola_district"
+    },
+    {
+     "label": "Soybean",
+     "source": "https://en.wikipedia.org/wiki/Akola_district"
+    }
    ]
   },
   {
@@ -293,9 +305,18 @@
    ],
    "region": "vidarbha",
    "knownFor": [
-    "Nagpur oranges from Warud and Morshi",
-    "Cotton",
-    "Melghat tiger reserve"
+    {
+     "label": "Nagpur oranges from Warud and Morshi",
+     "source": "https://en.wikipedia.org/wiki/Amravati_district"
+    },
+    {
+     "label": "Cotton",
+     "source": "https://en.wikipedia.org/wiki/Amravati_district"
+    },
+    {
+     "label": "Melghat tiger reserve",
+     "source": "https://en.wikipedia.org/wiki/Amravati_district"
+    }
    ]
   },
   {
@@ -366,8 +387,14 @@
    ],
    "region": "marathwada",
    "knownFor": [
-    "Custard apples",
-    "Sugarcane cutters"
+    {
+     "label": "Custard apples",
+     "source": "https://en.wikipedia.org/wiki/Beed_district"
+    },
+    {
+     "label": "Sugarcane cutters",
+     "source": "https://en.wikipedia.org/wiki/Beed_district"
+    }
    ]
   },
   {
@@ -417,8 +444,18 @@
    ],
    "region": "vidarbha",
    "knownFor": [
-    "Lakes",
-    "Rice"
+    {
+     "label": "Lakes",
+     "source": "https://en.wikipedia.org/wiki/Bhandara_district"
+    },
+    {
+     "label": "Rice",
+     "source": "https://en.wikipedia.org/wiki/Bhandara_district"
+    },
+    {
+     "label": "“Brass City”",
+     "source": "https://en.wikipedia.org/wiki/Bhandara_district"
+    }
    ]
   },
   {
@@ -499,8 +536,14 @@
    ],
    "region": "vidarbha",
    "knownFor": [
-    "Lonar crater lake",
-    "Sant Gajanan Maharaj, Shegaon"
+    {
+     "label": "Lonar crater lake",
+     "source": "https://en.wikipedia.org/wiki/Buldhana_district"
+    },
+    {
+     "label": "Sant Gajanan Maharaj, Shegaon",
+     "source": "https://en.wikipedia.org/wiki/Buldhana_district"
+    }
    ]
   },
   {
@@ -583,8 +626,14 @@
    ],
    "region": "vidarbha",
    "knownFor": [
-    "Coal mines",
-    "Tadoba tigers"
+    {
+     "label": "Coal mines",
+     "source": "https://en.wikipedia.org/wiki/Chandrapur_district"
+    },
+    {
+     "label": "Tadoba tigers",
+     "source": "https://en.wikipedia.org/wiki/Chandrapur_district"
+    }
    ]
   },
   {
@@ -645,8 +694,18 @@
    ],
    "region": "marathwada",
    "knownFor": [
-    "“City of Gates”",
-    "Ajanta and Ellora caves"
+    {
+     "label": "“City of Gates”",
+     "source": "https://en.wikipedia.org/wiki/Aurangabad_district%2C_Maharashtra"
+    },
+    {
+     "label": "Ajanta and Ellora caves",
+     "source": "https://en.wikipedia.org/wiki/Aurangabad_district%2C_Maharashtra"
+    },
+    {
+     "label": "Paithani sarees",
+     "source": "https://en.wikipedia.org/wiki/Paithani"
+    }
    ]
   },
   {
@@ -702,7 +761,10 @@
    ],
    "region": "marathwada",
    "knownFor": [
-    "Tulja Bhavani of Tuljapur"
+    {
+     "label": "Tulja Bhavani of Tuljapur",
+     "source": "https://en.wikipedia.org/wiki/Osmanabad_district"
+    }
    ]
   },
   {
@@ -736,7 +798,13 @@
      "nameMr": "शिंदखेडा तालुका"
     }
    ],
-   "region": "north-maharashtra"
+   "region": "north-maharashtra",
+   "knownFor": [
+    {
+     "label": "Khandesh heritage",
+     "source": "https://en.wikipedia.org/wiki/Dhule_district"
+    }
+   ]
   },
   {
    "id": "Q1804847",
@@ -802,8 +870,18 @@
    ],
    "region": "vidarbha",
    "knownFor": [
-    "Forests and bamboo",
-    "Tussar silk"
+    {
+     "label": "Forests and bamboo",
+     "source": "https://en.wikipedia.org/wiki/Gadchiroli_district"
+    },
+    {
+     "label": "Tussar silk",
+     "source": "https://en.wikipedia.org/wiki/Gadchiroli_district"
+    },
+    {
+     "label": "Tribal culture",
+     "source": "https://en.wikipedia.org/wiki/Gadchiroli_district"
+    }
    ]
   },
   {
@@ -859,8 +937,18 @@
    ],
    "region": "vidarbha",
    "knownFor": [
-    "Rice",
-    "Wildlife"
+    {
+     "label": "Rice",
+     "source": "https://en.wikipedia.org/wiki/Gondia_district"
+    },
+    {
+     "label": "Wildlife",
+     "source": "https://en.wikipedia.org/wiki/Gondia_district"
+    },
+    {
+     "label": "“Rice City”",
+     "source": "https://en.wikipedia.org/wiki/Gondia_district"
+    }
    ]
   },
   {
@@ -900,7 +988,14 @@
    ],
    "region": "marathwada",
    "knownFor": [
-    "Aundha Nagnath Jyotirlinga"
+    {
+     "label": "Aundha Nagnath Jyotirlinga",
+     "source": "https://en.wikipedia.org/wiki/Hingoli_district"
+    },
+    {
+     "label": "Sant Namdev’s Narsi",
+     "source": "https://en.wikipedia.org/wiki/Hingoli_district"
+    }
    ]
   },
   {
@@ -990,8 +1085,18 @@
    ],
    "region": "north-maharashtra",
    "knownFor": [
-    "Bananas",
-    "Gold jewellery"
+    {
+     "label": "Bananas",
+     "source": "https://en.wikipedia.org/wiki/Jalgaon_district"
+    },
+    {
+     "label": "Gold jewellery",
+     "source": "https://en.wikipedia.org/wiki/Jalgaon_district"
+    },
+    {
+     "label": "Jalgaon bananas (GI)",
+     "source": "https://en.wikipedia.org/wiki/Jalgaon_banana"
+    }
    ]
   },
   {
@@ -1047,7 +1152,10 @@
    ],
    "region": "marathwada",
    "knownFor": [
-    "Seeds industry"
+    {
+     "label": "Seeds industry",
+     "source": "https://en.wikipedia.org/wiki/Jalna_district"
+    }
    ]
   },
   {
@@ -1123,8 +1231,18 @@
    ],
    "region": "western-maharashtra",
    "knownFor": [
-    "Kolhapuri chappals",
-    "Kolhapuri saaj jewellery"
+    {
+     "label": "Kolhapuri chappals",
+     "source": "https://en.wikipedia.org/wiki/Kolhapur_district"
+    },
+    {
+     "label": "Kolhapuri saaj jewellery",
+     "source": "https://en.wikipedia.org/wiki/Kolhapur_district"
+    },
+    {
+     "label": "Kolhapur jaggery",
+     "source": "https://en.wikipedia.org/wiki/Kolhapur_jaggery"
+    }
    ]
   },
   {
@@ -1190,8 +1308,14 @@
    ],
    "region": "marathwada",
    "knownFor": [
-    "Pulses and oilseed trade",
-    "Sugar mills"
+    {
+     "label": "Pulses and oilseed trade",
+     "source": "https://en.wikipedia.org/wiki/Latur_district"
+    },
+    {
+     "label": "Sugar mills",
+     "source": "https://en.wikipedia.org/wiki/Latur_district"
+    }
    ]
   },
   {
@@ -1234,7 +1358,10 @@
    ],
    "region": "konkan",
    "knownFor": [
-    "Film industry"
+    {
+     "label": "Film industry",
+     "source": "https://en.wikipedia.org/wiki/Mumbai_Suburban_district"
+    }
    ]
   },
   {
@@ -1317,7 +1444,17 @@
      "nameMr": "उमरेड तालुका"
     }
    ],
-   "region": "vidarbha"
+   "region": "vidarbha",
+   "knownFor": [
+    {
+     "label": "Nagpur oranges",
+     "source": "https://en.wikipedia.org/wiki/Nagpur_orange"
+    },
+    {
+     "label": "Bhiwapur chilli",
+     "source": "https://en.wikipedia.org/wiki/Bhiwapur_chilli"
+    }
+   ]
   },
   {
    "id": "Q692389",
@@ -1412,8 +1549,18 @@
    ],
    "region": "marathwada",
    "knownFor": [
-    "Hazur Sahib gurdwara",
-    "Mahur Renuka temple"
+    {
+     "label": "Hazur Sahib gurdwara",
+     "source": "https://en.wikipedia.org/wiki/Nanded_district"
+    },
+    {
+     "label": "Mahur Renuka temple",
+     "source": "https://en.wikipedia.org/wiki/Nanded_district"
+    },
+    {
+     "label": "Sikh pilgrimage",
+     "source": "https://en.wikipedia.org/wiki/Nanded_district"
+    }
    ]
   },
   {
@@ -1459,7 +1606,10 @@
    ],
    "region": "north-maharashtra",
    "knownFor": [
-    "Tribal culture"
+    {
+     "label": "Tribal culture",
+     "source": "https://en.wikipedia.org/wiki/Nandurbar_district"
+    }
    ]
   },
   {
@@ -1550,7 +1700,18 @@
    ],
    "region": "north-maharashtra",
    "knownFor": [
-    "Kumbh Mela"
+    {
+     "label": "Kumbh Mela",
+     "source": "https://en.wikipedia.org/wiki/Nashik_district"
+    },
+    {
+     "label": "Paithani weaving at Yeola",
+     "source": "https://en.wikipedia.org/wiki/Paithani"
+    },
+    {
+     "label": "Onion market at Lasalgaon",
+     "source": "https://en.wikipedia.org/wiki/Lasalgaon"
+    }
    ]
   },
   {
@@ -1606,9 +1767,18 @@
    ],
    "region": "konkan",
    "knownFor": [
-    "Chikoos of Dahanu",
-    "Fishing ports",
-    "Warli painting"
+    {
+     "label": "Chikoos of Dahanu",
+     "source": "https://en.wikipedia.org/wiki/Palghar_district"
+    },
+    {
+     "label": "Fishing ports",
+     "source": "https://en.wikipedia.org/wiki/Palghar_district"
+    },
+    {
+     "label": "Warli painting",
+     "source": "https://en.wikipedia.org/wiki/Palghar_district"
+    }
    ]
   },
   {
@@ -1667,7 +1837,17 @@
      "nameMr": "सोनपेठ तालुका"
     }
    ],
-   "region": "marathwada"
+   "region": "marathwada",
+   "knownFor": [
+    {
+     "label": "“Land of saints”",
+     "source": "https://en.wikipedia.org/wiki/Parbhani_district"
+    },
+    {
+     "label": "Sai Baba’s birthplace, Pathri",
+     "source": "https://en.wikipedia.org/wiki/Parbhani_district"
+    }
+   ]
   },
   {
    "id": "Q1797336",
@@ -1752,9 +1932,22 @@
    ],
    "region": "western-maharashtra",
    "knownFor": [
-    "Ashtavinayak temples",
-    "Education hub",
-    "Maratha forts"
+    {
+     "label": "Ashtavinayak temples",
+     "source": "https://en.wikipedia.org/wiki/Pune_district"
+    },
+    {
+     "label": "Education hub",
+     "source": "https://en.wikipedia.org/wiki/Pune_district"
+    },
+    {
+     "label": "Maratha forts",
+     "source": "https://en.wikipedia.org/wiki/Pune_district"
+    },
+    {
+     "label": "Puneri pagadi",
+     "source": "https://en.wikipedia.org/wiki/Puneri_Pagadi"
+    }
    ]
   },
   {
@@ -1845,8 +2038,14 @@
    ],
    "region": "konkan",
    "knownFor": [
-    "Shivaji’s capital at Raigad",
-    "Beaches"
+    {
+     "label": "Shivaji’s capital at Raigad",
+     "source": "https://en.wikipedia.org/wiki/Raigad_district"
+    },
+    {
+     "label": "Beaches",
+     "source": "https://en.wikipedia.org/wiki/Raigad_district"
+    }
    ]
   },
   {
@@ -1969,8 +2168,18 @@
    ],
    "region": "western-maharashtra",
    "knownFor": [
-    "Turmeric",
-    "Grapes"
+    {
+     "label": "Turmeric",
+     "source": "https://en.wikipedia.org/wiki/Sangli_district"
+    },
+    {
+     "label": "Grapes",
+     "source": "https://en.wikipedia.org/wiki/Sangli_district"
+    },
+    {
+     "label": "Sangli raisins",
+     "source": "https://en.wikipedia.org/wiki/Sangli_raisins"
+    }
    ]
   },
   {
@@ -2039,7 +2248,13 @@
      "nameMr": "वाई तालुका"
     }
    ],
-   "region": "western-maharashtra"
+   "region": "western-maharashtra",
+   "knownFor": [
+    {
+     "label": "Mahabaleshwar strawberries",
+     "source": "https://en.wikipedia.org/wiki/Mahabaleshwar_strawberry"
+    }
+   ]
   },
   {
    "id": "Q768332",
@@ -2094,8 +2309,18 @@
    ],
    "region": "konkan",
    "knownFor": [
-    "Malvani cuisine",
-    "Cashew and kokum"
+    {
+     "label": "Malvani cuisine",
+     "source": "https://en.wikipedia.org/wiki/Sindhudurg_district"
+    },
+    {
+     "label": "Cashew and kokum",
+     "source": "https://en.wikipedia.org/wiki/Sindhudurg_district"
+    },
+    {
+     "label": "Vengurla cashew",
+     "source": "https://en.wikipedia.org/wiki/Vengurla_cashew"
+    }
    ]
   },
   {
@@ -2162,7 +2387,14 @@
    ],
    "region": "western-maharashtra",
    "knownFor": [
-    "Pandharpur Vithoba"
+    {
+     "label": "Pandharpur Vithoba",
+     "source": "https://en.wikipedia.org/wiki/Solapur_district"
+    },
+    {
+     "label": "Mangalwedha jowar",
+     "source": "https://en.wikipedia.org/wiki/Mangalwedha_jowar"
+    }
    ]
   },
   {
@@ -2213,7 +2445,10 @@
    ],
    "region": "konkan",
    "knownFor": [
-    "Lakes"
+    {
+     "label": "Lakes",
+     "source": "https://en.wikipedia.org/wiki/Thane_district"
+    }
    ]
   },
   {
@@ -2268,7 +2503,14 @@
    ],
    "region": "vidarbha",
    "knownFor": [
-    "Gandhi’s Sevagram ashram"
+    {
+     "label": "Gandhi’s Sevagram ashram",
+     "source": "https://en.wikipedia.org/wiki/Wardha_district"
+    },
+    {
+     "label": "Waigaon turmeric",
+     "source": "https://en.wikipedia.org/wiki/Waigaon_turmeric"
+    }
    ]
   },
   {
@@ -2312,7 +2554,13 @@
      "nameMr": "वाशिम तालुका"
     }
    ],
-   "region": "vidarbha"
+   "region": "vidarbha",
+   "knownFor": [
+    {
+     "label": "Vatsagulma, a Vakataka capital",
+     "source": "https://en.wikipedia.org/wiki/Washim_district"
+    }
+   ]
   },
   {
    "id": "Q1804852",
@@ -2407,8 +2655,14 @@
    ],
    "region": "vidarbha",
    "knownFor": [
-    "Cotton – “Cotton City”",
-    "Teak forests"
+    {
+     "label": "Cotton – “Cotton City”",
+     "source": "https://en.wikipedia.org/wiki/Yavatmal_district"
+    },
+    {
+     "label": "Teak forests",
+     "source": "https://en.wikipedia.org/wiki/Yavatmal_district"
+    }
    ]
   }
  ],
@@ -2666,6 +2920,126 @@
    "verifiedBy": "wikidata"
   },
   {
+   "id": "Q19104",
+   "name": "Taj Mahal Palace Hotel",
+   "nameMr": "ताज महाल पॅलेस अँड टॉवर",
+   "description": "five-star hotel",
+   "kind": "heritage",
+   "region": "konkan",
+   "district": "Q2341660",
+   "coords": [
+    18.922,
+    72.8333
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Taj_Mahal_Palace_Hotel_photo.jpg/960px-Taj_Mahal_Palace_Hotel_photo.jpg",
+    "file": "Taj_Mahal_Palace_Hotel_photo.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Taj_Mahal_Palace_Hotel",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q314572",
+   "name": "Bandra–Worli Sea Link",
+   "nameMr": "वांद्रे-वरळी सागरी महामार्ग",
+   "description": "bridge connecting Bandra and Worli, Mumbai, India",
+   "kind": "heritage",
+   "region": "konkan",
+   "district": "Q2341660",
+   "coords": [
+    19.0364,
+    72.8172
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Bandra%E2%80%93Worli_Sea_Link.jpg/960px-Bandra%E2%80%93Worli_Sea_Link.jpg",
+    "file": "Bandra–Worli_Sea_Link.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Bandra%E2%80%93Worli_Sea_Link",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q695852",
+   "name": "Bombay High Court",
+   "nameMr": "मुंबई उच्च न्यायालय",
+   "description": "High Court in the Indian state of Maharashtra",
+   "kind": "heritage",
+   "region": "konkan",
+   "district": "Q2341660",
+   "coords": [
+    18.9312,
+    72.8305
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Mumbai_03-2016_41_Bombay_High_Court.jpg/960px-Mumbai_03-2016_41_Bombay_High_Court.jpg",
+    "file": "Mumbai_03-2016_41_Bombay_High_Court.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Bombay_High_Court",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q3633207",
+   "name": "Mahim Fort",
+   "nameMr": "माहिम किल्ला",
+   "description": "building in India",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q2341660",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Mahim_Fort_6.jpg/960px-Mahim_Fort_6.jpg",
+    "file": "Mahim_Fort_6.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Mahim_Fort",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q5218318",
+   "name": "Worli Fort",
+   "nameMr": "worli fort",
+   "description": "fort in Mumbai",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q2341660",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Worli_Fort_Mumbai.jpg/960px-Worli_Fort_Mumbai.jpg",
+    "file": "Worli_Fort_Mumbai.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Worli_Fort",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q7458299",
+   "name": "Sewri Fort",
+   "nameMr": "शिवडीचा किल्ला",
+   "description": "Fort in Sewree, Mumbai",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q2341660",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Sewri_Fort_Inside_12.jpg/960px-Sewri_Fort_Inside_12.jpg",
+    "file": "Sewri_Fort_Inside_12.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Sewri_Fort",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q5527023",
+   "name": "Gate of Mercy Synagogue",
+   "description": "synagogue in Mumbai, India",
+   "kind": "temple",
+   "region": "konkan",
+   "district": "Q2341660",
+   "coords": [
+    18.9523,
+    72.8364
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Gate_of_Mercy_Synagogue_3.jpg/960px-Gate_of_Mercy_Synagogue_3.jpg",
+    "file": "Gate_of_Mercy_Synagogue_3.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Gate_of_Mercy_Synagogue",
+   "verifiedBy": "wikidata"
+  },
+  {
    "id": "Q1356198",
    "name": "Kanheri Caves",
    "nameMr": "कान्हेरी लेणी",
@@ -2830,6 +3204,57 @@
     "file": "Mount_Mary_Church_(Bombay).jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Basilica_of_Our_Lady_of_the_Mount%2C_Bandra",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q5049681",
+   "name": "Castella de Aguada",
+   "nameMr": "वांद्रेचा किल्ला",
+   "description": "building in India",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q2085374",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Bandra-fort-mumbai.jpg/960px-Bandra-fort-mumbai.jpg",
+    "file": "Bandra-fort-mumbai.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Castella_de_Aguada",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q6778535",
+   "name": "Marvé Beach",
+   "description": "suburb in Mumbai district, Maharashtra, India",
+   "kind": "beach",
+   "region": "konkan",
+   "district": "Q2085374",
+   "coords": [
+    19.1973,
+    72.7968
+   ],
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Marve-creek.jpg",
+    "file": "Marve-creek.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Marv%C3%A9_Beach",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q7586832",
+   "name": "St. Andrew's Church, Mumbai",
+   "description": "church in Mumbai, IND",
+   "kind": "temple",
+   "region": "konkan",
+   "district": "Q2085374",
+   "coords": [
+    19.055,
+    72.8244
+   ],
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/c4/St_Andrew%27s_Church%2C_Bandra.jpg",
+    "file": "St_Andrew's_Church,_Bandra.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/St._Andrew's_Church%2C_Mumbai",
    "verifiedBy": "wikidata"
   },
   {
@@ -3009,6 +3434,58 @@
    "district": "Q943099",
    "wikipedia": "https://en.wikipedia.org/wiki/Yeoor",
    "verifiedBy": "wikipedia"
+  },
+  {
+   "id": "Q5296013",
+   "name": "Dongri Fort",
+   "description": "building in India",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q943099",
+   "coords": [
+    19.3102,
+    72.7934
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Dongri_Fort_2.jpg/960px-Dongri_Fort_2.jpg",
+    "file": "Dongri_Fort_2.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Dongri_Fort",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q6741274",
+   "name": "Malanggad",
+   "nameMr": "मलंगगड",
+   "description": "Malang gad is a hill fort located in the Matheran Hill Range, Thane District, Maharashtra.",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q943099",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Malang_Fort1.jpg/960px-Malang_Fort1.jpg",
+    "file": "Malang_Fort1.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Malanggad",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q6431119",
+   "name": "Kopineshwar Mandir, Thane",
+   "nameMr": "कौपीनेश्वर मंदिर",
+   "description": "ancient Hindu temple in Thane (India)",
+   "kind": "temple",
+   "region": "konkan",
+   "district": "Q943099",
+   "coords": [
+    19.193,
+    72.977
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Shri_Kopineshwar_Mandir.jpg/960px-Shri_Kopineshwar_Mandir.jpg",
+    "file": "Shri_Kopineshwar_Mandir.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Kopineshwar_Mandir%2C_Thane",
+   "verifiedBy": "wikidata"
   },
   {
    "id": "Q3230299",
@@ -3205,6 +3682,55 @@
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Shirgaon_Fort",
    "verifiedBy": "wikipedia"
+  },
+  {
+   "id": "Q13115569",
+   "name": "Asheri fort",
+   "nameMr": "अशेरीगड",
+   "description": "fort in India",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q18003119",
+   "coords": [
+    19.8204,
+    72.9211
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Asheri_Fort.jpg/960px-Asheri_Fort.jpg",
+    "file": "Asheri_Fort.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Asheri_fort",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q16893050",
+   "name": "Kaldurg Fort",
+   "nameMr": "काळदुर्ग",
+   "description": "fort in Maharashtra, India",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q18003119",
+   "coords": [
+    19.6913,
+    72.817
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Kaldurg_Fort",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q24929786",
+   "name": "Tandulwadi Fort",
+   "nameMr": "तांदूळवाडी किल्ला",
+   "description": "Hill Fort in Palghar district, Maharashtra, India",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q18003119",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Tandulwadi_fort.jpg/960px-Tandulwadi_fort.jpg",
+    "file": "Tandulwadi_fort.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Tandulwadi_Fort",
+   "verifiedBy": "wikidata"
   },
   {
    "id": "Q649384",
@@ -3599,6 +4125,149 @@
    "verifiedBy": "wikipedia"
   },
   {
+   "id": "Q2238564",
+   "name": "Mahad",
+   "nameMr": "महाड",
+   "description": "human settlement in Raigad district, Konkan division, Maharashtra, India",
+   "kind": "town",
+   "highlight": "Chavdar Tale satyagraha",
+   "region": "konkan",
+   "district": "Q2019683",
+   "taluka": "Q19810956",
+   "coords": [
+    18.083,
+    73.417
+   ],
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/9/98/Savitri_river_at_Mahad.JPG",
+    "file": "Savitri_river_at_Mahad.JPG"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Mahad",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q16508414",
+   "name": "Kalavantin Durg",
+   "nameMr": "कलावंती दुर्ग",
+   "description": "mountain pinnacle in Maharashtra India",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q2019683",
+   "taluka": "Q19808729",
+   "coords": [
+    18.9828,
+    73.2199
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Kalavantinicha_Durga.jpg/960px-Kalavantinicha_Durga.jpg",
+    "file": "Kalavantinicha_Durga.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Kalavantin_Durg",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q3827807",
+   "name": "Karnala Fort",
+   "nameMr": "कर्नाळा",
+   "description": "fort in India",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q2019683",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Yash.jpg/960px-Yash.jpg",
+    "file": "Yash.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Karnala_Fort",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q7237204",
+   "name": "Prabalgad",
+   "nameMr": "प्रबळगड - मुरंजन",
+   "description": "fort in Raigad district, Maharashtra, India",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q2019683",
+   "coords": [
+    18.9712,
+    73.2253
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Prabal_machi.jpg/960px-Prabal_machi.jpg",
+    "file": "Prabal_machi.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Prabalgad",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q13115923",
+   "name": "Irshalgad",
+   "nameMr": "इरशाळगड",
+   "description": "fortress in India",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q2019683",
+   "coords": [
+    18.9336,
+    73.232
+   ],
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/14/Irshal_gad_pinnacle.jpg",
+    "file": "Irshal_gad_pinnacle.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Irshalgad",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q6433988",
+   "name": "Kothaligad",
+   "nameMr": "कोथळीगड",
+   "description": "fort in Raigad district, Maharashtra, India",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q2019683",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Kothaligad_Fort1.jpg/960px-Kothaligad_Fort1.jpg",
+    "file": "Kothaligad_Fort1.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Kothaligad",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q7123842",
+   "name": "Padmadurg",
+   "nameMr": "पद्मदुर्ग",
+   "description": "building in India",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q2019683",
+   "coords": [
+    18.3221,
+    72.9328
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Surrounded_by.jpg/960px-Surrounded_by.jpg",
+    "file": "Surrounded_by.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Padmadurg",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q136943955",
+   "name": "Lingana",
+   "description": "pinnacle in Raigad district, Maharashtra, India",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q2019683",
+   "taluka": "Q19810956",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Lingana_pinnacle.jpg/960px-Lingana_pinnacle.jpg",
+    "file": "Lingana_pinnacle.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Lingana",
+   "verifiedBy": "wikidata"
+  },
+  {
    "id": "Q5521478",
    "name": "Ganpatipule",
    "nameMr": "गणपतीपुळे",
@@ -3764,6 +4433,90 @@
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Durga_Devi_Temple%2C_Guhagar",
    "verifiedBy": "wikipedia"
+  },
+  {
+   "id": "Q38251240",
+   "name": "Anjanvel Fort",
+   "nameMr": "अंजनवेल",
+   "description": "fort in India",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q1771768",
+   "coords": [
+    17.5715,
+    73.1518
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Gopalgad_Outer_Wall.jpg/960px-Gopalgad_Outer_Wall.jpg",
+    "file": "Gopalgad_Outer_Wall.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Anjanvel_Fort",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q38251261",
+   "name": "Bankot fort",
+   "nameMr": "बाणकोट किल्ला",
+   "description": "fort in Maharashtra, India",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q1771768",
+   "coords": [
+    17.9732,
+    73.0425
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Bankot_Fort.jpg/960px-Bankot_Fort.jpg",
+    "file": "Bankot_Fort.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Bankot_fort",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q5589978",
+   "name": "Gowalkot",
+   "nameMr": "गोवळकोट किल्ला",
+   "description": "fort in India",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q1771768",
+   "coords": [
+    17.5465,
+    73.4878
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Gowalkot",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q24950082",
+   "name": "Rasalgad",
+   "nameMr": "रसाळगड",
+   "description": "hill fort in Ratnagiri district, Maharashtra",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q1771768",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Rasalgad1.jpg/960px-Rasalgad1.jpg",
+    "file": "Rasalgad1.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Rasalgad",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q7127475",
+   "name": "Palgad",
+   "nameMr": "पालगड",
+   "description": "village in Maharashtra, India",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q1771768",
+   "taluka": "Q24928184",
+   "coords": [
+    17.8331,
+    73.3281
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Palgad",
+   "verifiedBy": "wikidata"
   },
   {
    "id": "Q13413791",
@@ -3950,6 +4703,36 @@
     "file": "Vengurla_Beach_2.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Vengurla",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q55605342",
+   "name": "Bharatgad",
+   "nameMr": "भरतगड",
+   "description": "fort near Malvan, India",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q768332",
+   "coords": [
+    16.171,
+    73.4987
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Bharatgad",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q19899114",
+   "name": "Yashwantgad Fort",
+   "nameMr": "यशवंतगड (रेडी)",
+   "description": "Fort in Redi, Maharashtra, India",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q768332",
+   "coords": [
+    15.7529,
+    73.6657
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Yashwantgad_Fort",
    "verifiedBy": "wikidata"
   },
   {
@@ -4568,6 +5351,214 @@
    "verifiedBy": "wikidata"
   },
   {
+   "id": "Q3633183",
+   "name": "Tikona",
+   "nameMr": "तिकोना",
+   "description": "fort in Pune district, Maharashtra, India",
+   "kind": "fort",
+   "region": "western-maharashtra",
+   "district": "Q1797336",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Tikona_Panorama.jpg/960px-Tikona_Panorama.jpg",
+    "file": "Tikona_Panorama.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Tikona",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q7852984",
+   "name": "Tung Fort",
+   "nameMr": "तुंग",
+   "description": "hill fort in Maharashtra, India",
+   "kind": "fort",
+   "region": "western-maharashtra",
+   "district": "Q1797336",
+   "coords": [
+    18.6603,
+    73.4631
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Tung_Fort.jpg/960px-Tung_Fort.jpg",
+    "file": "Tung_Fort.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Tung_Fort",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q14238582",
+   "name": "Visapur Fort",
+   "nameMr": "विसापूर",
+   "description": "fort in Pune district, Maharashtra, India",
+   "kind": "fort",
+   "region": "western-maharashtra",
+   "district": "Q1797336",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Fortification_wall_at_visapur.jpg/960px-Fortification_wall_at_visapur.jpg",
+    "file": "Fortification_wall_at_visapur.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Visapur_Fort",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q6203460",
+   "name": "Jivdhan",
+   "nameMr": "जीवधन",
+   "description": "hill fort in India",
+   "kind": "fort",
+   "region": "western-maharashtra",
+   "district": "Q1797336",
+   "taluka": "Q12429090",
+   "coords": [
+    19.2774,
+    73.6867
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Jivdhan_fort.jpg/960px-Jivdhan_fort.jpg",
+    "file": "Jivdhan_fort.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Jivdhan",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q7285054",
+   "name": "Raireshwar",
+   "nameMr": "रायरेश्वर",
+   "description": "town in India",
+   "kind": "fort",
+   "region": "western-maharashtra",
+   "district": "Q1797336",
+   "taluka": "Q4902048",
+   "coords": [
+    18.05,
+    73.7333
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Raireshwar",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q9396551",
+   "name": "Chaturshringi Temple",
+   "nameMr": "चतुःशृंगी मंदिर",
+   "description": "Hindu temple in Pune, Maharashtra",
+   "kind": "temple",
+   "region": "western-maharashtra",
+   "district": "Q1797336",
+   "coords": [
+    18.539,
+    73.8282
+   ],
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Chaturshringi-TempleGates.jpg",
+    "file": "Chaturshringi-TempleGates.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Chaturshringi_Temple",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q6374068",
+   "name": "Kasba Ganapati",
+   "nameMr": "कसबा गणपती सार्वजनिक गणेशोत्सव मंडळ",
+   "description": "Ganesha temple in Pune, Maharashtra",
+   "kind": "temple",
+   "region": "western-maharashtra",
+   "district": "Q1797336",
+   "coords": [
+    18.5189,
+    73.8569
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/KasbaganpatiMandir.JPG/960px-KasbaganpatiMandir.JPG",
+    "file": "KasbaganpatiMandir.JPG"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Kasba_Ganapati",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q110823714",
+   "name": "Khandoba Temple, Jejuri",
+   "nameMr": "खंडोबा मंदिर (जेजुरी)",
+   "description": "temple in Jejuri, Maharashtra, India",
+   "kind": "temple",
+   "region": "western-maharashtra",
+   "district": "Q1797336",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Khandoba_temple_Pune.jpg/960px-Khandoba_temple_Pune.jpg",
+    "file": "Khandoba_temple_Pune.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Khandoba_Temple%2C_Jejuri",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q378531",
+   "name": "Korigad",
+   "nameMr": "कोरीगड - कोराईगड",
+   "description": "hill fort in Pune district, Maharashtra",
+   "kind": "fort",
+   "region": "western-maharashtra",
+   "district": "Q1797336",
+   "coords": [
+    18.6203,
+    73.3856
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Korigad_from_Lonavla.JPG/960px-Korigad_from_Lonavla.JPG",
+    "file": "Korigad_from_Lonavla.JPG"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Korigad",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q42873620",
+   "name": "Manmodi Caves",
+   "description": "caves in Maharashtra, India",
+   "kind": "heritage",
+   "region": "western-maharashtra",
+   "district": "Q1797336",
+   "coords": [
+    19.1859,
+    73.8843
+   ],
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/9/97/Bhimasankar_group_Chaitya.jpg",
+    "file": "Bhimasankar_group_Chaitya.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Manmodi_Caves",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q7423203",
+   "name": "Sarasbaug Ganpati",
+   "nameMr": "sarasbaug",
+   "description": "Ganesha temple in Pune, Maharashtra",
+   "kind": "temple",
+   "region": "western-maharashtra",
+   "district": "Q1797336",
+   "coords": [
+    18.5009,
+    73.853
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Sarasbag_%2810%29.JPG/960px-Sarasbag_%2810%29.JPG",
+    "file": "Sarasbag_(10).JPG"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Sarasbaug_Ganpati",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q97142914",
+   "name": "Kukdeshwar Temple",
+   "description": "Shiva temple in Pur, Pune district",
+   "kind": "temple",
+   "region": "western-maharashtra",
+   "district": "Q1797336",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Kukadeshwar_Temple_01.jpg/960px-Kukadeshwar_Temple_01.jpg",
+    "file": "Kukadeshwar_Temple_01.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Kukdeshwar_Temple",
+   "verifiedBy": "wikidata"
+  },
+  {
    "id": "Q463273",
    "name": "Mahabaleshwar",
    "nameMr": "महाबळेश्वर",
@@ -4810,6 +5801,53 @@
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Vajrai_Waterfall",
    "verifiedBy": "wikipedia"
+  },
+  {
+   "id": "Q6355699",
+   "name": "Kamalgad",
+   "nameMr": "कमळगड",
+   "description": "square hill fort in Wai Taluka in Maharashtra",
+   "kind": "fort",
+   "region": "western-maharashtra",
+   "district": "Q1135612",
+   "taluka": "Q2772584",
+   "coords": [
+    17.9673,
+    73.7452
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Kamalgad_Fort.jpg/960px-Kamalgad_Fort.jpg",
+    "file": "Kamalgad_Fort.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Kamalgad",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q13121299",
+   "name": "Vairatgad Fort",
+   "nameMr": "वैराटगड",
+   "description": "fort in Maharashtra, India",
+   "kind": "fort",
+   "region": "western-maharashtra",
+   "district": "Q1135612",
+   "wikipedia": "https://en.wikipedia.org/wiki/Vairatgad_Fort",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q19813839",
+   "name": "Vardhangad Fort",
+   "nameMr": "वर्धनगड",
+   "description": "fort in Satara, India",
+   "kind": "fort",
+   "region": "western-maharashtra",
+   "district": "Q1135612",
+   "taluka": "Q2729760",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Vardhangad.jpg/960px-Vardhangad.jpg",
+    "file": "Vardhangad.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Vardhangad_Fort",
+   "verifiedBy": "wikidata"
   },
   {
    "id": "Q19809121",
@@ -5157,6 +6195,33 @@
     73.8635
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Dajipur",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q19812310",
+   "name": "Rangana Fort",
+   "nameMr": "रांगणा",
+   "description": "fort in Maharashtra, India",
+   "kind": "fort",
+   "region": "western-maharashtra",
+   "district": "Q1797312",
+   "taluka": "Q13119568",
+   "wikipedia": "https://en.wikipedia.org/wiki/Rangana_Fort",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q24910495",
+   "name": "Gagangad",
+   "description": "fort in Maharashtra, India",
+   "kind": "fort",
+   "region": "western-maharashtra",
+   "district": "Q1797312",
+   "taluka": "Q13116795",
+   "coords": [
+    16.5432,
+    73.8185
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Gagangad",
    "verifiedBy": "wikidata"
   },
   {
@@ -5593,6 +6658,93 @@
    "verifiedBy": "wikipedia"
   },
   {
+   "id": "Q1756158",
+   "name": "Igatpuri",
+   "nameMr": "इगतपुरी",
+   "description": "human settlement",
+   "kind": "hill-station",
+   "region": "north-maharashtra",
+   "district": "Q1797269",
+   "taluka": "Q2724597",
+   "coords": [
+    19.7,
+    73.55
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Igatpuri_waterfall.jpg/960px-Igatpuri_waterfall.jpg",
+    "file": "Igatpuri_waterfall.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Igatpuri",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q3827841",
+   "name": "Alang Fort",
+   "nameMr": "अलंग",
+   "description": "Indian fort",
+   "kind": "fort",
+   "region": "north-maharashtra",
+   "district": "Q1797269",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Alang_Traverse_1.jpg/960px-Alang_Traverse_1.jpg",
+    "file": "Alang_Traverse_1.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Alang_Fort",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q28173976",
+   "name": "Kulang Fort",
+   "nameMr": "कुलंग",
+   "description": "fort in Kalsubai range, India",
+   "kind": "fort",
+   "region": "north-maharashtra",
+   "district": "Q1797269",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Kulangfort.jpg/960px-Kulangfort.jpg",
+    "file": "Kulangfort.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Kulang_Fort",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q38251139",
+   "name": "Malegaon Fort",
+   "nameMr": "मालेगावचा किल्ला",
+   "description": "fort in Malegaon, Maharashtra",
+   "kind": "fort",
+   "region": "north-maharashtra",
+   "district": "Q1797269",
+   "coords": [
+    20.5454,
+    74.5299
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Malegaon_Malegaon_fortFort.jpg/960px-Malegaon_Malegaon_fortFort.jpg",
+    "file": "Malegaon_Malegaon_fortFort.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Malegaon_Fort",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q24939830",
+   "name": "Gajpanth",
+   "description": "digambar Jain pilgrimage site in Maharashtra",
+   "kind": "temple",
+   "region": "north-maharashtra",
+   "district": "Q1797269",
+   "coords": [
+    20.0661,
+    73.793
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Gajpanth_Jain_Mandir.jpg/960px-Gajpanth_Jain_Mandir.jpg",
+    "file": "Gajpanth_Jain_Mandir.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Gajpanth",
+   "verifiedBy": "wikidata"
+  },
+  {
    "id": "Q1949112",
    "name": "Shirdi",
    "nameMr": "शिर्डी",
@@ -5813,6 +6965,51 @@
    "verifiedBy": "wikidata"
   },
   {
+   "id": "Q6809477",
+   "name": "Meherabad",
+   "description": "village in Maharashtra, India",
+   "kind": "pilgrimage",
+   "region": "north-maharashtra",
+   "district": "Q401744",
+   "coords": [
+    19.0295,
+    74.719
+   ],
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Meher_baba_tomb.jpg",
+    "file": "Meher_baba_tomb.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Meherabad",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q6400611",
+   "name": "Kharda",
+   "nameMr": "खर्डा",
+   "description": "human settlement in India",
+   "kind": "fort",
+   "region": "north-maharashtra",
+   "district": "Q401744",
+   "taluka": "Q7283324",
+   "wikipedia": "https://en.wikipedia.org/wiki/Kharda",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q76834606",
+   "name": "Bahadur Fort",
+   "nameMr": "बहादूरगड",
+   "description": "ancient Indian fort",
+   "kind": "fort",
+   "region": "north-maharashtra",
+   "district": "Q401744",
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Rameshvara_Hindu_Temple_ruins%2C_Pedgaon_Maharashtra.jpg",
+    "file": "Rameshvara_Hindu_Temple_ruins,_Pedgaon_Maharashtra.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Bahadur_Fort",
+   "verifiedBy": "wikidata"
+  },
+  {
    "id": "Q3827825",
    "name": "Laling fort",
    "nameMr": "लळिंग किल्ला",
@@ -5861,6 +7058,33 @@
     "file": "Main_gate_of_Songir_fort.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Songir",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q107404544",
+   "name": "Aner Dam Wildlife Sanctuary",
+   "nameMr": "अनेर धरण वन्यजीव अभयारण्य",
+   "description": "wildlife sanctuary in India",
+   "kind": "nature",
+   "region": "north-maharashtra",
+   "district": "Q1797383",
+   "taluka": "Q2773938",
+   "coords": [
+    21.35,
+    75.0225
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Aner_Dam_Wildlife_Sanctuary",
+   "verifiedBy": "wikipedia"
+  },
+  {
+   "id": "Q4900946",
+   "name": "Bhamer Dhule",
+   "description": "village in Maharashtra, India",
+   "kind": "fort",
+   "region": "north-maharashtra",
+   "district": "Q1797383",
+   "taluka": "Q2775033",
+   "wikipedia": "https://en.wikipedia.org/wiki/Bhamer_Dhule",
    "verifiedBy": "wikidata"
   },
   {
@@ -6432,6 +7656,22 @@
    "verifiedBy": "wikipedia"
   },
   {
+   "id": "Q24908268",
+   "name": "Antur Fort",
+   "nameMr": "अंतूर किल्ला",
+   "description": "fort in India",
+   "kind": "fort",
+   "region": "marathwada",
+   "district": "Q592942",
+   "taluka": "Q123267106",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Entrance_and_Exit.jpg/960px-Entrance_and_Exit.jpg",
+    "file": "Entrance_and_Exit.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Antur_Fort",
+   "verifiedBy": "wikidata"
+  },
+  {
    "id": "Q121591117",
    "name": "Kali Masjid, Jalna",
    "nameMr": "काली मशीद",
@@ -6444,6 +7684,37 @@
     75.8764
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Kali_Masjid%2C_Jalna",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q122496272",
+   "name": "Jalna Fort",
+   "description": "17th-century fort in Maharashtra, India",
+   "kind": "fort",
+   "region": "marathwada",
+   "district": "Q1804863",
+   "coords": [
+    19.8433,
+    75.8919
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Jalna_Fort",
+   "verifiedBy": "wikipedia"
+  },
+  {
+   "id": "Q583887",
+   "name": "Ambad",
+   "nameMr": "अंबड",
+   "description": "human settlement",
+   "kind": "pilgrimage",
+   "highlight": "Matsyodari Devi temple",
+   "region": "marathwada",
+   "district": "Q1804863",
+   "taluka": "Q123267126",
+   "coords": [
+    19.62,
+    75.79
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Ambad",
    "verifiedBy": "wikidata"
   },
   {
@@ -6620,6 +7891,24 @@
     76.133
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Ter%2C_Maharashtra",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q56242029",
+   "name": "Trivikrama Temple",
+   "description": "Hindu temple in Maharashtra, India",
+   "kind": "temple",
+   "region": "marathwada",
+   "district": "Q1647186",
+   "coords": [
+    18.3194,
+    76.1417
+   ],
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/58/Trivikram_Temple_Ter_1.jpg",
+    "file": "Trivikram_Temple_Ter_1.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Trivikrama_Temple",
    "verifiedBy": "wikidata"
   },
   {
@@ -7351,6 +8640,32 @@
    "verifiedBy": "wikidata"
   },
   {
+   "id": "Q5384823",
+   "name": "Irai Dam",
+   "nameMr": "erai ndi",
+   "description": "dam in India",
+   "kind": "nature",
+   "region": "vidarbha",
+   "district": "Q1797274",
+   "coords": [
+    20.1677,
+    79.3048
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Irai_Dam",
+   "verifiedBy": "wikipedia"
+  },
+  {
+   "id": "Q6749619",
+   "name": "Manikgad",
+   "description": "fort in Chandrapur district",
+   "kind": "fort",
+   "region": "vidarbha",
+   "district": "Q1797274",
+   "taluka": "Q123267112",
+   "wikipedia": "https://en.wikipedia.org/wiki/Manikgad",
+   "verifiedBy": "wikidata"
+  },
+  {
    "id": "Q60786586",
    "name": "Vairagad Fort",
    "description": "ancient Indian fort",
@@ -7400,6 +8715,20 @@
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Lok_Biradari_Prakalp",
    "verifiedBy": "wikipedia"
+  },
+  {
+   "id": "Q60787172",
+   "name": "Tipagad (Gadchiroli)",
+   "description": "hill fort in Gadchiroli district, Maharashtra",
+   "kind": "fort",
+   "region": "vidarbha",
+   "district": "Q1804847",
+   "coords": [
+    20.4846,
+    80.5339
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Tipagad_(Gadchiroli)",
+   "verifiedBy": "wikidata"
   },
   {
    "id": "Q1105755",
@@ -7617,6 +8946,24 @@
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Karanja_Lad",
    "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q130601880",
+   "name": "Poharadevi Jagdamba Mata Temple",
+   "description": "Shakti temple in Washim district, Maharashtra, India",
+   "kind": "temple",
+   "region": "vidarbha",
+   "district": "Q1804858",
+   "coords": [
+    20.1078,
+    77.6301
+   ],
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Pohra_Devi_Temple_Washim_Maharastra.jpg",
+    "file": "Pohra_Devi_Temple_Washim_Maharastra.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Poharadevi_Jagdamba_Mata_Temple",
+   "verifiedBy": "wikipedia"
   },
   {
    "id": "Q2572189",
@@ -7851,6 +9198,7 @@
    "name": "Vada pav",
    "nameMr": "वडापाव",
    "description": "Maharashtrian vegetarian street-food sandwich originating in Mumbai",
+   "type": "dish",
    "region": "konkan",
    "district": "Q2341660",
    "image": {
@@ -7864,6 +9212,7 @@
    "name": "Pav bhaji",
    "nameMr": "पाव भाजी",
    "description": "vegetable curry and bread-roll dish originating in Mumbai, India",
+   "type": "dish",
    "region": "konkan",
    "district": "Q2341660",
    "image": {
@@ -7876,6 +9225,7 @@
    "id": "Q6745026",
    "name": "Malvani cuisine",
    "description": "cuisine of South Konkan region",
+   "type": "dish",
    "region": "konkan",
    "district": "Q768332",
    "wikipedia": "https://en.wikipedia.org/wiki/Malvani_cuisine"
@@ -7884,6 +9234,7 @@
    "id": "Q7558306",
    "name": "Solkadhi",
    "description": "Indian drink",
+   "type": "dish",
    "region": "konkan",
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Solkadhi.jpg/960px-Solkadhi.jpg",
@@ -7895,6 +9246,7 @@
    "id": "Q6428248",
    "name": "Kombdi vade",
    "description": "konkani meal",
+   "type": "dish",
    "region": "konkan",
    "image": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Komdi_vade.jpg",
@@ -7903,10 +9255,78 @@
    "wikipedia": "https://en.wikipedia.org/wiki/Kombdi_vade"
   },
   {
+   "id": "Q2721562",
+   "name": "Bhel puri",
+   "nameMr": "भेळ",
+   "description": "Indian snack",
+   "type": "dish",
+   "region": "konkan",
+   "district": "Q2341660",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Behael_Puri_%286105489342%29.jpg/960px-Behael_Puri_%286105489342%29.jpg",
+    "file": "Behael_Puri_(6105489342).jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Bhel_puri"
+  },
+  {
+   "id": "Q137916343",
+   "name": "Bombay sandwich",
+   "description": "toasted sandwich",
+   "type": "dish",
+   "region": "konkan",
+   "district": "Q2341660",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Bombay_cheese_sandwich.jpg/960px-Bombay_cheese_sandwich.jpg",
+    "file": "Bombay_cheese_sandwich.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Bombay_sandwich"
+  },
+  {
+   "id": "Q311730",
+   "name": "Bombay duck",
+   "nameMr": "बोंबील",
+   "description": "species of fish",
+   "type": "dish",
+   "region": "konkan",
+   "district": "Q2341660",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Harpodon_nehereus_Griesbach_118.jpg/960px-Harpodon_nehereus_Griesbach_118.jpg",
+    "file": "Harpodon_nehereus_Griesbach_118.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Bombay_duck"
+  },
+  {
+   "id": "Q132555448",
+   "name": "Vengurla cashew",
+   "description": "cashew variety grown in Maharashtra, India",
+   "type": "produce",
+   "region": "konkan",
+   "district": "Q768332",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Close-up_of_Vengurla_Cashews.jpg/960px-Close-up_of_Vengurla_Cashews.jpg",
+    "file": "Close-up_of_Vengurla_Cashews.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Vengurla_cashew"
+  },
+  {
+   "id": "Q132717510",
+   "name": "Sindhudurg and Ratnagiri Kokum",
+   "description": "kokum variety grown in Maharashtra, India",
+   "type": "produce",
+   "region": "konkan",
+   "district": "Q768332",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Freshly_cut_Sindhudurg_and_Ratnagiri_Kokum_%28Garcinia_indica%29_fruits_with_their_vibrant_red_pulp_exposed_and_sugar_crystals_sprinkled_on_top_for_a_tangy_treat.jpg/960px-thumbnail.jpg",
+    "file": "Freshly_cut_Sindhudurg_and_Ratnagiri_Kokum_(Garcinia_indica)_fruits_with_their_vibrant_red_pulp_exposed_and_sugar_crystals_sprinkled_on_top_for_a_tangy_treat.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Sindhudurg_and_Ratnagiri_Kokum"
+  },
+  {
    "id": "Q3537640",
    "name": "Misal pav",
    "nameMr": "मिसळपाव",
    "description": "Indian Spicy dish",
+   "type": "dish",
    "region": "western-maharashtra",
    "district": "Q1797312",
    "image": {
@@ -7920,6 +9340,7 @@
    "name": "Bakarwadi",
    "nameMr": "बाकरवडी",
    "description": "Indian savory snack",
+   "type": "dish",
    "region": "western-maharashtra",
    "district": "Q1797336",
    "image": {
@@ -7929,8 +9350,109 @@
    "wikipedia": "https://en.wikipedia.org/wiki/Bakarwadi"
   },
   {
+   "id": "Q3535125",
+   "name": "Chikki",
+   "nameMr": "चिक्की",
+   "description": "peanut-based confection",
+   "type": "dish",
+   "region": "western-maharashtra",
+   "district": "Q1797336",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Peanut_Chikki.JPG/960px-Peanut_Chikki.JPG",
+    "file": "Peanut_Chikki.JPG"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Chikki"
+  },
+  {
+   "id": "Q4741200",
+   "name": "Ambemohar rice",
+   "nameMr": "आंबेमोहर",
+   "description": "variety of short-grained rice",
+   "type": "produce",
+   "region": "western-maharashtra",
+   "district": "Q1797336",
+   "wikipedia": "https://en.wikipedia.org/wiki/Ambemohar_rice"
+  },
+  {
+   "id": "Q24945114",
+   "name": "Mahabaleshwar strawberry",
+   "nameMr": "महाबळेश्वर स्ट्रॉबेरी",
+   "description": "edible fruit cultivar",
+   "type": "produce",
+   "region": "western-maharashtra",
+   "district": "Q1135612",
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Strawberries_for_sale_at_Mahabaleshwar.jpg",
+    "file": "Strawberries_for_sale_at_Mahabaleshwar.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Mahabaleshwar_strawberry"
+  },
+  {
+   "id": "Q131703574",
+   "name": "Sangli turmeric",
+   "description": "type of Turmeric cultivated in Maharashtra, India",
+   "type": "produce",
+   "region": "western-maharashtra",
+   "district": "Q1425060",
+   "wikipedia": "https://en.wikipedia.org/wiki/Sangli_turmeric"
+  },
+  {
+   "id": "Q131871166",
+   "name": "Sangli raisins",
+   "description": "type of raisins variety from Maharashtra, India",
+   "type": "produce",
+   "region": "western-maharashtra",
+   "district": "Q1425060",
+   "wikipedia": "https://en.wikipedia.org/wiki/Sangli_raisins"
+  },
+  {
+   "id": "Q131238112",
+   "name": "Kolhapur jaggery",
+   "description": "type of jaggery (non-centrifugal cane sugar) - agri-product from India",
+   "type": "produce",
+   "region": "western-maharashtra",
+   "district": "Q1797312",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Organic_Chemical_free_Kolhapur_Jaggery_Dhep_%28Block%29_-_1_Kg_each.jpg/960px-Organic_Chemical_free_Kolhapur_Jaggery_Dhep_%28Block%29_-_1_Kg_each.jpg",
+    "file": "Organic_Chemical_free_Kolhapur_Jaggery_Dhep_(Block)_-_1_Kg_each.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Kolhapur_jaggery"
+  },
+  {
+   "id": "Q131388674",
+   "name": "Ajara Ghansal rice",
+   "description": "type of non-Basmati aromatic rice",
+   "type": "produce",
+   "region": "western-maharashtra",
+   "district": "Q1797312",
+   "wikipedia": "https://en.wikipedia.org/wiki/Ajara_Ghansal_rice"
+  },
+  {
+   "id": "Q131824338",
+   "name": "Mangalwedha jowar",
+   "description": "type of Sorghum variety from Maharashtra, India",
+   "type": "produce",
+   "region": "western-maharashtra",
+   "district": "Q1797263",
+   "wikipedia": "https://en.wikipedia.org/wiki/Mangalwedha_jowar"
+  },
+  {
+   "id": "Q131605886",
+   "name": "Jalgaon banana",
+   "description": "type of banana variety from Maharashtra, India",
+   "type": "produce",
+   "region": "north-maharashtra",
+   "district": "Q1797291",
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Jalgaon_Banana_Bunch_closeup.jpg",
+    "file": "Jalgaon_Banana_Bunch_closeup.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Jalgaon_banana"
+  },
+  {
    "id": "Q6956585",
    "name": "Naan qalia",
+   "type": "dish",
    "region": "marathwada",
    "district": "Q592942",
    "image": {
@@ -7940,10 +9462,19 @@
    "wikipedia": "https://en.wikipedia.org/wiki/Naan_qalia"
   },
   {
+   "id": "Q130601892",
+   "name": "Marathwada Kesar mango",
+   "description": "mango cultivar",
+   "type": "produce",
+   "region": "marathwada",
+   "wikipedia": "https://en.wikipedia.org/wiki/Marathwada_Kesar_mango"
+  },
+  {
    "id": "Q6959015",
    "name": "Nagpur orange",
    "nameMr": "नागपूर संत्री",
    "description": "variety of edible fruit",
+   "type": "dish",
    "region": "vidarbha",
    "district": "Q1797367",
    "image": {
@@ -7956,6 +9487,7 @@
    "id": "Q131056479",
    "name": "Bhiwapur chilli",
    "description": "chilli variety grown in Maharashtra, India",
+   "type": "dish",
    "region": "vidarbha",
    "district": "Q1797367",
    "image": {
@@ -7965,10 +9497,24 @@
    "wikipedia": "https://en.wikipedia.org/wiki/Bhiwapur_chilli"
   },
   {
+   "id": "Q131696521",
+   "name": "Waigaon turmeric",
+   "description": "type of Turmeric cultivated in Maharashtra, India",
+   "type": "produce",
+   "region": "vidarbha",
+   "district": "Q980608",
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Waigaon_Turmeric_fingers.jpg",
+    "file": "Waigaon_Turmeric_fingers.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Waigaon_turmeric"
+  },
+  {
    "id": "Q3630852",
    "name": "Puran poli",
    "nameMr": "पुरणपोळी",
    "description": "sweet dish of South India",
+   "type": "dish",
    "region": "statewide",
    "image": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/1/13/Puran_Poli.jpg",
@@ -7981,6 +9527,7 @@
    "name": "Modak",
    "nameMr": "मोदक",
    "description": "Indian food",
+   "type": "dish",
    "region": "statewide",
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Ukadiche_Modak_%28Rice%29.jpg/960px-Ukadiche_Modak_%28Rice%29.jpg",
@@ -7993,6 +9540,7 @@
    "name": "Thalipeeth",
    "nameMr": "थालीपीठ",
    "description": "Indian food",
+   "type": "dish",
    "region": "statewide",
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Maharashtrian_Thalipith_-_1.jpg/960px-Maharashtrian_Thalipith_-_1.jpg",
@@ -8005,6 +9553,7 @@
    "name": "Shrikhand",
    "nameMr": "श्रीखंड",
    "description": "Indian Food",
+   "type": "dish",
    "region": "statewide",
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Shrikhand_london_kastoori.jpg/960px-Shrikhand_london_kastoori.jpg",
@@ -8017,6 +9566,7 @@
    "name": "Jhunka",
    "nameMr": "झुणका",
    "description": "vegetarian traditional dish of India",
+   "type": "dish",
    "region": "statewide",
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Jhunka_Bhakri_Marathi_Food_by_Dr._Raju_Kasambe_DSCN0221_%288%29.jpg/960px-Jhunka_Bhakri_Marathi_Food_by_Dr._Raju_Kasambe_DSCN0221_%288%29.jpg",
@@ -8028,8 +9578,73 @@
    "id": "Q17085779",
    "name": "Thecha",
    "description": "Indian spicy condiment",
+   "type": "dish",
    "region": "statewide",
    "wikipedia": "https://en.wikipedia.org/wiki/Thecha"
+  },
+  {
+   "id": "Q921706",
+   "name": "Bhakri",
+   "nameMr": "भाकरी",
+   "description": "unleavened bread used in the cuisine of western and central India",
+   "type": "dish",
+   "region": "statewide",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Bhakri_1.jpg/960px-Bhakri_1.jpg",
+    "file": "Bhakri_1.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Bhakri"
+  },
+  {
+   "id": "Q7396472",
+   "name": "Sabudana vada",
+   "nameMr": "साबुदाणा वडा",
+   "description": "Tapioca pearl fritters from Maharashtra, India",
+   "type": "dish",
+   "region": "statewide",
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Sabudana_vada.JPG",
+    "file": "Sabudana_vada.JPG"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Sabudana_vada"
+  },
+  {
+   "id": "Q2773786",
+   "name": "Shankarpali",
+   "nameMr": "शंकरपाळी",
+   "description": "Indian Festival (Diwali) Snack",
+   "type": "dish",
+   "region": "statewide",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Shankarpali_sweets_mithai_Western_India_2012.jpg/960px-Shankarpali_sweets_mithai_Western_India_2012.jpg",
+    "file": "Shankarpali_sweets_mithai_Western_India_2012.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Shankarpali"
+  },
+  {
+   "id": "Q2722375",
+   "name": "Basundi",
+   "nameMr": "बासुंदी",
+   "description": "Indian sweet",
+   "type": "dish",
+   "region": "statewide",
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/Basundi_in_Maharashtrian_style.jpg",
+    "file": "Basundi_in_Maharashtrian_style.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Basundi"
+  },
+  {
+   "id": "Q5556748",
+   "name": "Ragda pattice",
+   "description": "Indian snack",
+   "type": "dish",
+   "region": "statewide",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Delicious_Ragda_Patties_.HEIC.jpg/960px-Delicious_Ragda_Patties_.HEIC.jpg",
+    "file": "Delicious_Ragda_Patties_.HEIC.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Ragda_pattice"
   }
  ]
 }
