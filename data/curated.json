@@ -1,0 +1,156 @@
+{
+  "regions": [
+    {
+      "id": "konkan",
+      "name": "Konkan",
+      "nameMr": "कोकण",
+      "source": "Konkan division",
+      "districts": [
+        "Mumbai City",
+        "Mumbai Suburban",
+        "Thane",
+        "Palghar",
+        "Raigad",
+        "Ratnagiri",
+        "Sindhudurg"
+      ]
+    },
+    {
+      "id": "western-maharashtra",
+      "name": "Western Maharashtra",
+      "nameMr": "पश्चिम महाराष्ट्र",
+      "source": "Pune division",
+      "districts": [
+        "Pune",
+        "Satara",
+        "Sangli",
+        "Kolhapur",
+        "Solapur"
+      ]
+    },
+    {
+      "id": "north-maharashtra",
+      "name": "North Maharashtra (Khandesh)",
+      "nameMr": "उत्तर महाराष्ट्र (खानदेश)",
+      "source": "Nashik division",
+      "districts": [
+        "Nashik",
+        "Ahilyanagar",
+        "Dhule",
+        "Jalgaon",
+        "Nandurbar"
+      ]
+    },
+    {
+      "id": "marathwada",
+      "name": "Marathwada",
+      "nameMr": "मराठवाडा",
+      "source": "Marathwada",
+      "districts": [
+        "Chhatrapati Sambhajinagar",
+        "Jalna",
+        "Beed",
+        "Dharashiv",
+        "Latur",
+        "Nanded",
+        "Parbhani",
+        "Hingoli"
+      ]
+    },
+    {
+      "id": "vidarbha",
+      "name": "Vidarbha",
+      "nameMr": "विदर्भ",
+      "source": "Vidarbha",
+      "districts": [
+        "Nagpur",
+        "Wardha",
+        "Bhandara",
+        "Gondia",
+        "Chandrapur",
+        "Gadchiroli",
+        "Amravati",
+        "Akola",
+        "Washim",
+        "Buldhana",
+        "Yavatmal"
+      ]
+    }
+  ],
+  "renames": [
+    {
+      "wikidata": "Q592942",
+      "name": "Chhatrapati Sambhajinagar district",
+      "nameMr": "छत्रपती संभाजीनगर जिल्हा",
+      "source": "Aurangabad district, Maharashtra",
+      "evidence": "Chhatrapati Sambhajinagar"
+    }
+  ],
+
+  "places": [
+    { "wiki": "Gateway of India", "kind": "heritage", "district": "Mumbai City" },
+    { "wiki": "Kanheri Caves", "kind": "heritage", "district": "Mumbai Suburban" },
+    { "wiki": "Sanjay Gandhi National Park", "kind": "nature", "district": "Mumbai Suburban" },
+    { "wiki": "Elephanta Caves", "kind": "heritage", "district": "Raigad" },
+    { "wiki": "Raigad Fort", "kind": "fort", "district": "Raigad" },
+    { "wiki": "Murud-Janjira", "kind": "fort", "district": "Raigad" },
+    { "wiki": "Matheran", "kind": "hill-station", "district": "Raigad" },
+    { "wiki": "Ganpatipule", "kind": "beach", "district": "Ratnagiri" },
+    { "wiki": "Sindhudurg Fort", "kind": "fort", "district": "Sindhudurg" },
+    { "wiki": "Tarkarli", "kind": "beach", "district": "Sindhudurg" },
+    { "wiki": "Shaniwar Wada", "kind": "heritage", "district": "Pune" },
+    { "wiki": "Sinhagad", "kind": "fort", "district": "Pune" },
+    { "wiki": "Bhimashankar Temple", "kind": "temple", "district": "Pune" },
+    { "wiki": "Lonavala", "kind": "hill-station", "district": "Pune" },
+    { "wiki": "Mahabaleshwar", "kind": "hill-station", "district": "Satara" },
+    { "wiki": "Kaas Plateau", "kind": "nature", "district": "Satara" },
+    { "wiki": "Pratapgad", "kind": "fort", "district": "Satara" },
+    { "wiki": "Bhilar", "kind": "village", "district": "Satara" },
+    { "wiki": "Mahalakshmi Temple, Kolhapur", "kind": "temple", "district": "Kolhapur" },
+    { "wiki": "Panhala Fort", "kind": "fort", "district": "Kolhapur" },
+    { "wiki": "Pandharpur", "kind": "pilgrimage", "district": "Solapur" },
+    { "wiki": "Trimbakeshwar Shiva Temple", "kind": "temple", "district": "Nashik" },
+    { "wiki": "Pandavleni Caves", "kind": "heritage", "district": "Nashik" },
+    { "wiki": "Saptashrungi", "kind": "temple", "district": "Nashik" },
+    { "wiki": "Shirdi", "kind": "pilgrimage", "district": "Ahilyanagar" },
+    { "wiki": "Shani Shingnapur", "kind": "village", "district": "Ahilyanagar" },
+    { "wiki": "Ralegan Siddhi", "kind": "village", "district": "Ahilyanagar" },
+    { "wiki": "Hiware Bazar", "kind": "village", "district": "Ahilyanagar" },
+    { "wiki": "Toranmal", "kind": "hill-station", "district": "Nandurbar" },
+    { "wiki": "Ajanta Caves", "kind": "heritage", "district": "Chhatrapati Sambhajinagar" },
+    { "wiki": "Ellora Caves", "kind": "heritage", "district": "Chhatrapati Sambhajinagar" },
+    { "wiki": "Bibi Ka Maqbara", "kind": "heritage", "district": "Chhatrapati Sambhajinagar" },
+    { "wiki": "Daulatabad Fort", "kind": "fort", "district": "Chhatrapati Sambhajinagar" },
+    { "wiki": "Grishneshwar Temple", "kind": "temple", "district": "Chhatrapati Sambhajinagar" },
+    { "wiki": "Hazur Sahib", "kind": "temple", "district": "Nanded" },
+    { "wiki": "Aundha Nagnath Temple", "kind": "temple", "district": "Hingoli" },
+    { "wiki": "Tulja Bhavani Temple", "kind": "temple", "district": "Dharashiv" },
+    { "wiki": "Deekshabhoomi", "kind": "heritage", "district": "Nagpur" },
+    { "wiki": "Ramtek", "kind": "temple", "district": "Nagpur" },
+    { "wiki": "Sevagram", "kind": "village", "district": "Wardha" },
+    { "wiki": "Tadoba Andhari Tiger Reserve", "kind": "nature", "district": "Chandrapur" },
+    { "wiki": "Lonar crater", "kind": "nature", "district": "Buldhana" },
+    { "wiki": "Chikhaldara", "kind": "hill-station", "district": "Amravati" },
+    { "wiki": "Melghat Tiger Reserve", "kind": "nature", "district": "Amravati" },
+    { "wiki": "Navegaon National Park", "kind": "nature", "district": "Gondia" }
+  ],
+
+  "foods": [
+    { "wiki": "Vada pav", "region": "konkan", "district": "Mumbai City", "evidence": "Mumbai" },
+    { "wiki": "Pav bhaji", "region": "konkan", "district": "Mumbai City", "evidence": "Mumbai" },
+    { "wiki": "Malvani cuisine", "region": "konkan", "district": "Sindhudurg", "evidence": "Malvan" },
+    { "wiki": "Solkadhi", "region": "konkan", "evidence": "Konkan" },
+    { "wiki": "Kombdi vade", "region": "konkan", "evidence": "Konkan" },
+    { "wiki": "Misal pav", "region": "western-maharashtra", "district": "Kolhapur", "evidence": "Kolhapur" },
+    { "wiki": "Bakarwadi", "region": "western-maharashtra", "district": "Pune", "evidence": "Pune" },
+    { "wiki": "Naan qalia", "region": "marathwada", "district": "Chhatrapati Sambhajinagar", "evidence": "Aurangabad" },
+    { "wiki": "Nagpur orange", "region": "vidarbha", "district": "Nagpur", "evidence": "Nagpur" },
+    { "wiki": "Bhiwapur chilli", "region": "vidarbha", "district": "Nagpur", "evidence": "Nagpur district" },
+    { "wiki": "Puran poli", "region": "statewide", "evidence": "Maharashtra" },
+    { "wiki": "Modak", "region": "statewide", "evidence": "Marathi" },
+    { "wiki": "Thalipeeth", "region": "statewide", "evidence": "Maharashtra" },
+    { "wiki": "Shrikhand", "region": "statewide", "evidence": "Marathi" },
+    { "wiki": "Jhunka", "region": "statewide", "evidence": "Maharashtra" },
+    { "wiki": "Thecha", "region": "statewide", "evidence": "Maharashtra" }
+  ]
+}

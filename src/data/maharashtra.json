@@ -1,0 +1,2955 @@
+{
+ "generated": "2026-11-12",
+ "licence": "Data from Wikidata (CC0). Links point to Wikipedia articles (CC BY-SA 4.0).",
+ "regions": [
+  {
+   "id": "konkan",
+   "name": "Konkan",
+   "nameMr": "कोकण",
+   "source": "https://en.wikipedia.org/wiki/Konkan_division",
+   "districts": [
+    "Q2341660",
+    "Q2085374",
+    "Q943099",
+    "Q18003119",
+    "Q2019683",
+    "Q1771768",
+    "Q768332"
+   ]
+  },
+  {
+   "id": "western-maharashtra",
+   "name": "Western Maharashtra",
+   "nameMr": "पश्चिम महाराष्ट्र",
+   "source": "https://en.wikipedia.org/wiki/Pune_division",
+   "districts": [
+    "Q1797336",
+    "Q1135612",
+    "Q1425060",
+    "Q1797312",
+    "Q1797263"
+   ]
+  },
+  {
+   "id": "north-maharashtra",
+   "name": "North Maharashtra (Khandesh)",
+   "nameMr": "उत्तर महाराष्ट्र (खानदेश)",
+   "source": "https://en.wikipedia.org/wiki/Nashik_division",
+   "districts": [
+    "Q1797269",
+    "Q401744",
+    "Q1797383",
+    "Q1797291",
+    "Q1623525"
+   ]
+  },
+  {
+   "id": "marathwada",
+   "name": "Marathwada",
+   "nameMr": "मराठवाडा",
+   "source": "https://en.wikipedia.org/wiki/Marathwada",
+   "districts": [
+    "Q592942",
+    "Q1804863",
+    "Q814037",
+    "Q1647186",
+    "Q1948713",
+    "Q692389",
+    "Q1797389",
+    "Q2087615"
+   ]
+  },
+  {
+   "id": "vidarbha",
+   "name": "Vidarbha",
+   "nameMr": "विदर्भ",
+   "source": "https://en.wikipedia.org/wiki/Vidarbha",
+   "districts": [
+    "Q1797367",
+    "Q980608",
+    "Q1813857",
+    "Q1917227",
+    "Q1797274",
+    "Q1804847",
+    "Q1771774",
+    "Q520510",
+    "Q1804858",
+    "Q47929",
+    "Q1804852"
+   ]
+  }
+ ],
+ "districts": [
+  {
+   "id": "Q401744",
+   "name": "Ahilyanagar district",
+   "nameMr": "अहिल्यानगर जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Ahmednagar_district",
+   "talukas": [
+    {
+     "id": "Q4701523",
+     "name": "Akole taluka",
+     "nameMr": "अकोले तालुका"
+    },
+    {
+     "id": "Q6147899",
+     "name": "Jamkhed taluka",
+     "nameMr": "जामखेड तालुका"
+    },
+    {
+     "id": "Q6371238",
+     "name": "Karjat taluka",
+     "nameMr": "कर्जत तालुका"
+    },
+    {
+     "id": "Q16727011",
+     "name": "Kopargaon taluka",
+     "nameMr": "कोपरगाव तालुका"
+    },
+    {
+     "id": "Q6958517",
+     "name": "Nagar taluka",
+     "nameMr": "नगर तालुका"
+    },
+    {
+     "id": "Q13652773",
+     "name": "Nevasa taluka",
+     "nameMr": "नेवासा तालुका"
+    },
+    {
+     "id": "Q3632263",
+     "name": "Parner taluka",
+     "nameMr": "पारनेर तालुका"
+    },
+    {
+     "id": "Q7144715",
+     "name": "Pathardi taluka",
+     "nameMr": "पाथर्डी तालुका"
+    },
+    {
+     "id": "Q7283324",
+     "name": "Rahata taluka",
+     "nameMr": "राहता तालुका"
+    },
+    {
+     "id": "Q7283634",
+     "name": "Rahuri taluka",
+     "nameMr": "राहुरी तालुका"
+    },
+    {
+     "id": "Q17088523",
+     "name": "Sangamner taluka",
+     "nameMr": "संगमनेर तालुका"
+    },
+    {
+     "id": "Q7495712",
+     "name": "Shevgaon taluka",
+     "nameMr": "शेवगांव तालुका"
+    },
+    {
+     "id": "Q7503961",
+     "name": "Shrigonda taluka",
+     "nameMr": "श्रीगोंदा तालुका"
+    },
+    {
+     "id": "Q7504203",
+     "name": "Shrirampur taluka",
+     "nameMr": "बेलापूर (श्रीरामपूर तालुका)"
+    }
+   ],
+   "region": "north-maharashtra"
+  },
+  {
+   "id": "Q520510",
+   "name": "Akola district",
+   "nameMr": "अकोला जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Akola_district",
+   "talukas": [
+    {
+     "id": "Q11950838",
+     "name": "Akola taluka",
+     "nameMr": "अकोला तालुका"
+    },
+    {
+     "id": "Q123267097",
+     "name": "Akot taluka"
+    },
+    {
+     "id": "Q123267243",
+     "name": "Balapur taluka"
+    },
+    {
+     "id": "Q123267172",
+     "name": "Barshitakli taluka"
+    },
+    {
+     "id": "Q123267236",
+     "name": "Murtijapur taluka"
+    },
+    {
+     "id": "Q123267199",
+     "name": "Patur taluka"
+    },
+    {
+     "id": "Q123267075",
+     "name": "Telhara taluka"
+    }
+   ],
+   "region": "vidarbha"
+  },
+  {
+   "id": "Q1771774",
+   "name": "Amravati district",
+   "nameMr": "अमरावती जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Amravati_district",
+   "talukas": [
+    {
+     "id": "Q107005991",
+     "name": "Achalpur taluka"
+    },
+    {
+     "id": "Q13115471",
+     "name": "Amravati taluka",
+     "nameMr": "अमरावती तालुका"
+    },
+    {
+     "id": "Q123267089",
+     "name": "Anjangaon Surji taluka"
+    },
+    {
+     "id": "Q123267184",
+     "name": "Bhatkuli taluka",
+     "nameMr": "भातकुली तालुका"
+    },
+    {
+     "id": "Q19806772",
+     "name": "Chandur Railway taluka",
+     "nameMr": "चांदुर रेल्वे"
+    },
+    {
+     "id": "Q123267203",
+     "name": "Chandurbazar taluka",
+     "nameMr": "चांदुर बाजार तालुका"
+    },
+    {
+     "id": "Q123267186",
+     "name": "Chikhaldara taluka"
+    },
+    {
+     "id": "Q19807844",
+     "name": "Daryapur taluka",
+     "nameMr": "दर्यापूर"
+    },
+    {
+     "id": "Q19808114",
+     "name": "Dhamangaon Railway taluka",
+     "nameMr": "धामणगांव रेल्वे"
+    },
+    {
+     "id": "Q13118140",
+     "name": "Dharni taluka",
+     "nameMr": "धारणी"
+    },
+    {
+     "id": "Q123267231",
+     "name": "Morshi taluka",
+     "nameMr": "मोर्शी तालुका"
+    },
+    {
+     "id": "Q13118216",
+     "name": "Nandgaon-Khandeshwar taluka",
+     "nameMr": "नांदगाव खंडेश्वर तालुका"
+    },
+    {
+     "id": "Q123267250",
+     "name": "Tiosa taluka",
+     "nameMr": "तिवसा तालुका"
+    },
+    {
+     "id": "Q31736077",
+     "name": "Warud taluka",
+     "nameMr": "वरुड तालुका"
+    }
+   ],
+   "region": "vidarbha"
+  },
+  {
+   "id": "Q814037",
+   "name": "Beed district",
+   "nameMr": "बीड जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Beed_district",
+   "talukas": [
+    {
+     "id": "Q13115311",
+     "name": "Ambejogai taluka",
+     "nameMr": "अंबेजोगाई तालुका"
+    },
+    {
+     "id": "Q13115819",
+     "name": "Ashti taluka",
+     "nameMr": "आष्टी तालुका"
+    },
+    {
+     "id": "Q13119314",
+     "name": "Beed taluka",
+     "nameMr": "बीड तालुका"
+    },
+    {
+     "id": "Q13116460",
+     "name": "Dharur taluka",
+     "nameMr": "किल्ले धारूर तालुका"
+    },
+    {
+     "id": "Q13116955",
+     "name": "Georai taluka",
+     "nameMr": "गेवराई तालुका"
+    },
+    {
+     "id": "Q19806065",
+     "name": "Kaij taluka",
+     "nameMr": "केज तालुका"
+    },
+    {
+     "id": "Q6737419",
+     "name": "Majalgaon taluka",
+     "nameMr": "माजलगाव तालुका"
+    },
+    {
+     "id": "Q13118560",
+     "name": "Parli taluka",
+     "nameMr": "परळी-वैद्यनाथ तालुका"
+    },
+    {
+     "id": "Q13118646",
+     "name": "Patoda taluka",
+     "nameMr": "पाटोदा तालुका"
+    },
+    {
+     "id": "Q7499002",
+     "name": "Shirur Kasar taluka",
+     "nameMr": "शिरूर तालुका"
+    },
+    {
+     "id": "Q123267109",
+     "name": "Wadwani taluka",
+     "nameMr": "वडवणी तालुका"
+    }
+   ],
+   "region": "marathwada"
+  },
+  {
+   "id": "Q1813857",
+   "name": "Bhandara district",
+   "nameMr": "भंडारा जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Bhandara_district",
+   "talukas": [
+    {
+     "id": "Q13119407",
+     "name": "Bhandara Taluka",
+     "nameMr": "भंडारा तालुका"
+    },
+    {
+     "id": "Q96418772",
+     "name": "Lakhandur Taluka",
+     "nameMr": "लाखांदूर तालुका"
+    },
+    {
+     "id": "Q123267872",
+     "name": "Lakhani taluka",
+     "nameMr": "लाखनी"
+    },
+    {
+     "id": "Q107482435",
+     "name": "Mohadi Taluka",
+     "nameMr": "मोहाडी तालुका"
+    },
+    {
+     "id": "Q107482495",
+     "name": "Pauni Taluka",
+     "nameMr": "पवनी"
+    },
+    {
+     "id": "Q13121877",
+     "name": "Sakoli Taluka",
+     "nameMr": "साकोली तालुका"
+    },
+    {
+     "id": "Q107477379",
+     "name": "Tumsar Taluka"
+    }
+   ],
+   "region": "vidarbha"
+  },
+  {
+   "id": "Q47929",
+   "name": "Buldhana district",
+   "nameMr": "बुलढाणा जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Buldhana_district",
+   "talukas": [
+    {
+     "id": "Q19809568",
+     "name": "Buldana taluka",
+     "nameMr": "बुलढाणा तालुका"
+    },
+    {
+     "id": "Q123267758",
+     "name": "Chikhli Taluka",
+     "nameMr": "चिखली तालुका"
+    },
+    {
+     "id": "Q13118047",
+     "name": "Deolgaon Raja taluka",
+     "nameMr": "देउळगांव राजा"
+    },
+    {
+     "id": "Q19807019",
+     "name": "Jalgaon (Jamod) taluka",
+     "nameMr": "जळगाव जामोद"
+    },
+    {
+     "id": "Q123267180",
+     "name": "Khamgaon taluka",
+     "nameMr": "खामगाव तालुका"
+    },
+    {
+     "id": "Q19813486",
+     "name": "Lonar taluka",
+     "nameMr": "लोणार (गाव)"
+    },
+    {
+     "id": "Q19810918",
+     "name": "Malkapur taluka",
+     "nameMr": "मलकापूर"
+    },
+    {
+     "id": "Q123267238",
+     "name": "Mehkar taluka",
+     "nameMr": "मेहकर तालुका"
+    },
+    {
+     "id": "Q13120181",
+     "name": "Motala taluka",
+     "nameMr": "मोताळा"
+    },
+    {
+     "id": "Q123267226",
+     "name": "Nandura taluka",
+     "nameMr": "नांदुरा तालुका"
+    },
+    {
+     "id": "Q123267274",
+     "name": "Sangrampur taluka",
+     "nameMr": "संग्रामपूर तालुका"
+    },
+    {
+     "id": "Q123267145",
+     "name": "Shegaon taluka",
+     "nameMr": "शेगाव तालुका"
+    },
+    {
+     "id": "Q123267200",
+     "name": "Sindkhed Raja taluka",
+     "nameMr": "सिंदखेड राजा तालुका"
+    }
+   ],
+   "region": "vidarbha"
+  },
+  {
+   "id": "Q1797274",
+   "name": "Chandrapur district",
+   "nameMr": "चंद्रपूर जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Chandrapur_district",
+   "talukas": [
+    {
+     "id": "Q2765584",
+     "name": "Ballarpur taluka",
+     "nameMr": "बल्लारपूर तालुका"
+    },
+    {
+     "id": "Q2766710",
+     "name": "Bhadravati taluka",
+     "nameMr": "भद्रावती"
+    },
+    {
+     "id": "Q2766575",
+     "name": "Brahmapuri taluka",
+     "nameMr": "ब्रह्मपुरी तालुका"
+    },
+    {
+     "id": "Q2733274",
+     "name": "Chandrapur taluka",
+     "nameMr": "चंद्रपूर तालुका"
+    },
+    {
+     "id": "Q123267073",
+     "name": "Chimur taluka"
+    },
+    {
+     "id": "Q2732354",
+     "name": "Gondpipri taluka",
+     "nameMr": "गोंडपिपरी तालुका"
+    },
+    {
+     "id": "Q123267112",
+     "name": "Jiwati taluka"
+    },
+    {
+     "id": "Q123267082",
+     "name": "Korpana taluka"
+    },
+    {
+     "id": "Q123267092",
+     "name": "Mul taluka"
+    },
+    {
+     "id": "Q123267162",
+     "name": "Nagbhid taluka"
+    },
+    {
+     "id": "Q123267232",
+     "name": "Pombhurna taluka"
+    },
+    {
+     "id": "Q2770331",
+     "name": "Rajura taluka",
+     "nameMr": "राजुरा तालुका"
+    },
+    {
+     "id": "Q123267192",
+     "name": "Sawali taluka"
+    },
+    {
+     "id": "Q123267216",
+     "name": "Sindewahi taluka"
+    },
+    {
+     "id": "Q2772194",
+     "name": "Warora taluka",
+     "nameMr": "वरोरा तालुका"
+    }
+   ],
+   "region": "vidarbha"
+  },
+  {
+   "id": "Q592942",
+   "name": "Chhatrapati Sambhajinagar district",
+   "nameMr": "छत्रपती संभाजीनगर जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Aurangabad_district%2C_Maharashtra",
+   "talukas": [
+    {
+     "id": "Q13116206",
+     "name": "Aurangabad taluka",
+     "nameMr": "औरंगाबाद तालुका"
+    },
+    {
+     "id": "Q19806312",
+     "name": "Gangapur taluka",
+     "nameMr": "गंगापूर तालुका"
+    },
+    {
+     "id": "Q123267106",
+     "name": "Kannad taluka",
+     "nameMr": "कन्नड तालुका"
+    },
+    {
+     "id": "Q19806268",
+     "name": "Khuldabad taluka",
+     "nameMr": "खुलताबाद तालुका"
+    },
+    {
+     "id": "Q13118862",
+     "name": "Paithan taluka",
+     "nameMr": "पैठण तालुका"
+    },
+    {
+     "id": "Q13119075",
+     "name": "Phulambri taluka",
+     "nameMr": "फुलंब्री तालुका"
+    },
+    {
+     "id": "Q20583756",
+     "name": "Sillod taluka",
+     "nameMr": "सिल्लोड तालुका"
+    },
+    {
+     "id": "Q20585327",
+     "name": "Soegaon taluka",
+     "nameMr": "सोयगांव तालुका"
+    },
+    {
+     "id": "Q13121290",
+     "name": "Vaijapur taluka",
+     "nameMr": "वैजापूर तालुका"
+    }
+   ],
+   "region": "marathwada"
+  },
+  {
+   "id": "Q1647186",
+   "name": "Dharashiv district",
+   "nameMr": "उस्मानाबाद जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Osmanabad_district",
+   "talukas": [
+    {
+     "id": "Q13119575",
+     "name": "Bhoom Taluka",
+     "nameMr": "भूम तालुका"
+    },
+    {
+     "id": "Q13116311",
+     "name": "Kalamb Taluka",
+     "nameMr": "कळंब तालुका (उस्मानाबाद)"
+    },
+    {
+     "id": "Q6667963",
+     "name": "Lohara Taluka",
+     "nameMr": "लोहारा तालुका"
+    },
+    {
+     "id": "Q11114967",
+     "name": "Osmanabad Taluka",
+     "nameMr": "उस्मानाबाद तालुका"
+    },
+    {
+     "id": "Q13118573",
+     "name": "Paranda Taluka",
+     "nameMr": "परांडा तालुका"
+    },
+    {
+     "id": "Q16902024",
+     "name": "Tuljapur Taluka",
+     "nameMr": "तुळजापूर तालुका"
+    },
+    {
+     "id": "Q11114604",
+     "name": "Umarga Taluka",
+     "nameMr": "उमरगा तालुका"
+    },
+    {
+     "id": "Q13121046",
+     "name": "Washi Taluka",
+     "nameMr": "वाशी तालुका"
+    }
+   ],
+   "region": "marathwada"
+  },
+  {
+   "id": "Q1797383",
+   "name": "Dhule district",
+   "nameMr": "धुळे जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Dhule_district",
+   "talukas": [
+    {
+     "id": "Q2761862",
+     "name": "Dhule taluka",
+     "nameMr": "धुळे तालुका"
+    },
+    {
+     "id": "Q2775033",
+     "name": "Sakri Taluka",
+     "nameMr": "साक्री तालुका"
+    },
+    {
+     "id": "Q2773938",
+     "name": "Shirpur taluka",
+     "nameMr": "शिरपूर तालुका"
+    },
+    {
+     "id": "Q2773904",
+     "name": "Sindkhede taluka",
+     "nameMr": "शिंदखेडा तालुका"
+    }
+   ],
+   "region": "north-maharashtra"
+  },
+  {
+   "id": "Q1804847",
+   "name": "Gadchiroli district",
+   "nameMr": "गडचिरोली जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Gadchiroli_district",
+   "talukas": [
+    {
+     "id": "Q123267113",
+     "name": "Aheri taluka"
+    },
+    {
+     "id": "Q123267170",
+     "name": "Armori taluka"
+    },
+    {
+     "id": "Q123267070",
+     "name": "Bhamragad taluka"
+    },
+    {
+     "id": "Q123267188",
+     "name": "Chamorshi taluka",
+     "nameMr": "चामोर्शी तालुका"
+    },
+    {
+     "id": "Q123267282",
+     "name": "Desaiganj (Vadasa) taluka",
+     "nameMr": "देसाईगंज (वडसा) तालुका"
+    },
+    {
+     "id": "Q123267094",
+     "name": "Dhanora taluka"
+    },
+    {
+     "id": "Q123267161",
+     "name": "Etapalli taluka"
+    },
+    {
+     "id": "Q20573938",
+     "name": "Gadchiroli taluka",
+     "nameMr": "गडचिरोली तालुका"
+    },
+    {
+     "id": "Q123267290",
+     "name": "Korchi taluka"
+    },
+    {
+     "id": "Q123267117",
+     "name": "Kurkheda taluka"
+    },
+    {
+     "id": "Q123267146",
+     "name": "Mulchera taluka"
+    },
+    {
+     "id": "Q123267181",
+     "name": "Sironcha taluka"
+    }
+   ],
+   "region": "vidarbha"
+  },
+  {
+   "id": "Q1917227",
+   "name": "Gondia district",
+   "nameMr": "गोंदिया जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Gondia_district",
+   "talukas": [
+    {
+     "id": "Q19804381",
+     "name": "Amgaon Taluka",
+     "nameMr": "आमगाव"
+    },
+    {
+     "id": "Q24912643",
+     "name": "Arjuni-Morgaon taluka",
+     "nameMr": "अर्जुनी मोरगाव तालुका"
+    },
+    {
+     "id": "Q123267068",
+     "name": "Deori taluka",
+     "nameMr": "देवरी तालुका"
+    },
+    {
+     "id": "Q13116959",
+     "name": "Gondiya taluka",
+     "nameMr": "गोंदिया तालुका"
+    },
+    {
+     "id": "Q13116989",
+     "name": "Goregaon taluka",
+     "nameMr": "गोरेगाव तालुका"
+    },
+    {
+     "id": "Q13121738",
+     "name": "Sadak-Arjuni taluka",
+     "nameMr": "सडक/अर्जुनी"
+    },
+    {
+     "id": "Q123267266",
+     "name": "Salekasa taluka",
+     "nameMr": "सालेकसा तालुका"
+    },
+    {
+     "id": "Q123267263",
+     "name": "Tirora taluka",
+     "nameMr": "तिरोडा तालुका"
+    }
+   ],
+   "region": "vidarbha"
+  },
+  {
+   "id": "Q2087615",
+   "name": "Hingoli district",
+   "nameMr": "हिंगोली जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Hingoli_district",
+   "talukas": [
+    {
+     "id": "Q123267081",
+     "name": "Aundha (Nagnath) taluka"
+    },
+    {
+     "id": "Q20586541",
+     "name": "Hingoli taluka",
+     "nameMr": "हिंगोली तालुका"
+    },
+    {
+     "id": "Q19805573",
+     "name": "Kalamnuri taluka",
+     "nameMr": "कळमनुरी तालुका"
+    },
+    {
+     "id": "Q13122136",
+     "name": "Sengaon taluka",
+     "nameMr": "सेनगाव तालुका"
+    },
+    {
+     "id": "Q123267154",
+     "name": "Vasmath taluka",
+     "nameMr": "वसमत तालुका"
+    }
+   ],
+   "region": "marathwada"
+  },
+  {
+   "id": "Q1797291",
+   "name": "Jalgaon district",
+   "nameMr": "जळगाव जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Jalgaon_district",
+   "talukas": [
+    {
+     "id": "Q2722529",
+     "name": "Amalner taluka",
+     "nameMr": "अमळनेर तालुका"
+    },
+    {
+     "id": "Q2766662",
+     "name": "Bhadgaon taluka",
+     "nameMr": "भडगाव तालुका"
+    },
+    {
+     "id": "Q2767499",
+     "name": "Bhusawal taluka",
+     "nameMr": "भुसावळ तालुका"
+    },
+    {
+     "id": "Q2766385",
+     "name": "Bodvad taluka",
+     "nameMr": "बोदवड तालुका"
+    },
+    {
+     "id": "Q2747562",
+     "name": "Chalisgaon taluka",
+     "nameMr": "चाळीसगाव तालुका"
+    },
+    {
+     "id": "Q2757072",
+     "name": "Chopda taluka",
+     "nameMr": "चोपडा तालुका"
+    },
+    {
+     "id": "Q2761515",
+     "name": "Dharangaon taluka",
+     "nameMr": "धरणगाव तालुका"
+    },
+    {
+     "id": "Q2725969",
+     "name": "Erandol taluka",
+     "nameMr": "एरंडोल तालुका"
+    },
+    {
+     "id": "Q2757543",
+     "name": "Jalgaon taluka",
+     "nameMr": "जळगाव तालुका"
+    },
+    {
+     "id": "Q2757945",
+     "name": "Jamner taluka",
+     "nameMr": "जामनेर तालुका"
+    },
+    {
+     "id": "Q2768817",
+     "name": "Muktainagar (Edlabad) taluka",
+     "nameMr": "मुक्ताईनगर तालुका"
+    },
+    {
+     "id": "Q2763929",
+     "name": "Pachora taluka",
+     "nameMr": "पाचोरा तालुका"
+    },
+    {
+     "id": "Q123267270",
+     "name": "Parola taluka"
+    },
+    {
+     "id": "Q2770759",
+     "name": "Raver taluka",
+     "nameMr": "रावेर तालुका"
+    },
+    {
+     "id": "Q2769769",
+     "name": "Yawal taluka",
+     "nameMr": "यावल तालुका"
+    }
+   ],
+   "region": "north-maharashtra"
+  },
+  {
+   "id": "Q1804863",
+   "name": "Jalna district",
+   "nameMr": "जालना जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Jalna_district",
+   "talukas": [
+    {
+     "id": "Q123267126",
+     "name": "Ambad taluka",
+     "nameMr": "अंबड तालुका"
+    },
+    {
+     "id": "Q13119136",
+     "name": "Badnapur taluka",
+     "nameMr": "बदनापूर"
+    },
+    {
+     "id": "Q123267090",
+     "name": "Bhokardan taluka",
+     "nameMr": "भोकरदन तालुका"
+    },
+    {
+     "id": "Q123267191",
+     "name": "Ghansawangi taluka",
+     "nameMr": "घनसावंगी तालुका"
+    },
+    {
+     "id": "Q123267221",
+     "name": "Jafrabad taluka",
+     "nameMr": "जाफ्राबाद तालुका"
+    },
+    {
+     "id": "Q19807076",
+     "name": "Jalna taluka",
+     "nameMr": "जालना तालुका"
+    },
+    {
+     "id": "Q19810059",
+     "name": "Mantha taluka",
+     "nameMr": "मंठा"
+    },
+    {
+     "id": "Q123267213",
+     "name": "Partur taluka",
+     "nameMr": "परतूर तालुका"
+    }
+   ],
+   "region": "marathwada"
+  },
+  {
+   "id": "Q1797312",
+   "name": "Kolhapur district",
+   "nameMr": "कोल्हापूर जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Kolhapur_district",
+   "talukas": [
+    {
+     "id": "Q13115662",
+     "name": "Ajra taluka",
+     "nameMr": "आजरा तालुका"
+    },
+    {
+     "id": "Q13119568",
+     "name": "Bhudargad taluka",
+     "nameMr": "भुदरगड तालुका"
+    },
+    {
+     "id": "Q19806687",
+     "name": "Chandgad taluka",
+     "nameMr": "चंदगड तालुका"
+    },
+    {
+     "id": "Q5516369",
+     "name": "Gadhinglaj Taluka",
+     "nameMr": "गडहिंग्लज तालुका"
+    },
+    {
+     "id": "Q13116795",
+     "name": "Gaganbawada taluka",
+     "nameMr": "गगनबावडा तालुका"
+    },
+    {
+     "id": "Q20572432",
+     "name": "Hatkanangle taluka",
+     "nameMr": "हातकणंगले तालुका"
+    },
+    {
+     "id": "Q13116351",
+     "name": "Kagal taluka",
+     "nameMr": "कागल तालुका"
+    },
+    {
+     "id": "Q123267218",
+     "name": "Karvir taluka",
+     "nameMr": "करवीर तालुका"
+    },
+    {
+     "id": "Q13118549",
+     "name": "Panhala taluka",
+     "nameMr": "पन्हाळा तालुका"
+    },
+    {
+     "id": "Q13120552",
+     "name": "Radhanagari taluka",
+     "nameMr": "राधानगरी तालुका"
+    },
+    {
+     "id": "Q20579413",
+     "name": "Shahuwadi taluka",
+     "nameMr": "शाहूवाडी तालुका"
+    },
+    {
+     "id": "Q13121480",
+     "name": "Shirol Taluka",
+     "nameMr": "शिरोळ तालुका"
+    }
+   ],
+   "region": "western-maharashtra"
+  },
+  {
+   "id": "Q1948713",
+   "name": "Latur district",
+   "nameMr": "लातूर जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Latur_district",
+   "talukas": [
+    {
+     "id": "Q16250220",
+     "name": "Ahmadpur Taluka",
+     "nameMr": "अहमदपूर तालुका"
+    },
+    {
+     "id": "Q16252213",
+     "name": "Ausa Taluka",
+     "nameMr": "औसा तालुका"
+    },
+    {
+     "id": "Q16257591",
+     "name": "Chakur Taluka",
+     "nameMr": "चाकूर"
+    },
+    {
+     "id": "Q15213644",
+     "name": "Deoni Taluka",
+     "nameMr": "देवणी"
+    },
+    {
+     "id": "Q17058624",
+     "name": "Jalkot Taluka",
+     "nameMr": "जळकोट तालुका"
+    },
+    {
+     "id": "Q17068575",
+     "name": "Latur Taluka",
+     "nameMr": "लातूर शहर तालुका"
+    },
+    {
+     "id": "Q13118328",
+     "name": "Nilanga Taluka",
+     "nameMr": "निलंगा"
+    },
+    {
+     "id": "Q13120713",
+     "name": "Renapur Taluka",
+     "nameMr": "रेणापूर"
+    },
+    {
+     "id": "Q17089922",
+     "name": "Shirur Anantpal Taluka",
+     "nameMr": "शिरूर"
+    },
+    {
+     "id": "Q17120051",
+     "name": "Udgir Taluka",
+     "nameMr": "उदगीर तालुका"
+    }
+   ],
+   "region": "marathwada"
+  },
+  {
+   "id": "Q2341660",
+   "name": "Mumbai City district",
+   "nameMr": "मुंबई जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Mumbai_City_district",
+   "talukas": [],
+   "region": "konkan"
+  },
+  {
+   "id": "Q2085374",
+   "name": "Mumbai Suburban district",
+   "nameMr": "मुंबई उपनगर जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Mumbai_Suburban_district",
+   "talukas": [
+    {
+     "id": "Q13115300",
+     "name": "Andheri taluka",
+     "nameMr": "अंधेरी तालुका"
+    },
+    {
+     "id": "Q19809657",
+     "name": "Borivali taluka",
+     "nameMr": "बोरीवली तालुका"
+    },
+    {
+     "id": "Q19805986",
+     "name": "Kurla taluka",
+     "nameMr": "कुर्ला तालुका"
+    }
+   ],
+   "region": "konkan"
+  },
+  {
+   "id": "Q1797367",
+   "name": "Nagpur district",
+   "nameMr": "नागपूर जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Nagpur_district",
+   "talukas": [
+    {
+     "id": "Q25565674",
+     "name": "Bhiwapur taluka",
+     "nameMr": "भिवापूर तालुका"
+    },
+    {
+     "id": "Q123267085",
+     "name": "Hingna taluka",
+     "nameMr": "हिंगणा तालुका"
+    },
+    {
+     "id": "Q123267136",
+     "name": "Kalameshwar taluka",
+     "nameMr": "कळमेश्वर तालुका"
+    },
+    {
+     "id": "Q17063356",
+     "name": "Kamptee taluka"
+    },
+    {
+     "id": "Q17064306",
+     "name": "Katol taluka",
+     "nameMr": "काटोल तालुका"
+    },
+    {
+     "id": "Q13116503",
+     "name": "Kuhi taluka",
+     "nameMr": "कुही"
+    },
+    {
+     "id": "Q123267276",
+     "name": "Mauda taluka",
+     "nameMr": "मौदा तालुका"
+    },
+    {
+     "id": "Q13118234",
+     "name": "Nagpur Rural Taluka",
+     "nameMr": "नागपूर ग्रामीण तालुका"
+    },
+    {
+     "id": "Q13118237",
+     "name": "Nagpur Urban Taluka",
+     "nameMr": "नागपूर शहर तालुका"
+    },
+    {
+     "id": "Q16895703",
+     "name": "Narkhed taluka",
+     "nameMr": "नरखेड तालुका"
+    },
+    {
+     "id": "Q123267240",
+     "name": "Parseoni taluka",
+     "nameMr": "पारशिवनी तालुका"
+    },
+    {
+     "id": "Q123267132",
+     "name": "Ramtek taluka",
+     "nameMr": "रामटेक तालुका"
+    },
+    {
+     "id": "Q120826856",
+     "name": "Savner taluka",
+     "nameMr": "सावनेर तालुका"
+    },
+    {
+     "id": "Q19805040",
+     "name": "Umred taluka",
+     "nameMr": "उमरेड तालुका"
+    }
+   ],
+   "region": "vidarbha"
+  },
+  {
+   "id": "Q692389",
+   "name": "Nanded district",
+   "nameMr": "नांदेड जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Nanded_district",
+   "talukas": [
+    {
+     "id": "Q24908285",
+     "name": "Ardhapur taluka",
+     "nameMr": "अर्धापूर तालुका"
+    },
+    {
+     "id": "Q24910401",
+     "name": "Bhokar taluka",
+     "nameMr": "भोकर तालुका"
+    },
+    {
+     "id": "Q24910355",
+     "name": "Biloli taluka",
+     "nameMr": "बिलोली तालुका"
+    },
+    {
+     "id": "Q24910331",
+     "name": "Deglur taluka",
+     "nameMr": "देगलूर तालुका"
+    },
+    {
+     "id": "Q24910380",
+     "name": "Dharmabad taluka",
+     "nameMr": "धर्माबाद तालुका"
+    },
+    {
+     "id": "Q24908030",
+     "name": "Hadgaon taluka",
+     "nameMr": "हदगाव तालुका"
+    },
+    {
+     "id": "Q20586631",
+     "name": "Himayatnagar taluka",
+     "nameMr": "हिमायतनगर"
+    },
+    {
+     "id": "Q24910378",
+     "name": "Kandhar taluka",
+     "nameMr": "कंधार तालुका"
+    },
+    {
+     "id": "Q24911593",
+     "name": "Kinwat taluka",
+     "nameMr": "किनवट"
+    },
+    {
+     "id": "Q13120897",
+     "name": "Loha taluka",
+     "nameMr": "लोहा"
+    },
+    {
+     "id": "Q24911597",
+     "name": "Mahur taluka",
+     "nameMr": "माहूर तालुका"
+    },
+    {
+     "id": "Q19811666",
+     "name": "Mudkhed taluka",
+     "nameMr": "मुदखेड"
+    },
+    {
+     "id": "Q19811667",
+     "name": "Mukhed taluka",
+     "nameMr": "मुखेड"
+    },
+    {
+     "id": "Q13118268",
+     "name": "Naigaon (Khairgaon) taluka",
+     "nameMr": "नायगाव"
+    },
+    {
+     "id": "Q19808291",
+     "name": "Nanded taluka",
+     "nameMr": "नांदेड तालुका"
+    },
+    {
+     "id": "Q19805030",
+     "name": "Umri taluka",
+     "nameMr": "उमरी"
+    }
+   ],
+   "region": "marathwada"
+  },
+  {
+   "id": "Q1623525",
+   "name": "Nandurbar district",
+   "nameMr": "नंदुरबार जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Nandurbar_district",
+   "talukas": [
+    {
+     "id": "Q123267099",
+     "name": "Akkalkuwa taluka",
+     "nameMr": "अक्कलकुवा तालुका"
+    },
+    {
+     "id": "Q123267220",
+     "name": "Akrani taluka",
+     "nameMr": "अक्राणी तालुका"
+    },
+    {
+     "id": "Q2762038",
+     "name": "Nandurbar taluka",
+     "nameMr": "नंदुरबार तालुका"
+    },
+    {
+     "id": "Q18016211",
+     "name": "Nawapur taluka",
+     "nameMr": "नवापूर तालुका"
+    },
+    {
+     "id": "Q2773808",
+     "name": "Shahade taluka",
+     "nameMr": "शहादा तालुका"
+    },
+    {
+     "id": "Q2759906",
+     "name": "Talode taluka",
+     "nameMr": "तळोदे तालुका"
+    }
+   ],
+   "region": "north-maharashtra"
+  },
+  {
+   "id": "Q1797269",
+   "name": "Nashik district",
+   "nameMr": "नाशिक जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Nashik_district",
+   "talukas": [
+    {
+     "id": "Q4841973",
+     "name": "Baglan Taluka",
+     "nameMr": "सटाणा तालुका"
+    },
+    {
+     "id": "Q2747410",
+     "name": "Chandvad Taluka",
+     "nameMr": "चांदवड तालुका"
+    },
+    {
+     "id": "Q2761219",
+     "name": "Deola taluka",
+     "nameMr": "देवळा तालुका"
+    },
+    {
+     "id": "Q2759394",
+     "name": "Dindori taluka",
+     "nameMr": "दिंडोरी तालुका"
+    },
+    {
+     "id": "Q2724597",
+     "name": "Igatpuri taluka",
+     "nameMr": "इगतपुरी तालुका"
+    },
+    {
+     "id": "Q2722397",
+     "name": "Kalwan Taluka",
+     "nameMr": "कळवण"
+    },
+    {
+     "id": "Q2768650",
+     "name": "Malegaon taluka",
+     "nameMr": "मालेगाव"
+    },
+    {
+     "id": "Q2762499",
+     "name": "Nandgaon taluka",
+     "nameMr": "नांदगाव तालुका"
+    },
+    {
+     "id": "Q2763192",
+     "name": "Nashik taluka",
+     "nameMr": "नाशिक तालुका"
+    },
+    {
+     "id": "Q2763229",
+     "name": "Niphad taluka",
+     "nameMr": "निफाड तालुका"
+    },
+    {
+     "id": "Q2764763",
+     "name": "Peth taluka",
+     "nameMr": "पेठ तालुका"
+    },
+    {
+     "id": "Q2722162",
+     "name": "Sinnar taluka",
+     "nameMr": "सिन्नर तालुका"
+    },
+    {
+     "id": "Q2775853",
+     "name": "Surgana taluka",
+     "nameMr": "सुरगाणा तालुका"
+    },
+    {
+     "id": "Q2760236",
+     "name": "Trimbakeshwar taluka",
+     "nameMr": "त्र्यंबकेश्वर तालुका"
+    },
+    {
+     "id": "Q2769785",
+     "name": "Yevla taluka",
+     "nameMr": "येवला तालुका"
+    }
+   ],
+   "region": "north-maharashtra"
+  },
+  {
+   "id": "Q18003119",
+   "name": "Palghar district",
+   "nameMr": "पालघर जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Palghar_district",
+   "talukas": [
+    {
+     "id": "Q19807410",
+     "name": "Dahanu taluka",
+     "nameMr": "डहाणू तालुका"
+    },
+    {
+     "id": "Q13117334",
+     "name": "Jawahar taluka",
+     "nameMr": "जव्हार तालुका"
+    },
+    {
+     "id": "Q12939286",
+     "name": "Mokhada taluka",
+     "nameMr": "मोखाडा तालुका"
+    },
+    {
+     "id": "Q12931755",
+     "name": "Palghar taluka",
+     "nameMr": "पालघर तालुका"
+    },
+    {
+     "id": "Q12926774",
+     "name": "Talasari taluka",
+     "nameMr": "तलासरी तालुका"
+    },
+    {
+     "id": "Q13120964",
+     "name": "Vasai taluka",
+     "nameMr": "वसई तालुका"
+    },
+    {
+     "id": "Q12942791",
+     "name": "Vikramgadh taluka",
+     "nameMr": "विक्रमगड तालुका"
+    },
+    {
+     "id": "Q21065888",
+     "name": "Wada taluka",
+     "nameMr": "वाडा तालुका"
+    }
+   ],
+   "region": "konkan"
+  },
+  {
+   "id": "Q1797389",
+   "name": "Parbhani district",
+   "nameMr": "परभणी जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Parbhani_district",
+   "talukas": [
+    {
+     "id": "Q13116783",
+     "name": "Gangakhed taluka",
+     "nameMr": "गंगाखेड"
+    },
+    {
+     "id": "Q123267124",
+     "name": "Jintur taluka",
+     "nameMr": "जिंतूर तालुका"
+    },
+    {
+     "id": "Q13119890",
+     "name": "Manwath taluka",
+     "nameMr": "मानवत"
+    },
+    {
+     "id": "Q19808867",
+     "name": "Palam taluka",
+     "nameMr": "पालम"
+    },
+    {
+     "id": "Q13118559",
+     "name": "Parbhani taluka",
+     "nameMr": "परभणी तालुका"
+    },
+    {
+     "id": "Q123267155",
+     "name": "Pathri taluka",
+     "nameMr": "पाथरी तालुका"
+    },
+    {
+     "id": "Q19809004",
+     "name": "Purna taluka",
+     "nameMr": "पूर्णा तालुका"
+    },
+    {
+     "id": "Q20584985",
+     "name": "Selu taluka",
+     "nameMr": "सेलू तालुका"
+    },
+    {
+     "id": "Q123267160",
+     "name": "Sonpeth taluka",
+     "nameMr": "सोनपेठ तालुका"
+    }
+   ],
+   "region": "marathwada"
+  },
+  {
+   "id": "Q1797336",
+   "name": "Pune district",
+   "nameMr": "पुणे जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Pune_district",
+   "talukas": [
+    {
+     "id": "Q4741195",
+     "name": "Ambegaon taluka",
+     "nameMr": "आंबेगाव तालुका"
+    },
+    {
+     "id": "Q4858311",
+     "name": "Baramati taluka",
+     "nameMr": "बारामती तालुका"
+    },
+    {
+     "id": "Q4902048",
+     "name": "Bhor taluka",
+     "nameMr": "भोर तालुका"
+    },
+    {
+     "id": "Q1194806",
+     "name": "Daund taluka",
+     "nameMr": "दौंड तालुका"
+    },
+    {
+     "id": "Q3309810",
+     "name": "Haveli Taluka",
+     "nameMr": "हवेली तालुका"
+    },
+    {
+     "id": "Q6015690",
+     "name": "Indapur taluka",
+     "nameMr": "इंदापूर तालुका"
+    },
+    {
+     "id": "Q12429090",
+     "name": "Junnar taluka",
+     "nameMr": "जुन्नर तालुका"
+    },
+    {
+     "id": "Q6401178",
+     "name": "Khed taluka",
+     "nameMr": "खेड तालुका"
+    },
+    {
+     "id": "Q6794120",
+     "name": "Maval taluka",
+     "nameMr": "मावळ तालुका"
+    },
+    {
+     "id": "Q6934339",
+     "name": "Mulshi taluka",
+     "nameMr": "मुळशी"
+    },
+    {
+     "id": "Q7260101",
+     "name": "Pune City taluka",
+     "nameMr": "पुणे शहर तालुका"
+    },
+    {
+     "id": "Q7260837",
+     "name": "Purandar taluka",
+     "nameMr": "पुरंदर तालुका"
+    },
+    {
+     "id": "Q7499003",
+     "name": "Shirur taluka",
+     "nameMr": "शिरूर तालुका"
+    },
+    {
+     "id": "Q7918914",
+     "name": "Velhe taluka",
+     "nameMr": "राजगड तालुका"
+    }
+   ],
+   "region": "western-maharashtra"
+  },
+  {
+   "id": "Q2019683",
+   "name": "Raigad district",
+   "nameMr": "रायगड जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Raigad_district",
+   "talukas": [
+    {
+     "id": "Q24928034",
+     "name": "Alibag taluka",
+     "nameMr": "अलिबाग तालुका"
+    },
+    {
+     "id": "Q24928039",
+     "name": "Karjat taluka",
+     "nameMr": "कर्जत तालुका"
+    },
+    {
+     "id": "Q13116763",
+     "name": "Khalapur taluka",
+     "nameMr": "खालापूर तालुका"
+    },
+    {
+     "id": "Q19810956",
+     "name": "Mahad taluka",
+     "nameMr": "महाड तालुका"
+    },
+    {
+     "id": "Q19811320",
+     "name": "Mangaon taluka",
+     "nameMr": "माणगाव तालुका"
+    },
+    {
+     "id": "Q24928049",
+     "name": "Mhasala taluka",
+     "nameMr": "म्हसळा तालुका"
+    },
+    {
+     "id": "Q24928059",
+     "name": "Murud taluka",
+     "nameMr": "मुरूड तालुका"
+    },
+    {
+     "id": "Q19808729",
+     "name": "Panvel taluka",
+     "nameMr": "पनवेल तालुका"
+    },
+    {
+     "id": "Q24928048",
+     "name": "Pen taluka",
+     "nameMr": "पेण तालुका"
+    },
+    {
+     "id": "Q13118893",
+     "name": "Poladpur taluka",
+     "nameMr": "पोलादपूर तालुका"
+    },
+    {
+     "id": "Q19812970",
+     "name": "Roha taluka",
+     "nameMr": "रोहा तालुका"
+    },
+    {
+     "id": "Q13121640",
+     "name": "Shrivardhan taluka",
+     "nameMr": "श्रीवर्धन तालुका"
+    },
+    {
+     "id": "Q20584128",
+     "name": "Sudhagad - Pali taluka",
+     "nameMr": "सुधागड तालुका"
+    },
+    {
+     "id": "Q24928055",
+     "name": "Tala taluka",
+     "nameMr": "तळा तालुका"
+    },
+    {
+     "id": "Q19805032",
+     "name": "Uran taluka",
+     "nameMr": "उरण तालुका"
+    }
+   ],
+   "region": "konkan"
+  },
+  {
+   "id": "Q1771768",
+   "name": "Ratnagiri district",
+   "nameMr": "रत् नागिरी जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Ratnagiri_district",
+   "talukas": [
+    {
+     "id": "Q24188089",
+     "name": "Chiplun taluka",
+     "nameMr": "चिपळूण तालुका"
+    },
+    {
+     "id": "Q24928184",
+     "name": "Dapoli taluka",
+     "nameMr": "दापोली तालुका"
+    },
+    {
+     "id": "Q24928177",
+     "name": "Guhagar taluka",
+     "nameMr": "गुहागर तालुका"
+    },
+    {
+     "id": "Q123267950",
+     "name": "Khed taluka",
+     "nameMr": "खेड तालुका"
+    },
+    {
+     "id": "Q24928169",
+     "name": "Lanja taluka",
+     "nameMr": "लांजा तालुका"
+    },
+    {
+     "id": "Q24928186",
+     "name": "Mandangad taluka",
+     "nameMr": "मंडणगड"
+    },
+    {
+     "id": "Q24928170",
+     "name": "Rajapur taluka"
+    },
+    {
+     "id": "Q13120406",
+     "name": "Ratnagiri taluka",
+     "nameMr": "रत्नागिरी तालुका"
+    },
+    {
+     "id": "Q20581138",
+     "name": "Sangameshwar taluka",
+     "nameMr": "संगमेश्वर तालुका"
+    }
+   ],
+   "region": "konkan"
+  },
+  {
+   "id": "Q1425060",
+   "name": "Sangli district",
+   "nameMr": "सांगली जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Sangli_district",
+   "talukas": [
+    {
+     "id": "Q13115672",
+     "name": "Atpadi Taluka",
+     "nameMr": "आटपाडी तालुका"
+    },
+    {
+     "id": "Q19806969",
+     "name": "Jat taluka",
+     "nameMr": "जत तालुका"
+    },
+    {
+     "id": "Q13116234",
+     "name": "Kadegaon taluka",
+     "nameMr": "कडेगांव तालुका"
+    },
+    {
+     "id": "Q97250319",
+     "name": "Kavathemahankal taluka",
+     "nameMr": "कवठे महांकाळ तालुका"
+    },
+    {
+     "id": "Q123267133",
+     "name": "Khanapur taluka",
+     "nameMr": "खानापूर (विटा) तालुका"
+    },
+    {
+     "id": "Q13119997",
+     "name": "Miraj taluka",
+     "nameMr": "मिरज तालुका"
+    },
+    {
+     "id": "Q13118603",
+     "name": "Palus taluka",
+     "nameMr": "पलुस तालुका"
+    },
+    {
+     "id": "Q20579693",
+     "name": "Shirala taluka",
+     "nameMr": "शिराळा तालुका"
+    },
+    {
+     "id": "Q19807595",
+     "name": "Tasgaon taluka",
+     "nameMr": "तासगांव तालुका"
+    },
+    {
+     "id": "Q20578871",
+     "name": "Walwa taluka",
+     "nameMr": "वाळवा तालुका"
+    }
+   ],
+   "region": "western-maharashtra"
+  },
+  {
+   "id": "Q1135612",
+   "name": "Satara district",
+   "nameMr": "सातारा जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Satara_district",
+   "talukas": [
+    {
+     "id": "Q2758156",
+     "name": "Jawali Taluka",
+     "nameMr": "जावळी तालुका"
+    },
+    {
+     "id": "Q2727208",
+     "name": "Karad taluka",
+     "nameMr": "कऱ्हाड तालुका"
+    },
+    {
+     "id": "Q2729575",
+     "name": "Khandala Taluka",
+     "nameMr": "खंडाळा तालुका"
+    },
+    {
+     "id": "Q2729760",
+     "name": "Khatav taluka",
+     "nameMr": "खटाव तालुका"
+    },
+    {
+     "id": "Q2729340",
+     "name": "Koregaon Taluka",
+     "nameMr": "कोरेगांव तालुका"
+    },
+    {
+     "id": "Q2768073",
+     "name": "Mahabaleshwar taluka",
+     "nameMr": "महाबळेश्वर तालुका"
+    },
+    {
+     "id": "Q2768383",
+     "name": "Man taluka",
+     "nameMr": "माण तालुका"
+    },
+    {
+     "id": "Q2763954",
+     "name": "Patan taluka",
+     "nameMr": "पाटण तालुका"
+    },
+    {
+     "id": "Q2765106",
+     "name": "Phaltan taluka",
+     "nameMr": "फलटण तालुका"
+    },
+    {
+     "id": "Q2775119",
+     "name": "Satara taluka",
+     "nameMr": "सातारा तालुका"
+    },
+    {
+     "id": "Q2772584",
+     "name": "Wai taluka",
+     "nameMr": "वाई तालुका"
+    }
+   ],
+   "region": "western-maharashtra"
+  },
+  {
+   "id": "Q768332",
+   "name": "Sindhudurg district",
+   "nameMr": "सिंधुदुर्ग जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Sindhudurg_district",
+   "talukas": [
+    {
+     "id": "Q5266934",
+     "name": "Devgad taluka",
+     "nameMr": "देवगड तालुका"
+    },
+    {
+     "id": "Q19808078",
+     "name": "Dodamarg taluka",
+     "nameMr": "दोडामार्ग तालुका"
+    },
+    {
+     "id": "Q13116239",
+     "name": "Kankavli taluka",
+     "nameMr": "कणकवली तालुका"
+    },
+    {
+     "id": "Q19805936",
+     "name": "Kudal taluka",
+     "nameMr": "कुडाळ तालुका"
+    },
+    {
+     "id": "Q19811504",
+     "name": "Malvan taluka",
+     "nameMr": "मालवण तालुका"
+    },
+    {
+     "id": "Q20583427",
+     "name": "Sawantwadi taluka",
+     "nameMr": "सावंतवाडी तालुका"
+    },
+    {
+     "id": "Q13121296",
+     "name": "Vaibhavvadi taluka",
+     "nameMr": "वैभववाडी तालुका"
+    },
+    {
+     "id": "Q24928695",
+     "name": "Vengurla taluka",
+     "nameMr": "वेंगुर्ला तालुका"
+    }
+   ],
+   "region": "konkan"
+  },
+  {
+   "id": "Q1797263",
+   "name": "Solapur district",
+   "nameMr": "सोलापूर जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Solapur_district",
+   "talukas": [
+    {
+     "id": "Q4701311",
+     "name": "Akkalkot Taluka",
+     "nameMr": "अक्कलकोट तालुका"
+    },
+    {
+     "id": "Q4864990",
+     "name": "Barshi Taluka",
+     "nameMr": "बार्शी तालुका"
+    },
+    {
+     "id": "Q17064102",
+     "name": "Karmala Taluka",
+     "nameMr": "करमाळा तालुका"
+    },
+    {
+     "id": "Q17070658",
+     "name": "Madha Taluka",
+     "nameMr": "माढा तालुका"
+    },
+    {
+     "id": "Q123267195",
+     "name": "Malshiras taluka"
+    },
+    {
+     "id": "Q123267101",
+     "name": "Mangalvedhe taluka"
+    },
+    {
+     "id": "Q123267147",
+     "name": "Mohol taluka"
+    },
+    {
+     "id": "Q7056773",
+     "name": "North Solapur taluka",
+     "nameMr": "उत्तर सोलापूर"
+    },
+    {
+     "id": "Q31738717",
+     "name": "Pandharpur taluka",
+     "nameMr": "पंढरपूर तालुका"
+    },
+    {
+     "id": "Q123267246",
+     "name": "Sangole taluka"
+    },
+    {
+     "id": "Q7555805",
+     "name": "Solapur South Taluka",
+     "nameMr": "दक्षिण सोलापूर"
+    }
+   ],
+   "region": "western-maharashtra"
+  },
+  {
+   "id": "Q943099",
+   "name": "Thane district",
+   "nameMr": "ठाणे जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Thane_district",
+   "talukas": [
+    {
+     "id": "Q19803832",
+     "name": "Ambarnath taluka",
+     "nameMr": "अंबरनाथ तालुका"
+    },
+    {
+     "id": "Q17375236",
+     "name": "Bhiwandi taluka",
+     "nameMr": "भिवंडी तालुका"
+    },
+    {
+     "id": "Q6354875",
+     "name": "Kalyan Taluka",
+     "nameMr": "कल्याण तालुका"
+    },
+    {
+     "id": "Q12938862",
+     "name": "Murbad taluka",
+     "nameMr": "मुरबाड तालुका"
+    },
+    {
+     "id": "Q12943857",
+     "name": "Shahapur taluka",
+     "nameMr": "शहापूर तालुका"
+    },
+    {
+     "id": "Q24928111",
+     "name": "Thane taluka",
+     "nameMr": "ठाणे तालुका"
+    },
+    {
+     "id": "Q13116030",
+     "name": "Ulhasnagar taluka",
+     "nameMr": "उल्हासनगर तालुका"
+    }
+   ],
+   "region": "konkan"
+  },
+  {
+   "id": "Q980608",
+   "name": "Wardha district",
+   "nameMr": "वर्धा जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Wardha_district",
+   "talukas": [
+    {
+     "id": "Q123267230",
+     "name": "Arvi taluka"
+    },
+    {
+     "id": "Q123267245",
+     "name": "Ashti taluka",
+     "nameMr": "आष्टी तालुका"
+    },
+    {
+     "id": "Q2761221",
+     "name": "Devali taluka",
+     "nameMr": "देवळी"
+    },
+    {
+     "id": "Q106998279",
+     "name": "Hinganghat taluka",
+     "nameMr": "हिंगणघाट तालुका"
+    },
+    {
+     "id": "Q2727914",
+     "name": "Karanja taluka",
+     "nameMr": "कारंजा (घाडगे)"
+    },
+    {
+     "id": "Q2774602",
+     "name": "Samudrapur taluka",
+     "nameMr": "समुद्रपूर"
+    },
+    {
+     "id": "Q2776112",
+     "name": "Seloo taluka",
+     "nameMr": "सेलू तालुका (वर्धा)"
+    },
+    {
+     "id": "Q2772215",
+     "name": "Wardha taluka",
+     "nameMr": "वर्धा तालुका"
+    }
+   ],
+   "region": "vidarbha"
+  },
+  {
+   "id": "Q1804858",
+   "name": "Washim district",
+   "nameMr": "वाशिम जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Washim_district",
+   "talukas": [
+    {
+     "id": "Q13116387",
+     "name": "Karanja taluka",
+     "nameMr": "कारंजा तालुका"
+    },
+    {
+     "id": "Q19811515",
+     "name": "Malegaon taluka",
+     "nameMr": "मालेगाव"
+    },
+    {
+     "id": "Q106998531",
+     "name": "Mangrulpir taluka",
+     "nameMr": "मंगरुळपीर तालुका"
+    },
+    {
+     "id": "Q123267164",
+     "name": "Manora taluka",
+     "nameMr": "मानोरा तालुका"
+    },
+    {
+     "id": "Q106998598",
+     "name": "Risod taluka",
+     "nameMr": "रिसोड तालुका"
+    },
+    {
+     "id": "Q19815608",
+     "name": "Washim taluka",
+     "nameMr": "वाशिम तालुका"
+    }
+   ],
+   "region": "vidarbha"
+  },
+  {
+   "id": "Q1804852",
+   "name": "Yavatmal district",
+   "nameMr": "यवतमाळ जिल्हा",
+   "wikipedia": "https://en.wikipedia.org/wiki/Yavatmal_district",
+   "talukas": [
+    {
+     "id": "Q2724037",
+     "name": "Arni taluka",
+     "nameMr": "आर्णी तालुका"
+    },
+    {
+     "id": "Q2765798",
+     "name": "Babulgaon taluka",
+     "nameMr": "बाभुळगाव तालुका"
+    },
+    {
+     "id": "Q2760721",
+     "name": "Darwha taluka",
+     "nameMr": "दारव्हा तालुका"
+    },
+    {
+     "id": "Q2760770",
+     "name": "Digras taluka",
+     "nameMr": "दिग्रस तालुका"
+    },
+    {
+     "id": "Q2732968",
+     "name": "Ghatanji taluka",
+     "nameMr": "घाटंजी तालुका"
+    },
+    {
+     "id": "Q2727403",
+     "name": "Kalamb taluka",
+     "nameMr": "कळंब (यवतमाळ)"
+    },
+    {
+     "id": "Q2728873",
+     "name": "Kelapur taluka",
+     "nameMr": "केळापूर"
+    },
+    {
+     "id": "Q2768048",
+     "name": "Mahagaon taluka",
+     "nameMr": "महागाव तालुका"
+    },
+    {
+     "id": "Q2768552",
+     "name": "Maregaon taluka",
+     "nameMr": "मारेगाव तालुका"
+    },
+    {
+     "id": "Q2763345",
+     "name": "Ner taluka",
+     "nameMr": "नेर तालुका"
+    },
+    {
+     "id": "Q2764727",
+     "name": "Pusad taluka",
+     "nameMr": "पुसद तालुका"
+    },
+    {
+     "id": "Q2770729",
+     "name": "Ralegaon taluka",
+     "nameMr": "राळेगाव तालुका"
+    },
+    {
+     "id": "Q2725521",
+     "name": "Umarkhed taluka",
+     "nameMr": "उमरखेड तालुका"
+    },
+    {
+     "id": "Q13120918",
+     "name": "Wani Taluka",
+     "nameMr": "वणी (यवतमाळ)"
+    },
+    {
+     "id": "Q2769748",
+     "name": "Yavatmal taluka",
+     "nameMr": "यवतमाळ तालुका"
+    },
+    {
+     "id": "Q2758754",
+     "name": "Zari-Jamani taluka",
+     "nameMr": "झरी जामणी तालुका"
+    }
+   ],
+   "region": "vidarbha"
+  }
+ ],
+ "places": [
+  {
+   "id": "Q864862",
+   "name": "Gateway of India",
+   "nameMr": "भारताचे प्रवेशद्वार",
+   "description": "monument in Mumbai, India",
+   "kind": "heritage",
+   "region": "konkan",
+   "district": "Q2341660",
+   "coords": [
+    18.92198263,
+    72.83465811
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Gateway_of_India",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q1356198",
+   "name": "Kanheri Caves",
+   "nameMr": "कान्हेरी लेणी",
+   "description": "ancient caves in Mumbai, India",
+   "kind": "heritage",
+   "region": "konkan",
+   "district": "Q2085374",
+   "coords": [
+    19.20833333,
+    72.90638889
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Kanheri_Caves",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q648907",
+   "name": "Sanjay Gandhi National Park",
+   "nameMr": "संजय गांधी राष्ट्रीय उद्यान",
+   "description": "national park in Mumbai, India",
+   "kind": "nature",
+   "region": "konkan",
+   "district": "Q2085374",
+   "coords": [
+    19.25,
+    72.91666667
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Sanjay_Gandhi_National_Park",
+   "verifiedBy": "wikipedia"
+  },
+  {
+   "id": "Q649384",
+   "name": "Elephanta Caves",
+   "nameMr": "घारापुरीची लेणी",
+   "description": "Shiva cave temples and UNESCO world heritage site on a Mumbai harbor island",
+   "kind": "heritage",
+   "region": "konkan",
+   "district": "Q2019683",
+   "coords": [
+    18.96333333,
+    72.93138889
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Elephanta_Caves",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q3626515",
+   "name": "Raigad Fort",
+   "nameMr": "रायगड",
+   "description": "hill fort in Maharashtra, India",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q2019683",
+   "coords": [
+    18.2335,
+    73.4406
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Raigad_Fort",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q301996",
+   "name": "Murud-Janjira",
+   "nameMr": "मुरुड जंजिरा",
+   "description": "Marine fort",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q2019683",
+   "coords": [
+    18.299589,
+    72.964425
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Murud-Janjira",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q463526",
+   "name": "Matheran",
+   "nameMr": "माथेरान",
+   "description": "hill station near Mumbai, Maharashtra",
+   "kind": "hill-station",
+   "region": "konkan",
+   "district": "Q2019683",
+   "coords": [
+    18.9866,
+    73.2679
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Matheran",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q5521478",
+   "name": "Ganpatipule",
+   "nameMr": "गणपतीपुळे",
+   "description": "town in India",
+   "kind": "beach",
+   "region": "konkan",
+   "district": "Q1771768",
+   "coords": [
+    17.1448,
+    73.2666
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Ganpatipule",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q13413791",
+   "name": "Sindhudurg Fort",
+   "nameMr": "सिंधुदुर्ग",
+   "description": "Island fort in Arabian Sea off the coast of Western India",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q768332",
+   "coords": [
+    16.043769,
+    73.461416
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Sindhudurg_Fort",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q12431913",
+   "name": "Tarkarli",
+   "nameMr": "तारकर्ली",
+   "description": "village in Maharashtra, India",
+   "kind": "beach",
+   "region": "konkan",
+   "district": "Q768332",
+   "coords": [
+    16.056535,
+    73.468752
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Tarkarli",
+   "verifiedBy": "wikipedia"
+  },
+  {
+   "id": "Q1351060",
+   "name": "Shaniwar Wada",
+   "nameMr": "शनिवार वाडा",
+   "description": "Royal Palace of Peshwas",
+   "kind": "heritage",
+   "region": "western-maharashtra",
+   "district": "Q1797336",
+   "coords": [
+    18.519075,
+    73.85545
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Shaniwar_Wada",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q3078248",
+   "name": "Sinhagad",
+   "nameMr": "सिंहगड",
+   "description": "hill fortress in Pune, Maharashtra",
+   "kind": "fort",
+   "region": "western-maharashtra",
+   "district": "Q1797336",
+   "coords": [
+    18.36566389,
+    73.75526944
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Sinhagad",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q1093326",
+   "name": "Bhimashankar Temple",
+   "nameMr": "भिमाशंकर",
+   "description": "Shiva ( Jyotirlinga) temple in Maharashtra, India",
+   "kind": "temple",
+   "region": "western-maharashtra",
+   "district": "Q1797336",
+   "coords": [
+    19.072,
+    73.536
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Bhimashankar_Temple",
+   "verifiedBy": "wikipedia"
+  },
+  {
+   "id": "Q1929511",
+   "name": "Lonavala",
+   "nameMr": "लोणावळा",
+   "description": "hill station in Pune district, Maharashtra, India",
+   "kind": "hill-station",
+   "region": "western-maharashtra",
+   "district": "Q1797336",
+   "coords": [
+    18.74806,
+    73.40722
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Lonavala",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q463273",
+   "name": "Mahabaleshwar",
+   "nameMr": "महाबळेश्वर",
+   "description": "hill station in Maharashtra, India",
+   "kind": "hill-station",
+   "region": "western-maharashtra",
+   "district": "Q1135612",
+   "coords": [
+    17.925,
+    73.6575
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Mahabaleshwar",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q6343582",
+   "name": "Kas Plateau Reserved Forest",
+   "nameMr": "कास पठार",
+   "description": "natural heritage site of Maharashtra, India",
+   "kind": "nature",
+   "region": "western-maharashtra",
+   "district": "Q1135612",
+   "coords": [
+    17.72,
+    73.82277778
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Kas_Plateau_Reserved_Forest",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q3582929",
+   "name": "Pratapgad",
+   "nameMr": "प्रतापगड",
+   "description": "fort in Maharashtra, India",
+   "kind": "fort",
+   "region": "western-maharashtra",
+   "district": "Q1135612",
+   "coords": [
+    17.936224,
+    73.577607
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Pratapgad",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q38250954",
+   "name": "Bhilar",
+   "kind": "village",
+   "region": "western-maharashtra",
+   "district": "Q1135612",
+   "coords": [
+    17.913,
+    73.762
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Bhilar",
+   "verifiedBy": "wikipedia"
+  },
+  {
+   "id": "Q3595240",
+   "name": "Mahalakshmi Temple, Kolhapur",
+   "nameMr": "महालक्ष्मी मंदिर",
+   "description": "Temple of Lakshmi",
+   "kind": "temple",
+   "region": "western-maharashtra",
+   "district": "Q1797312",
+   "coords": [
+    16.7,
+    74.23333333
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Mahalakshmi_Temple%2C_Kolhapur",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q7131008",
+   "name": "Panhala Fort",
+   "nameMr": "पन्हाळा किल्ला",
+   "description": "Mediaeval Era Fort in Western Maharashtra",
+   "kind": "fort",
+   "region": "western-maharashtra",
+   "district": "Q1797312",
+   "wikipedia": "https://en.wikipedia.org/wiki/Panhala_Fort",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q1779418",
+   "name": "Pandharpur",
+   "nameMr": "पंढरपूर",
+   "description": "town",
+   "kind": "pilgrimage",
+   "region": "western-maharashtra",
+   "district": "Q1797263",
+   "coords": [
+    17.67777778,
+    75.32777778
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Pandharpur",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q2426825",
+   "name": "Trimbakeshwar Temple",
+   "nameMr": "त्र्यंबकेश्वर",
+   "description": "Shiva ( Jyotirlinga) temple in Maharashtra, India",
+   "kind": "temple",
+   "region": "north-maharashtra",
+   "district": "Q1797269",
+   "coords": [
+    19.93222222,
+    73.53083333
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Trimbakeshwar_Temple",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q7130537",
+   "name": "Nasik Caves",
+   "nameMr": "त्रिरश्मी लेणी",
+   "description": "ancient Buddhist cave complex in Nashik, India",
+   "kind": "heritage",
+   "region": "north-maharashtra",
+   "district": "Q1797269",
+   "coords": [
+    19.9412,
+    73.7486
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Nasik_Caves",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q6096471",
+   "name": "Saptashrungi",
+   "nameMr": "सप्तशृंगी देवी",
+   "description": "pilgrimage site in India",
+   "kind": "temple",
+   "region": "north-maharashtra",
+   "district": "Q1797269",
+   "coords": [
+    20.39027778,
+    73.90861111
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Saptashrungi",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q1949112",
+   "name": "Shirdi",
+   "nameMr": "शिर्डी",
+   "description": "human settlement in India",
+   "kind": "pilgrimage",
+   "region": "north-maharashtra",
+   "district": "Q401744",
+   "coords": [
+    19.77,
+    74.48
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Shirdi",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q2723631",
+   "name": "Shani Shingnapur",
+   "nameMr": "शनी शिंगणापूर",
+   "description": "village known for its Hindu shrine",
+   "kind": "village",
+   "region": "north-maharashtra",
+   "district": "Q401744",
+   "coords": [
+    19.4,
+    74.8167
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Shani_Shingnapur",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q3595192",
+   "name": "Ralegan Siddhi",
+   "nameMr": "राळेगण सिद्धी",
+   "description": "village in Maharashtra, India",
+   "kind": "village",
+   "region": "north-maharashtra",
+   "district": "Q401744",
+   "coords": [
+    18.92,
+    74.41
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Ralegan_Siddhi",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q5872827",
+   "name": "Hiware Bazar",
+   "nameMr": "हिवरे बाजार",
+   "description": "village in Maharashtra, India",
+   "kind": "village",
+   "region": "north-maharashtra",
+   "district": "Q401744",
+   "coords": [
+    19.06861111,
+    74.60111111
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Hiware_Bazar",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q7825410",
+   "name": "Toranmal",
+   "nameMr": "तोरणमाळ",
+   "description": "town in Maharashtra, India",
+   "kind": "hill-station",
+   "region": "north-maharashtra",
+   "district": "Q1623525",
+   "coords": [
+    21.88,
+    74.46
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Toranmal",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q184427",
+   "name": "Ajanta Caves",
+   "nameMr": "अजिंठा",
+   "description": "2nd century BCE to 1st century CE Buddhist cave monuments located in Maharashtra, India",
+   "kind": "heritage",
+   "region": "marathwada",
+   "district": "Q592942",
+   "coords": [
+    20.55333333,
+    75.70027778
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Ajanta_Caves",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q189616",
+   "name": "Ellora Caves",
+   "nameMr": "वेरूळ",
+   "description": "ancient cave temples of Hinduism, Buddhism and Jainism in Maharashtra, India",
+   "kind": "heritage",
+   "region": "marathwada",
+   "district": "Q592942",
+   "coords": [
+    20.0268,
+    75.1771
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Ellora_Caves",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q856259",
+   "name": "Bibi Ka Maqbara",
+   "nameMr": "बीबी का मकबरा",
+   "description": "Tomb in Chhatrapati Sambhajinagar, Maharashtra",
+   "kind": "heritage",
+   "region": "marathwada",
+   "district": "Q592942",
+   "coords": [
+    19.90151,
+    75.320195
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Bibi_Ka_Maqbara",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q88667786",
+   "name": "Daulatabad Fort",
+   "nameMr": "दौलताबाद किल्ला",
+   "description": "12th-century fortified citadel in Maharashtra, India",
+   "kind": "fort",
+   "region": "marathwada",
+   "district": "Q592942",
+   "coords": [
+    19.942724,
+    75.213164
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Daulatabad_Fort",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q1092799",
+   "name": "Ghrishneshwar Temple",
+   "nameMr": "घृष्णेश्वर",
+   "description": "shrine dedicated to Lord Shiva",
+   "kind": "temple",
+   "region": "marathwada",
+   "district": "Q592942",
+   "coords": [
+    20.02497222,
+    75.16991667
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Ghrishneshwar_Temple",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q3694968",
+   "name": "Hazur Sahib",
+   "nameMr": "हुजूर साहिब नांदेड",
+   "description": "one of the 5 Thakts of Sikhism in Nanded, Maharashtra, India",
+   "kind": "temple",
+   "region": "marathwada",
+   "district": "Q692389",
+   "coords": [
+    19.15277778,
+    77.31861111
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Hazur_Sahib",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q15194007",
+   "name": "Aundha Nagnath Temple",
+   "nameMr": "औंढा नागनाथ मंदिर",
+   "description": "Shiva temple in Hingoli district, Maharashtra",
+   "kind": "temple",
+   "region": "marathwada",
+   "district": "Q2087615",
+   "coords": [
+    19.537087,
+    77.041508
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Aundha_Nagnath_Temple",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q7852108",
+   "name": "Tulja Bhavani Temple",
+   "nameMr": "तुळजा भवानी मंदिर",
+   "description": "Hindu temple in Dharashiv district, Maharashtra",
+   "kind": "temple",
+   "region": "marathwada",
+   "district": "Q1647186",
+   "coords": [
+    18.011386,
+    76.125641
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Tulja_Bhavani_Temple",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q1182325",
+   "name": "Deekshabhoomi",
+   "nameMr": "दीक्षाभूमी",
+   "description": "Buddhist monument at Nagpur, Maharashtra, India",
+   "kind": "heritage",
+   "region": "vidarbha",
+   "district": "Q1797367",
+   "wikipedia": "https://en.wikipedia.org/wiki/Deekshabhoomi",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q2545077",
+   "name": "Ramtek",
+   "nameMr": "रामटेक",
+   "description": "town in Nagpur district with 4th-century Hindu pilgrimage roots",
+   "kind": "temple",
+   "region": "vidarbha",
+   "district": "Q1797367",
+   "wikipedia": "https://en.wikipedia.org/wiki/Ramtek",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q3630222",
+   "name": "Sevagram",
+   "nameMr": "सेवाग्राम",
+   "description": "town in Maharashtra, India",
+   "kind": "village",
+   "region": "vidarbha",
+   "district": "Q980608",
+   "coords": [
+    20.73611111,
+    78.6625
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Sevagram",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q2639563",
+   "name": "Tadoba Andhari Tiger Reserve",
+   "nameMr": "ताडोबा-अंधारी व्याघ्र प्रकल्प",
+   "description": "tiger reserve and national park in Maharashtra, India",
+   "kind": "nature",
+   "region": "vidarbha",
+   "district": "Q1797274",
+   "coords": [
+    20.26666667,
+    79.4
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Tadoba_Andhari_Tiger_Reserve",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q2572189",
+   "name": "Lonar Lake",
+   "nameMr": "लोणार अभयारण्य",
+   "description": "lake in India",
+   "kind": "nature",
+   "region": "vidarbha",
+   "district": "Q47929",
+   "coords": [
+    19.975,
+    76.5075
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Lonar_Lake",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q1105755",
+   "name": "Chikhaldara",
+   "nameMr": "चिखलदरा",
+   "description": "human settlement",
+   "kind": "hill-station",
+   "region": "vidarbha",
+   "district": "Q1771774",
+   "coords": [
+    21.21,
+    77.72
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Chikhaldara",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q2429161",
+   "name": "Melghat",
+   "nameMr": "मेळघाट अभयारण्य",
+   "description": "tiger reserve",
+   "kind": "nature",
+   "region": "vidarbha",
+   "district": "Q1771774",
+   "coords": [
+    21.44583333,
+    77.19722222
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Melghat",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q763034",
+   "name": "Navegaon National Park",
+   "nameMr": "नवेगाव राष्ट्रीय उद्यान",
+   "description": "national park in India",
+   "kind": "nature",
+   "region": "vidarbha",
+   "district": "Q1917227",
+   "coords": [
+    20.93333333,
+    80.16666667
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Navegaon_National_Park",
+   "verifiedBy": "wikidata"
+  }
+ ],
+ "foods": [
+  {
+   "id": "Q2985347",
+   "name": "Vada pav",
+   "nameMr": "वडापाव",
+   "description": "Maharashtrian vegetarian street-food sandwich originating in Mumbai",
+   "region": "konkan",
+   "district": "Q2341660",
+   "wikipedia": "https://en.wikipedia.org/wiki/Vada_pav"
+  },
+  {
+   "id": "Q3629971",
+   "name": "Pav bhaji",
+   "nameMr": "पाव भाजी",
+   "description": "vegetable curry and bread-roll dish originating in Mumbai, India",
+   "region": "konkan",
+   "district": "Q2341660",
+   "wikipedia": "https://en.wikipedia.org/wiki/Pav_bhaji"
+  },
+  {
+   "id": "Q6745026",
+   "name": "Malvani cuisine",
+   "description": "cuisine of South Konkan region",
+   "region": "konkan",
+   "district": "Q768332",
+   "wikipedia": "https://en.wikipedia.org/wiki/Malvani_cuisine"
+  },
+  {
+   "id": "Q7558306",
+   "name": "Solkadhi",
+   "description": "Indian drink",
+   "region": "konkan",
+   "wikipedia": "https://en.wikipedia.org/wiki/Solkadhi"
+  },
+  {
+   "id": "Q6428248",
+   "name": "Kombdi vade",
+   "description": "konkani meal",
+   "region": "konkan",
+   "wikipedia": "https://en.wikipedia.org/wiki/Kombdi_vade"
+  },
+  {
+   "id": "Q3537640",
+   "name": "Misal pav",
+   "nameMr": "मिसळपाव",
+   "description": "Indian Spicy dish",
+   "region": "western-maharashtra",
+   "district": "Q1797312",
+   "wikipedia": "https://en.wikipedia.org/wiki/Misal_pav"
+  },
+  {
+   "id": "Q28035352",
+   "name": "Bakarwadi",
+   "nameMr": "बाकरवडी",
+   "description": "Indian savory snack",
+   "region": "western-maharashtra",
+   "district": "Q1797336",
+   "wikipedia": "https://en.wikipedia.org/wiki/Bakarwadi"
+  },
+  {
+   "id": "Q6956585",
+   "name": "Naan qalia",
+   "region": "marathwada",
+   "district": "Q592942",
+   "wikipedia": "https://en.wikipedia.org/wiki/Naan_qalia"
+  },
+  {
+   "id": "Q6959015",
+   "name": "Nagpur orange",
+   "nameMr": "नागपूर संत्री",
+   "description": "variety of edible fruit",
+   "region": "vidarbha",
+   "district": "Q1797367",
+   "wikipedia": "https://en.wikipedia.org/wiki/Nagpur_orange"
+  },
+  {
+   "id": "Q131056479",
+   "name": "Bhiwapur chilli",
+   "description": "chilli variety grown in Maharashtra, India",
+   "region": "vidarbha",
+   "district": "Q1797367",
+   "wikipedia": "https://en.wikipedia.org/wiki/Bhiwapur_chilli"
+  },
+  {
+   "id": "Q3630852",
+   "name": "Puran poli",
+   "nameMr": "पुरणपोळी",
+   "description": "sweet dish of South India",
+   "region": "statewide",
+   "wikipedia": "https://en.wikipedia.org/wiki/Puran_poli"
+  },
+  {
+   "id": "Q2673557",
+   "name": "Modak",
+   "nameMr": "मोदक",
+   "description": "Indian food",
+   "region": "statewide",
+   "wikipedia": "https://en.wikipedia.org/wiki/Modak"
+  },
+  {
+   "id": "Q2760302",
+   "name": "Thalipeeth",
+   "nameMr": "थालीपीठ",
+   "description": "Indian food",
+   "region": "statewide",
+   "wikipedia": "https://en.wikipedia.org/wiki/Thalipeeth"
+  },
+  {
+   "id": "Q2341683",
+   "name": "Shrikhand",
+   "nameMr": "श्रीखंड",
+   "description": "Indian Food",
+   "region": "statewide",
+   "wikipedia": "https://en.wikipedia.org/wiki/Shrikhand"
+  },
+  {
+   "id": "Q16911670",
+   "name": "Jhunka",
+   "nameMr": "झुणका",
+   "description": "vegetarian traditional dish of India",
+   "region": "statewide",
+   "wikipedia": "https://en.wikipedia.org/wiki/Jhunka"
+  },
+  {
+   "id": "Q17085779",
+   "name": "Thecha",
+   "description": "Indian spicy condiment",
+   "region": "statewide",
+   "wikipedia": "https://en.wikipedia.org/wiki/Thecha"
+  }
+ ]
+}

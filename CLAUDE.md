@@ -1,0 +1,33 @@
+# Maharashtra Darshan
+
+React (Vite) app for exploring Maharashtra: regions → districts → talukas, places to visit and food to try. Public repo, deployed to GitHub Pages.
+
+## Commands
+
+- `npm run dev`: dev server
+- `npm test`: Vitest (tests sit next to the code as `*.test.js(x)`)
+- `npm run lint`, `npm run build`
+- `npm run data`: rebuilds `src/data/maharashtra.json` from Wikidata/Wikipedia (needs network)
+
+## Where things are
+
+- `data/curated.json`: the only hand-edited data: regions, renames, places, foods
+- `scripts/build-data.mjs`: fetches and checks the data, then writes the JSON
+- `src/data/maharashtra.json`: **generated, ~70 KB**. Never edit by hand
+- `src/lib/catalogue.js`: all data access (components never import the JSON)
+- `src/lib/route.js`: hash routes `#/`, `#/region/<id>`, `#/district/<Wikidata id>`
+- `src/components/`: one small component per file
+- `src/index.css`: all styles, mobile-first; each region colour is a CSS variable
+
+## Saving tokens
+
+- Don't read `src/data/maharashtra.json`, `package-lock.json`, `node_modules/` or `dist/`. Query the data with a node one-liner instead, e.g. `node -e "const d=require('./src/data/maharashtra.json'); console.log(d.places.length)"`
+- Read `data/curated.json` only when changing data; search it with grep first.
+- To add data, use the `add-place-or-food` skill.
+
+## Rules
+
+- **No invented data.** Every entry needs a Wikipedia article, and `npm run data` must verify it. If a check fails, drop or fix the entry; never weaken the check.
+- Plain React + CSS, no UI library unless asked. Mobile-first. One component per file.
+- **Security:** never commit secrets, tokens, `.env` files or personal data. The app needs no keys. Don't read files outside this folder, or any config or credential files, without asking the owner first.
+- Commit author must be the GitHub noreply address. New branch + PR per change. Add a line under "Unreleased" in `CHANGELOG.md`.

@@ -1,0 +1,79 @@
+import { describe, expect, it } from 'vitest';
+import {
+  KINDS,
+  STATEWIDE,
+  districts,
+  districtsOf,
+  foods,
+  foodsIn,
+  getDistrict,
+  places,
+  placesIn,
+  regions,
+  search,
+  shortName,
+} from './catalogue';
+
+describe('generated data', () => {
+  it('puts each of the 36 districts in exactly one region', () => {
+    expect(districts).toHaveLength(36);
+    const listed = regions.flatMap((r) => r.districts);
+    expect(listed).toHaveLength(36);
+    expect(new Set(listed).size).toBe(36);
+    for (const d of districts) expect(regions.find((r) => r.id === d.region).districts).toContain(d.id);
+  });
+
+  it('gives every region, district, place and dish a source link', () => {
+    for (const item of [...regions, ...places, ...foods]) {
+      expect(item.source ?? item.wikipedia).toMatch(/^https:\/\/en\.wikipedia\.org\/wiki\//);
+    }
+  });
+
+  it('only references districts, regions and kinds that exist', () => {
+    for (const p of places) {
+      expect(getDistrict(p.district).region).toBe(p.region);
+      expect(KINDS[p.kind]).toBeDefined();
+    }
+    const regionIds = [...regions.map((r) => r.id), STATEWIDE];
+    for (const f of foods) {
+      expect(regionIds).toContain(f.region);
+      if (f.district) expect(getDistrict(f.district).region).toBe(f.region);
+    }
+  });
+
+  it('has no duplicate places or dishes', () => {
+    expect(new Set(places.map((p) => p.id)).size).toBe(places.length);
+    expect(new Set(foods.map((f) => f.id)).size).toBe(foods.length);
+  });
+});
+
+describe('helpers', () => {
+  it('lists a region’s districts alphabetically', () => {
+    const names = districtsOf('vidarbha').map((d) => shortName(d.name));
+    expect(names).toContain('Nagpur');
+    expect(names).toEqual([...names].sort((a, b) => a.localeCompare(b)));
+  });
+
+  it('filters places by district and region', () => {
+    const nagpur = districts.find((d) => d.name === 'Nagpur district');
+    expect(placesIn({ district: nagpur.id }).every((p) => p.district === nagpur.id)).toBe(true);
+    expect(placesIn({ region: 'marathwada' }).map((p) => p.name)).toContain('Ajanta Caves');
+  });
+
+  it('lists a district’s own dishes before the rest of its region’s', () => {
+    const pune = districts.find((d) => d.name === 'Pune district');
+    const list = foodsIn({ district: pune.id });
+    const fromPune = list.filter((f) => f.district === pune.id);
+    expect(fromPune.length).toBeGreaterThan(0);
+    expect(fromPune.length).toBeLessThan(list.length);
+    expect(list.slice(0, fromPune.length)).toEqual(fromPune);
+    expect(list.every((f) => f.region === 'western-maharashtra')).toBe(true);
+  });
+
+  it('searches in English and Marathi', () => {
+    expect(search('lonar').places.map((p) => p.name)).toContain('Lonar Lake');
+    expect(search('विदर्भ').regions.map((r) => r.id)).toEqual(['vidarbha']);
+    expect(search('haveli').talukas[0].district).toBe(districts.find((d) => d.name === 'Pune district').id);
+    expect(search('a').places).toEqual([]);
+  });
+});

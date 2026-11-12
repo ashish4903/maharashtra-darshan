@@ -1,0 +1,19 @@
+node_modules
+dist
+coverage
+*.log
+
+# Local settings and secrets never go in the repo
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.claude/settings.local.json
+
+# Editor and OS files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+Thumbs.db
