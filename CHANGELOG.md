@@ -4,6 +4,12 @@ All notable changes to this project are listed here. The format follows [Keep a 
 
 ## [Unreleased]
 
+### Changed
+
+- 155 places to visit, up from 45, and every district now has at least one. They include more forts, caves, museums, lakes, wildlife sanctuaries and places of worship.
+- Each place and dish now records its photo (the freely licensed lead image of its Wikipedia article) and district centres record coordinates, ready for the map.
+- The data build also checks that every coordinate lies inside Maharashtra.
+
 ### Added
 
 - First version.

@@ -10,6 +10,8 @@
 //        district, or else the place's Wikipedia article names the district
 //      * a dish belongs to its region: its Wikipedia article contains `evidence`
 //      * a rename: the source article contains `evidence`
+//  - Photos are the article's lead image, only when it is freely licensed
+//    (pageimages' default). The app links each photo to its Commons file page.
 //
 // Usage: npm run data
 // Needs network access. No keys or accounts are used.
@@ -32,8 +34,8 @@ async function getJson(url) {
   for (let attempt = 1; ; attempt++) {
     const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT, Accept: 'application/json' } });
     if (res.ok) return res.json();
-    if (attempt === 3) throw new Error(`${res.status} for ${url}`);
-    await sleep(2000 * attempt);
+    if (attempt === 4) throw new Error(`${res.status} for ${url}`);
+    await sleep(5000 * attempt);
   }
 }
 
@@ -45,27 +47,35 @@ async function wikipedia(title) {
   if (wikiCache.has(title)) return wikiCache.get(title);
   const url =
     'https://en.wikipedia.org/w/api.php?action=query&format=json&formatversion=2&redirects=1' +
-    '&prop=extracts|pageprops|coordinates&explaintext=1&ppprop=wikibase_item&titles=' +
+    '&prop=extracts|pageprops|coordinates|pageimages&explaintext=1&ppprop=wikibase_item' +
+    '&piprop=thumbnail|name&pithumbsize=640&titles=' +
     encodeURIComponent(title);
   const page = (await getJson(url)).query.pages[0];
-  await sleep(150);
+  await sleep(400); // stay well under Wikipedia's rate limit
   const result = page.missing
     ? null
     : {
         title: page.title,
         text: page.extract ?? '',
         wikidata: page.pageprops?.wikibase_item,
-        coords: page.coordinates?.[0] ? [page.coordinates[0].lat, page.coordinates[0].lon] : undefined,
+        coords: page.coordinates?.[0] ? [page.coordinates[0].lat, page.coordinates[0].lon].map((n) => +n.toFixed(4)) : undefined,
+        image: page.thumbnail && page.pageimage ? { src: page.thumbnail.source.split('?')[0], file: page.pageimage } : undefined,
       };
   wikiCache.set(title, result);
   return result;
 }
 
+/** "Point(73.85 18.52)" -> [18.52, 73.85] (lat, lon), rounded to ~100 m */
+const point = (wkt) => {
+  const m = /Point\(([-\d.]+) ([-\d.]+)\)/.exec(wkt ?? '');
+  return m ? [+(+m[2]).toFixed(3), +(+m[1]).toFixed(3)] : undefined;
+};
+
 const mentions = (text, names) => names.some((n) => text.toLowerCase().includes(n.toLowerCase()));
 
 async function loadDistricts(curated) {
   const rows = await sparql(`
-    SELECT ?d ?en ?mr ?title (GROUP_CONCAT(DISTINCT ?alias; separator="|") AS ?aliases) WHERE {
+    SELECT ?d ?en ?mr ?title (SAMPLE(?c) AS ?coord) (GROUP_CONCAT(DISTINCT ?alias; separator="|") AS ?aliases) WHERE {
       ?d wdt:P31 wd:${DISTRICT_OF_INDIA}; wdt:P131/wdt:P131* wd:${MAHARASHTRA}; rdfs:label ?en .
       FILTER(lang(?en) = "en")
       FILTER NOT EXISTS { ?d wdt:P576 [] }
@@ -73,6 +83,7 @@ async function loadDistricts(curated) {
       OPTIONAL { ?d rdfs:label ?mr FILTER(lang(?mr) = "mr") }
       OPTIONAL { ?a schema:about ?d; schema:isPartOf <https://en.wikipedia.org/>; schema:name ?title }
       OPTIONAL { ?d skos:altLabel ?alias FILTER(lang(?alias) = "en") }
+      OPTIONAL { ?d wdt:P625 ?c }
     } GROUP BY ?d ?en ?mr ?title`);
   const districts = rows.map((r) => {
     const id = qid(r.d.value);
@@ -86,6 +97,7 @@ async function loadDistricts(curated) {
       name: rename?.name ?? r.en.value,
       nameMr: rename?.nameMr ?? r.mr?.value,
       wikipedia: r.title ? wikiUrl(r.title.value) : undefined,
+      coords: point(r.coord?.value),
       names: [...new Set(names)],
       talukas: [],
     };
@@ -209,6 +221,7 @@ async function main() {
       district: d.id,
       taluka: taluka?.id,
       coords: page.coords,
+      image: page.image,
       wikipedia: wikiUrl(page.title),
       verifiedBy,
     });
@@ -233,6 +246,7 @@ async function main() {
       description: wd?.description,
       region: e.region,
       district: d?.id,
+      image: page.image,
       wikipedia: wikiUrl(page.title),
     });
   }
@@ -243,6 +257,12 @@ async function main() {
       if (seen.has(item.id)) problems.push(`"${item.name}" is listed twice (check for Wikipedia redirects)`);
       seen.add(item.id);
     }
+  }
+
+  // Maharashtra's bounding box (see src/data/outline.json), with a small margin
+  const inState = ([lat, lon]) => lat > 15.5 && lat < 22.2 && lon > 72.5 && lon < 81;
+  for (const item of [...districts, ...places]) {
+    if (item.coords && !inState(item.coords)) problems.push(`"${item.name}": coordinates ${item.coords} are outside Maharashtra`);
   }
 
   for (const n of notes) console.log('note:', n);

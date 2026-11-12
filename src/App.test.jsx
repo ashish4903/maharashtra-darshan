@@ -32,7 +32,8 @@ describe('App', () => {
     await user.click(screen.getByRole('tab', { name: /Places/ }));
     await user.click(screen.getByRole('button', { name: /Forts/ }));
     const cards = screen.getAllByRole('heading', { level: 3 }).map((h) => h.textContent);
-    expect(cards).toEqual(['Daulatabad Fort']);
+    expect(cards).toContain('Daulatabad Fort');
+    expect(cards).not.toContain('Ajanta Caves');
   });
 
   it('searches in Marathi', async () => {
