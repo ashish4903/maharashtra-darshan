@@ -17,6 +17,7 @@ const SYNONYMS = [
 // (U+0300–U+036F) are removed, never Devanagari vowel signs, and letters
 // outside a–z, 0–9 and Devanagari (U+0900–U+097F) become spaces.
 const LATIN_ACCENTS = new RegExp('[\\u0300-\\u036f]', 'g');
+// eslint-disable-next-line no-misleading-character-class -- a code-point range (the Devanagari block), not a combined character
 const NOT_WORD = new RegExp('[^a-z0-9\\u0900-\\u097f]+', 'g');
 
 /** A loose spelling key: lowercase, no accents, folded vowels and aspirates. */
