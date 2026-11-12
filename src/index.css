@@ -258,6 +258,22 @@ ul {
   color: var(--accent-strong);
 }
 
+.lang-switch {
+  padding: 0.4rem 0.8rem;
+  font: inherit;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--accent-strong);
+  background: var(--surface);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  cursor: pointer;
+}
+
+.lang-switch:hover {
+  background: var(--accent-soft);
+}
+
 .nav-count {
   min-width: 1.3rem;
   padding: 0 0.35rem;

@@ -6,15 +6,17 @@ import PlaceCard from './PlaceCard';
 import FoodCard from './FoodCard';
 import NearMe from './NearMe';
 import CircuitCard from './CircuitCard';
+import useLang from '../lib/useLang';
 import { STATEWIDE, circuits, featuredPlaces, foodsIn, regions } from '../lib/catalogue';
 
 export default function HomeView() {
+  const { t } = useLang();
   return (
     <>
       <Hero />
 
       <section id="explore" className="explore" aria-labelledby="explore-heading">
-        <h2 id="explore-heading">Choose a region</h2>
+        <h2 id="explore-heading">{t('home.chooseRegion')}</h2>
         <div className="explore-layout">
           <MaharashtraMap />
           <div className="region-grid">
@@ -25,7 +27,7 @@ export default function HomeView() {
         </div>
       </section>
 
-      <Carousel title="Circuits and pilgrimages" subtitle="Ready-made routes: plan them in days, or add them to your trip">
+      <Carousel title={t('home.circuits')} subtitle={t('home.circuitsSub')}>
         {circuits.map((c) => (
           <li key={c.id}>
             <CircuitCard circuit={c} />
@@ -33,7 +35,7 @@ export default function HomeView() {
         ))}
       </Carousel>
 
-      <Carousel title="Must-see places" subtitle="A few highlights from every region">
+      <Carousel title={t('home.mustSee')} subtitle={t('home.mustSeeSub')}>
         {featuredPlaces(3).map((p) => (
           <li key={p.id}>
             <PlaceCard place={p} showDistrict />
@@ -41,7 +43,7 @@ export default function HomeView() {
         ))}
       </Carousel>
 
-      <Carousel title="Taste of Maharashtra" subtitle="Dishes you’ll find across the state">
+      <Carousel title={t('home.taste')} subtitle={t('home.tasteSub')}>
         {foodsIn({ region: STATEWIDE }).map((f) => (
           <li key={f.id}>
             <FoodCard food={f} />

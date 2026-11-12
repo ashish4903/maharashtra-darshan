@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import TripProvider from './components/TripProvider';
+import LanguageProvider from './components/LanguageProvider';
 import Header from './components/Header';
 import SearchBox from './components/SearchBox';
 import SearchResults from './components/SearchResults';
@@ -50,15 +51,17 @@ export default function App() {
   const key = `${route.view}/${route.id ?? route.ids?.join(',') ?? ''}`;
 
   return (
-    <TripProvider>
-      <Header view={route.view} />
-      <main className="page" ref={main} tabIndex={-1}>
-        <SearchBox value={query} onChange={setQuery} />
-        <div className="view" key={searching ? 'search' : key}>
-          {searching ? <SearchResults query={query} /> : <View route={route} />}
-        </div>
-      </main>
-      <Footer />
-    </TripProvider>
+    <LanguageProvider>
+      <TripProvider>
+        <Header view={route.view} />
+        <main className="page" ref={main} tabIndex={-1}>
+          <SearchBox value={query} onChange={setQuery} />
+          <div className="view" key={searching ? 'search' : key}>
+            {searching ? <SearchResults query={query} /> : <View route={route} />}
+          </div>
+        </main>
+        <Footer />
+      </TripProvider>
+    </LanguageProvider>
   );
 }

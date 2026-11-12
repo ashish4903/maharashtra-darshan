@@ -1,7 +1,9 @@
 import { useState } from 'react';
+import useLang from '../lib/useLang';
 
 /** Uses the phone's share sheet when there is one, otherwise copies the link. */
-export default function ShareButton({ title, url, label = '↗ Share' }) {
+export default function ShareButton({ title, url, label }) {
+  const { t } = useLang();
   const [copied, setCopied] = useState(false);
 
   const share = async () => {
@@ -21,7 +23,7 @@ export default function ShareButton({ title, url, label = '↗ Share' }) {
 
   return (
     <button type="button" className="button button-ghost" onClick={share}>
-      {copied ? '✓ Link copied' : label}
+      {copied ? t('place.copied') : (label ?? t('place.share'))}
     </button>
   );
 }

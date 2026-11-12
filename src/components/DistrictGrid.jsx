@@ -1,7 +1,9 @@
 import Photo from './Photo';
-import { coverImage, placesIn, plural, shortName } from '../lib/catalogue';
+import useLang from '../lib/useLang';
+import { coverImage, placesIn, shortName } from '../lib/catalogue';
 
 export default function DistrictGrid({ districts }) {
+  const { t, name, otherName, lang } = useLang();
   return (
     <ul className="district-grid">
       {districts.map((d) => {
@@ -11,14 +13,18 @@ export default function DistrictGrid({ districts }) {
             <a href={`#/district/${d.id}`} className="district-card">
               <Photo image={coverImage({ district: d.id })} alt="" icon="📍" className="district-photo" />
               <span className="district-text">
-                <span className="district-name">{shortName(d.name)}</span>
-                <span lang="mr">{d.nameMr}</span>
-                {d.knownFor?.length > 0 && <span className="district-known">{d.knownFor
+                <span className="district-name">{shortName(name(d))}</span>
+                <span lang={lang === 'mr' ? 'en' : 'mr'}>{otherName(d)}</span>
+                {d.knownFor?.length > 0 && (
+                  <span className="district-known">
+                    {d.knownFor
                       .slice(0, 2)
                       .map((k) => k.label)
-                      .join(' · ')}</span>}
+                      .join(' · ')}
+                  </span>
+                )}
                 <span className="district-stats">
-                  {plural(count, 'place')} · {plural(d.talukas.length, 'taluka')}
+                  {t('count.place', { n: count })} · {t('count.taluka', { n: d.talukas.length })}
                 </span>
               </span>
             </a>

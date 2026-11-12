@@ -1,11 +1,13 @@
 import TripPlan from './TripPlan';
 import ShareButton from './ShareButton';
 import useTrip from '../lib/useTrip';
+import useLang from '../lib/useLang';
 import { getPlace } from '../lib/catalogue';
 import { tripLink } from '../lib/route';
 
 /** My saved places as a day-by-day plan, or a trip someone shared (`sharedIds`). */
 export default function TripView({ sharedIds }) {
+  const { t } = useLang();
   const { ids, clear, addMany } = useTrip();
   const shared = Boolean(sharedIds);
   const list = (sharedIds ?? ids).map(getPlace).filter(Boolean);
@@ -15,31 +17,31 @@ export default function TripView({ sharedIds }) {
     <article className="level trip-page">
       <header className="trip-head">
         <div>
-          <h1>{shared ? 'A shared trip' : 'My trip'}</h1>
-          <p className="muted">
-            {shared
-              ? 'Someone shared this plan with you. Save it to make it your own.'
-              : 'Places you saved, planned into days. They stay in this browser only.'}
-          </p>
+          <h1>{t(shared ? 'trip.sharedTitle' : 'trip.title')}</h1>
+          <p className="muted">{t(shared ? 'trip.sharedIntro' : 'trip.intro')}</p>
         </div>
         {list.length > 0 && (
           <div className="trip-actions">
             {shared ? (
-              <button type="button" className="button button-primary" onClick={() => addMany(sharedIds)} disabled={allSaved}>
-                {allSaved ? '✓ Saved to my trip' : '♥ Save all to my trip'}
+              <button
+                type="button"
+                className="button button-primary"
+                onClick={() => addMany(sharedIds)}
+                disabled={allSaved}
+              >
+                {t(allSaved ? 'trip.allSaved' : 'trip.saveAll')}
               </button>
             ) : (
-              <ShareButton title="My Maharashtra trip" url={tripLink(ids)} label="↗ Share this trip" />
+              <ShareButton title={t('trip.shareTitle')} url={tripLink(ids)} label={t('trip.share')} />
             )}
-            {!shared && (
-              <button type="button" className="button button-ghost" onClick={clear}>
-                Clear all
-              </button>
-            )}
-            {shared && (
+            {shared ? (
               <a href="#/trip" className="button button-ghost">
-                My trip
+                {t('trip.mine')}
               </a>
+            ) : (
+              <button type="button" className="button button-ghost" onClick={clear}>
+                {t('trip.clear')}
+              </button>
             )}
           </div>
         )}
@@ -47,9 +49,9 @@ export default function TripView({ sharedIds }) {
 
       {list.length === 0 ? (
         <div className="empty">
-          <p>Nothing saved yet. Tap ♡ on any place to add it here, and it will be planned into days.</p>
+          <p>{t('trip.empty')}</p>
           <a href="#/" className="button button-primary">
-            Start exploring
+            {t('trip.start')}
           </a>
         </div>
       ) : (

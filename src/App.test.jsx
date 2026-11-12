@@ -180,6 +180,32 @@ describe('App', () => {
     expect(screen.getByRole('link', { name: /UNESCO World Heritage Sites/ })).toBeTruthy();
   });
 
+  it('switches the whole app to Marathi and remembers it', async () => {
+    const user = userEvent.setup();
+    render(<App />);
+
+    await user.click(screen.getByRole('button', { name: /View in Marathi/ }));
+    expect(document.documentElement.lang).toBe('mr');
+    expect(screen.getByRole('heading', { level: 2, name: 'विभाग निवडा' })).toBeTruthy();
+    // Region card and map legend
+    expect(screen.getAllByRole('link', { name: /^विदर्भ/ }).length).toBeGreaterThan(1);
+    expect(screen.getByRole('link', { name: /माझी सहल/ })).toBeTruthy();
+    expect(localStorage.getItem('maharashtra-darshan-lang-v1')).toBe('mr');
+
+    // Place pages use Marathi names, with the English one alongside
+    cleanup();
+    const ajanta = places.find((p) => p.name === 'Ajanta Caves');
+    window.location.hash = `#/place/${ajanta.id}`;
+    render(<App />);
+    expect(screen.getByRole('heading', { level: 1, name: /अजिंठा/ })).toBeTruthy();
+    expect(screen.getByRole('heading', { level: 1, name: /Ajanta Caves/ })).toBeTruthy();
+    expect(screen.getByText('जवळची ठिकाणे')).toBeTruthy();
+
+    await user.click(screen.getByRole('button', { name: /View in English/ }));
+    expect(document.documentElement.lang).toBe('en');
+    expect(screen.getByText('Nearby places')).toBeTruthy();
+  });
+
   it('searches in Marathi', async () => {
     const user = userEvent.setup();
     render(<App />);

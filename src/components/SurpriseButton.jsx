@@ -1,6 +1,8 @@
 import { randomPlace } from '../lib/catalogue';
+import useLang from '../lib/useLang';
 
 export default function SurpriseButton() {
+  const { t } = useLang();
   return (
     <button
       type="button"
@@ -9,7 +11,7 @@ export default function SurpriseButton() {
         window.location.hash = `#/place/${randomPlace().id}`;
       }}
     >
-      🎲 Surprise me
+      {t('hero.surprise')}
     </button>
   );
 }

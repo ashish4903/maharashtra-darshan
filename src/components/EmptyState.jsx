@@ -1,11 +1,14 @@
+import useLang from '../lib/useLang';
+
 const CONTRIBUTE = 'https://github.com/ashish4903/maharashtra-darshan#adding-a-place-or-dish';
 
 export default function EmptyState({ what }) {
+  const { t } = useLang();
   return (
     <p className="empty">
-      No {what} added here yet. Entries are added only with a source.{' '}
+      {t(what === 'dishes' ? 'empty.dishes' : 'empty.places')}{' '}
       <a href={CONTRIBUTE} target="_blank" rel="noreferrer">
-        Suggest one
+        {t('empty.suggest')}
       </a>
       .
     </p>

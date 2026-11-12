@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import useLang from '../lib/useLang';
 
 /**
  * The opening paragraph of the place's Wikipedia article, loaded when the page
@@ -6,6 +7,7 @@ import { useEffect, useState } from 'react';
  * If it can't load (offline, blocked), the section is simply left out.
  */
 export default function WikiSummary({ url }) {
+  const { t } = useLang();
   const [summary, setSummary] = useState({ url: null, text: null });
   const title = decodeURIComponent(url.split('/wiki/')[1] ?? '');
 
@@ -20,21 +22,22 @@ export default function WikiSummary({ url }) {
     return () => controller.abort();
   }, [url, title]);
 
-  if (summary.url !== url) return <p className="summary-loading">Loading the story from Wikipedia…</p>;
+  if (summary.url !== url) return <p className="summary-loading">{t('summary.loading')}</p>;
   if (!summary.text) return null;
+  const [before, middle, after] = t('summary.from').split(/\{wikipedia\}|\{licence\}/);
   return (
-    <section className="summary" aria-label="About this place">
-      <p>{summary.text}</p>
+    <section className="summary" aria-label={t('summary.label')}>
+      <p lang="en">{summary.text}</p>
       <p className="source-note">
-        From{' '}
+        {before}
         <a href={url} target="_blank" rel="noreferrer">
           Wikipedia
         </a>
-        , available under{' '}
+        {middle}
         <a href="https://creativecommons.org/licenses/by-sa/4.0/" target="_blank" rel="noreferrer">
           CC BY-SA 4.0
         </a>
-        .
+        {after}
       </p>
     </section>
   );

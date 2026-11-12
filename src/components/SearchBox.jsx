@@ -1,7 +1,9 @@
 import { useEffect, useRef } from 'react';
+import useLang from '../lib/useLang';
 
 export default function SearchBox({ value, onChange }) {
   const input = useRef(null);
+  const { t } = useLang();
 
   // Press "/" anywhere to jump to the search box
   useEffect(() => {
@@ -18,7 +20,7 @@ export default function SearchBox({ value, onChange }) {
   return (
     <div className="search">
       <label htmlFor="search" className="visually-hidden">
-        Search
+        {t('search.label')}
       </label>
       <span className="search-icon" aria-hidden="true">
         🔍
@@ -27,14 +29,14 @@ export default function SearchBox({ value, onChange }) {
         ref={input}
         id="search"
         type="search"
-        placeholder="Search a district, taluka, place or dish (English or मराठी)"
+        placeholder={t('search.placeholder')}
         value={value}
         onChange={(e) => onChange(e.target.value)}
         onKeyDown={(e) => e.key === 'Escape' && onChange('')}
         autoComplete="off"
       />
       {value && (
-        <button type="button" className="search-clear" onClick={() => onChange('')} aria-label="Clear search">
+        <button type="button" className="search-clear" onClick={() => onChange('')} aria-label={t('search.clear')}>
           ×
         </button>
       )}

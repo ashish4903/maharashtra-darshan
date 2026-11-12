@@ -5,6 +5,10 @@ import react from '@vitejs/plugin-react';
 export default defineConfig({
   base: '/maharashtra-darshan/',
   plugins: [react()],
+  build: {
+    // The bundle includes ~230 KB of place data (about 130 KB gzipped in all)
+    chunkSizeWarningLimit: 700,
+  },
   test: {
     environment: 'jsdom',
   },
