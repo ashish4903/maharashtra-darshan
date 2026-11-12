@@ -12,7 +12,8 @@
     "test": "vitest run",
     "lint": "eslint .",
     "data": "node scripts/build-data.mjs",
-    "outline": "node scripts/build-outline.mjs"
+    "outline": "node scripts/build-outline.mjs",
+    "suggest": "node scripts/suggest-places.mjs"
   },
   "dependencies": {
     "react": "^19.3.1",

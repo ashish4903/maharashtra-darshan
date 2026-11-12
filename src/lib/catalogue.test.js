@@ -16,6 +16,7 @@ import {
   regions,
   search,
   shortName,
+  talukaCounts,
 } from './catalogue';
 
 describe('generated data', () => {
@@ -43,6 +44,15 @@ describe('generated data', () => {
       expect(regionIds).toContain(f.region);
       if (f.district) expect(getDistrict(f.district).region).toBe(f.region);
     }
+  });
+
+  it('links places only to talukas of their own district', () => {
+    for (const p of places.filter((x) => x.taluka)) {
+      expect(getDistrict(p.district).talukas.map((t) => t.id)).toContain(p.taluka);
+    }
+    const yavatmal = districts.find((d) => d.name === 'Yavatmal district');
+    const counts = talukaCounts(yavatmal.id);
+    expect([...counts.values()].reduce((a, b) => a + b, 0)).toBeLessThanOrEqual(placesIn({ district: yavatmal.id }).length);
   });
 
   it('has no duplicate places or dishes', () => {

@@ -2,7 +2,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
 import { cleanup, render, screen, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import App from './App';
-import { places } from './lib/catalogue';
+import { districts, places } from './lib/catalogue';
 
 beforeEach(() => {
   // The place page loads a Wikipedia summary; tests never touch the network.
@@ -37,8 +37,41 @@ describe('App', () => {
     expect(await screen.findByRole('heading', { level: 1, name: /Nagpur district/ })).toBeTruthy();
     expect(screen.getByRole('heading', { level: 3, name: 'Deekshabhoomi' })).toBeTruthy();
 
+    // A taluka with places opens the Places tab filtered to that taluka
     await user.click(screen.getByRole('tab', { name: /Talukas/ }));
-    expect(screen.getByRole('link', { name: 'Ramtek' })).toBeTruthy();
+    await user.click(screen.getByRole('button', { name: /^Ramtek/ }));
+    expect(screen.getByRole('tab', { name: /Places/ }).getAttribute('aria-selected')).toBe('true');
+    expect(screen.getByRole('button', { name: /Ramtek \(\d+\)/ }).getAttribute('aria-pressed')).toBe('true');
+    const shown = screen.getAllByRole('heading', { level: 3 }).map((h) => h.textContent);
+    expect(shown).toContain('Ramtek');
+    expect(shown).not.toContain('Deekshabhoomi');
+  });
+
+  it('shows what a district is known for, and its taluka places', async () => {
+    const user = userEvent.setup();
+    const yavatmal = districts.find((d) => d.name === 'Yavatmal district');
+    window.location.hash = `#/district/${yavatmal.id}`;
+    render(<App />);
+
+    const knownFor = screen.getByRole('list', { name: 'Known for' });
+    expect(within(knownFor).getByText(/Cotton City/)).toBeTruthy();
+    expect(screen.getByText('★ Shree Chintamani Ganesh temple')).toBeTruthy();
+
+    await user.click(screen.getByRole('tab', { name: /About/ }));
+    expect(await screen.findByText('A summary from Wikipedia.')).toBeTruthy();
+  });
+
+  it('finds districts and places by what they are known for', async () => {
+    const user = userEvent.setup();
+    render(<App />);
+
+    await user.type(screen.getByRole('searchbox'), 'chintamani');
+    const results = screen.getByRole('region', { name: 'Search results' });
+    expect(within(results).getByText('Kalamb, Yavatmal')).toBeTruthy();
+
+    await user.clear(screen.getByRole('searchbox'));
+    await user.type(screen.getByRole('searchbox'), 'cotton city');
+    expect(screen.getByRole('link', { name: 'Yavatmal district' })).toBeTruthy();
   });
 
   it('filters a region’s places by type', async () => {

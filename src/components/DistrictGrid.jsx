@@ -13,6 +13,7 @@ export default function DistrictGrid({ districts }) {
               <span className="district-text">
                 <span className="district-name">{shortName(d.name)}</span>
                 <span lang="mr">{d.nameMr}</span>
+                {d.knownFor?.length > 0 && <span className="district-known">{d.knownFor.slice(0, 2).join(' · ')}</span>}
                 <span className="district-stats">
                   {plural(count, 'place')} · {plural(d.talukas.length, 'taluka')}
                 </span>
