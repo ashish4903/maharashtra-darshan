@@ -6,6 +6,8 @@ All notable changes to this project are listed here. The format follows [Keep a 
 
 ### Added
 
+- Food spots: every dish links to “Top-rated spots on Google Maps” (local produce links to “Where to buy”). The search is near the place, in the district, or near the visitor. Each place has “Top-rated restaurants nearby”, and each district’s Food tab links to its best-rated restaurants. Ratings stay on Google’s side, always current and never copied, with no API key or cost.
+
 - The rest of the official Maharashtra Tourism district pages compared (all 36 now). Each new entry was checked against its own Wikipedia article.
   - 406 places, up from 379, including Ratangad, Sandhan Valley, Chaul, Ujani Dam, Miraj, Masunda Lake, Mumbai's Mahalakshmi Temple, Sula Vineyards and the Khadakwasla and Panshet dams.
   - Pani puri and sev puri added to the Mumbai food list.

@@ -7,7 +7,19 @@ import MaharashtraMap from './MaharashtraMap';
 import Carousel from './Carousel';
 import PlaceCard from './PlaceCard';
 import FoodCard from './FoodCard';
-import { KINDS, commonsUrl, foodsIn, getDistrict, getPlace, getRegion, mapUrl, places, shortName } from '../lib/catalogue';
+import {
+  KINDS,
+  areaName,
+  commonsUrl,
+  foodsIn,
+  getDistrict,
+  getPlace,
+  getRegion,
+  mapUrl,
+  mapsSearchUrl,
+  places,
+  shortName,
+} from '../lib/catalogue';
 import { nearest } from '../lib/geo';
 
 export default function PlaceView({ placeId }) {
@@ -45,6 +57,15 @@ export default function PlaceView({ placeId }) {
             )}
             <a className="button button-ghost" href={place.wikipedia} target="_blank" rel="noreferrer">
               📖 Wikipedia
+            </a>
+            <a
+              className="button button-ghost"
+              href={mapsSearchUrl(`restaurants near ${place.name}, ${areaName(place.district)}`)}
+              target="_blank"
+              rel="noreferrer"
+              title="Opens Google Maps, which shows current ratings"
+            >
+              🍴 Top-rated restaurants nearby
             </a>
           </div>
 
@@ -109,7 +130,7 @@ export default function PlaceView({ placeId }) {
         <Carousel title="Food to try nearby" subtitle={`Dishes of ${region.name}`}>
           {food.map((f) => (
             <li key={f.id}>
-              <FoodCard food={f} fromHere={f.district === place.district} />
+              <FoodCard food={f} fromHere={f.district === place.district} near={place.name} />
             </li>
           ))}
         </Carousel>

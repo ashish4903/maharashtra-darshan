@@ -105,3 +105,23 @@ export function search(query) {
 
 export const mapUrl = ([lat, lon]) =>
   `https://www.openstreetmap.org/?mlat=${lat}&mlon=${lon}#map=13/${lat}/${lon}`;
+
+/**
+ * A Google Maps search (official "Maps URLs": no API key, nothing stored).
+ * Google shows its own, current ratings there; we never copy them.
+ */
+export const mapsSearchUrl = (query) =>
+  'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(query);
+
+/** The name people search Maps with: "Nagpur district" -> "Nagpur", both Mumbai districts -> "Mumbai". */
+export const areaName = (districtId) => {
+  const name = shortName(getDistrict(districtId)?.name ?? '');
+  return name.startsWith('Mumbai') ? 'Mumbai' : name;
+};
+
+/** Where to look for a dish: near a place, in a district, or near the visitor. */
+export function foodSpotQuery(food, { districtId, near } = {}) {
+  if (near) return `${food.name} near ${near}`;
+  const district = districtId ?? food.district;
+  return district ? `${food.name} in ${areaName(district)}` : `${food.name} near me`;
+}
