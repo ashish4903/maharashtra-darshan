@@ -316,6 +316,10 @@
     {
      "label": "Melghat tiger reserve",
      "source": "https://en.wikipedia.org/wiki/Amravati_district"
+    },
+    {
+     "label": "Coffee of Chikhaldara",
+     "source": "https://en.wikipedia.org/wiki/Chikhaldara"
     }
    ]
   },
@@ -1096,6 +1100,10 @@
     {
      "label": "Jalgaon bananas (GI)",
      "source": "https://en.wikipedia.org/wiki/Jalgaon_banana"
+    },
+    {
+     "label": "“Banana City”",
+     "source": "https://en.wikipedia.org/wiki/Jalgaon"
     }
    ]
   },
@@ -1242,6 +1250,10 @@
     {
      "label": "Kolhapur jaggery",
      "source": "https://en.wikipedia.org/wiki/Kolhapur_jaggery"
+    },
+    {
+     "label": "Tambda and pandhra rassa",
+     "source": "https://en.wikipedia.org/wiki/Kolhapur"
     }
    ]
   },
@@ -1328,7 +1340,13 @@
     72.82
    ],
    "talukas": [],
-   "region": "konkan"
+   "region": "konkan",
+   "knownFor": [
+    {
+     "label": "Financial capital of India",
+     "source": "https://en.wikipedia.org/wiki/Mumbai"
+    }
+   ]
   },
   {
    "id": "Q2085374",
@@ -1361,6 +1379,10 @@
     {
      "label": "Film industry",
      "source": "https://en.wikipedia.org/wiki/Mumbai_Suburban_district"
+    },
+    {
+     "label": "Bollywood",
+     "source": "https://en.wikipedia.org/wiki/Mumbai"
     }
    ]
   },
@@ -1453,6 +1475,14 @@
     {
      "label": "Bhiwapur chilli",
      "source": "https://en.wikipedia.org/wiki/Bhiwapur_chilli"
+    },
+    {
+     "label": "“Orange City”",
+     "source": "https://en.wikipedia.org/wiki/Nagpur"
+    },
+    {
+     "label": "“Tiger Capital of India”",
+     "source": "https://en.wikipedia.org/wiki/Nagpur"
     }
    ]
   },
@@ -1711,6 +1741,10 @@
     {
      "label": "Onion market at Lasalgaon",
      "source": "https://en.wikipedia.org/wiki/Lasalgaon"
+    },
+    {
+     "label": "Wine capital",
+     "source": "https://en.wikipedia.org/wiki/Nashik"
     }
    ]
   },
@@ -1947,6 +1981,10 @@
     {
      "label": "Puneri pagadi",
      "source": "https://en.wikipedia.org/wiki/Puneri_Pagadi"
+    },
+    {
+     "label": "“Oxford of the East”",
+     "source": "https://en.wikipedia.org/wiki/Pune"
     }
    ]
   },
@@ -2103,7 +2141,17 @@
      "nameMr": "संगमेश्वर तालुका"
     }
    ],
-   "region": "konkan"
+   "region": "konkan",
+   "knownFor": [
+    {
+     "label": "Alphonso mangoes",
+     "source": "https://en.wikipedia.org/wiki/Ratnagiri"
+    },
+    {
+     "label": "Lokmanya Tilak’s birthplace",
+     "source": "https://en.wikipedia.org/wiki/Ratnagiri"
+    }
+   ]
   },
   {
    "id": "Q1425060",
@@ -2179,6 +2227,10 @@
     {
      "label": "Sangli raisins",
      "source": "https://en.wikipedia.org/wiki/Sangli_raisins"
+    },
+    {
+     "label": "“Turmeric City”",
+     "source": "https://en.wikipedia.org/wiki/Sangli"
     }
    ]
   },
@@ -2320,6 +2372,10 @@
     {
      "label": "Vengurla cashew",
      "source": "https://en.wikipedia.org/wiki/Vengurla_cashew"
+    },
+    {
+     "label": "Scuba diving at Tarkarli",
+     "source": "https://en.wikipedia.org/wiki/Tarkarli"
     }
    ]
   },
@@ -2394,6 +2450,10 @@
     {
      "label": "Mangalwedha jowar",
      "source": "https://en.wikipedia.org/wiki/Mangalwedha_jowar"
+    },
+    {
+     "label": "Solapuri chaddars",
+     "source": "https://en.wikipedia.org/wiki/Solapur"
     }
    ]
   },
@@ -3040,6 +3100,25 @@
    "verifiedBy": "wikidata"
   },
   {
+   "id": "Q6732911",
+   "name": "Mahalakshmi Temple, Mumbai",
+   "nameMr": "महालक्ष्मी मंदिर, मुंबई",
+   "description": "temple in India",
+   "kind": "temple",
+   "region": "konkan",
+   "district": "Q2341660",
+   "coords": [
+    18.9774,
+    72.8065
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Mahalaxmi-temple-1.jpg/960px-Mahalaxmi-temple-1.jpg",
+    "file": "Mahalaxmi-temple-1.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Mahalakshmi_Temple%2C_Mumbai",
+   "verifiedBy": "wikipedia"
+  },
+  {
    "id": "Q1356198",
    "name": "Kanheri Caves",
    "nameMr": "कान्हेरी लेणी",
@@ -3255,6 +3334,25 @@
     "file": "St_Andrew's_Church,_Bandra.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/St._Andrew's_Church%2C_Mumbai",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q4661699",
+   "name": "Aarey Forest",
+   "nameMr": "आरे दूध वसाहत",
+   "description": "human settlement in India",
+   "kind": "nature",
+   "region": "konkan",
+   "district": "Q2085374",
+   "coords": [
+    19.1575,
+    72.8744
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Aarey_Milk_Colony%2C_Mumbai.jpg/960px-Aarey_Milk_Colony%2C_Mumbai.jpg",
+    "file": "Aarey_Milk_Colony,_Mumbai.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Aarey_Forest",
    "verifiedBy": "wikidata"
   },
   {
@@ -3485,6 +3583,25 @@
     "file": "Shri_Kopineshwar_Mandir.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Kopineshwar_Mandir%2C_Thane",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q60754378",
+   "name": "Masunda Lake",
+   "nameMr": "मासुंदा तलाव",
+   "description": "lake in Thane, India",
+   "kind": "nature",
+   "region": "konkan",
+   "district": "Q943099",
+   "coords": [
+    19.193,
+    72.974
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/en/thumb/f/f9/Masunda_Lake_in_Thane.jpg/960px-Masunda_Lake_in_Thane.jpg",
+    "file": "Masunda_Lake_in_Thane.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Masunda_Lake",
    "verifiedBy": "wikidata"
   },
   {
@@ -3731,6 +3848,20 @@
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Tandulwadi_Fort",
    "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q19806079",
+   "name": "Kelve Fort",
+   "nameMr": "केळवे किल्ला",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q18003119",
+   "coords": [
+    19.6181,
+    72.7283
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Kelve_Fort",
+   "verifiedBy": "wikipedia"
   },
   {
    "id": "Q649384",
@@ -4268,6 +4399,43 @@
    "verifiedBy": "wikidata"
   },
   {
+   "id": "Q1068374",
+   "name": "Chaul",
+   "description": "village in Maharashtra, India",
+   "kind": "heritage",
+   "region": "konkan",
+   "district": "Q2019683",
+   "taluka": "Q24928034",
+   "coords": [
+    18.5461,
+    72.9272
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Unknown_Angre_Samadhi.jpg/960px-Unknown_Angre_Samadhi.jpg",
+    "file": "Unknown_Angre_Samadhi.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Chaul",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q6748267",
+   "name": "Mandwa, Maharashtra",
+   "description": "village in Raigad District, Maharashtra, India",
+   "kind": "beach",
+   "region": "konkan",
+   "district": "Q2019683",
+   "coords": [
+    18.803,
+    72.882
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Mandwa_Beach%2C_March_2015.JPG/960px-Mandwa_Beach%2C_March_2015.JPG",
+    "file": "Mandwa_Beach,_March_2015.JPG"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Mandwa%2C_Maharashtra",
+   "verifiedBy": "wikidata"
+  },
+  {
    "id": "Q5521478",
    "name": "Ganpatipule",
    "nameMr": "गणपतीपुळे",
@@ -4519,6 +4687,24 @@
    "verifiedBy": "wikidata"
   },
   {
+   "id": "Q38251357",
+   "name": "Ratnagiri Fort, Maharashtra",
+   "description": "fort in Ratnagiri district of Maharashtra, India",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q1771768",
+   "coords": [
+    16.9962,
+    73.2703
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Ratnadurg_Entrance.jpg/960px-Ratnadurg_Entrance.jpg",
+    "file": "Ratnadurg_Entrance.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Ratnagiri_Fort%2C_Maharashtra",
+   "verifiedBy": "wikidata"
+  },
+  {
    "id": "Q13413791",
    "name": "Sindhudurg Fort",
    "nameMr": "सिंधुदुर्ग",
@@ -4734,6 +4920,16 @@
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Yashwantgad_Fort",
    "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q20582670",
+   "name": "Sarjekot fort",
+   "nameMr": "सर्जेकोट",
+   "kind": "fort",
+   "region": "konkan",
+   "district": "Q768332",
+   "wikipedia": "https://en.wikipedia.org/wiki/Sarjekot_fort",
+   "verifiedBy": "wikipedia"
   },
   {
    "id": "Q1351060",
@@ -5559,6 +5755,44 @@
    "verifiedBy": "wikidata"
   },
   {
+   "id": "Q2049815",
+   "name": "Khadakwasla Dam",
+   "nameMr": "खडकवासला धरण",
+   "description": "dam in India",
+   "kind": "nature",
+   "region": "western-maharashtra",
+   "district": "Q1797336",
+   "coords": [
+    18.4531,
+    73.5411
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Khadakwasla_Dam_image.JPG/960px-Khadakwasla_Dam_image.JPG",
+    "file": "Khadakwasla_Dam_image.JPG"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Khadakwasla_Dam",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q3532394",
+   "name": "Panshet Dam",
+   "nameMr": "पानशेत धरण",
+   "description": "Dam near Pune, Maharashtra in India",
+   "kind": "nature",
+   "region": "western-maharashtra",
+   "district": "Q1797336",
+   "coords": [
+    18.3797,
+    73.6111
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Panshet_Dam.JPG/960px-Panshet_Dam.JPG",
+    "file": "Panshet_Dam.JPG"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Panshet_Dam",
+   "verifiedBy": "wikipedia"
+  },
+  {
    "id": "Q463273",
    "name": "Mahabaleshwar",
    "nameMr": "महाबळेश्वर",
@@ -5850,6 +6084,32 @@
    "verifiedBy": "wikidata"
   },
   {
+   "id": "Q19805572",
+   "name": "Kalyangad",
+   "nameMr": "कल्याणगड",
+   "description": "fort in Maharashtra, India",
+   "kind": "fort",
+   "region": "western-maharashtra",
+   "district": "Q1135612",
+   "taluka": "Q2729340",
+   "wikipedia": "https://en.wikipedia.org/wiki/Kalyangad",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q7144613",
+   "name": "Pateshwar",
+   "description": "village in Maharashtra, India",
+   "kind": "temple",
+   "region": "western-maharashtra",
+   "district": "Q1135612",
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/0/05/Pateshwar_temple.jpg",
+    "file": "Pateshwar_temple.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Pateshwar",
+   "verifiedBy": "wikipedia"
+  },
+  {
    "id": "Q19809121",
    "name": "Prachitgad",
    "nameMr": "प्रचितगड",
@@ -5969,6 +6229,27 @@
     "file": "Shreekshetra_Audumbar_Temple.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Shreekshetra_Audumbar",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q522760",
+   "name": "Miraj",
+   "nameMr": "मिरज",
+   "description": "town in Maharashtra, India",
+   "kind": "town",
+   "highlight": "Sitar and tanpura makers",
+   "region": "western-maharashtra",
+   "district": "Q1425060",
+   "taluka": "Q13119997",
+   "coords": [
+    16.83,
+    74.63
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Mirajmarketnorth.jpg/960px-Mirajmarketnorth.jpg",
+    "file": "Mirajmarketnorth.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Miraj",
    "verifiedBy": "wikidata"
   },
   {
@@ -6225,6 +6506,35 @@
    "verifiedBy": "wikidata"
   },
   {
+   "id": "Q7280216",
+   "name": "Radhanagari Dam",
+   "nameMr": "राधानगरी धरण",
+   "description": "dam in Radhanagari",
+   "kind": "nature",
+   "region": "western-maharashtra",
+   "district": "Q1797312",
+   "coords": [
+    16.4061,
+    73.96
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Radhanagari_Dam",
+   "verifiedBy": "wikipedia"
+  },
+  {
+   "id": "Q2775457",
+   "name": "Siddhagiri Gramjivan Museum (Kaneri Math)",
+   "description": "a sculpture museum at Kaneri, Kolhapur district, Maharashtra",
+   "kind": "heritage",
+   "region": "western-maharashtra",
+   "district": "Q1797312",
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Kanheri_math.jpg",
+    "file": "Kanheri_math.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Siddhagiri_Gramjivan_Museum_(Kaneri_Math)",
+   "verifiedBy": "wikidata"
+  },
+  {
    "id": "Q1779418",
    "name": "Pandharpur",
    "nameMr": "पंढरपूर",
@@ -6340,6 +6650,25 @@
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Mangalwedha",
    "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q7878222",
+   "name": "Ujjani Dam",
+   "nameMr": "उजनी धरण",
+   "description": "dam in India",
+   "kind": "nature",
+   "region": "western-maharashtra",
+   "district": "Q1797263",
+   "coords": [
+    18.0739,
+    75.12
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Upstream_of_the_Bhima_Dam_and_reservoir.jpg/960px-Upstream_of_the_Bhima_Dam_and_reservoir.jpg",
+    "file": "Upstream_of_the_Bhima_Dam_and_reservoir.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Ujjani_Dam",
+   "verifiedBy": "wikipedia"
   },
   {
    "id": "Q2426825",
@@ -6745,6 +7074,39 @@
    "verifiedBy": "wikidata"
   },
   {
+   "id": "Q7290176",
+   "name": "Ramsej Fort",
+   "nameMr": "रामशेज किल्ला",
+   "description": "The Invincible fort",
+   "kind": "fort",
+   "region": "north-maharashtra",
+   "district": "Q1797269",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Ramshej_Fort.jpg/960px-Ramshej_Fort.jpg",
+    "file": "Ramshej_Fort.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Ramsej_Fort",
+   "verifiedBy": "wikipedia"
+  },
+  {
+   "id": "Q17069969",
+   "name": "Sula Vineyards",
+   "description": "Winery and vineyard in Nashik, India",
+   "kind": "heritage",
+   "region": "north-maharashtra",
+   "district": "Q1797269",
+   "coords": [
+    20.0069,
+    73.6885
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Sula-Logo.jpg/960px-Sula-Logo.jpg",
+    "file": "Sula-Logo.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Sula_Vineyards",
+   "verifiedBy": "wikipedia"
+  },
+  {
    "id": "Q1949112",
    "name": "Shirdi",
    "nameMr": "शिर्डी",
@@ -7010,6 +7372,85 @@
    "verifiedBy": "wikidata"
   },
   {
+   "id": "Q3632669",
+   "name": "Ratangad",
+   "nameMr": "रतनगड",
+   "description": "fort in Ratanwadi, India",
+   "kind": "fort",
+   "region": "north-maharashtra",
+   "district": "Q401744",
+   "coords": [
+    19.5,
+    73.69
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Ratangad_fort_from_ratanwadi.jpg/960px-Ratangad_fort_from_ratanwadi.jpg",
+    "file": "Ratangad_fort_from_ratanwadi.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Ratangad",
+   "verifiedBy": "wikipedia"
+  },
+  {
+   "id": "Q4701521",
+   "name": "Akole",
+   "nameMr": "अकोले",
+   "description": "administrative block in Ahmednagar district, Maharashtra, India",
+   "kind": "nature",
+   "region": "north-maharashtra",
+   "district": "Q401744",
+   "taluka": "Q4701523",
+   "wikipedia": "https://en.wikipedia.org/wiki/Akole",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q6933701",
+   "name": "Mula Dam",
+   "description": "dam in India",
+   "kind": "nature",
+   "region": "north-maharashtra",
+   "district": "Q401744",
+   "coords": [
+    19.3293,
+    74.5296
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Mula_Dam",
+   "verifiedBy": "wikipedia"
+  },
+  {
+   "id": "Q16256670",
+   "name": "Cavalry Tank Museum, Ahmednagar",
+   "nameMr": "कवलरी टँक संग्रहालय",
+   "description": "military museum in Ahmednagar",
+   "kind": "heritage",
+   "region": "north-maharashtra",
+   "district": "Q401744",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Cavalry_Tank_museum._%2830527888443%29.jpg/960px-Cavalry_Tank_museum._%2830527888443%29.jpg",
+    "file": "Cavalry_Tank_museum._(30527888443).jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Cavalry_Tank_Museum%2C_Ahmednagar",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q15217339",
+   "name": "Farah Bagh",
+   "nameMr": "फराहबक्ष महाल",
+   "description": "historic site in Ahmednagar, Maharashtra",
+   "kind": "heritage",
+   "region": "north-maharashtra",
+   "district": "Q401744",
+   "coords": [
+    19.0683,
+    74.752
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Faria_Bagh_Palace_of_second_Nizam.JPG/960px-Faria_Bagh_Palace_of_second_Nizam.JPG",
+    "file": "Faria_Bagh_Palace_of_second_Nizam.JPG"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Farah_Bagh",
+   "verifiedBy": "wikidata"
+  },
+  {
    "id": "Q3827825",
    "name": "Laling fort",
    "nameMr": "लळिंग किल्ला",
@@ -7231,6 +7672,43 @@
     "file": "Changdev_Temple_Muktainagar_Dist_Jalgaon_P1220210_(2).JPG"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Muktainagar",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q589095",
+   "name": "Amalner",
+   "nameMr": "अमळनेर",
+   "description": "human settlement",
+   "kind": "town",
+   "region": "north-maharashtra",
+   "district": "Q1797291",
+   "taluka": "Q2722529",
+   "coords": [
+    21.05,
+    75.05
+   ],
+   "wikipedia": "https://en.wikipedia.org/wiki/Amalner",
+   "verifiedBy": "wikidata"
+  },
+  {
+   "id": "Q1523144",
+   "name": "Faizpur",
+   "nameMr": "फैजपूर (जळगाव जिल्हा)",
+   "description": "town",
+   "kind": "town",
+   "highlight": "Venue of the 1936 Congress session",
+   "region": "north-maharashtra",
+   "district": "Q1797291",
+   "taluka": "Q2769769",
+   "coords": [
+    21.17,
+    75.85
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/D_N_College_Faizpur_21.jpg/960px-D_N_College_Faizpur_21.jpg",
+    "file": "D_N_College_Faizpur_21.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Faizpur",
    "verifiedBy": "wikidata"
   },
   {
@@ -8400,6 +8878,24 @@
    "verifiedBy": "wikipedia"
   },
   {
+   "id": "Q7828341",
+   "name": "Totladoh Dam",
+   "description": "dam in India",
+   "kind": "nature",
+   "region": "vidarbha",
+   "district": "Q1797367",
+   "coords": [
+    21.6584,
+    79.2942
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Totaladoh_dam_-_panoramio.jpg/960px-Totaladoh_dam_-_panoramio.jpg",
+    "file": "Totaladoh_dam_-_panoramio.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Totladoh_Dam",
+   "verifiedBy": "wikipedia"
+  },
+  {
    "id": "Q3630222",
    "name": "Sevagram",
    "nameMr": "सेवाग्राम",
@@ -8855,6 +9351,24 @@
    "region": "vidarbha",
    "district": "Q1771774",
    "wikipedia": "https://en.wikipedia.org/wiki/Semadoh",
+   "verifiedBy": "wikipedia"
+  },
+  {
+   "id": "Q7898997",
+   "name": "Upper Wardha Dam",
+   "description": "dam in Maharashtra, India",
+   "kind": "nature",
+   "region": "vidarbha",
+   "district": "Q1771774",
+   "coords": [
+    21.2764,
+    78.0572
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Upper_Wardha_Dam.jpg/960px-Upper_Wardha_Dam.jpg",
+    "file": "Upper_Wardha_Dam.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Upper_Wardha_Dam",
    "verifiedBy": "wikipedia"
   },
   {
@@ -9320,6 +9834,33 @@
     "file": "Freshly_cut_Sindhudurg_and_Ratnagiri_Kokum_(Garcinia_indica)_fruits_with_their_vibrant_red_pulp_exposed_and_sugar_crystals_sprinkled_on_top_for_a_tangy_treat.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Sindhudurg_and_Ratnagiri_Kokum"
+  },
+  {
+   "id": "Q2722122",
+   "name": "Panipuri",
+   "nameMr": "पाणीपुरी",
+   "description": "Indian snack",
+   "type": "dish",
+   "region": "konkan",
+   "district": "Q2341660",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Pani_Puri1.JPG/960px-Pani_Puri1.JPG",
+    "file": "Pani_Puri1.JPG"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Panipuri"
+  },
+  {
+   "id": "Q7458108",
+   "name": "Sev puri",
+   "description": "Indian snack food",
+   "type": "dish",
+   "region": "konkan",
+   "district": "Q2341660",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Sev_puri_with_sweet_curd.JPG/960px-Sev_puri_with_sweet_curd.JPG",
+    "file": "Sev_puri_with_sweet_curd.JPG"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Sev_puri"
   },
   {
    "id": "Q3537640",
