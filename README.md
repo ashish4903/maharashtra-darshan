@@ -16,7 +16,13 @@ One place to explore Maharashtra region by region: Konkan, Western Maharashtra, 
   - its region and district, and its location on the map
   - the nearest places, with distances
   - food to try nearby
-- **My trip:** tap ♡ to save places. They're kept in your browser only.
+- **My trip planner:** tap ♡ to save places. My trip:
+  - orders them into the shortest route and splits it into days (choose 2–6 stops a day)
+  - shows the route on the map
+  - gives Google Maps directions for each day or the whole trip
+  - **Share this trip** creates a link that opens the same plan for a friend, who can save it.
+
+  Saved places stay in your browser only.
 - **Near me:** lists the places closest to you. Your location never leaves your device.
 - **Surprise me:** opens a random place.
 - **Search:** works in English or Marathi, for example `Lonar` or `वडापाव`. Press <kbd>/</kbd> to jump to the search box.

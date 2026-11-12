@@ -1,48 +1,59 @@
-import PlaceCard from './PlaceCard';
+import TripPlan from './TripPlan';
+import ShareButton from './ShareButton';
 import useTrip from '../lib/useTrip';
-import { getPlace, regions } from '../lib/catalogue';
+import { getPlace } from '../lib/catalogue';
+import { tripLink } from '../lib/route';
 
-export default function TripView() {
-  const { ids, clear } = useTrip();
-  const saved = ids.map(getPlace).filter(Boolean);
+/** My saved places as a day-by-day plan, or a trip someone shared (`sharedIds`). */
+export default function TripView({ sharedIds }) {
+  const { ids, clear, addMany } = useTrip();
+  const shared = Boolean(sharedIds);
+  const list = (sharedIds ?? ids).map(getPlace).filter(Boolean);
+  const allSaved = shared && sharedIds.every((id) => ids.includes(id));
 
   return (
     <article className="level trip-page">
       <header className="trip-head">
         <div>
-          <h1>My trip</h1>
-          <p className="muted">Places you saved. They stay in this browser only.</p>
+          <h1>{shared ? 'A shared trip' : 'My trip'}</h1>
+          <p className="muted">
+            {shared
+              ? 'Someone shared this plan with you. Save it to make it your own.'
+              : 'Places you saved, planned into days. They stay in this browser only.'}
+          </p>
         </div>
-        {saved.length > 0 && (
-          <button type="button" className="button button-ghost" onClick={clear}>
-            Clear all
-          </button>
+        {list.length > 0 && (
+          <div className="trip-actions">
+            {shared ? (
+              <button type="button" className="button button-primary" onClick={() => addMany(sharedIds)} disabled={allSaved}>
+                {allSaved ? '✓ Saved to my trip' : '♥ Save all to my trip'}
+              </button>
+            ) : (
+              <ShareButton title="My Maharashtra trip" url={tripLink(ids)} label="↗ Share this trip" />
+            )}
+            {!shared && (
+              <button type="button" className="button button-ghost" onClick={clear}>
+                Clear all
+              </button>
+            )}
+            {shared && (
+              <a href="#/trip" className="button button-ghost">
+                My trip
+              </a>
+            )}
+          </div>
         )}
       </header>
 
-      {saved.length === 0 ? (
+      {list.length === 0 ? (
         <div className="empty">
-          <p>Nothing saved yet. Tap ♡ on any place to add it here.</p>
+          <p>Nothing saved yet. Tap ♡ on any place to add it here, and it will be planned into days.</p>
           <a href="#/" className="button button-primary">
             Start exploring
           </a>
         </div>
       ) : (
-        regions
-          .map((r) => [r, saved.filter((p) => p.region === r.id)])
-          .filter(([, list]) => list.length > 0)
-          .map(([r, list]) => (
-            <section key={r.id} className={`region-${r.id}`}>
-              <h2 className="trip-region">{r.name}</h2>
-              <ul className="card-grid">
-                {list.map((p) => (
-                  <li key={p.id}>
-                    <PlaceCard place={p} showDistrict />
-                  </li>
-                ))}
-              </ul>
-            </section>
-          ))
+        <TripPlan places={list} removable={!shared} />
       )}
     </article>
   );

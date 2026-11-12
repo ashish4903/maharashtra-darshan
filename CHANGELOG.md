@@ -6,6 +6,12 @@ All notable changes to this project are listed here. The format follows [Keep a 
 
 ### Added
 
+- Trip planner. My trip:
+  - orders saved places into the shortest route and splits it into days
+  - draws the numbered route on the map
+  - opens directions in Google Maps for each day or the whole trip, using free Maps URLs with no API key
+  - can be shared as a link (`#/trip/<ids>`) that a friend can open and save.
+
 - Food spots: every dish links to “Top-rated spots on Google Maps” (local produce links to “Where to buy”). The search is near the place, in the district, or near the visitor. Each place has “Top-rated restaurants nearby”, and each district’s Food tab links to its best-rated restaurants. Ratings stay on Google’s side, always current and never copied, with no API key or cost.
 
 - The rest of the official Maharashtra Tourism district pages compared (all 36 now). Each new entry was checked against its own Wikipedia article.

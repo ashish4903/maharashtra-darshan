@@ -20,7 +20,7 @@ function View({ route }) {
     case 'place':
       return <PlaceView placeId={route.id} />;
     case 'trip':
-      return <TripView />;
+      return <TripView sharedIds={route.ids} />;
     default:
       return <HomeView />;
   }
@@ -44,7 +44,7 @@ export default function App() {
   }, []);
 
   const searching = query.trim().length >= 2;
-  const key = `${route.view}/${route.id ?? ''}`;
+  const key = `${route.view}/${route.id ?? route.ids?.join(',') ?? ''}`;
 
   return (
     <TripProvider>

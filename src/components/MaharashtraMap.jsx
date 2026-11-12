@@ -5,14 +5,23 @@ import { MAP_HEIGHT, MAP_WIDTH, outlinePath, project } from '../lib/geo';
 /**
  * Interactive map: one bubble per district (coloured by region) and a dot per
  * place. Hover or focus a bubble to see its details; select it to open the
- * district. `region`, `district` and `place` highlight part of the map.
+ * district. `region`, `district` and `place` highlight part of the map;
+ * `route` (places in order) draws a numbered trip.
  */
-export default function MaharashtraMap({ region, district, place, label = 'Map of Maharashtra' }) {
+export default function MaharashtraMap({ region, district, place, route, label = 'Map of Maharashtra' }) {
   const [hover, setHover] = useState(null);
   const [legendRegion, setLegendRegion] = useState(null);
   const activeRegion = legendRegion ?? region;
+  const stops = (route ?? []).filter((p) => p.coords);
 
-  const isDim = (d) => (district ? d.id !== district : activeRegion ? d.region !== activeRegion : false);
+  const isDim = (d) =>
+    stops.length > 0 && !legendRegion
+      ? true
+      : district
+        ? d.id !== district
+        : activeRegion
+          ? d.region !== activeRegion
+          : false;
   const info = hover ?? (district && districts.find((d) => d.id === district));
   const focusPlace = place && places.find((p) => p.id === place);
 
@@ -56,6 +65,21 @@ export default function MaharashtraMap({ region, district, place, label = 'Map o
                 </a>
               );
             })}
+
+          {stops.length > 1 && (
+            <polyline className="map-route" points={stops.map((p) => project(p.coords).join(',')).join(' ')} />
+          )}
+          {stops.map((p, i) => {
+            const [x, y] = project(p.coords);
+            return (
+              <a key={p.id} href={`#/place/${p.id}`} className="map-stop" aria-label={`Stop ${i + 1}: ${p.name}`}>
+                <circle cx={x} cy={y} r="11" />
+                <text x={x} y={y + 4} textAnchor="middle">
+                  {i + 1}
+                </text>
+              </a>
+            );
+          })}
 
           {focusPlace?.coords &&
             (() => {

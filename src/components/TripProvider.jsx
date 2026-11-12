@@ -44,6 +44,18 @@ export default function TripProvider({ children }) {
     setIds([]);
   }, []);
 
-  const value = useMemo(() => ({ ids, has: (id) => ids.includes(id), toggle, clear }), [ids, toggle, clear]);
+  /** Adds places that aren't saved yet, keeping their order. */
+  const addMany = useCallback((more) => {
+    setIds((prev) => {
+      const next = [...prev, ...more.filter((id) => !prev.includes(id))];
+      save(next);
+      return next;
+    });
+  }, []);
+
+  const value = useMemo(
+    () => ({ ids, has: (id) => ids.includes(id), toggle, clear, addMany }),
+    [ids, toggle, clear, addMany],
+  );
   return <TripContext.Provider value={value}>{children}</TripContext.Provider>;
 }
