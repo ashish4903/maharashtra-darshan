@@ -10,7 +10,7 @@ One place to explore Maharashtra region by region: Konkan, Western Maharashtra, 
 - **Browse by area:** region, then district, then its talukas.
 - **District pages:** what the district is known for (for example, Yavatmal: cotton, “Cotton City”), its places by taluka, its food, and an About tab with the Wikipedia summary.
 - **Places to visit:** 406 forts, caves, places of worship, pilgrim towns, museums, lakes, waterfalls, wildlife sanctuaries, hill stations, beaches and well-known villages, most with photos. Filter them by type or by taluka.
-- **Food to try:** 39 dishes and GI-tagged local produce, such as Sangli turmeric, Mahabaleshwar strawberries, Jalgaon bananas and Vengurla cashew, for each region and district.
+- **Food to try:** 39 dishes and GI-tagged local produce, such as Sangli turmeric, Mahabaleshwar strawberries, Jalgaon bananas and Vengurla cashew, for each region and district. Each dish has a **Top-rated spots on Google Maps** link, and each place has **Top-rated restaurants nearby**. These open a Google Maps search, where Google shows its current ratings. We never copy or store ratings, and no API key is used.
 - **A page for every place:** each one has:
   - the opening paragraph of its Wikipedia article
   - its region and district, and its location on the map
@@ -67,7 +67,7 @@ npm run lint
 npm run build
 ```
 
-The app needs no API keys, accounts or `.env` file. It has no tracking and no cookies. Its only network requests are to Wikipedia and Wikimedia Commons, for summaries and photos.
+The app needs no API keys, accounts or `.env` file. It has no tracking and no cookies. Its only network requests are to Wikipedia and Wikimedia Commons, for summaries and photos. Google Maps links are plain links: nothing is sent to Google unless the visitor clicks one.
 
 ## Licence
 

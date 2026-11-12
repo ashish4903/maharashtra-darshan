@@ -1179,6 +1179,42 @@ section + section,
   color: var(--text);
 }
 
+/* Google Maps "top-rated spots" links */
+.food-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.food-card .card-link {
+  flex: 1;
+}
+
+.food-spots {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.7rem 1rem;
+  border-top: 1px solid var(--line);
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.food-spots:hover {
+  background: var(--accent-soft);
+  color: var(--accent-strong);
+}
+
+.food-spots-banner {
+  margin: 0 0 1rem;
+  padding: 0.75rem 1rem;
+  border-radius: var(--radius-sm);
+  background: var(--accent-soft);
+  font-weight: 600;
+}
+
 .card-highlight {
   margin-top: 0.4rem !important;
   font-size: 0.85rem;

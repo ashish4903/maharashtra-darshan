@@ -96,6 +96,16 @@ describe('App', () => {
     expect(fetch).toHaveBeenCalledWith(expect.stringContaining('/page/summary/Ajanta_Caves'), expect.anything());
     const nearby = screen.getByRole('region', { name: 'Nearby places' });
     expect(within(nearby).getAllByRole('heading', { level: 3 }).length).toBeGreaterThan(0);
+
+    // Food spots open Google Maps, which shows its own current ratings
+    const restaurants = screen.getByRole('link', { name: /Top-rated restaurants nearby/ });
+    expect(restaurants.getAttribute('href')).toBe(
+      'https://www.google.com/maps/search/?api=1&query=' +
+        encodeURIComponent('restaurants near Ajanta Caves, Chhatrapati Sambhajinagar'),
+    );
+    const food = screen.getByRole('region', { name: 'Food to try nearby' });
+    const spot = within(food).getAllByRole('link', { name: /on Google Maps/ })[0];
+    expect(decodeURIComponent(spot.getAttribute('href'))).toMatch(/ near Ajanta Caves$/);
   });
 
   it('saves places to my trip', async () => {

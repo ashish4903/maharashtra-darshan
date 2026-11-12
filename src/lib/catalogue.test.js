@@ -2,7 +2,10 @@ import { describe, expect, it } from 'vitest';
 import {
   KINDS,
   STATEWIDE,
+  areaName,
   coverImage,
+  foodSpotQuery,
+  mapsSearchUrl,
   districts,
   featuredPlaces,
   getPlace,
@@ -64,6 +67,19 @@ describe('generated data', () => {
     }
     expect(foods.every((f) => ['dish', 'produce'].includes(f.type))).toBe(true);
     expect(search('strawberr').foods.map((f) => f.type)).toContain('produce');
+  });
+
+  it('builds Google Maps searches for food spots without any API key', () => {
+    const misal = foods.find((f) => f.name === 'Misal pav');
+    const pune = districts.find((d) => d.name === 'Pune district');
+    expect(foodSpotQuery(misal)).toBe('Misal pav in Kolhapur');
+    expect(foodSpotQuery(misal, { districtId: pune.id })).toBe('Misal pav in Pune');
+    expect(foodSpotQuery(misal, { near: 'Shaniwar Wada' })).toBe('Misal pav near Shaniwar Wada');
+    expect(foodSpotQuery(foods.find((f) => f.region === STATEWIDE))).toMatch(/ near me$/);
+    expect(areaName(districts.find((d) => d.name === 'Mumbai Suburban district').id)).toBe('Mumbai');
+    const url = mapsSearchUrl('Misal pav in Kolhapur');
+    expect(url).toBe('https://www.google.com/maps/search/?api=1&query=Misal%20pav%20in%20Kolhapur');
+    expect(url).not.toMatch(/key=/);
   });
 
   it('has no duplicate places or dishes', () => {
