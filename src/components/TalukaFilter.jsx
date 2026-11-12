@@ -1,22 +1,24 @@
+import useLang from '../lib/useLang';
 import { shortName } from '../lib/catalogue';
 
 export default function TalukaFilter({ talukas, counts, active, onChange }) {
-  const withPlaces = talukas.filter((t) => counts.get(t.id));
+  const { t, name } = useLang();
+  const withPlaces = talukas.filter((tk) => counts.get(tk.id));
   if (withPlaces.length === 0) return null;
   return (
-    <div className="chips" role="group" aria-label="Filter places by taluka">
+    <div className="chips" role="group" aria-label={t('filter.taluka')}>
       <button type="button" className="chip" aria-pressed={!active} onClick={() => onChange(null)}>
-        All talukas
+        {t('filter.allTalukas')}
       </button>
-      {withPlaces.map((t) => (
+      {withPlaces.map((tk) => (
         <button
-          key={t.id}
+          key={tk.id}
           type="button"
           className="chip"
-          aria-pressed={active === t.id}
-          onClick={() => onChange(t.id)}
+          aria-pressed={active === tk.id}
+          onClick={() => onChange(tk.id)}
         >
-          {shortName(t.name)} ({counts.get(t.id)})
+          {shortName(name(tk))} ({counts.get(tk.id)})
         </button>
       ))}
     </div>

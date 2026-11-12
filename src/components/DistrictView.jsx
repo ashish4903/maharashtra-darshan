@@ -9,9 +9,11 @@ import TalukaFilter from './TalukaFilter';
 import KnownFor from './KnownFor';
 import WikiSummary from './WikiSummary';
 import MaharashtraMap from './MaharashtraMap';
-import { coverImage, foodsIn, getDistrict, getRegion, placesIn, plural, talukaCounts } from '../lib/catalogue';
+import useLang from '../lib/useLang';
+import { coverImage, foodsIn, getDistrict, getRegion, placesIn, talukaCounts } from '../lib/catalogue';
 
 export default function DistrictView({ districtId }) {
+  const { t, name, otherName } = useLang();
   const [tab, setTab] = useState('places');
   const [taluka, setTaluka] = useState(null);
   const district = getDistrict(districtId);
@@ -32,20 +34,20 @@ export default function DistrictView({ districtId }) {
       <Banner
         image={coverImage({ district: districtId })}
         icon="📍"
-        kicker={`District in ${region.name}`}
-        title={district.name}
-        titleMr={district.nameMr}
+        kicker={t('district.kicker', { region: name(region) })}
+        title={name(district)}
+        titleMr={otherName(district)}
       >
         <p className="banner-stats">
-          {plural(placeList.length, 'place')} · {plural(district.talukas.length, 'taluka')}
+          {t('count.place', { n: placeList.length })} · {t('count.taluka', { n: district.talukas.length })}
         </p>
       </Banner>
 
       <div className="level-layout">
         <div className="level-main">
           {district.knownFor?.length > 0 && (
-            <section className="district-intro" aria-label={`What ${district.name} is known for`}>
-              <h2 className="intro-heading">Known for</h2>
+            <section className="district-intro" aria-label={t('district.knownFor')}>
+              <h2 className="intro-heading">{t('district.knownFor')}</h2>
               <KnownFor items={district.knownFor} />
             </section>
           )}
@@ -54,10 +56,10 @@ export default function DistrictView({ districtId }) {
             active={tab}
             onChange={setTab}
             tabs={[
-              { id: 'places', label: 'Places', count: placeList.length },
-              { id: 'food', label: 'Food', count: foodList.length },
-              { id: 'talukas', label: 'Talukas', count: district.talukas.length },
-              { id: 'about', label: 'About', count: '' },
+              { id: 'places', label: t('tab.places'), count: placeList.length },
+              { id: 'food', label: t('tab.food'), count: foodList.length },
+              { id: 'talukas', label: t('tab.talukas'), count: district.talukas.length },
+              { id: 'about', label: t('tab.about'), count: '' },
             ]}
           />
           {tab === 'places' && (
@@ -71,11 +73,15 @@ export default function DistrictView({ districtId }) {
           {tab === 'about' && district.wikipedia && <WikiSummary url={district.wikipedia} />}
         </div>
         <aside className="level-aside">
-          <MaharashtraMap region={district.region} district={districtId} label={`Map showing ${district.name}`} />
+          <MaharashtraMap
+            region={district.region}
+            district={districtId}
+            label={t('map.showing', { name: name(district) })}
+          />
           {district.wikipedia && (
             <p className="source-note">
               <a href={district.wikipedia} target="_blank" rel="noreferrer">
-                About {district.name} on Wikipedia
+                {t('district.wikipedia', { name: name(district) })}
               </a>
             </p>
           )}

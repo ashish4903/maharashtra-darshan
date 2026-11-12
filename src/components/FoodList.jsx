@@ -1,21 +1,23 @@
 import FoodCard from './FoodCard';
 import EmptyState from './EmptyState';
-import { areaName, mapsSearchUrl } from '../lib/catalogue';
+import useLang from '../lib/useLang';
+import { areaName, getDistrict, mapsSearchUrl, shortName } from '../lib/catalogue';
 
 /** Dishes for an area, with a Google Maps search for the area's best-rated restaurants. */
 export default function FoodList({ foods, districtId }) {
+  const { t, name } = useLang();
   if (foods.length === 0) return <EmptyState what="dishes" />;
   return (
     <>
       {districtId && (
         <p className="food-spots-banner">
-          Hungry? See{' '}
+          {t('food.hungry')}{' '}
           <a
             href={mapsSearchUrl(`best restaurants in ${areaName(districtId)}`)}
             target="_blank"
             rel="noreferrer"
           >
-            top-rated restaurants in {areaName(districtId)} on Google Maps ↗
+            {t('food.restaurantsIn', { area: shortName(name(getDistrict(districtId))) })}
           </a>
         </p>
       )}

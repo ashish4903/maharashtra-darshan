@@ -1,32 +1,36 @@
+import { Fragment } from 'react';
+import useLang from '../lib/useLang';
 import { generated } from '../lib/catalogue';
 
+const LINKS = {
+  wikidata: ['https://www.wikidata.org/', 'Wikidata'],
+  wikipedia: ['https://en.wikipedia.org/', 'Wikipedia'],
+  commons: ['https://commons.wikimedia.org/', 'Wikimedia Commons'],
+  naturalEarth: ['https://www.naturalearthdata.com/', 'Natural Earth'],
+};
+
 export default function Footer() {
+  const { t } = useLang();
+  // The sentence is translated as a whole; {placeholders} become links
+  const parts = t('footer.data', { date: generated }).split(/\{(\w+)\}/);
   return (
     <footer className="site-footer">
       <p>
-        Districts, talukas, names and descriptions come from{' '}
-        <a href="https://www.wikidata.org/" target="_blank" rel="noreferrer">
-          Wikidata
-        </a>{' '}
-        (CC0). Every place and dish links to its{' '}
-        <a href="https://en.wikipedia.org/" target="_blank" rel="noreferrer">
-          Wikipedia
-        </a>{' '}
-        article. Photos are freely licensed images from{' '}
-        <a href="https://commons.wikimedia.org/" target="_blank" rel="noreferrer">
-          Wikimedia Commons
-        </a>
-        , credited on each place’s page. Map outline from{' '}
-        <a href="https://www.naturalearthdata.com/" target="_blank" rel="noreferrer">
-          Natural Earth
-        </a>{' '}
-        (public domain). Data updated {generated}.
+        {parts.map((part, i) =>
+          i % 2 === 1 && LINKS[part] ? (
+            <a key={i} href={LINKS[part][0]} target="_blank" rel="noreferrer">
+              {LINKS[part][1]}
+            </a>
+          ) : (
+            <Fragment key={i}>{part}</Fragment>
+          ),
+        )}
       </p>
       <p>
         <a href="https://github.com/ashish4903/maharashtra-darshan" target="_blank" rel="noreferrer">
-          Source code
+          {t('footer.code')}
         </a>{' '}
-        · MIT licence
+        · {t('footer.licence')}
       </p>
     </footer>
   );

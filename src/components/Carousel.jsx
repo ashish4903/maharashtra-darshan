@@ -1,7 +1,9 @@
 import { useRef } from 'react';
+import useLang from '../lib/useLang';
 
 /** A horizontal, swipeable row of cards with arrow buttons on wider screens. */
 export default function Carousel({ title, subtitle, children }) {
+  const { t } = useLang();
   const track = useRef(null);
   const scroll = (direction) => {
     const el = track.current;
@@ -16,10 +18,10 @@ export default function Carousel({ title, subtitle, children }) {
           {subtitle && <p className="muted">{subtitle}</p>}
         </div>
         <div className="carousel-arrows">
-          <button type="button" onClick={() => scroll(-1)} aria-label={`Scroll ${title} back`}>
+          <button type="button" onClick={() => scroll(-1)} aria-label={t('carousel.back', { title })}>
             ‹
           </button>
-          <button type="button" onClick={() => scroll(1)} aria-label={`Scroll ${title} forward`}>
+          <button type="button" onClick={() => scroll(1)} aria-label={t('carousel.forward', { title })}>
             ›
           </button>
         </div>

@@ -1,11 +1,14 @@
 import Banner from './Banner';
+import Breadcrumbs from './Breadcrumbs';
 import TripPlan from './TripPlan';
 import ShareButton from './ShareButton';
 import useTrip from '../lib/useTrip';
-import { circuitPlaces, getCircuit, plural } from '../lib/catalogue';
+import useLang from '../lib/useLang';
+import { circuitPlaces, getCircuit } from '../lib/catalogue';
 
 /** A themed circuit, planned like a trip (map, days, directions). */
 export default function CircuitView({ circuitId }) {
+  const { t, name, otherName } = useLang();
   const circuit = getCircuit(circuitId);
   const stops = circuitPlaces(circuit);
   const { ids, addMany } = useTrip();
@@ -13,19 +16,17 @@ export default function CircuitView({ circuitId }) {
 
   return (
     <article className="level circuit-page">
-      <nav className="breadcrumbs" aria-label="Breadcrumb">
-        <a href="#/">Maharashtra</a>
-        <span aria-hidden="true"> › </span>
-        <span aria-current="page">Circuits</span>
-      </nav>
+      <Breadcrumbs current={t('crumb.circuits')} />
       <Banner
         image={stops.find((p) => p.image)?.image}
         icon="🧭"
-        kicker={`Circuit · ${plural(stops.length, 'stop')}`}
-        title={circuit.name}
-        titleMr={circuit.nameMr}
+        kicker={t('circuit.kicker', { stops: t('count.stop', { n: stops.length }) })}
+        title={name(circuit)}
+        titleMr={otherName(circuit)}
       >
-        <p className="banner-stats">{circuit.about}</p>
+        <p className="banner-stats" lang="en">
+          {circuit.about}
+        </p>
       </Banner>
 
       <div className="place-actions circuit-actions">
@@ -35,15 +36,15 @@ export default function CircuitView({ circuitId }) {
           onClick={() => addMany(stops.map((p) => p.id))}
           disabled={allSaved}
         >
-          {allSaved ? '✓ All in my trip' : '♥ Add all to my trip'}
+          {t(allSaved ? 'circuit.allAdded' : 'circuit.addAll')}
         </button>
-        <ShareButton title={circuit.name} />
+        <ShareButton title={name(circuit)} />
         <a className="button button-ghost" href={circuit.source} target="_blank" rel="noreferrer">
-          📖 Source on Wikipedia
+          {t('circuit.source')}
         </a>
       </div>
 
-      <TripPlan places={stops} keepOrder={circuit.ordered} givenLabel="As listed" />
+      <TripPlan places={stops} keepOrder={circuit.ordered} givenLabel="trip.asListed" />
     </article>
   );
 }

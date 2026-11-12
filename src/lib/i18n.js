@@ -1,0 +1,386 @@
+// Interface text in English and Marathi. Data names come from the data
+// itself (name / nameMr); this file holds only the app's own words.
+//
+// A message is a string with {placeholders}, or { one, other } for counts
+// (the count is passed as `n`). Marathi falls back to English per key.
+
+const en = {
+  'app.name': 'Maharashtra Darshan',
+  'app.tagline': 'Places to visit and food to try, region by region',
+  'lang.switch': 'मराठी',
+  'lang.switchLabel': 'मराठीत पहा (View in Marathi)',
+  'nav.main': 'Main',
+  'nav.explore': 'Explore',
+  'nav.trip': 'My trip',
+  'nav.home': 'Maharashtra Darshan home',
+
+  'search.label': 'Search',
+  'search.placeholder': 'Search a district, taluka, place or dish (English or मराठी)',
+  'search.clear': 'Clear search',
+  'search.results': 'Search results',
+  'search.none': 'Nothing matches “{q}”.',
+  'search.areas': 'Regions, districts and talukas',
+  'search.places': 'Places',
+  'search.food': 'Food',
+  'search.region': 'region',
+  'search.in': 'in {area}',
+  'search.knownFor': ' · known for {list}',
+
+  'hero.title': 'Discover Maharashtra, one region at a time',
+  'hero.lead':
+    'Forts on the Sahyadri, caves carved 2,000 years ago, tiger forests and Konkan beaches, and the food to try on the way. Every place links to its source.',
+  'hero.explore': 'Explore the map',
+  'hero.surprise': '🎲 Surprise me',
+
+  'home.chooseRegion': 'Choose a region',
+  'home.circuits': 'Circuits and pilgrimages',
+  'home.circuitsSub': 'Ready-made routes: plan them in days, or add them to your trip',
+  'home.mustSee': 'Must-see places',
+  'home.mustSeeSub': 'A few highlights from every region',
+  'home.taste': 'Taste of Maharashtra',
+  'home.tasteSub': 'Dishes you’ll find across the state',
+
+  'count.region': { one: '{n} region', other: '{n} regions' },
+  'count.district': { one: '{n} district', other: '{n} districts' },
+  'count.taluka': { one: '{n} taluka', other: '{n} talukas' },
+  'count.place': { one: '{n} place', other: '{n} places' },
+  'count.dish': { one: '{n} dish', other: '{n} dishes' },
+  'count.stop': { one: '{n} stop', other: '{n} stops' },
+  'count.day': { one: '{n} day', other: '{n} days' },
+
+  'map.label': 'Map of Maharashtra',
+  'map.hint': 'Tap a circle to open a district',
+  'map.stop': 'Stop {n}: {name}',
+  'map.of': 'Map of {name}',
+  'map.showing': 'Map showing {name}',
+  'map.trip': 'Map of this trip',
+
+  'crumb.home': 'Maharashtra',
+  'crumb.circuits': 'Circuits',
+  'crumb.label': 'Breadcrumb',
+
+  'region.kicker': 'Region',
+  'region.source': 'Districts as listed on {link}.',
+  'district.kicker': 'District in {region}',
+  'district.knownFor': 'Known for',
+  'district.wikipedia': 'About {name} on Wikipedia',
+
+  'tab.districts': 'Districts',
+  'tab.places': 'Places',
+  'tab.food': 'Food',
+  'tab.talukas': 'Talukas',
+  'tab.about': 'About',
+
+  'filter.all': 'All',
+  'filter.kind': 'Filter places by type',
+  'filter.taluka': 'Filter places by taluka',
+  'filter.allTalukas': 'All talukas',
+
+  'taluka.none': 'Wikidata lists no talukas for this district.',
+  'taluka.source': 'Talukas from Wikidata. A place is linked to a taluka when Wikidata or its Wikipedia article says so.',
+  'taluka.of': '{name} taluka',
+
+  'empty.places': 'No places added here yet. Entries are added only with a source.',
+  'empty.dishes': 'No dishes added here yet. Entries are added only with a source.',
+  'empty.suggest': 'Suggest one',
+
+  'card.away': '{km} away',
+  'card.readWikipedia': 'Read on Wikipedia ↗',
+  'card.save': 'Save {name} to my trip',
+  'card.unsave': 'Remove {name} from my trip',
+
+  'food.dish': 'Dish',
+  'food.fromHere': 'From this district',
+  'food.from': 'From {area}',
+  'food.statewide': 'Across Maharashtra',
+  'food.produceHere': 'Local produce from here',
+  'food.produceOf': 'Local produce of {area}',
+  'food.produce': 'Local produce · {area}',
+  'food.spots': 'Top-rated spots on Google Maps ↗',
+  'food.buy': 'Where to buy on Google Maps ↗',
+  'food.spotsTitle': 'Search Google Maps for “{q}”',
+  'food.hungry': 'Hungry? See',
+  'food.restaurantsIn': 'top-rated restaurants in {area} on Google Maps ↗',
+
+  'place.save': 'Save to my trip',
+  'place.saved': 'Saved to my trip',
+  'place.share': '↗ Share',
+  'place.copied': '✓ Link copied',
+  'place.map': '🗺️ Open map',
+  'place.wikipedia': '📖 Wikipedia',
+  'place.restaurants': '🍴 Top-rated restaurants nearby',
+  'place.restaurantsTitle': 'Opens Google Maps, which shows current ratings',
+  'place.region': 'Region',
+  'place.district': 'District',
+  'place.taluka': 'Taluka',
+  'place.coords': 'Coordinates',
+  'place.partOf': 'Part of',
+  'place.photo': 'Photo:',
+  'place.photoNote': '(see the file page for its author and licence).',
+  'place.nearby': 'Nearby places',
+  'place.nearbySub': 'Closest first, as the crow flies',
+  'place.foodNearby': 'Food to try nearby',
+  'place.foodSub': 'Dishes of {region}',
+
+  'summary.loading': 'Loading the story from Wikipedia…',
+  'summary.label': 'About this place',
+  'summary.from': 'From {wikipedia}, available under {licence}.',
+
+  'near.title': 'Near me',
+  'near.note': 'Your location stays on your device.',
+  'near.button': '📍 Show places near me',
+  'near.finding': 'Finding you…',
+  'near.unsupported': 'Your browser can’t share its location.',
+  'near.denied': 'Location wasn’t shared, so nearby places can’t be shown.',
+
+  'carousel.back': 'Scroll {title} back',
+  'carousel.forward': 'Scroll {title} forward',
+
+  'trip.title': 'My trip',
+  'trip.sharedTitle': 'A shared trip',
+  'trip.intro': 'Places you saved, planned into days. They stay in this browser only.',
+  'trip.sharedIntro': 'Someone shared this plan with you. Save it to make it your own.',
+  'trip.share': '↗ Share this trip',
+  'trip.shareTitle': 'My Maharashtra trip',
+  'trip.clear': 'Clear all',
+  'trip.saveAll': '♥ Save all to my trip',
+  'trip.allSaved': '✓ Saved to my trip',
+  'trip.mine': 'My trip',
+  'trip.empty': 'Nothing saved yet. Tap ♡ on any place to add it here, and it will be planned into days.',
+  'trip.start': 'Start exploring',
+  'trip.summary': '{stops} · about {km} in a straight line · {days}',
+  'trip.order': 'Order',
+  'trip.shortest': 'Shortest route',
+  'trip.asSaved': 'As saved',
+  'trip.asListed': 'As listed',
+  'trip.traditional': 'Traditional order',
+  'trip.perDay': 'Stops a day',
+  'trip.whole': '🧭 Whole route in Google Maps',
+  'trip.day': 'Day {n}',
+  'trip.directions': 'Directions ↗',
+  'trip.offRoute': 'Not on the route',
+  'trip.offRouteNote': 'No coordinates on Wikipedia yet',
+  'trip.hop': '↳ {km} from the previous stop',
+  'trip.note': 'Distances are straight-line; roads are longer. Directions open in Google Maps.',
+
+  'circuit.kicker': 'Circuit · {stops}',
+  'circuit.addAll': '♥ Add all to my trip',
+  'circuit.allAdded': '✓ All in my trip',
+  'circuit.source': '📖 Source on Wikipedia',
+
+  'footer.data':
+    'Districts, talukas, names and descriptions come from {wikidata} (CC0). Every place and dish links to its {wikipedia} article. Photos are freely licensed images from {commons}, credited on each place’s page. Map outline from {naturalEarth} (public domain). Data updated {date}.',
+  'footer.code': 'Source code',
+  'footer.licence': 'MIT licence',
+};
+
+const mr = {
+  'app.name': 'महाराष्ट्र दर्शन',
+  'app.tagline': 'विभागवार पाहण्यासारखी ठिकाणे आणि चाखण्यासारखे पदार्थ',
+  'lang.switch': 'English',
+  'lang.switchLabel': 'View in English (इंग्रजीत पहा)',
+  'nav.main': 'मुख्य',
+  'nav.explore': 'शोधा',
+  'nav.trip': 'माझी सहल',
+  'nav.home': 'महाराष्ट्र दर्शन मुखपृष्ठ',
+
+  'search.label': 'शोध',
+  'search.placeholder': 'जिल्हा, तालुका, ठिकाण किंवा पदार्थ शोधा (मराठी किंवा English)',
+  'search.clear': 'शोध पुसा',
+  'search.results': 'शोध निकाल',
+  'search.none': '“{q}” साठी काहीही सापडले नाही.',
+  'search.areas': 'विभाग, जिल्हे आणि तालुके',
+  'search.places': 'ठिकाणे',
+  'search.food': 'खाद्यपदार्थ',
+  'search.region': 'विभाग',
+  'search.in': '{area} मध्ये',
+  'search.knownFor': ' · प्रसिद्ध: {list}',
+
+  'hero.title': 'महाराष्ट्र अनुभवा, एकेक विभाग',
+  'hero.lead':
+    'सह्याद्रीवरचे किल्ले, दोन हजार वर्षांपूर्वी कोरलेली लेणी, वाघांची जंगले, कोकणचे किनारे आणि वाटेत चाखायचे पदार्थ. प्रत्येक ठिकाणाला त्याचा स्रोत जोडलेला आहे.',
+  'hero.explore': 'नकाशा पाहा',
+  'hero.surprise': '🎲 कुठेही घेऊन चला',
+
+  'home.chooseRegion': 'विभाग निवडा',
+  'home.circuits': 'यात्रा आणि सर्किट',
+  'home.circuitsSub': 'तयार मार्ग: दिवसांत आखा किंवा तुमच्या सहलीत जोडा',
+  'home.mustSee': 'आवर्जून पाहावी अशी ठिकाणे',
+  'home.mustSeeSub': 'प्रत्येक विभागातील काही खास ठिकाणे',
+  'home.taste': 'महाराष्ट्राची चव',
+  'home.tasteSub': 'राज्यभर मिळणारे पदार्थ',
+
+  'count.region': { one: '{n} विभाग', other: '{n} विभाग' },
+  'count.district': { one: '{n} जिल्हा', other: '{n} जिल्हे' },
+  'count.taluka': { one: '{n} तालुका', other: '{n} तालुके' },
+  'count.place': { one: '{n} ठिकाण', other: '{n} ठिकाणे' },
+  'count.dish': { one: '{n} पदार्थ', other: '{n} पदार्थ' },
+  'count.stop': { one: '{n} थांबा', other: '{n} थांबे' },
+  'count.day': { one: '{n} दिवस', other: '{n} दिवस' },
+
+  'map.label': 'महाराष्ट्राचा नकाशा',
+  'map.hint': 'जिल्हा उघडण्यासाठी वर्तुळावर टॅप करा',
+  'map.stop': 'थांबा {n}: {name}',
+  'map.of': '{name} चा नकाशा',
+  'map.showing': '{name} दाखवणारा नकाशा',
+  'map.trip': 'या सहलीचा नकाशा',
+
+  'crumb.home': 'महाराष्ट्र',
+  'crumb.circuits': 'सर्किट',
+  'crumb.label': 'मार्गदर्शक दुवे',
+
+  'region.kicker': 'विभाग',
+  'region.source': 'जिल्ह्यांची यादी {link} नुसार.',
+  'district.kicker': '{region} मधील जिल्हा',
+  'district.knownFor': 'कशासाठी प्रसिद्ध',
+  'district.wikipedia': '{name} विषयी Wikipedia वर',
+
+  'tab.districts': 'जिल्हे',
+  'tab.places': 'ठिकाणे',
+  'tab.food': 'खाद्य',
+  'tab.talukas': 'तालुके',
+  'tab.about': 'माहिती',
+
+  'filter.all': 'सर्व',
+  'filter.kind': 'प्रकारानुसार ठिकाणे',
+  'filter.taluka': 'तालुक्यानुसार ठिकाणे',
+  'filter.allTalukas': 'सर्व तालुके',
+
+  'taluka.none': 'Wikidata मध्ये या जिल्ह्याचे तालुके नोंदलेले नाहीत.',
+  'taluka.source':
+    'तालुके Wikidata वरून. Wikidata किंवा त्या ठिकाणाच्या Wikipedia लेखात उल्लेख असल्यासच ठिकाण तालुक्याशी जोडले आहे.',
+  'taluka.of': '{name} तालुका',
+
+  'empty.places': 'इथे अजून ठिकाणे जोडलेली नाहीत. स्रोत असलेल्या नोंदीच जोडल्या जातात.',
+  'empty.dishes': 'इथे अजून पदार्थ जोडलेले नाहीत. स्रोत असलेल्या नोंदीच जोडल्या जातात.',
+  'empty.suggest': 'सुचवा',
+
+  'card.away': '{km} दूर',
+  'card.readWikipedia': 'Wikipedia वर वाचा ↗',
+  'card.save': '{name} माझ्या सहलीत जोडा',
+  'card.unsave': '{name} माझ्या सहलीतून काढा',
+
+  'food.dish': 'पदार्थ',
+  'food.fromHere': 'याच जिल्ह्यातील',
+  'food.from': '{area} चा',
+  'food.statewide': 'संपूर्ण महाराष्ट्र',
+  'food.produceHere': 'इथले स्थानिक उत्पादन',
+  'food.produceOf': '{area} चे स्थानिक उत्पादन',
+  'food.produce': 'स्थानिक उत्पादन · {area}',
+  'food.spots': 'Google Maps वर सर्वोत्तम ठिकाणे ↗',
+  'food.buy': 'Google Maps वर कुठे मिळेल ↗',
+  'food.spotsTitle': 'Google Maps वर “{q}” शोधा',
+  'food.hungry': 'भूक लागली?',
+  'food.restaurantsIn': '{area} मधील सर्वोत्तम उपाहारगृहे Google Maps वर पाहा ↗',
+
+  'place.save': 'माझ्या सहलीत जोडा',
+  'place.saved': 'सहलीत जोडले',
+  'place.share': '↗ शेअर करा',
+  'place.copied': '✓ दुवा कॉपी झाला',
+  'place.map': '🗺️ नकाशा उघडा',
+  'place.wikipedia': '📖 Wikipedia',
+  'place.restaurants': '🍴 जवळची सर्वोत्तम उपाहारगृहे',
+  'place.restaurantsTitle': 'Google Maps उघडते, तिथे सध्याचे रेटिंग दिसते',
+  'place.region': 'विभाग',
+  'place.district': 'जिल्हा',
+  'place.taluka': 'तालुका',
+  'place.coords': 'स्थान',
+  'place.partOf': 'या सर्किटमध्ये:',
+  'place.photo': 'छायाचित्र:',
+  'place.photoNote': '(छायाचित्रकार आणि परवान्यासाठी फाइल पान पाहा).',
+  'place.nearby': 'जवळची ठिकाणे',
+  'place.nearbySub': 'सर्वात जवळचे आधी, सरळ रेषेतील अंतर',
+  'place.foodNearby': 'जवळपास चाखण्यासारखे',
+  'place.foodSub': '{region} चे पदार्थ',
+
+  'summary.loading': 'Wikipedia वरून माहिती आणत आहे…',
+  'summary.label': 'या ठिकाणाविषयी',
+  'summary.from': '{wikipedia} वरून (इंग्रजी), {licence} परवान्याअंतर्गत.',
+
+  'near.title': 'माझ्या जवळ',
+  'near.note': 'तुमचे स्थान तुमच्या उपकरणावरच राहते.',
+  'near.button': '📍 माझ्या जवळची ठिकाणे दाखवा',
+  'near.finding': 'तुमचे स्थान शोधत आहे…',
+  'near.unsupported': 'तुमचा ब्राउझर स्थान देऊ शकत नाही.',
+  'near.denied': 'स्थान मिळाले नाही, त्यामुळे जवळची ठिकाणे दाखवता येत नाहीत.',
+
+  'carousel.back': '{title} मागे सरकवा',
+  'carousel.forward': '{title} पुढे सरकवा',
+
+  'trip.title': 'माझी सहल',
+  'trip.sharedTitle': 'शेअर केलेली सहल',
+  'trip.intro': 'तुम्ही जोडलेली ठिकाणे, दिवसांत आखलेली. ही फक्त या ब्राउझरमध्येच राहतात.',
+  'trip.sharedIntro': 'कोणीतरी ही सहल तुमच्याशी शेअर केली आहे. ती तुमची करण्यासाठी जोडा.',
+  'trip.share': '↗ ही सहल शेअर करा',
+  'trip.shareTitle': 'माझी महाराष्ट्र सहल',
+  'trip.clear': 'सर्व काढा',
+  'trip.saveAll': '♥ सर्व माझ्या सहलीत जोडा',
+  'trip.allSaved': '✓ सहलीत जोडले',
+  'trip.mine': 'माझी सहल',
+  'trip.empty': 'अजून काहीही जोडलेले नाही. कोणत्याही ठिकाणावर ♡ टॅप करा, ते इथे दिवसांत आखले जाईल.',
+  'trip.start': 'शोधायला सुरुवात करा',
+  'trip.summary': '{stops} · सरळ रेषेत सुमारे {km} · {days}',
+  'trip.order': 'क्रम',
+  'trip.shortest': 'सर्वात लहान मार्ग',
+  'trip.asSaved': 'जोडल्याप्रमाणे',
+  'trip.asListed': 'यादीप्रमाणे',
+  'trip.traditional': 'पारंपरिक क्रम',
+  'trip.perDay': 'दिवसाला थांबे',
+  'trip.whole': '🧭 संपूर्ण मार्ग Google Maps वर',
+  'trip.day': 'दिवस {n}',
+  'trip.directions': 'दिशा ↗',
+  'trip.offRoute': 'मार्गात नसलेली',
+  'trip.offRouteNote': 'Wikipedia वर अजून स्थान नाही',
+  'trip.hop': '↳ आधीच्या थांब्यापासून {km}',
+  'trip.note': 'अंतरे सरळ रेषेतील आहेत; रस्त्याने जास्त अंतर असते. दिशा Google Maps वर उघडतात.',
+
+  'circuit.kicker': 'सर्किट · {stops}',
+  'circuit.addAll': '♥ सर्व माझ्या सहलीत जोडा',
+  'circuit.allAdded': '✓ सर्व सहलीत आहेत',
+  'circuit.source': '📖 Wikipedia वरील स्रोत',
+
+  'footer.data':
+    'जिल्हे, तालुके, नावे आणि वर्णने {wikidata} (CC0) वरून. प्रत्येक ठिकाण आणि पदार्थाला त्याचा {wikipedia} लेख जोडलेला आहे. छायाचित्रे {commons} वरील मुक्त परवान्याची आहेत, प्रत्येक ठिकाणाच्या पानावर श्रेय दिले आहे. नकाशाची रेषा {naturalEarth} (सार्वजनिक) वरून. माहिती अद्ययावत: {date}.',
+  'footer.code': 'स्रोत कोड',
+  'footer.licence': 'MIT परवाना',
+};
+
+// Place types: one label for a card, a plural one for filters
+const KIND_TEXT = {
+  en: {
+    fort: ['Fort', 'Forts'],
+    temple: ['Place of worship', 'Places of worship'],
+    pilgrimage: ['Pilgrim town', 'Pilgrim towns'],
+    heritage: ['Heritage', 'Heritage'],
+    nature: ['Nature & wildlife', 'Nature & wildlife'],
+    'hill-station': ['Hill station', 'Hill stations'],
+    beach: ['Beach', 'Beaches'],
+    town: ['Town', 'Towns'],
+    village: ['Village', 'Villages'],
+  },
+  mr: {
+    fort: ['किल्ला', 'किल्ले'],
+    temple: ['प्रार्थनास्थळ', 'प्रार्थनास्थळे'],
+    pilgrimage: ['तीर्थक्षेत्र', 'तीर्थक्षेत्रे'],
+    heritage: ['वारसा स्थळ', 'वारसा स्थळे'],
+    nature: ['निसर्ग व वन्यजीव', 'निसर्ग व वन्यजीव'],
+    'hill-station': ['थंड हवेचे ठिकाण', 'थंड हवेची ठिकाणे'],
+    beach: ['समुद्रकिनारा', 'समुद्रकिनारे'],
+    town: ['शहर', 'शहरे'],
+    village: ['गाव', 'गावे'],
+  },
+};
+
+export const LANGUAGES = ['en', 'mr'];
+const MESSAGES = { en, mr };
+
+export function translate(lang, key, vars = {}) {
+  let msg = MESSAGES[lang]?.[key] ?? en[key] ?? key;
+  if (typeof msg === 'object') msg = vars.n === 1 ? msg.one : msg.other;
+  return msg.replace(/\{(\w+)\}/g, (_, k) => (vars[k] ?? `{${k}}`).toString());
+}
+
+export const kindText = (lang, kind, many = false) => (KIND_TEXT[lang] ?? KIND_TEXT.en)[kind]?.[many ? 1 : 0] ?? kind;
+
+/** Every key that English has but Marathi lacks (used by a test). */
+export const missingMarathi = () => Object.keys(en).filter((k) => !(k in mr));

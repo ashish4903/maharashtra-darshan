@@ -60,7 +60,10 @@ export const districtsOf = (regionId) =>
   getRegion(regionId)?.districts.map(getDistrict).sort((a, b) => a.name.localeCompare(b.name)) ?? [];
 
 /** "Nagpur district" -> "Nagpur", "Haveli taluka" -> "Haveli" */
-export const shortName = (name) => name.replace(/\s+(district|taluka)$/i, '');
+export const shortName = (name) =>
+  name
+    .replace(/\s*\([^)]*\)/g, '') // "कळंब (यवतमाळ)" -> "कळंब"
+    .replace(/\s+(district|taluka|जिल्हा|तालुका)$/i, '');
 
 export function placesIn({ region, district } = {}) {
   if (district) return places.filter((p) => p.district === district);

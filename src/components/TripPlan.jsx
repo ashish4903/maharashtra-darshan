@@ -1,15 +1,16 @@
 import { useState } from 'react';
 import MaharashtraMap from './MaharashtraMap';
 import TripStop from './TripStop';
+import useLang from '../lib/useLang';
 import { directionsUrl, routeKm, shortestRoute, splitDays } from '../lib/trip';
 import { formatKm } from '../lib/geo';
-import { plural } from '../lib/catalogue';
 
 /**
  * A list of places as a route: shortest order (or as given), split into
  * days, with a map and Google Maps directions for each day.
  */
-export default function TripPlan({ places, removable = false, keepOrder = false, givenLabel = 'As saved' }) {
+export default function TripPlan({ places, removable = false, keepOrder = false, givenLabel = 'trip.asSaved' }) {
+  const { t } = useLang();
   const [order, setOrder] = useState(keepOrder ? 'given' : 'shortest');
   const [perDay, setPerDay] = useState(3);
 
@@ -24,19 +25,22 @@ export default function TripPlan({ places, removable = false, keepOrder = false,
     <div className="trip-plan">
       <div className="trip-summary">
         <p>
-          <strong>{plural(route.length, 'stop')}</strong> · about <strong>{formatKm(routeKm(route))}</strong> in a
-          straight line · <strong>{plural(days.length, 'day')}</strong>
+          {t('trip.summary', {
+            stops: t('count.stop', { n: route.length }),
+            km: formatKm(routeKm(route)),
+            days: t('count.day', { n: days.length }),
+          })}
         </p>
         <div className="trip-controls">
           <label>
-            Order{' '}
+            {t('trip.order')}{' '}
             <select value={order} onChange={(e) => setOrder(e.target.value)}>
-              <option value="shortest">Shortest route</option>
-              <option value="given">{keepOrder ? 'Traditional order' : givenLabel}</option>
+              <option value="shortest">{t('trip.shortest')}</option>
+              <option value="given">{t(keepOrder ? 'trip.traditional' : givenLabel)}</option>
             </select>
           </label>
           <label>
-            Stops a day{' '}
+            {t('trip.perDay')}{' '}
             <select value={perDay} onChange={(e) => setPerDay(Number(e.target.value))}>
               {[2, 3, 4, 5, 6].map((n) => (
                 <option key={n} value={n}>
@@ -47,7 +51,7 @@ export default function TripPlan({ places, removable = false, keepOrder = false,
           </label>
           {whole && (
             <a className="button button-primary" href={whole} target="_blank" rel="noreferrer">
-              🧭 Whole route in Google Maps
+              {t('trip.whole')}
             </a>
           )}
         </div>
@@ -56,15 +60,15 @@ export default function TripPlan({ places, removable = false, keepOrder = false,
       <div className="level-layout">
         <div className="level-main">
           {days.map((day, i) => (
-            <section key={i} className="trip-day" aria-label={`Day ${i + 1}`}>
+            <section key={i} className="trip-day" aria-label={t('trip.day', { n: i + 1 })}>
               <header className="trip-day-head">
-                <h2>Day {i + 1}</h2>
+                <h2>{t('trip.day', { n: i + 1 })}</h2>
                 <span className="muted">
-                  {plural(day.stops.length, 'stop')}
+                  {t('count.stop', { n: day.stops.length })}
                   {day.km > 0 && ` · ${formatKm(day.km)}`}
                 </span>
                 <a href={directionsUrl(day.stops.map((s) => s.place))} target="_blank" rel="noreferrer">
-                  Directions ↗
+                  {t('trip.directions')}
                 </a>
               </header>
               <ol className="trip-stops">
@@ -81,10 +85,10 @@ export default function TripPlan({ places, removable = false, keepOrder = false,
             </section>
           ))}
           {unmapped.length > 0 && (
-            <section className="trip-day" aria-label="Not on the route">
+            <section className="trip-day" aria-label={t('trip.offRoute')}>
               <header className="trip-day-head">
-                <h2>Not on the route</h2>
-                <span className="muted">No coordinates on Wikipedia yet</span>
+                <h2>{t('trip.offRoute')}</h2>
+                <span className="muted">{t('trip.offRouteNote')}</span>
               </header>
               <ol className="trip-stops">
                 {unmapped.map((p) => (
@@ -93,12 +97,10 @@ export default function TripPlan({ places, removable = false, keepOrder = false,
               </ol>
             </section>
           )}
-          <p className="source-note">
-            Distances are straight-line; roads are longer. Directions open in Google Maps.
-          </p>
+          <p className="source-note">{t('trip.note')}</p>
         </div>
         <aside className="level-aside">
-          <MaharashtraMap route={route} label="Map of this trip" />
+          <MaharashtraMap route={route} label={t('map.trip')} />
         </aside>
       </div>
     </div>

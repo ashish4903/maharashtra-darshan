@@ -1,14 +1,16 @@
 import useTrip from '../lib/useTrip';
+import useLang from '../lib/useLang';
 
 export default function SaveButton({ place, withLabel = false }) {
   const { has, toggle } = useTrip();
+  const { t, name } = useLang();
   const saved = has(place.id);
   return (
     <button
       type="button"
       className={`save-button${saved ? ' is-saved' : ''}${withLabel ? ' with-label' : ''}`}
       aria-pressed={saved}
-      aria-label={withLabel ? undefined : saved ? `Remove ${place.name} from my trip` : `Save ${place.name} to my trip`}
+      aria-label={withLabel ? undefined : t(saved ? 'card.unsave' : 'card.save', { name: name(place) })}
       onClick={(e) => {
         e.preventDefault();
         e.stopPropagation();
@@ -16,7 +18,7 @@ export default function SaveButton({ place, withLabel = false }) {
       }}
     >
       <span aria-hidden="true">{saved ? '♥' : '♡'}</span>
-      {withLabel && (saved ? ' Saved to my trip' : ' Save to my trip')}
+      {withLabel && t(saved ? 'place.saved' : 'place.save')}
     </button>
   );
 }
