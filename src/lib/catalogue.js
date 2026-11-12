@@ -5,7 +5,7 @@ import data from '../data/maharashtra.json';
 // `one` labels a single card, `label` a filter button
 export const KINDS = {
   fort: { one: 'Fort', label: 'Forts', icon: '🏰' },
-  temple: { one: 'Temple', label: 'Temples', icon: '🛕' },
+  temple: { one: 'Place of worship', label: 'Places of worship', icon: '🛕' },
   pilgrimage: { one: 'Pilgrim town', label: 'Pilgrim towns', icon: '🙏' },
   heritage: { one: 'Heritage', label: 'Heritage', icon: '🏛️' },
   nature: { one: 'Nature & wildlife', label: 'Nature & wildlife', icon: '🌿' },

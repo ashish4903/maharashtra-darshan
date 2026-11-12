@@ -13,7 +13,7 @@ React (Vite) app for exploring Maharashtra: regions → districts → talukas, p
 
 - `data/curated.json`: the only hand-edited data: regions, renames, places, foods
 - `scripts/build-data.mjs`: fetches and checks the data, then writes the JSON
-- `src/data/maharashtra.json`: **generated, ~70 KB**. Never edit by hand
+- `src/data/maharashtra.json`: **generated, ~150 KB**. Never edit by hand
 - `src/lib/catalogue.js`: all data access (components never import the JSON)
 - `src/lib/route.js`: hash routes `#/`, `#/region/<id>`, `#/district/<Wikidata id>`
 - `src/components/`: one small component per file
