@@ -30,11 +30,16 @@ const qid = (uri) => uri.replace('http://www.wikidata.org/entity/', '');
 const base = (name) => name.replace(/,.*$/, '').replace(/\s+(district|taluka|tehsil)$/i, '').trim();
 const wikiUrl = (title) => 'https://en.wikipedia.org/wiki/' + encodeURIComponent(title.replace(/ /g, '_'));
 
+// Retries both error responses and dropped connections (ECONNRESET etc.)
 async function getJson(url) {
   for (let attempt = 1; ; attempt++) {
-    const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT, Accept: 'application/json' } });
-    if (res.ok) return res.json();
-    if (attempt === 4) throw new Error(`${res.status} for ${url}`);
+    try {
+      const res = await fetch(url, { headers: { 'User-Agent': USER_AGENT, Accept: 'application/json' } });
+      if (res.ok) return await res.json();
+      if (attempt >= 4) throw new Error(`${res.status} for ${url}`);
+    } catch (err) {
+      if (attempt >= 4) throw err;
+    }
     await sleep(5000 * attempt);
   }
 }

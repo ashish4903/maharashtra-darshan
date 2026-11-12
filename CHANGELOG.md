@@ -6,6 +6,15 @@ All notable changes to this project are listed here. The format follows [Keep a 
 
 ### Added
 
+- The rest of the official Maharashtra Tourism district pages compared (all 36 now). Each new entry was checked against its own Wikipedia article.
+  - 406 places, up from 379, including Ratangad, Sandhan Valley, Chaul, Ujani Dam, Miraj, Masunda Lake, Mumbai's Mahalakshmi Temple, Sula Vineyards and the Khadakwasla and Panshet dams.
+  - Pani puri and sev puri added to the Mumbai food list.
+  - “Known for” now covers all 36 districts (88 facts). New facts include Nagpur “Orange City” and “Tiger Capital of India”, Pune “Oxford of the East”, Ratnagiri’s Alphonso mangoes and Tilak, Sangli “Turmeric City”, Kolhapur’s tambda rassa, Solapuri chaddars and Nashik wine.
+
+### Fixed
+
+- The data build now retries when the connection to Wikipedia or Wikidata drops.
+
 - Gaps found by comparing with the official Maharashtra Tourism district pages and Wikipedia's Maharashtra lists. Each new entry was then checked against its own Wikipedia article:
   - 379 places, up from 313. Every district now has at least 2.
   - New places include Jalna Fort, Ambad (Matsyodari Devi), Poharadevi, Aner Dam sanctuary, Mumbai landmarks, and Sahyadri trek forts.

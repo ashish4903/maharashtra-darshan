@@ -9,8 +9,8 @@ One place to explore Maharashtra region by region: Konkan, Western Maharashtra, 
 - **Interactive map:** hover over or tap any of the 36 districts, or highlight a region from the legend.
 - **Browse by area:** region, then district, then its talukas.
 - **District pages:** what the district is known for (for example, Yavatmal: cotton, “Cotton City”), its places by taluka, its food, and an About tab with the Wikipedia summary.
-- **Places to visit:** 379 forts, caves, places of worship, pilgrim towns, museums, lakes, waterfalls, wildlife sanctuaries, hill stations, beaches and well-known villages, most with photos. Filter them by type or by taluka.
-- **Food to try:** 37 dishes and GI-tagged local produce, such as Sangli turmeric, Mahabaleshwar strawberries, Jalgaon bananas and Vengurla cashew, for each region and district.
+- **Places to visit:** 406 forts, caves, places of worship, pilgrim towns, museums, lakes, waterfalls, wildlife sanctuaries, hill stations, beaches and well-known villages, most with photos. Filter them by type or by taluka.
+- **Food to try:** 39 dishes and GI-tagged local produce, such as Sangli turmeric, Mahabaleshwar strawberries, Jalgaon bananas and Vengurla cashew, for each region and district.
 - **A page for every place:** each one has:
   - the opening paragraph of its Wikipedia article
   - its region and district, and its location on the map
