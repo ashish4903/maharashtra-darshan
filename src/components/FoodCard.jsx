@@ -1,28 +1,35 @@
-import { getDistrict, shortName } from '../lib/catalogue';
+import Photo from './Photo';
+import { getDistrict, getRegion, shortName } from '../lib/catalogue';
 
 export default function FoodCard({ food, fromHere = false }) {
   const district = food.district && getDistrict(food.district);
-  let origin = 'Dish';
+  const region = getRegion(food.region);
+  let origin = region ? region.name : 'Across Maharashtra';
   if (fromHere) origin = 'From this district';
   else if (district) origin = `From ${shortName(district.name)}`;
 
   return (
-    <div className="card food-card">
-      <p className="card-kind">
-        <span aria-hidden="true">🍽️</span> {origin}
-      </p>
-      <h3 className="card-title">{food.name}</h3>
-      {food.nameMr && (
-        <p className="card-mr" lang="mr">
-          {food.nameMr}
-        </p>
-      )}
-      {food.description && <p className="card-text">{food.description}</p>}
-      <p className="card-links">
-        <a href={food.wikipedia} target="_blank" rel="noreferrer">
-          Wikipedia
-        </a>
-      </p>
+    <div className={`card food-card region-${food.region}`}>
+      <a href={food.wikipedia} target="_blank" rel="noreferrer" className="card-link">
+        <div className="card-media">
+          <Photo image={food.image} alt={food.name} icon="🍽️" />
+          <span className="card-badge">
+            <span aria-hidden="true">🍽️</span> {origin}
+          </span>
+        </div>
+        <div className="card-body">
+          <h3 className="card-title">{food.name}</h3>
+          {food.nameMr && (
+            <p className="card-mr" lang="mr">
+              {food.nameMr}
+            </p>
+          )}
+          {food.description && <p className="card-text">{food.description}</p>}
+          <p className="card-meta">
+            <span>Read on Wikipedia ↗</span>
+          </p>
+        </div>
+      </a>
     </div>
   );
 }

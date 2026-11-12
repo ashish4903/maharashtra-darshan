@@ -27,9 +27,27 @@ export const generated = data.generated;
 
 const regionIndex = new Map(regions.map((r) => [r.id, r]));
 const districtIndex = new Map(districts.map((d) => [d.id, d]));
+const placeIndex = new Map(places.map((p) => [p.id, p]));
 
 export const getRegion = (id) => regionIndex.get(id);
 export const getDistrict = (id) => districtIndex.get(id);
+export const getPlace = (id) => placeIndex.get(id);
+
+/**
+ * Places with photos, a few from each region. data/curated.json lists the
+ * best-known places of each district first, so the first ones are used.
+ */
+export function featuredPlaces(perRegion = 3) {
+  return regions.flatMap((r) => places.filter((p) => p.region === r.id && p.image).slice(0, perRegion));
+}
+
+/** A photo to represent a region or district. */
+export const coverImage = ({ region, district }) =>
+  places.find((p) => p.image && (district ? p.district === district : p.region === region))?.image;
+
+export const randomPlace = (random = Math.random) => places[Math.floor(random() * places.length)];
+
+export const commonsUrl = (file) => 'https://commons.wikimedia.org/wiki/File:' + encodeURIComponent(file);
 
 export const districtsOf = (regionId) =>
   getRegion(regionId)?.districts.map(getDistrict).sort((a, b) => a.name.localeCompare(b.name)) ?? [];
