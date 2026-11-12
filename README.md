@@ -6,10 +6,18 @@ One place to explore Maharashtra region by region: Konkan, Western Maharashtra, 
 
 ## Features
 
+- **Interactive map:** hover over or tap any of the 36 districts, or highlight a region from the legend.
 - **Browse by area:** region, then district, then its talukas.
-- **Places to visit:** forts, temples, heritage sites, nature reserves, hill stations, beaches and well-known villages. Filter them by type, and open each on Wikipedia or OpenStreetMap.
-- **Food to try:** dishes for each region and district, plus dishes from across the state.
-- **Search:** works in English or Marathi, for example `Lonar` or `वडापाव`.
+- **Places to visit:** 155 forts, caves, places of worship, museums, wildlife sanctuaries, hill stations, beaches and well-known villages, with photos. Filter them by type.
+- **A page for every place:** each one has:
+  - the opening paragraph of its Wikipedia article
+  - its region and district, and its location on the map
+  - the nearest places, with distances
+  - food to try nearby
+- **My trip:** tap ♡ to save places. They're kept in your browser only.
+- **Near me:** lists the places closest to you. Your location never leaves your device.
+- **Surprise me:** opens a random place.
+- **Search:** works in English or Marathi, for example `Lonar` or `वडापाव`. Press <kbd>/</kbd> to jump to the search box.
 - **Shareable links:** every page has its own link, for example `#/region/vidarbha`.
 - **Responsive:** works on phones first, and adapts to larger screens and dark mode.
 
@@ -22,6 +30,9 @@ Nothing is written from memory. Every entry has a source:
 | Districts, talukas, Marathi names, descriptions, map coordinates | [Wikidata](https://www.wikidata.org/) (CC0) |
 | Places and dishes | A curated list of [Wikipedia](https://en.wikipedia.org/) articles, linked from every card |
 | Which districts belong to each region | The Wikipedia article for each division or region |
+| Photos | The lead image of each Wikipedia article, only when it is freely licensed, from [Wikimedia Commons](https://commons.wikimedia.org/). Each place's page links to the photo's file page for author and licence. |
+| Place summaries | Loaded live from the Wikipedia article when a place's page opens, and credited there (CC BY-SA 4.0) |
+| State outline on the map | [Natural Earth](https://www.naturalearthdata.com/) (public domain), built by `npm run outline` |
 
 `npm run data` rebuilds `src/data/maharashtra.json` and checks every claim:
 - Each district must be named on its region's source page.
@@ -50,10 +61,12 @@ npm run lint
 npm run build
 ```
 
-The app needs no API keys, accounts or `.env` file.
+The app needs no API keys, accounts or `.env` file. It has no tracking and no cookies. Its only network requests are to Wikipedia and Wikimedia Commons, for summaries and photos.
 
 ## Licence
 
 The code is under the [MIT](LICENSE) licence.
 - Data from Wikidata is CC0.
-- Wikipedia articles are linked, not copied.
+- Wikipedia text is loaded live and credited, not copied into the repo.
+- Photos stay on Wikimedia Commons under their own licences.
+- The map outline is public domain.

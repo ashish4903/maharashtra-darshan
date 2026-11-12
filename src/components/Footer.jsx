@@ -12,7 +12,15 @@ export default function Footer() {
         <a href="https://en.wikipedia.org/" target="_blank" rel="noreferrer">
           Wikipedia
         </a>{' '}
-        article. Data updated {generated}.
+        article. Photos are freely licensed images from{' '}
+        <a href="https://commons.wikimedia.org/" target="_blank" rel="noreferrer">
+          Wikimedia Commons
+        </a>
+        , credited on each place’s page. Map outline from{' '}
+        <a href="https://www.naturalearthdata.com/" target="_blank" rel="noreferrer">
+          Natural Earth
+        </a>{' '}
+        (public domain). Data updated {generated}.
       </p>
       <p>
         <a href="https://github.com/ashish4903/maharashtra-darshan" target="_blank" rel="noreferrer">

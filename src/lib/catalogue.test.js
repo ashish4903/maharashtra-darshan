@@ -2,7 +2,11 @@ import { describe, expect, it } from 'vitest';
 import {
   KINDS,
   STATEWIDE,
+  coverImage,
   districts,
+  featuredPlaces,
+  getPlace,
+  randomPlace,
   districtsOf,
   foods,
   foodsIn,
@@ -68,6 +72,15 @@ describe('helpers', () => {
     expect(fromPune.length).toBeLessThan(list.length);
     expect(list.slice(0, fromPune.length)).toEqual(fromPune);
     expect(list.every((f) => f.region === 'western-maharashtra')).toBe(true);
+  });
+
+  it('features photographed places from every region', () => {
+    const featured = featuredPlaces(2);
+    expect(featured.every((p) => p.image)).toBe(true);
+    expect(new Set(featured.map((p) => p.region)).size).toBe(regions.length);
+    expect(coverImage({ region: 'vidarbha' }).src).toMatch(/^https:\/\//);
+    expect(randomPlace(() => 0)).toBe(places[0]);
+    expect(getPlace(places[1].id)).toBe(places[1]);
   });
 
   it('searches in English and Marathi', () => {
