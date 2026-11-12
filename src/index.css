@@ -1464,6 +1464,27 @@ section + section,
   margin-top: 1.25rem;
 }
 
+/* Circuits */
+.circuit-card {
+  display: flex;
+  flex-direction: column;
+  color: inherit;
+  text-decoration: none;
+}
+
+.circuit-card .card-text {
+  -webkit-line-clamp: 3;
+}
+
+.circuit-actions {
+  margin: 1.25rem 0;
+}
+
+.part-of {
+  margin: 0 0 1rem;
+  font-weight: 600;
+}
+
 /* Search results */
 .results h2 {
   margin: 1.5rem 0 0.75rem;

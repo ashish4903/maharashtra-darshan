@@ -5,7 +5,8 @@ import Carousel from './Carousel';
 import PlaceCard from './PlaceCard';
 import FoodCard from './FoodCard';
 import NearMe from './NearMe';
-import { STATEWIDE, featuredPlaces, foodsIn, regions } from '../lib/catalogue';
+import CircuitCard from './CircuitCard';
+import { STATEWIDE, circuits, featuredPlaces, foodsIn, regions } from '../lib/catalogue';
 
 export default function HomeView() {
   return (
@@ -23,6 +24,14 @@ export default function HomeView() {
           </div>
         </div>
       </section>
+
+      <Carousel title="Circuits and pilgrimages" subtitle="Ready-made routes: plan them in days, or add them to your trip">
+        {circuits.map((c) => (
+          <li key={c.id}>
+            <CircuitCard circuit={c} />
+          </li>
+        ))}
+      </Carousel>
 
       <Carousel title="Must-see places" subtitle="A few highlights from every region">
         {featuredPlaces(3).map((p) => (

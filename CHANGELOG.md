@@ -6,6 +6,20 @@ All notable changes to this project are listed here. The format follows [Keep a 
 
 ### Added
 
+- Circuits: 7 themed routes. Each has a page planned like a trip (map, days, directions) and “Add all to my trip”. Place pages show which circuits they are part of.
+  - Ashtavinayak, in traditional order
+  - Jyotirlingas of Maharashtra
+  - Sade Teen Shakti Peeth
+  - Maratha Military Landscapes (UNESCO)
+  - In the footsteps of Shivaji Maharaj
+  - UNESCO World Heritage Sites
+  - The Pandharpur Wari
+- Salher fort.
+
+### Changed
+
+- Places whose Wikipedia article has no coordinates now use Wikidata’s. Only 8 of 407 places are now missing from the map, down from 101.
+
 - Trip planner. My trip:
   - orders saved places into the shortest route and splits it into days
   - draws the numbered route on the map

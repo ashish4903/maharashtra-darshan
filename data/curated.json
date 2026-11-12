@@ -366,6 +366,7 @@
     { "wiki": "Ankai Fort", "kind": "fort", "district": "Nashik" },
     { "wiki": "Gondeshwar Temple", "kind": "temple", "district": "Nashik" },
     { "wiki": "Yeola", "kind": "town", "district": "Nashik" },
+    { "wiki": "Salher", "kind": "fort", "district": "Nashik" },
     { "wiki": "Galna Fort", "kind": "fort", "district": "Nashik" },
     { "wiki": "Brahmagiri (Maharashtra)", "kind": "nature", "district": "Nashik" },
     { "wiki": "Gargoti Museum", "kind": "heritage", "district": "Nashik" },
@@ -575,5 +576,119 @@
     { "wiki": "Shankarpali", "region": "statewide", "evidence": "Maharashtra" },
     { "wiki": "Basundi", "region": "statewide", "evidence": "Maharashtra" },
     { "wiki": "Ragda pattice", "region": "statewide", "evidence": "Maharashtra" }
+  ],
+
+  "circuits": [
+    {
+      "id": "ashtavinayak",
+      "name": "Ashtavinayak",
+      "nameMr": "अष्टविनायक",
+      "about": "The eight Ganesh temples of the Ashtavinayak pilgrimage, visited traditionally starting and ending at Morgaon.",
+      "source": "Ashtavinayaka",
+      "ordered": true,
+      "stops": [
+        { "wiki": "Ganesha Temple, Morgaon", "evidence": "Morgaon" },
+        { "wiki": "Siddhivinayak Temple, Siddhatek", "evidence": "Siddhatek" },
+        { "wiki": "Ballaleshwar Pali", "evidence": "Pali" },
+        { "wiki": "Varadvinayak", "evidence": "Mahad" },
+        { "wiki": "Chintamani Temple, Theur", "evidence": "Theur" },
+        { "wiki": "Lenyadri", "evidence": "Lenyadri" },
+        { "wiki": "Vigneshwara Temple, Ozar", "evidence": "Ozar" },
+        { "wiki": "Ranjangaon Ganpati", "evidence": "Ranjangaon" }
+      ]
+    },
+    {
+      "id": "jyotirlingas",
+      "name": "Jyotirlingas of Maharashtra",
+      "nameMr": "महाराष्ट्रातील ज्योतिर्लिंगे",
+      "about": "Five of the twelve Jyotirlinga shrines of Shiva are in Maharashtra.",
+      "source": "Jyotirlinga",
+      "stops": [
+        { "wiki": "Trimbakeshwar Shiva Temple", "evidence": "Jyotirlinga" },
+        { "wiki": "Bhimashankar Temple", "evidence": "Jyotirlinga" },
+        { "wiki": "Grishneshwar Temple", "evidence": "Jyotirlinga" },
+        { "wiki": "Aundha Nagnath Temple", "evidence": "Jyotirlinga" },
+        { "wiki": "Shri Vaijnath Temple", "evidence": "Jyotirlinga" }
+      ]
+    },
+    {
+      "id": "shakti-peeth",
+      "name": "Sade Teen Shakti Peeth",
+      "nameMr": "साडेतीन शक्तिपीठे",
+      "about": "The three and a half seats of the Goddess in Maharashtra: Kolhapur, Tuljapur, Mahur and, as the half, Saptashrungi.",
+      "source": "Shakta pithas",
+      "stops": [
+        { "wiki": "Mahalakshmi Temple, Kolhapur", "evidence": "three and a half" },
+        { "wiki": "Tulja Bhavani Temple", "evidence": "Shakti" },
+        { "wiki": "Mahur, Maharashtra", "evidence": "Shakti" },
+        { "wiki": "Saptashrungi", "evidence": "half" }
+      ]
+    },
+    {
+      "id": "maratha-military-landscapes",
+      "name": "Maratha Military Landscapes (UNESCO)",
+      "nameMr": "मराठा लष्करी भूप्रदेश (युनेस्को)",
+      "about": "The Maratha forts listed together as a UNESCO World Heritage Site in 2025: eleven of the twelve are in Maharashtra.",
+      "source": "Maratha Military Landscapes of India",
+      "stops": [
+        { "wiki": "Salher", "evidence": "Salher" },
+        { "wiki": "Shivneri Fort", "evidence": "Shivneri" },
+        { "wiki": "Lohagad", "evidence": "Lohagad" },
+        { "wiki": "Khanderi", "evidence": "Khanderi" },
+        { "wiki": "Raigad Fort", "evidence": "Raigad" },
+        { "wiki": "Rajgad Fort", "evidence": "Rajgad" },
+        { "wiki": "Pratapgad", "evidence": "Pratapgad" },
+        { "wiki": "Suvarnadurg", "evidence": "Suvarnadurg" },
+        { "wiki": "Panhala Fort", "evidence": "Panhala" },
+        { "wiki": "Vijaydurg Fort", "evidence": "Vijaydurg" },
+        { "wiki": "Sindhudurg Fort", "evidence": "Sindhudurg" }
+      ]
+    },
+    {
+      "id": "shivaji-forts",
+      "name": "In the footsteps of Shivaji Maharaj",
+      "nameMr": "शिवरायांच्या पाऊलखुणा",
+      "about": "Forts from the life of Chhatrapati Shivaji Maharaj, from his birthplace at Shivneri to his coronation at Raigad.",
+      "source": "Shivaji",
+      "ordered": true,
+      "stops": [
+        { "wiki": "Shivneri Fort", "evidence": "Shivneri" },
+        { "wiki": "Torna Fort", "evidence": "Torna" },
+        { "wiki": "Rajgad Fort", "evidence": "Rajgad" },
+        { "wiki": "Purandar Fort", "evidence": "Purandar" },
+        { "wiki": "Sinhagad", "evidence": "Sinhagad" },
+        { "wiki": "Pratapgad", "evidence": "Pratapgad" },
+        { "wiki": "Panhala Fort", "evidence": "Panhala" },
+        { "wiki": "Vishalgad", "evidence": "Vishalgad" },
+        { "wiki": "Sindhudurg Fort", "evidence": "Sindhudurg" },
+        { "wiki": "Raigad Fort", "evidence": "Raigad" }
+      ]
+    },
+    {
+      "id": "unesco",
+      "name": "UNESCO World Heritage Sites",
+      "nameMr": "युनेस्को जागतिक वारसा स्थळे",
+      "about": "The caves and the railway terminus in Maharashtra that UNESCO lists as World Heritage Sites.",
+      "source": "List of World Heritage Sites in India",
+      "stops": [
+        { "wiki": "Ajanta Caves", "evidence": "World Heritage" },
+        { "wiki": "Ellora Caves", "evidence": "World Heritage" },
+        { "wiki": "Elephanta Caves", "evidence": "World Heritage" },
+        { "wiki": "Chhatrapati Shivaji Terminus", "evidence": "World Heritage" }
+      ]
+    },
+    {
+      "id": "wari",
+      "name": "The Pandharpur Wari",
+      "nameMr": "पंढरपूरची वारी",
+      "about": "The route of the yearly Wari pilgrimage, from the samadhis of Sant Tukaram at Dehu and Sant Dnyaneshwar at Alandi to Vithoba at Pandharpur.",
+      "source": "Pandharpur Vari",
+      "ordered": true,
+      "stops": [
+        { "wiki": "Dehu", "evidence": "Dehu" },
+        { "wiki": "Alandi", "evidence": "Alandi" },
+        { "wiki": "Pandharpur", "evidence": "Pandharpur" }
+      ]
+    }
   ]
 }

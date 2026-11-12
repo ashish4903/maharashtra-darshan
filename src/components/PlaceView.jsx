@@ -10,6 +10,7 @@ import FoodCard from './FoodCard';
 import {
   KINDS,
   areaName,
+  circuitsWith,
   commonsUrl,
   foodsIn,
   getDistrict,
@@ -97,6 +98,18 @@ export default function PlaceView({ placeId }) {
               </div>
             )}
           </dl>
+
+          {circuitsWith(place.id).length > 0 && (
+            <p className="part-of">
+              Part of{' '}
+              {circuitsWith(place.id).map((c, i) => (
+                <span key={c.id}>
+                  {i > 0 && ', '}
+                  <a href={`#/circuit/${c.id}`}>🧭 {c.name}</a>
+                </span>
+              ))}
+            </p>
+          )}
 
           <WikiSummary url={place.wikipedia} />
 

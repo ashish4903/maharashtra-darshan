@@ -159,15 +159,17 @@ async function wikidataDetails(ids) {
   const out = new Map(ids.map((id) => [id, { districts: new Set(), talukas: new Set() }]));
   for (let i = 0; i < ids.length; i += 60) {
     const values = `VALUES ?p { ${ids.slice(i, i + 60).map((id) => 'wd:' + id).join(' ')} }`;
-    const labels = await sparql(`SELECT ?p ?mr ?desc WHERE { ${values}
+    const labels = await sparql(`SELECT ?p ?mr ?desc ?coord WHERE { ${values}
       OPTIONAL { ?p rdfs:label ?mr FILTER(lang(?mr) = "mr") }
-      OPTIONAL { ?p schema:description ?desc FILTER(lang(?desc) = "en") } }`);
+      OPTIONAL { ?p schema:description ?desc FILTER(lang(?desc) = "en") }
+      OPTIONAL { ?p wdt:P625 ?coord } }`);
     const areas = await sparql(`SELECT DISTINCT ?p ?a ?kind WHERE { ${values}
       ?p wdt:P131+ ?a . VALUES ?kind { wd:${DISTRICT_OF_INDIA} wd:${TALUKA_OF_MAHARASHTRA} } ?a wdt:P31 ?kind . }`);
     for (const r of labels) {
       const e = out.get(qid(r.p.value));
       e.nameMr ??= r.mr?.value;
       e.description ??= r.desc?.value;
+      e.coords ??= point(r.coord?.value);
     }
     for (const r of areas) {
       const e = out.get(qid(r.p.value));
@@ -261,7 +263,8 @@ async function main() {
       region: d.region,
       district: d.id,
       taluka: taluka?.id,
-      coords: page.coords,
+      // Wikipedia's coordinates, or Wikidata's when the article has none
+      coords: page.coords ?? wd?.coords,
       image: page.image,
       wikipedia: wikiUrl(page.title),
       verifiedBy,
@@ -301,6 +304,35 @@ async function main() {
     }
   }
 
+  // Circuits: every stop must be a listed place, and its evidence must appear in
+  // the circuit's source article or in the stop's own article.
+  const circuits = [];
+  const placeIds = new Set(places.map((p) => p.id));
+  for (const c of curated.circuits ?? []) {
+    const source = await wikipedia(c.source);
+    if (!source) problems.push(`Circuit ${c.id}: no Wikipedia page "${c.source}"`);
+    const ids = [];
+    for (const stop of c.stops) {
+      const page = await wikipedia(stop.wiki);
+      if (!page?.wikidata || !placeIds.has(page.wikidata)) {
+        problems.push(`Circuit ${c.id}: "${stop.wiki}" is not one of the listed places`);
+        continue;
+      }
+      if (!mentions(source?.text ?? '', [stop.evidence]) && !mentions(page.text, [stop.evidence]))
+        problems.push(`Circuit ${c.id}: "${stop.evidence}" not found for "${stop.wiki}"`);
+      ids.push(page.wikidata);
+    }
+    circuits.push({
+      id: c.id,
+      name: c.name,
+      nameMr: c.nameMr,
+      about: c.about,
+      source: wikiUrl(source?.title ?? c.source),
+      ordered: Boolean(c.ordered),
+      places: ids,
+    });
+  }
+
   // Maharashtra's bounding box (see src/data/outline.json), with a small margin
   const inState = ([lat, lon]) => lat > 15.5 && lat < 22.2 && lon > 72.5 && lon < 81;
   for (const item of [...districts, ...places]) {
@@ -323,11 +355,12 @@ async function main() {
       .sort((a, b) => a.name.localeCompare(b.name)),
     places,
     foods,
+    circuits,
   };
   await writeFile(OUT, JSON.stringify(data, null, 1) + '\n');
   const talukas = districts.reduce((n, d) => n + d.talukas.length, 0);
   console.log(
-    `Wrote ${regions.length} regions, ${districts.length} districts, ${talukas} talukas, ${places.length} places, ${foods.length} foods.`,
+    `Wrote ${regions.length} regions, ${districts.length} districts, ${talukas} talukas, ${places.length} places, ${foods.length} foods, ${circuits.length} circuits.`,
   );
 }
 

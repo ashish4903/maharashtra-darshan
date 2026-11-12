@@ -9,7 +9,7 @@ import { plural } from '../lib/catalogue';
  * A list of places as a route: shortest order (or as given), split into
  * days, with a map and Google Maps directions for each day.
  */
-export default function TripPlan({ places, removable = false, keepOrder = false }) {
+export default function TripPlan({ places, removable = false, keepOrder = false, givenLabel = 'As saved' }) {
   const [order, setOrder] = useState(keepOrder ? 'given' : 'shortest');
   const [perDay, setPerDay] = useState(3);
 
@@ -32,7 +32,7 @@ export default function TripPlan({ places, removable = false, keepOrder = false 
             Order{' '}
             <select value={order} onChange={(e) => setOrder(e.target.value)}>
               <option value="shortest">Shortest route</option>
-              <option value="given">{keepOrder ? 'Traditional order' : 'As saved'}</option>
+              <option value="given">{keepOrder ? 'Traditional order' : givenLabel}</option>
             </select>
           </label>
           <label>
