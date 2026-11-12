@@ -3,6 +3,9 @@ import {
   KINDS,
   STATEWIDE,
   areaName,
+  circuitPlaces,
+  circuits,
+  circuitsWith,
   coverImage,
   foodSpotQuery,
   mapsSearchUrl,
@@ -80,6 +83,19 @@ describe('generated data', () => {
     const url = mapsSearchUrl('Misal pav in Kolhapur');
     expect(url).toBe('https://www.google.com/maps/search/?api=1&query=Misal%20pav%20in%20Kolhapur');
     expect(url).not.toMatch(/key=/);
+  });
+
+  it('has circuits made of listed places', () => {
+    const byId = Object.fromEntries(circuits.map((c) => [c.id, c]));
+    expect(byId.ashtavinayak.places).toHaveLength(8);
+    expect(byId.jyotirlingas.places).toHaveLength(5);
+    expect(byId['shakti-peeth'].places).toHaveLength(4);
+    for (const c of circuits) {
+      expect(circuitPlaces(c)).toHaveLength(c.places.length);
+      expect(c.source).toMatch(/^https:\/\/en\.wikipedia\.org\/wiki\//);
+    }
+    const ajanta = places.find((p) => p.name === 'Ajanta Caves');
+    expect(circuitsWith(ajanta.id).map((c) => c.id)).toContain('unesco');
   });
 
   it('has no duplicate places or dishes', () => {

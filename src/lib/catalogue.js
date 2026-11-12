@@ -34,6 +34,12 @@ export const getRegion = (id) => regionIndex.get(id);
 export const getDistrict = (id) => districtIndex.get(id);
 export const getPlace = (id) => placeIndex.get(id);
 
+/** Themed routes such as Ashtavinayak; each lists place ids, in order when `ordered`. */
+export const circuits = data.circuits ?? [];
+export const getCircuit = (id) => circuits.find((c) => c.id === id);
+export const circuitPlaces = (circuit) => circuit.places.map(getPlace).filter(Boolean);
+export const circuitsWith = (placeId) => circuits.filter((c) => c.places.includes(placeId));
+
 /**
  * Places with photos, a few from each region. data/curated.json lists the
  * best-known places of each district first, so the first ones are used.

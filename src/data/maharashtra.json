@@ -2773,6 +2773,10 @@
    "kind": "heritage",
    "region": "konkan",
    "district": "Q2341660",
+   "coords": [
+    18.927,
+    72.832
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Chhatrapati_Shivaji_Maharaj_Vastu_Sangrahalaya.jpg/960px-Chhatrapati_Shivaji_Maharaj_Vastu_Sangrahalaya.jpg",
     "file": "Chhatrapati_Shivaji_Maharaj_Vastu_Sangrahalaya.jpg"
@@ -2938,6 +2942,10 @@
    "kind": "heritage",
    "region": "konkan",
    "district": "Q2341660",
+   "coords": [
+    18.933,
+    72.832
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Mumbai_03-2016_72_Flora_Fountain.jpg/960px-Mumbai_03-2016_72_Flora_Fountain.jpg",
     "file": "Mumbai_03-2016_72_Flora_Fountain.jpg"
@@ -2953,6 +2961,10 @@
    "kind": "heritage",
    "region": "konkan",
    "district": "Q2341660",
+   "coords": [
+    18.93,
+    72.83
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Rajabai_Clock_Tower%2C_Mumbai_%2831_August_2008%29.jpg/960px-Rajabai_Clock_Tower%2C_Mumbai_%2831_August_2008%29.jpg",
     "file": "Rajabai_Clock_Tower,_Mumbai_(31_August_2008).jpg"
@@ -3044,6 +3056,10 @@
    "kind": "fort",
    "region": "konkan",
    "district": "Q2341660",
+   "coords": [
+    19.04,
+    72.838
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Mahim_Fort_6.jpg/960px-Mahim_Fort_6.jpg",
     "file": "Mahim_Fort_6.jpg"
@@ -3059,6 +3075,10 @@
    "kind": "fort",
    "region": "konkan",
    "district": "Q2341660",
+   "coords": [
+    19.024,
+    72.817
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Worli_Fort_Mumbai.jpg/960px-Worli_Fort_Mumbai.jpg",
     "file": "Worli_Fort_Mumbai.jpg"
@@ -3074,6 +3094,10 @@
    "kind": "fort",
    "region": "konkan",
    "district": "Q2341660",
+   "coords": [
+    19.001,
+    72.86
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Sewri_Fort_Inside_12.jpg/960px-Sewri_Fort_Inside_12.jpg",
     "file": "Sewri_Fort_Inside_12.jpg"
@@ -3221,6 +3245,10 @@
    "kind": "nature",
    "region": "konkan",
    "district": "Q2085374",
+   "coords": [
+    19.13,
+    72.91
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Powai_Lake_Summer.JPG/960px-Powai_Lake_Summer.JPG",
     "file": "Powai_Lake_Summer.JPG"
@@ -3293,6 +3321,10 @@
    "kind": "fort",
    "region": "konkan",
    "district": "Q2085374",
+   "coords": [
+    19.042,
+    72.819
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Bandra-fort-mumbai.jpg/960px-Bandra-fort-mumbai.jpg",
     "file": "Bandra-fort-mumbai.jpg"
@@ -3438,6 +3470,10 @@
    "kind": "fort",
    "region": "konkan",
    "district": "Q943099",
+   "coords": [
+    19.296,
+    72.888
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Ghodbander_Fort%2C_Ghodbunder_Village_at_Mira_Bhayandar%2C_Maharashtra_401107.jpg/960px-Ghodbander_Fort%2C_Ghodbunder_Village_at_Mira_Bhayandar%2C_Maharashtra_401107.jpg",
     "file": "Ghodbander_Fort,_Ghodbunder_Village_at_Mira_Bhayandar,_Maharashtra_401107.jpg"
@@ -3468,6 +3504,10 @@
    "kind": "fort",
    "region": "konkan",
    "district": "Q943099",
+   "coords": [
+    19.245,
+    73.119
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Durgadi_fort_in_1900%27s.jpg/960px-Durgadi_fort_in_1900%27s.jpg",
     "file": "Durgadi_fort_in_1900's.jpg"
@@ -3497,6 +3537,10 @@
    "region": "konkan",
    "district": "Q943099",
    "taluka": "Q13116030",
+   "coords": [
+    19.244,
+    73.166
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Birla_Mandir%2C_Shahad_%28114%29.jpg/960px-Birla_Mandir%2C_Shahad_%28114%29.jpg",
     "file": "Birla_Mandir,_Shahad_(114).jpg"
@@ -3559,6 +3603,10 @@
    "kind": "fort",
    "region": "konkan",
    "district": "Q943099",
+   "coords": [
+    19.11,
+    73.178
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Malang_Fort1.jpg/960px-Malang_Fort1.jpg",
     "file": "Malang_Fort1.jpg"
@@ -3631,6 +3679,10 @@
    "kind": "fort",
    "region": "konkan",
    "district": "Q18003119",
+   "coords": [
+    19.466,
+    72.732
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Arnala-fort-entrance.jpg/960px-Arnala-fort-entrance.jpg",
     "file": "Arnala-fort-entrance.jpg"
@@ -3647,6 +3699,10 @@
    "region": "konkan",
    "district": "Q18003119",
    "taluka": "Q13117334",
+   "coords": [
+    20.004,
+    73.207
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Dahbosa_Waterfalls.jpg/960px-Dahbosa_Waterfalls.jpg",
     "file": "Dahbosa_Waterfalls.jpg"
@@ -3774,6 +3830,10 @@
    "kind": "fort",
    "region": "konkan",
    "district": "Q18003119",
+   "coords": [
+    19.67,
+    72.988
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Kohoj.jpg/960px-Kohoj.jpg",
     "file": "Kohoj.jpg"
@@ -3842,6 +3902,10 @@
    "kind": "fort",
    "region": "konkan",
    "district": "Q18003119",
+   "coords": [
+    19.617,
+    72.842
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Tandulwadi_fort.jpg/960px-Tandulwadi_fort.jpg",
     "file": "Tandulwadi_fort.jpg"
@@ -3944,6 +4008,10 @@
    "kind": "fort",
    "region": "konkan",
    "district": "Q2019683",
+   "coords": [
+    18.634,
+    72.864
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Kolaba_Fort_-_Alibag.JPG/960px-Kolaba_Fort_-_Alibag.JPG",
     "file": "Kolaba_Fort_-_Alibag.JPG"
@@ -3959,6 +4027,10 @@
    "kind": "fort",
    "region": "konkan",
    "district": "Q2019683",
+   "coords": [
+    18.704,
+    72.813
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/The_Lighthouse%2C_Khanderi_Fort.jpg/960px-The_Lighthouse%2C_Khanderi_Fort.jpg",
     "file": "The_Lighthouse,_Khanderi_Fort.jpg"
@@ -4072,6 +4144,10 @@
    "region": "konkan",
    "district": "Q2019683",
    "taluka": "Q13121640",
+   "coords": [
+    18.173,
+    72.992
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Diveagar_beach_another_view.jpg/960px-Diveagar_beach_another_view.jpg",
     "file": "Diveagar_beach_another_view.jpg"
@@ -4164,6 +4240,10 @@
    "region": "konkan",
    "district": "Q2019683",
    "taluka": "Q13116763",
+   "coords": [
+    19.888,
+    74.473
+   ],
    "image": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Varadavinayak.jpg",
     "file": "Varadavinayak.jpg"
@@ -4198,6 +4278,10 @@
    "kind": "fort",
    "region": "konkan",
    "district": "Q2019683",
+   "coords": [
+    18.536,
+    72.908
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Portuguese_church_of_Korlai_fort.jpg/960px-Portuguese_church_of_Korlai_fort.jpg",
     "file": "Portuguese_church_of_Korlai_fort.jpg"
@@ -4213,6 +4297,10 @@
    "kind": "fort",
    "region": "konkan",
    "district": "Q2019683",
+   "coords": [
+    18.547,
+    72.925
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Revdanda_Fort_outer_walls_01.JPG/960px-Revdanda_Fort_outer_walls_01.JPG",
     "file": "Revdanda_Fort_outer_walls_01.JPG"
@@ -4304,6 +4392,10 @@
    "kind": "fort",
    "region": "konkan",
    "district": "Q2019683",
+   "coords": [
+    18.882,
+    73.118
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Yash.jpg/960px-Yash.jpg",
     "file": "Yash.jpg"
@@ -4357,6 +4449,10 @@
    "kind": "fort",
    "region": "konkan",
    "district": "Q2019683",
+   "coords": [
+    18.992,
+    73.512
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Kothaligad_Fort1.jpg/960px-Kothaligad_Fort1.jpg",
     "file": "Kothaligad_Fort1.jpg"
@@ -4391,6 +4487,10 @@
    "region": "konkan",
    "district": "Q2019683",
    "taluka": "Q19810956",
+   "coords": [
+    18.253,
+    73.502
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Lingana_pinnacle.jpg/960px-Lingana_pinnacle.jpg",
     "file": "Lingana_pinnacle.jpg"
@@ -4462,6 +4562,10 @@
    "kind": "fort",
    "region": "konkan",
    "district": "Q1771768",
+   "coords": [
+    17.817,
+    73.084
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Entrance_to_Suvarnadurg.JPG/960px-Entrance_to_Suvarnadurg.JPG",
     "file": "Entrance_to_Suvarnadurg.JPG"
@@ -4477,6 +4581,10 @@
    "kind": "fort",
    "region": "konkan",
    "district": "Q1771768",
+   "coords": [
+    17.302,
+    73.221
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Jaigad_outerwall1.jpg/960px-Jaigad_outerwall1.jpg",
     "file": "Jaigad_outerwall1.jpg"
@@ -4528,6 +4636,10 @@
    "kind": "temple",
    "region": "konkan",
    "district": "Q1771768",
+   "coords": [
+    17.05,
+    73.61
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Marleshwar_entrance.JPG/960px-Marleshwar_entrance.JPG",
     "file": "Marleshwar_entrance.JPG"
@@ -4543,6 +4655,10 @@
    "region": "konkan",
    "district": "Q1771768",
    "taluka": "Q24188089",
+   "coords": [
+    17.556,
+    73.505
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Parshuram_Temple_Chiplun.jpg/960px-Parshuram_Temple_Chiplun.jpg",
     "file": "Parshuram_Temple_Chiplun.jpg"
@@ -4663,6 +4779,10 @@
    "kind": "fort",
    "region": "konkan",
    "district": "Q1771768",
+   "coords": [
+    17.765,
+    73.512
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Rasalgad1.jpg/960px-Rasalgad1.jpg",
     "file": "Rasalgad1.jpg"
@@ -4753,6 +4873,10 @@
    "region": "konkan",
    "district": "Q768332",
    "taluka": "Q5266934",
+   "coords": [
+    16.561,
+    73.333
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Bastions_of_vijaydurg.jpg/960px-Bastions_of_vijaydurg.jpg",
     "file": "Bastions_of_vijaydurg.jpg"
@@ -4787,6 +4911,10 @@
    "region": "konkan",
    "district": "Q768332",
    "taluka": "Q5266934",
+   "coords": [
+    16.074,
+    73.669
+   ],
    "image": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Temple_Ghati_%28East%29.jpg",
     "file": "Temple_Ghati_(East).jpg"
@@ -4802,6 +4930,10 @@
    "kind": "fort",
    "region": "konkan",
    "district": "Q768332",
+   "coords": [
+    16.387,
+    73.372
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Devgad_fort.JPG/960px-Devgad_fort.JPG",
     "file": "Devgad_fort.JPG"
@@ -4817,6 +4949,10 @@
    "kind": "temple",
    "region": "konkan",
    "district": "Q768332",
+   "coords": [
+    16.334,
+    73.389
+   ],
    "image": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Kunakeshwar_temple_1.jpg",
     "file": "Kunakeshwar_temple_1.jpg"
@@ -4928,6 +5064,10 @@
    "kind": "fort",
    "region": "konkan",
    "district": "Q768332",
+   "coords": [
+    18.634,
+    72.864
+   ],
    "wikipedia": "https://en.wikipedia.org/wiki/Sarjekot_fort",
    "verifiedBy": "wikipedia"
   },
@@ -5035,6 +5175,10 @@
    "kind": "fort",
    "region": "western-maharashtra",
    "district": "Q1797336",
+   "coords": [
+    19.197,
+    73.859
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Shivneri_fort1.JPG/960px-Shivneri_fort1.JPG",
     "file": "Shivneri_fort1.JPG"
@@ -5554,6 +5698,10 @@
    "kind": "fort",
    "region": "western-maharashtra",
    "district": "Q1797336",
+   "coords": [
+    18.632,
+    73.513
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Tikona_Panorama.jpg/960px-Tikona_Panorama.jpg",
     "file": "Tikona_Panorama.jpg"
@@ -5588,6 +5736,10 @@
    "kind": "fort",
    "region": "western-maharashtra",
    "district": "Q1797336",
+   "coords": [
+    18.722,
+    73.49
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Fortification_wall_at_visapur.jpg/960px-Fortification_wall_at_visapur.jpg",
     "file": "Fortification_wall_at_visapur.jpg"
@@ -5677,6 +5829,10 @@
    "kind": "temple",
    "region": "western-maharashtra",
    "district": "Q1797336",
+   "coords": [
+    18.272,
+    74.16
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Khandoba_temple_Pune.jpg/960px-Khandoba_temple_Pune.jpg",
     "file": "Khandoba_temple_Pune.jpg"
@@ -5747,6 +5903,10 @@
    "kind": "temple",
    "region": "western-maharashtra",
    "district": "Q1797336",
+   "coords": [
+    19.24,
+    73.722
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Kukadeshwar_Temple_01.jpg/960px-Kukadeshwar_Temple_01.jpg",
     "file": "Kukadeshwar_Temple_01.jpg"
@@ -5909,6 +6069,10 @@
    "kind": "fort",
    "region": "western-maharashtra",
    "district": "Q1135612",
+   "coords": [
+    17.663,
+    73.695
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Vasota.jpg/960px-Vasota.jpg",
     "file": "Vasota.jpg"
@@ -5924,6 +6088,10 @@
    "kind": "temple",
    "region": "western-maharashtra",
    "district": "Q1135612",
+   "coords": [
+    17.542,
+    74.332
+   ],
    "image": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/9/96/Yamai.jpg",
     "file": "Yamai.jpg"
@@ -6015,6 +6183,10 @@
    "kind": "temple",
    "region": "western-maharashtra",
    "district": "Q1135612",
+   "coords": [
+    18.047,
+    73.875
+   ],
    "wikipedia": "https://en.wikipedia.org/wiki/Mandhradevi",
    "verifiedBy": "wikidata"
   },
@@ -6064,6 +6236,10 @@
    "kind": "fort",
    "region": "western-maharashtra",
    "district": "Q1135612",
+   "coords": [
+    17.878,
+    73.917
+   ],
    "wikipedia": "https://en.wikipedia.org/wiki/Vairatgad_Fort",
    "verifiedBy": "wikidata"
   },
@@ -6076,6 +6252,10 @@
    "region": "western-maharashtra",
    "district": "Q1135612",
    "taluka": "Q2729760",
+   "coords": [
+    17.682,
+    74.183
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Vardhangad.jpg/960px-Vardhangad.jpg",
     "file": "Vardhangad.jpg"
@@ -6092,6 +6272,10 @@
    "region": "western-maharashtra",
    "district": "Q1135612",
    "taluka": "Q2729340",
+   "coords": [
+    17.778,
+    74.126
+   ],
    "wikipedia": "https://en.wikipedia.org/wiki/Kalyangad",
    "verifiedBy": "wikidata"
   },
@@ -6102,6 +6286,10 @@
    "kind": "temple",
    "region": "western-maharashtra",
    "district": "Q1135612",
+   "coords": [
+    17.588,
+    74.048
+   ],
    "image": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/0/05/Pateshwar_temple.jpg",
     "file": "Pateshwar_temple.jpg"
@@ -6132,6 +6320,10 @@
    "kind": "fort",
    "region": "western-maharashtra",
    "district": "Q1425060",
+   "coords": [
+    17.164,
+    74.269
+   ],
    "wikipedia": "https://en.wikipedia.org/wiki/Machindragad",
    "verifiedBy": "wikidata"
   },
@@ -6142,6 +6334,10 @@
    "kind": "temple",
    "region": "western-maharashtra",
    "district": "Q1425060",
+   "coords": [
+    17.343,
+    74.776
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/en/thumb/b/b2/Kharsundi_siddhanath.JPG/960px-Kharsundi_siddhanath.JPG",
     "file": "Kharsundi_siddhanath.JPG"
@@ -6279,6 +6475,10 @@
    "kind": "fort",
    "region": "western-maharashtra",
    "district": "Q1797312",
+   "coords": [
+    16.809,
+    74.109
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Teen_darwaza_panhala.jpg/960px-Teen_darwaza_panhala.jpg",
     "file": "Teen_darwaza_panhala.jpg"
@@ -6366,6 +6566,10 @@
    "kind": "nature",
    "region": "western-maharashtra",
    "district": "Q1797312",
+   "coords": [
+    16.689,
+    74.211
+   ],
    "image": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Rankala_Lake_Kolhapur.png",
     "file": "Rankala_Lake_Kolhapur.png"
@@ -6397,6 +6601,10 @@
    "kind": "fort",
    "region": "western-maharashtra",
    "district": "Q1797312",
+   "coords": [
+    16.867,
+    73.833
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Surviving_Structure_on_Vishalgad.jpg/960px-Surviving_Structure_on_Vishalgad.jpg",
     "file": "Surviving_Structure_on_Vishalgad.jpg"
@@ -6412,6 +6620,10 @@
    "kind": "heritage",
    "region": "western-maharashtra",
    "district": "Q1797312",
+   "coords": [
+    16.695,
+    74.224
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Kolhapur_Mahadwar_BhavaniMandap.JPG/960px-Kolhapur_Mahadwar_BhavaniMandap.JPG",
     "file": "Kolhapur_Mahadwar_BhavaniMandap.JPG"
@@ -6427,6 +6639,10 @@
    "kind": "fort",
    "region": "western-maharashtra",
    "district": "Q1797312",
+   "coords": [
+    16.176,
+    74.405
+   ],
    "wikipedia": "https://en.wikipedia.org/wiki/Samangad",
    "verifiedBy": "wikipedia"
   },
@@ -6457,6 +6673,10 @@
    "kind": "heritage",
    "region": "western-maharashtra",
    "district": "Q1797312",
+   "coords": [
+    16.692,
+    74.207
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Shalini_Palace.jpg/960px-Shalini_Palace.jpg",
     "file": "Shalini_Palace.jpg"
@@ -6487,6 +6707,10 @@
    "region": "western-maharashtra",
    "district": "Q1797312",
    "taluka": "Q13119568",
+   "coords": [
+    16.078,
+    73.851
+   ],
    "wikipedia": "https://en.wikipedia.org/wiki/Rangana_Fort",
    "verifiedBy": "wikidata"
   },
@@ -6580,6 +6804,10 @@
    "kind": "fort",
    "region": "western-maharashtra",
    "district": "Q1797263",
+   "coords": [
+    17.674,
+    75.902
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Hatti_Darwaja.jpg/960px-Hatti_Darwaja.jpg",
     "file": "Hatti_Darwaja.jpg"
@@ -6737,6 +6965,10 @@
    "kind": "fort",
    "region": "north-maharashtra",
    "district": "Q1797269",
+   "coords": [
+    19.905,
+    73.472
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Hariharfort.jpg/960px-Hariharfort.jpg",
     "file": "Hariharfort.jpg"
@@ -6792,6 +7024,10 @@
    "region": "north-maharashtra",
    "district": "Q1797269",
    "taluka": "Q2763229",
+   "coords": [
+    20.008,
+    74.007
+   ],
    "wikipedia": "https://en.wikipedia.org/wiki/Nandur_Madhmeshwar_Bird_Sanctuary",
    "verifiedBy": "wikidata"
   },
@@ -6886,6 +7122,25 @@
    "verifiedBy": "wikidata"
   },
   {
+   "id": "Q7404420",
+   "name": "Salher",
+   "nameMr": "साल्हेर",
+   "description": "mountain and fort in India",
+   "kind": "fort",
+   "region": "north-maharashtra",
+   "district": "Q1797269",
+   "coords": [
+    20.725,
+    73.943
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Salher_Fort.jpg/960px-Salher_Fort.jpg",
+    "file": "Salher_Fort.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Salher",
+   "verifiedBy": "wikipedia"
+  },
+  {
    "id": "Q21076421",
    "name": "Galna Fort",
    "description": "building in India",
@@ -6893,6 +7148,10 @@
    "region": "north-maharashtra",
    "district": "Q1797269",
    "taluka": "Q2768650",
+   "coords": [
+    20.773,
+    74.533
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/0226_Hill_Fort_of_Galnah_%281804%29.jpg/960px-0226_Hill_Fort_of_Galnah_%281804%29.jpg",
     "file": "0226_Hill_Fort_of_Galnah_(1804).jpg"
@@ -7014,6 +7273,10 @@
    "kind": "fort",
    "region": "north-maharashtra",
    "district": "Q1797269",
+   "coords": [
+    19.583,
+    73.661
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Alang_Traverse_1.jpg/960px-Alang_Traverse_1.jpg",
     "file": "Alang_Traverse_1.jpg"
@@ -7029,6 +7292,10 @@
    "kind": "fort",
    "region": "north-maharashtra",
    "district": "Q1797269",
+   "coords": [
+    19.592,
+    73.639
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Kulangfort.jpg/960px-Kulangfort.jpg",
     "file": "Kulangfort.jpg"
@@ -7081,6 +7348,10 @@
    "kind": "fort",
    "region": "north-maharashtra",
    "district": "Q1797269",
+   "coords": [
+    20.112,
+    73.767
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Ramshej_Fort.jpg/960px-Ramshej_Fort.jpg",
     "file": "Ramshej_Fort.jpg"
@@ -7285,6 +7556,10 @@
    "region": "north-maharashtra",
    "district": "Q401744",
    "taluka": "Q6371238",
+   "coords": [
+    18.444,
+    74.726
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Siddhi_Vinayak_at_Siddhatek.jpg/960px-Siddhi_Vinayak_at_Siddhatek.jpg",
     "file": "Siddhi_Vinayak_at_Siddhatek.jpg"
@@ -7353,6 +7628,10 @@
    "region": "north-maharashtra",
    "district": "Q401744",
    "taluka": "Q7283324",
+   "coords": [
+    18.659,
+    75.468
+   ],
    "wikipedia": "https://en.wikipedia.org/wiki/Kharda",
    "verifiedBy": "wikidata"
   },
@@ -7364,6 +7643,10 @@
    "kind": "fort",
    "region": "north-maharashtra",
    "district": "Q401744",
+   "coords": [
+    18.508,
+    74.704
+   ],
    "image": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Rameshvara_Hindu_Temple_ruins%2C_Pedgaon_Maharashtra.jpg",
     "file": "Rameshvara_Hindu_Temple_ruins,_Pedgaon_Maharashtra.jpg"
@@ -7399,6 +7682,10 @@
    "region": "north-maharashtra",
    "district": "Q401744",
    "taluka": "Q4701523",
+   "coords": [
+    19.541,
+    74.007
+   ],
    "wikipedia": "https://en.wikipedia.org/wiki/Akole",
    "verifiedBy": "wikidata"
   },
@@ -7424,6 +7711,10 @@
    "kind": "heritage",
    "region": "north-maharashtra",
    "district": "Q401744",
+   "coords": [
+    19.072,
+    74.749
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Cavalry_Tank_museum._%2830527888443%29.jpg/960px-Cavalry_Tank_museum._%2830527888443%29.jpg",
     "file": "Cavalry_Tank_museum._(30527888443).jpg"
@@ -7458,6 +7749,10 @@
    "kind": "fort",
    "region": "north-maharashtra",
    "district": "Q1797383",
+   "coords": [
+    20.48,
+    74.44
+   ],
    "image": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/3/31/Laling_fort.JPG",
     "file": "Laling_fort.JPG"
@@ -7474,6 +7769,10 @@
    "region": "north-maharashtra",
    "district": "Q1797383",
    "taluka": "Q2773938",
+   "coords": [
+    21.25,
+    74.967
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Thalner_Fort.jpg/960px-Thalner_Fort.jpg",
     "file": "Thalner_Fort.jpg"
@@ -7525,6 +7824,10 @@
    "region": "north-maharashtra",
    "district": "Q1797383",
    "taluka": "Q2775033",
+   "coords": [
+    21.07,
+    74.33
+   ],
    "wikipedia": "https://en.wikipedia.org/wiki/Bhamer_Dhule",
    "verifiedBy": "wikidata"
   },
@@ -7535,6 +7838,10 @@
    "kind": "heritage",
    "region": "north-maharashtra",
    "district": "Q1797291",
+   "coords": [
+    20.944,
+    75.553
+   ],
    "wikipedia": "https://en.wikipedia.org/wiki/Gandhi_Teerth",
    "verifiedBy": "wikidata"
   },
@@ -7633,6 +7940,10 @@
    "region": "north-maharashtra",
    "district": "Q1797291",
    "taluka": "Q2747562",
+   "coords": [
+    20.502,
+    75.095
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Mudhai_Devi_temple_-_side_view.jpg/960px-Mudhai_Devi_temple_-_side_view.jpg",
     "file": "Mudhai_Devi_temple_-_side_view.jpg"
@@ -8024,6 +8335,10 @@
    "kind": "temple",
    "region": "marathwada",
    "district": "Q592942",
+   "coords": [
+    20.01,
+    75.197
+   ],
    "image": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Bhadra_Maruti_Temple.jpg",
     "file": "Bhadra_Maruti_Temple.jpg"
@@ -8052,6 +8367,10 @@
    "kind": "heritage",
    "region": "marathwada",
    "district": "Q592942",
+   "coords": [
+    20.005,
+    75.191
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Tomb_Aurangzeb.jpg/960px-Tomb_Aurangzeb.jpg",
     "file": "Tomb_Aurangzeb.jpg"
@@ -8112,6 +8431,10 @@
    "region": "marathwada",
    "district": "Q592942",
    "taluka": "Q123267106",
+   "coords": [
+    20.443,
+    75.312
+   ],
    "wikipedia": "https://en.wikipedia.org/wiki/Banoti_Waterfall",
    "verifiedBy": "wikipedia"
   },
@@ -8142,6 +8465,10 @@
    "region": "marathwada",
    "district": "Q592942",
    "taluka": "Q123267106",
+   "coords": [
+    20.427,
+    75.236
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Entrance_and_Exit.jpg/960px-Entrance_and_Exit.jpg",
     "file": "Entrance_and_Exit.jpg"
@@ -8318,6 +8645,10 @@
    "kind": "fort",
    "region": "marathwada",
    "district": "Q1647186",
+   "coords": [
+    17.82,
+    76.3
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Main_Entrance%2C_Naldurg_fort.jpg/960px-Main_Entrance%2C_Naldurg_fort.jpg",
     "file": "Main_Entrance,_Naldurg_fort.jpg"
@@ -8333,6 +8664,10 @@
    "kind": "fort",
    "region": "marathwada",
    "district": "Q1647186",
+   "coords": [
+    18.27,
+    75.453
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Mahadarwaza_of_Paranda_fort.jpg/960px-Mahadarwaza_of_Paranda_fort.jpg",
     "file": "Mahadarwaza_of_Paranda_fort.jpg"
@@ -8480,6 +8815,10 @@
    "kind": "fort",
    "region": "marathwada",
    "district": "Q692389",
+   "coords": [
+    18.901,
+    77.201
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Indien2012_1301_Kandhar.jpg/960px-Indien2012_1301_Kandhar.jpg",
     "file": "Indien2012_1301_Kandhar.jpg"
@@ -8496,6 +8835,10 @@
    "region": "marathwada",
    "district": "Q692389",
    "taluka": "Q24911597",
+   "coords": [
+    19.836,
+    77.926
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Indien2012_1356_Mahur_Fort.jpg/960px-Indien2012_1356_Mahur_Fort.jpg",
     "file": "Indien2012_1356_Mahur_Fort.jpg"
@@ -8559,6 +8902,10 @@
    "kind": "temple",
    "region": "marathwada",
    "district": "Q1797389",
+   "coords": [
+    19.27,
+    76.78
+   ],
    "image": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/7/77/Parbhani_dargah_festival_at_night.jpg",
     "file": "Parbhani_dargah_festival_at_night.jpg"
@@ -8647,6 +8994,10 @@
    "kind": "heritage",
    "region": "vidarbha",
    "district": "Q1797367",
+   "coords": [
+    21.128,
+    79.067
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Dheekshabhoomi_in_Nagpur.jpg/960px-Dheekshabhoomi_in_Nagpur.jpg",
     "file": "Dheekshabhoomi_in_Nagpur.jpg"
@@ -8663,6 +9014,10 @@
    "region": "vidarbha",
    "district": "Q1797367",
    "taluka": "Q123267132",
+   "coords": [
+    21.395,
+    79.327
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Spire_of_Main_Shrine_-_Ram_Temple%2C_Ramtek.JPG/960px-Spire_of_Main_Shrine_-_Ram_Temple%2C_Ramtek.JPG",
     "file": "Spire_of_Main_Shrine_-_Ram_Temple,_Ramtek.JPG"
@@ -8730,6 +9085,10 @@
    "kind": "temple",
    "region": "vidarbha",
    "district": "Q1797367",
+   "coords": [
+    21.208,
+    79.203
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Dragon_Palace_Temple.jpg/960px-Dragon_Palace_Temple.jpg",
     "file": "Dragon_Palace_Temple.jpg"
@@ -8763,6 +9122,10 @@
    "kind": "nature",
    "region": "vidarbha",
    "district": "Q1797367",
+   "coords": [
+    21.144,
+    79.076
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/A_view_of_Maharajbag%2C_Nagpur.jpg/960px-A_view_of_Maharajbag%2C_Nagpur.jpg",
     "file": "A_view_of_Maharajbag,_Nagpur.jpg"
@@ -8778,6 +9141,10 @@
    "kind": "nature",
    "region": "vidarbha",
    "district": "Q1797367",
+   "coords": [
+    21.193,
+    79.009
+   ],
    "image": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Gorewada_Zoo.png",
     "file": "Gorewada_Zoo.png"
@@ -9081,6 +9448,10 @@
    "kind": "fort",
    "region": "vidarbha",
    "district": "Q1797274",
+   "coords": [
+    19.851,
+    79.342
+   ],
    "wikipedia": "https://en.wikipedia.org/wiki/Ballarpur_Fort",
    "verifiedBy": "wikidata"
   },
@@ -9091,6 +9462,10 @@
    "kind": "nature",
    "region": "vidarbha",
    "district": "Q1797274",
+   "coords": [
+    20.535,
+    79.633
+   ],
    "image": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ghodazari.jpg",
     "file": "Ghodazari.jpg"
@@ -9158,6 +9533,10 @@
    "region": "vidarbha",
    "district": "Q1797274",
    "taluka": "Q123267112",
+   "coords": [
+    19.674,
+    79.125
+   ],
    "wikipedia": "https://en.wikipedia.org/wiki/Manikgad",
    "verifiedBy": "wikidata"
   },
@@ -9350,6 +9729,10 @@
    "kind": "nature",
    "region": "vidarbha",
    "district": "Q1771774",
+   "coords": [
+    21.503,
+    77.318
+   ],
    "wikipedia": "https://en.wikipedia.org/wiki/Semadoh",
    "verifiedBy": "wikipedia"
   },
@@ -9380,6 +9763,10 @@
    "region": "vidarbha",
    "district": "Q520510",
    "taluka": "Q123267097",
+   "coords": [
+    21.241,
+    77.027
+   ],
    "image": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Narnala_fort.jpg/960px-Narnala_fort.jpg",
     "file": "Narnala_fort.jpg"
@@ -10186,6 +10573,123 @@
     "file": "Delicious_Ragda_Patties_.HEIC.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Ragda_pattice"
+  }
+ ],
+ "circuits": [
+  {
+   "id": "ashtavinayak",
+   "name": "Ashtavinayak",
+   "nameMr": "अष्टविनायक",
+   "about": "The eight Ganesh temples of the Ashtavinayak pilgrimage, visited traditionally starting and ending at Morgaon.",
+   "source": "https://en.wikipedia.org/wiki/Ashtavinayaka",
+   "ordered": true,
+   "places": [
+    "Q6912006",
+    "Q7508177",
+    "Q13119166",
+    "Q7915401",
+    "Q5101323",
+    "Q6523426",
+    "Q7928965",
+    "Q7293114"
+   ]
+  },
+  {
+   "id": "jyotirlingas",
+   "name": "Jyotirlingas of Maharashtra",
+   "nameMr": "महाराष्ट्रातील ज्योतिर्लिंगे",
+   "about": "Five of the twelve Jyotirlinga shrines of Shiva are in Maharashtra.",
+   "source": "https://en.wikipedia.org/wiki/Jyotirlinga",
+   "ordered": false,
+   "places": [
+    "Q2426825",
+    "Q1093326",
+    "Q1092799",
+    "Q15194007",
+    "Q60617890"
+   ]
+  },
+  {
+   "id": "shakti-peeth",
+   "name": "Sade Teen Shakti Peeth",
+   "nameMr": "साडेतीन शक्तिपीठे",
+   "about": "The three and a half seats of the Goddess in Maharashtra: Kolhapur, Tuljapur, Mahur and, as the half, Saptashrungi.",
+   "source": "https://en.wikipedia.org/wiki/Shakta_pithas",
+   "ordered": false,
+   "places": [
+    "Q3595240",
+    "Q7852108",
+    "Q3823613",
+    "Q6096471"
+   ]
+  },
+  {
+   "id": "maratha-military-landscapes",
+   "name": "Maratha Military Landscapes (UNESCO)",
+   "nameMr": "मराठा लष्करी भूप्रदेश (युनेस्को)",
+   "about": "The Maratha forts listed together as a UNESCO World Heritage Site in 2025: eleven of the twelve are in Maharashtra.",
+   "source": "https://en.wikipedia.org/wiki/Maratha_Military_Landscapes_of_India",
+   "ordered": false,
+   "places": [
+    "Q7404420",
+    "Q3520074",
+    "Q6667935",
+    "Q3827817",
+    "Q3626515",
+    "Q7286112",
+    "Q3582929",
+    "Q2099096",
+    "Q7131008",
+    "Q3827850",
+    "Q13413791"
+   ]
+  },
+  {
+   "id": "shivaji-forts",
+   "name": "In the footsteps of Shivaji Maharaj",
+   "nameMr": "शिवरायांच्या पाऊलखुणा",
+   "about": "Forts from the life of Chhatrapati Shivaji Maharaj, from his birthplace at Shivneri to his coronation at Raigad.",
+   "source": "https://en.wikipedia.org/wiki/Shivaji",
+   "ordered": true,
+   "places": [
+    "Q3520074",
+    "Q7825964",
+    "Q7286112",
+    "Q3824072",
+    "Q3078248",
+    "Q3582929",
+    "Q7131008",
+    "Q11954902",
+    "Q13413791",
+    "Q3626515"
+   ]
+  },
+  {
+   "id": "unesco",
+   "name": "UNESCO World Heritage Sites",
+   "nameMr": "युनेस्को जागतिक वारसा स्थळे",
+   "about": "The caves and the railway terminus in Maharashtra that UNESCO lists as World Heritage Sites.",
+   "source": "https://en.wikipedia.org/wiki/List_of_World_Heritage_Sites_in_India",
+   "ordered": false,
+   "places": [
+    "Q184427",
+    "Q189616",
+    "Q649384",
+    "Q235884"
+   ]
+  },
+  {
+   "id": "wari",
+   "name": "The Pandharpur Wari",
+   "nameMr": "पंढरपूरची वारी",
+   "about": "The route of the yearly Wari pilgrimage, from the samadhis of Sant Tukaram at Dehu and Sant Dnyaneshwar at Alandi to Vithoba at Pandharpur.",
+   "source": "https://en.wikipedia.org/wiki/Pandharpur_Vari",
+   "ordered": true,
+   "places": [
+    "Q1192430",
+    "Q589653",
+    "Q1779418"
+   ]
   }
  ]
 }

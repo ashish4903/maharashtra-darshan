@@ -23,6 +23,16 @@ One place to explore Maharashtra region by region: Konkan, Western Maharashtra, 
   - **Share this trip** creates a link that opens the same plan for a friend, who can save it.
 
   Saved places stay in your browser only.
+- **Circuits:** ready-made routes, each planned into days with directions, or added to My trip in one tap:
+  - Ashtavinayak (8 Ganesh temples)
+  - the 5 Jyotirlingas of Maharashtra
+  - Sade Teen Shakti Peeth
+  - the UNESCO Maratha Military Landscapes forts
+  - Shivaji Maharaj’s forts
+  - UNESCO World Heritage Sites
+  - the Pandharpur Wari
+
+  Every stop is checked against the circuit’s Wikipedia source or the stop’s own article.
 - **Near me:** lists the places closest to you. Your location never leaves your device.
 - **Surprise me:** opens a random place.
 - **Search:** works in English or Marathi, for example `Lonar` or `वडापाव`. Press <kbd>/</kbd> to jump to the search box.
@@ -35,11 +45,12 @@ Nothing is written from memory. Every entry has a source:
 
 | Data | Source |
 | --- | --- |
-| Districts, talukas, Marathi names, descriptions, map coordinates | [Wikidata](https://www.wikidata.org/) (CC0) |
+| Districts, talukas, Marathi names, descriptions, map coordinates (Wikipedia’s, else Wikidata’s) | [Wikidata](https://www.wikidata.org/) (CC0) |
 | Places and dishes | A curated list of [Wikipedia](https://en.wikipedia.org/) articles, linked from every card |
 | “Known for” facts | The district's Wikipedia article, or a linked article such as a GI product's page |
 | Which districts belong to each region | The Wikipedia article for each division or region |
 | Photos | The lead image of each Wikipedia article, only when it is freely licensed, from [Wikimedia Commons](https://commons.wikimedia.org/). Each place's page links to the photo's file page for author and licence. |
+| Circuits | Each stop’s membership is found in the circuit’s Wikipedia article (for example Ashtavinayaka), or in the stop’s own article (“one of the twelve Jyotirlingas”) |
 | Place summaries | Loaded live from the Wikipedia article when a place's page opens, and credited there (CC BY-SA 4.0) |
 | State outline on the map | [Natural Earth](https://www.naturalearthdata.com/) (public domain), built by `npm run outline` |
 

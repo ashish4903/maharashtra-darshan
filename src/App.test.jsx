@@ -152,6 +152,34 @@ describe('App', () => {
     expect(screen.getByRole('button', { name: /Saved to my trip/ })).toBeTruthy();
   });
 
+  it('plans a circuit in its traditional order and adds it to my trip', async () => {
+    const user = userEvent.setup();
+    window.location.hash = '#/circuit/ashtavinayak';
+    render(<App />);
+
+    expect(screen.getByRole('heading', { level: 1, name: /Ashtavinayak/ })).toBeTruthy();
+    expect(screen.getByRole('combobox', { name: /Order/ }).value).toBe('given');
+    expect(screen.getByRole('link', { name: /^Stop 1: Ganesha Temple, Morgaon/ })).toBeTruthy();
+    // Every stop is on the route: in the banner and in the route summary
+    expect(screen.getAllByText(/8 stops/)).toHaveLength(2);
+
+    await user.click(screen.getByRole('button', { name: /Add all to my trip/ }));
+    expect(JSON.parse(localStorage.getItem('maharashtra-darshan-trip-v1'))).toHaveLength(8);
+    expect(screen.getByRole('button', { name: /All in my trip/ })).toBeTruthy();
+  });
+
+  it('shows circuits on the home page and on their places', async () => {
+    render(<App />);
+    const section = screen.getByRole('region', { name: 'Circuits and pilgrimages' });
+    expect(within(section).getByRole('link', { name: /Jyotirlingas of Maharashtra/ })).toBeTruthy();
+
+    cleanup();
+    const ajanta = places.find((p) => p.name === 'Ajanta Caves');
+    window.location.hash = `#/place/${ajanta.id}`;
+    render(<App />);
+    expect(screen.getByRole('link', { name: /UNESCO World Heritage Sites/ })).toBeTruthy();
+  });
+
   it('searches in Marathi', async () => {
     const user = userEvent.setup();
     render(<App />);
