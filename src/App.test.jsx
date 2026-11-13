@@ -261,6 +261,44 @@ describe('App', () => {
     expect(within(tarri).getByText(/Source: en\.wikipedia\.org/)).toBeTruthy();
   });
 
+  it('warns about rain on an outdoor day and swaps it with a drier one', async () => {
+    // Fake forecast: heavy rain over the forts south-west of Pune, dry over the city temples
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async (url) => {
+        if (!url.startsWith('https://api.open-meteo.com/v1/forecast?') || !url.includes('start_date')) {
+          return { ok: true, json: async () => ({ extract: 'A summary from Wikipedia.' }) };
+        }
+        const lats = new URL(url).searchParams.get('latitude').split(',').map(Number);
+        const response = lats.map(() => ({
+          daily: {
+            time: lats.map((_, i) => `d${i}`),
+            weather_code: lats.map((lat) => (lat < 18.45 ? 63 : 0)),
+            temperature_2m_max: lats.map(() => 28),
+            temperature_2m_min: lats.map(() => 20),
+            precipitation_sum: lats.map((lat) => (lat < 18.45 ? 40 : 0)),
+            precipitation_probability_max: lats.map((lat) => (lat < 18.45 ? 95 : 5)),
+          },
+        }));
+        return { ok: true, json: async () => response };
+      }),
+    );
+    const user = userEvent.setup();
+    const names = ['Sinhagad', 'Torna Fort', 'Rajgad', 'Kasba Ganapati', 'Dagadusheth Halwai Ganapati Temple', 'Chaturshringi Temple'];
+    const ids = names.map((n) => places.find((p) => p.name === n).id);
+    window.location.hash = `#/trip/${ids.join(',')}`;
+    render(<App />);
+
+    const warning = await screen.findByText(/Heavy rain likely/);
+    const rainyDay = warning.closest('section');
+    expect(within(rainyDay).getByText('Sinhagad')).toBeTruthy();
+    const rainyName = rainyDay.getAttribute('aria-label');
+
+    await user.click(within(rainyDay).getByRole('button', { name: /Swap with Day \d \(drier\)/ }));
+    const fortsDay = screen.getByText('Sinhagad').closest('section');
+    expect(fortsDay.getAttribute('aria-label')).not.toBe(rainyName);
+  });
+
   it('plans a getaway from a starting point and saves it', async () => {
     const user = userEvent.setup();
     window.location.hash = '#/plan';

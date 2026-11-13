@@ -1539,6 +1539,46 @@ section + section,
   margin: 0.5rem 0 0;
 }
 
+/* Weather on trips */
+.day-weather {
+  margin: 0 0 0.6rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.trip-warning {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.75rem;
+  margin: 0 0 0.75rem;
+  padding: 0.6rem 0.9rem;
+  border-radius: var(--radius-sm);
+  border: 1px solid color-mix(in srgb, var(--vidarbha) 40%, var(--line));
+  background: color-mix(in srgb, var(--vidarbha) 8%, var(--surface));
+  font-weight: 600;
+}
+
+.trip-warning p {
+  margin: 0;
+}
+
+.trip-weather-note {
+  margin: 1rem 0 0;
+  color: var(--muted);
+}
+
+.trip-controls input[type='date'] {
+  margin-left: 0.25rem;
+  padding: 0.35rem 0.5rem;
+  font: inherit;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+}
+
 /* Planner */
 .planner-form {
   display: grid;

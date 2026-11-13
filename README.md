@@ -24,6 +24,7 @@ One place to explore Maharashtra region by region: Konkan, Western Maharashtra, 
   - orders them into the shortest route and splits it into days (choose 2–6 stops a day)
   - shows the route on the map
   - gives Google Maps directions for each day or the whole trip
+  - weather-aware days: pick a start date, and for trips within 16 days each day shows its forecast. Rain or heat on a day with forts, trails or beaches gets a warning and a one-tap “swap with a drier day”
   - **Share this trip** creates a link that opens the same plan for a friend, who can save it.
 
   Saved places stay in your browser only.
