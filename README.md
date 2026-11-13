@@ -17,6 +17,7 @@ One place to explore Maharashtra region by region: Konkan, Western Maharashtra, 
   - its region and district, and its location on the map
   - the nearest places, with distances
   - food to try nearby
+  - a 4-day weather forecast from Open-Meteo, which is free and needs no key; only the place’s coordinates are sent
 - **My trip planner:** tap ♡ to save places. My trip:
   - orders them into the shortest route and splits it into days (choose 2–6 stops a day)
   - shows the route on the map
@@ -92,7 +93,7 @@ npm run lint
 npm run build
 ```
 
-The app needs no API keys, accounts or `.env` file. It has no tracking and no cookies. Its only network requests are to Wikipedia and Wikimedia Commons, for summaries and photos. Google Maps links are plain links: nothing is sent to Google unless the visitor clicks one.
+The app needs no API keys, accounts or `.env` file. It has no tracking and no cookies. Its only network requests are to Wikipedia and Wikimedia Commons (summaries and photos) and Open-Meteo (forecasts, sending only a place’s coordinates). Google Maps links are plain links: nothing is sent to Google unless the visitor clicks one.
 
 ## Licence
 
