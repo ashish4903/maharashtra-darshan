@@ -1,4 +1,5 @@
 import Photo from './Photo';
+import SeasonNote from './SeasonNote';
 import useLang from '../lib/useLang';
 import { foodSpotQuery, getDistrict, getRegion, mapsSearchUrl, shortName } from '../lib/catalogue';
 
@@ -40,6 +41,7 @@ export default function FoodCard({ food, fromHere = false, districtId, near }) {
               {otherName(food)}
             </p>
           )}
+          <SeasonNote item={food} />
           {food.description && (
             <p className="card-text" lang="en">
               {food.description}

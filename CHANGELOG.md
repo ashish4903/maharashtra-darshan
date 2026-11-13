@@ -6,6 +6,8 @@ All notable changes to this project are listed here. The format follows [Keep a 
 
 ### Added
 
+- Where to go, and when: a “Best in {month}” carousel on the home page, a month picker (`#/seasons`), and “Best time” on place pages. 12 sourced seasons: monsoon waterfalls and treks, Kaas flowers, winter birds at Bhigwan and Karnala, summer hill stations, and Nagpur oranges. The data build checks each claim against the place’s own article.
+
 - Places and dishes that have no Wikipedia article of their own:
   - 59 places from the official district websites (Washim, Gadchiroli, Parbhani, Palghar, Jalgaon, Nanded, Bhandara and more), for example the Swinging Towers of Farkande, Wadadham Fossil Park, Banjara Virasat museum, Tipeshwar sanctuary and Matsyodari Devi temple.
   - 13 dishes mentioned in Wikipedia articles: Saoji cuisine, tarri poha, Santra barfi, tambda and pandhara rassa, Puneri and Kolhapuri misal, kothimbir vadi, varan bhaat, mande, patodi, sev bhaji and sabudana khichdi.

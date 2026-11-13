@@ -8,6 +8,7 @@ import Carousel from './Carousel';
 import PlaceCard from './PlaceCard';
 import FoodCard from './FoodCard';
 import Weather from './Weather';
+import SeasonNote from './SeasonNote';
 import useLang from '../lib/useLang';
 import {
   KINDS,
@@ -109,6 +110,14 @@ export default function PlaceView({ placeId }) {
                 <dt>{t('place.coords')}</dt>
                 <dd>
                   {place.coords[0].toFixed(3)}°N, {place.coords[1].toFixed(3)}°E
+                </dd>
+              </div>
+            )}
+            {place.best && (
+              <div className="fact-season">
+                <dt>{t('season.bestTime')}</dt>
+                <dd>
+                  <SeasonNote item={place} className="fact-season-text" />
                 </dd>
               </div>
             )}

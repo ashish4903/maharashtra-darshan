@@ -3708,7 +3708,16 @@
     "file": "Dahbosa_Waterfalls.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Dabhosa_Waterfalls",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "best": {
+    "months": [
+     6,
+     7,
+     8,
+     9
+    ],
+    "reason": "waterfall"
+   }
   },
   {
    "id": "Q6386791",
@@ -3998,7 +4007,15 @@
     "file": "Matheran_In_Clouds.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Matheran",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "best": {
+    "months": [
+     3,
+     4,
+     5
+    ],
+    "reason": "summer"
+   }
   },
   {
    "id": "Q3824083",
@@ -4094,7 +4111,16 @@
     "file": "Karnala_006.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Karnala_Bird_Sanctuary",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "best": {
+    "months": [
+     11,
+     12,
+     1,
+     2
+    ],
+    "reason": "birds"
+   }
   },
   {
    "id": "Q385394",
@@ -4901,7 +4927,16 @@
     "file": "Amboli5.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Amboli%2C_Sindhudurg",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "best": {
+    "months": [
+     6,
+     7,
+     8,
+     9
+    ],
+    "reason": "waterfall"
+   }
   },
   {
    "id": "Q18358247",
@@ -5146,7 +5181,16 @@
     "file": "Tiger_Valley_Bridge_view_3.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Lonavala",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "best": {
+    "months": [
+     6,
+     7,
+     8,
+     9
+    ],
+    "reason": "monsoon"
+   }
   },
   {
    "id": "Q6372431",
@@ -5573,7 +5617,16 @@
     "file": "Phoenicopterus_roseus_-Bhigwan,_Maharashtra,_India_-four-8.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Bhigwan",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "best": {
+    "months": [
+     12,
+     1,
+     2,
+     3
+    ],
+    "reason": "birds"
+   }
   },
   {
    "id": "Q7286112",
@@ -5592,7 +5645,16 @@
     "file": "Suvela_machi,Rajgad_fort,_Maharashtra,India_July2015.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Rajgad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "best": {
+    "months": [
+     6,
+     7,
+     8,
+     9
+    ],
+    "reason": "monsoon"
+   }
   },
   {
    "id": "Q3824072",
@@ -5970,7 +6032,15 @@
     "file": "MAHABALESWAR_LANDSCAPE.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Mahabaleshwar",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "best": {
+    "months": [
+     3,
+     4,
+     5
+    ],
+    "reason": "summer"
+   }
   },
   {
    "id": "Q6343582",
@@ -5989,7 +6059,14 @@
     "file": "Kaas-7016.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Kas_Plateau_Reserved_Forest",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "best": {
+    "months": [
+     8,
+     9
+    ],
+    "reason": "flowers"
+   }
   },
   {
    "id": "Q3582929",
@@ -6116,7 +6193,17 @@
     "file": "ತೋಶೆಘರ್_ಜಲಪಾತ.JPG"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Thoseghar_Waterfalls",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "best": {
+    "months": [
+     7,
+     8,
+     9,
+     10,
+     11
+    ],
+    "reason": "waterfall"
+   }
   },
   {
    "id": "Q463437",
@@ -6135,7 +6222,15 @@
     "file": "Panchghani_Hill.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Panchgani",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "best": {
+    "months": [
+     3,
+     4,
+     5
+    ],
+    "reason": "summer"
+   }
   },
   {
    "id": "Q1785742",
@@ -10127,8 +10222,8 @@
    "region": "vidarbha",
    "district": "Q520510",
    "coords": [
-    20.707,
-    76.9734
+    20.69,
+    76.9778
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://akola.gov.in/en/tourist-place/salasarmandir/",
@@ -11285,7 +11380,16 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Nagpur_orange_article.JPG/960px-Nagpur_orange_article.JPG",
     "file": "Nagpur_orange_article.JPG"
    },
-   "wikipedia": "https://en.wikipedia.org/wiki/Nagpur_orange"
+   "wikipedia": "https://en.wikipedia.org/wiki/Nagpur_orange",
+   "best": {
+    "months": [
+     9,
+     10,
+     11,
+     12
+    ],
+    "reason": "fruit"
+   }
   },
   {
    "id": "Q131056479",

@@ -198,6 +198,26 @@ const en = {
   'weather.storm': 'Thunderstorm',
   'weather.unknown': 'Weather',
 
+  'season.title': 'Where to go, and when',
+  'season.intro':
+    'Pick a month to see the places at their best, food in season and festivals. Every season comes from the place’s own Wikipedia article.',
+  'season.homeTitle': 'Best in {month}',
+  'season.homeSub': 'Places at their best, food in season and festivals',
+  'season.allMonths': 'See every month',
+  'season.pick': 'Choose a month',
+  'season.places': 'Places at their best',
+  'season.foods': 'In season to eat',
+  'season.festivals': 'Festivals',
+  'season.none': 'Nothing is listed for this month yet.',
+  'season.note': 'Seasons vary a little from year to year; check local conditions, especially in the monsoon.',
+  'season.bestTime': 'Best time',
+  'season.waterfall': 'Monsoon waterfalls',
+  'season.flowers': 'Wildflower season',
+  'season.birds': 'Bird season',
+  'season.monsoon': 'Best in the monsoon',
+  'season.summer': 'Cool summer escape',
+  'season.fruit': 'In season',
+
   'footer.data':
     'Districts, talukas, names and descriptions come from {wikidata} (CC0). Every place and dish links to its {wikipedia} article. Photos are freely licensed images from {commons}, credited on each place’s page. Map outline from {naturalEarth} (public domain). Data updated {date}.',
   'footer.code': 'Source code',
@@ -400,6 +420,26 @@ const mr = {
   'weather.snow': 'हिमवृष्टी',
   'weather.storm': 'वादळी पाऊस',
   'weather.unknown': 'हवामान',
+
+  'season.title': 'कुठे जावे, आणि केव्हा',
+  'season.intro':
+    'महिना निवडा आणि त्या महिन्यात सर्वोत्तम ठिकाणे, हंगामातील पदार्थ आणि सण पाहा. प्रत्येक हंगाम त्या ठिकाणाच्या Wikipedia लेखावरून आहे.',
+  'season.homeTitle': '{month} मध्ये सर्वोत्तम',
+  'season.homeSub': 'सर्वोत्तम ठिकाणे, हंगामातील पदार्थ आणि सण',
+  'season.allMonths': 'प्रत्येक महिना पाहा',
+  'season.pick': 'महिना निवडा',
+  'season.places': 'आत्ता सर्वोत्तम ठिकाणे',
+  'season.foods': 'हंगामात खाण्यासारखे',
+  'season.festivals': 'सण',
+  'season.none': 'या महिन्यासाठी अजून काही नोंदलेले नाही.',
+  'season.note': 'हंगाम दरवर्षी थोडे बदलतात; विशेषतः पावसाळ्यात स्थानिक परिस्थिती तपासा.',
+  'season.bestTime': 'सर्वोत्तम काळ',
+  'season.waterfall': 'पावसाळी धबधबे',
+  'season.flowers': 'रानफुलांचा हंगाम',
+  'season.birds': 'पक्षी निरीक्षणाचा हंगाम',
+  'season.monsoon': 'पावसाळ्यात सर्वोत्तम',
+  'season.summer': 'उन्हाळ्यात थंड ठिकाण',
+  'season.fruit': 'हंगामात',
 
   'footer.data':
     'जिल्हे, तालुके, नावे आणि वर्णने {wikidata} (CC0) वरून. प्रत्येक ठिकाण आणि पदार्थाला त्याचा {wikipedia} लेख जोडलेला आहे. छायाचित्रे {commons} वरील मुक्त परवान्याची आहेत, प्रत्येक ठिकाणाच्या पानावर श्रेय दिले आहे. नकाशाची रेषा {naturalEarth} (सार्वजनिक) वरून. माहिती अद्ययावत: {date}.',

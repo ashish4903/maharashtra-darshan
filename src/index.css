@@ -1539,6 +1539,38 @@ section + section,
   margin: 0.5rem 0 0;
 }
 
+/* Seasons */
+.card-season {
+  margin-top: 0.4rem !important;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--konkan);
+}
+
+.fact-season-text {
+  margin: 0;
+  font-weight: 600;
+}
+
+.month-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 1.25rem;
+}
+
+.month-now {
+  color: var(--accent);
+}
+
+.season-month {
+  margin: 0.5rem 0 1rem;
+}
+
+.seasons-page section + section {
+  margin-top: 1.75rem;
+}
+
 /* Festivals */
 .festival-card {
   display: flex;

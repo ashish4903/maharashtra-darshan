@@ -7,6 +7,7 @@ import FoodCard from './FoodCard';
 import NearMe from './NearMe';
 import CircuitCard from './CircuitCard';
 import FestivalCard from './FestivalCard';
+import BestThisMonth from './BestThisMonth';
 import useLang from '../lib/useLang';
 import { STATEWIDE, circuits, featuredPlaces, festivals, foodsIn, regions, upcomingFestivals } from '../lib/catalogue';
 
@@ -15,6 +16,8 @@ export default function HomeView() {
   return (
     <>
       <Hero />
+
+      <BestThisMonth />
 
       <section id="explore" className="explore" aria-labelledby="explore-heading">
         <h2 id="explore-heading">{t('home.chooseRegion')}</h2>

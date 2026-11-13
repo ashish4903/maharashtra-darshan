@@ -392,6 +392,27 @@ async function main() {
     });
   }
 
+  // Seasons ("best this month"): every claim must be stated in the item's own
+  // article, e.g. Bhigwan's flamingos "between December and March". Months are
+  // 1–12; "monsoon" means June–September and "summer" March–May.
+  const SEASON_REASONS = new Set(['waterfall', 'flowers', 'birds', 'monsoon', 'summer', 'fruit']);
+  for (const s of curated.seasons ?? []) {
+    const page = await wikipedia(s.ref);
+    const item = page && (s.type === 'food' ? foods : places).find((x) => x.id === page.wikidata);
+    if (!item) {
+      problems.push(`Season "${s.ref}": not one of the listed ${s.type === 'food' ? 'dishes' : 'places'}`);
+      continue;
+    }
+    if (!SEASON_REASONS.has(s.reason)) problems.push(`Season "${s.ref}": unknown reason ${s.reason}`);
+    if (!s.months.length || s.months.some((m) => m < 1 || m > 12)) problems.push(`Season "${s.ref}": bad months`);
+    const missing = s.evidence.filter((ev) => !mentions(page.text, [ev]));
+    if (missing.length) {
+      problems.push(`Season "${s.ref}": ${missing.map((m) => `"${m}"`).join(', ')} not found in its article`);
+      continue;
+    }
+    item.best = { months: s.months, reason: s.reason };
+  }
+
   for (const list of [places, foods]) {
     const seen = new Set();
     for (const item of list) {

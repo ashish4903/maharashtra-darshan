@@ -41,6 +41,28 @@ export const getCircuit = (id) => circuits.find((c) => c.id === id);
 export const circuitPlaces = (circuit) => circuit.places.map(getPlace).filter(Boolean);
 export const circuitsWith = (placeId) => circuits.filter((c) => c.places.includes(placeId));
 
+/** Why a place or dish is best in some months (see data/curated.json "seasons"). */
+export const SEASON_ICONS = { waterfall: '🌧️', flowers: '🌸', birds: '🦩', monsoon: '🌿', summer: '🏔️', fruit: '🍊' };
+
+export const inSeason = (item, month) => Boolean(item.best?.months.includes(month));
+
+/** Places at their best, food in season and festivals in a month (1–12). */
+export const bestIn = (month) => ({
+  places: places.filter((p) => inSeason(p, month)),
+  foods: foods.filter((f) => inSeason(f, month)),
+  festivals: (data.festivals ?? []).filter((f) => f.months.includes(month)),
+});
+
+/** "Jul–Nov", "Dec–Mar" or "Sep": a run of months, wrapping round the year. */
+export function monthRange(months, monthName) {
+  if (!months?.length) return '';
+  const set = new Set(months);
+  const start = months.find((m) => !set.has(m === 1 ? 12 : m - 1)) ?? months[0];
+  let end = start;
+  while (set.has(end === 12 ? 1 : end + 1) && (end === 12 ? 1 : end + 1) !== start) end = end === 12 ? 1 : end + 1;
+  return start === end ? monthName(start) : `${monthName(start)}–${monthName(end)}`;
+}
+
 /** Festivals and fairs; `months` are 1–12 (empty for ones held every few years). */
 export const festivals = data.festivals ?? [];
 export const festivalsAt = (placeId) => festivals.filter((f) => f.places.includes(placeId));
