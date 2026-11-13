@@ -8,6 +8,7 @@ One place to explore Maharashtra region by region: Konkan, Western Maharashtra, 
 
 - **मराठी / English:** the whole interface switches with one tap, and the choice is remembered. Visitors whose browser is set to Marathi get Marathi automatically. Place, district, taluka, region and circuit names appear in Marathi, with English alongside. Descriptions and Wikipedia summaries are still in English.
 - **Where to go, and when:** a “Best in {month}” section on the home page, and a month picker (`#/seasons`) showing places at their best, food in season and festivals. Examples: monsoon waterfalls, Kaas wildflowers in August–September, Bhigwan’s flamingos from December to March, summer escapes to Mahabaleshwar, and Nagpur oranges. Each season is stated in the place’s own Wikipedia article.
+- **Plan a getaway (`#/plan`):** choose a starting district or your location, 1–4 days, what you like and the month. It picks places within reach, favours what’s at its best that month, keeps the trip compact, and plans the days from your start. It adds food to try on the way and that month’s festivals; save it to My trip or share it.
 - **Interactive map:** hover over or tap any of the 36 districts, or highlight a region from the legend.
 - **Browse by area:** region, then district, then its talukas.
 - **District pages:** what the district is known for (for example, Yavatmal: cotton, “Cotton City”), its places by taluka, its food, and an About tab with the Wikipedia summary.

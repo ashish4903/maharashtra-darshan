@@ -261,6 +261,27 @@ describe('App', () => {
     expect(within(tarri).getByText(/Source: en\.wikipedia\.org/)).toBeTruthy();
   });
 
+  it('plans a getaway from a starting point and saves it', async () => {
+    const user = userEvent.setup();
+    window.location.hash = '#/plan';
+    render(<App />);
+    expect(screen.getByRole('heading', { level: 1, name: 'Plan a getaway' })).toBeTruthy();
+    expect(screen.getByRole('combobox', { name: /Starting from/ }).value).toBe('Q1797336'); // Pune
+
+    await user.click(screen.getByRole('button', { name: /Forts/ }));
+    await user.click(screen.getByRole('button', { name: '1 day' }));
+    const day1 = screen.getByRole('region', { name: 'Day 1' });
+    expect(within(day1).getAllByRole('listitem').length).toBeGreaterThan(0);
+    expect(screen.getByRole('combobox', { name: /Order/ }).value).toBe('given');
+
+    await user.click(screen.getByRole('button', { name: /Save all to my trip/ }));
+    expect(JSON.parse(localStorage.getItem('maharashtra-darshan-trip-v1')).length).toBeGreaterThan(0);
+
+    // Changing the start re-plans the trip
+    await user.selectOptions(screen.getByRole('combobox', { name: /Starting from/ }), 'Q1797367'); // Nagpur
+    expect(screen.getByRole('button', { name: /Save all to my trip/ })).toBeTruthy();
+  });
+
   it('shows where to go in any month, and the best time on a place', async () => {
     const user = userEvent.setup();
     window.location.hash = '#/seasons';

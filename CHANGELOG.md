@@ -6,6 +6,8 @@ All notable changes to this project are listed here. The format follows [Keep a 
 
 ### Added
 
+- Plan a getaway (`#/plan`): from a starting district or your location, for 1–4 days, with interests (forts, temples, nature, heritage) and a month. It picks places within reach, boosts ones in season, keeps the trip compact and orders it from the start, with food along the way, festivals that month, Save and Share. There is a “Plan a getaway” button on the home page.
+
 - Where to go, and when: a “Best in {month}” carousel on the home page, a month picker (`#/seasons`), and “Best time” on place pages. 12 sourced seasons: monsoon waterfalls and treks, Kaas flowers, winter birds at Bhigwan and Karnala, summer hill stations, and Nagpur oranges. The data build checks each claim against the place’s own article.
 
 - Places and dishes that have no Wikipedia article of their own:

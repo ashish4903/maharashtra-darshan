@@ -1539,6 +1539,47 @@ section + section,
   margin: 0.5rem 0 0;
 }
 
+/* Planner */
+.planner-form {
+  display: grid;
+  gap: 1rem;
+  padding: 1.25rem;
+  margin-bottom: 1.25rem;
+  border-radius: var(--radius);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  box-shadow: var(--shadow);
+}
+
+.planner-field {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+}
+
+.planner-field > span {
+  min-width: 7rem;
+  font-weight: 700;
+}
+
+.planner-field .chips {
+  margin: 0;
+}
+
+.planner-field select {
+  padding: 0.45rem 0.7rem;
+  font: inherit;
+  color: var(--text);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+}
+
+.planner-actions {
+  margin-bottom: 1rem;
+}
+
 /* Seasons */
 .card-season {
   margin-top: 0.4rem !important;

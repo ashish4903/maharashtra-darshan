@@ -9,10 +9,17 @@ import { formatKm } from '../lib/geo';
  * A list of places as a route: shortest order (or as given), split into
  * days, with a map and Google Maps directions for each day.
  */
-export default function TripPlan({ places, removable = false, keepOrder = false, givenLabel = 'trip.asSaved' }) {
+export default function TripPlan({
+  places,
+  removable = false,
+  keepOrder = false,
+  givenLabel = 'trip.asSaved',
+  orderName,
+  initialPerDay = 3,
+}) {
   const { t } = useLang();
   const [order, setOrder] = useState(keepOrder ? 'given' : 'shortest');
-  const [perDay, setPerDay] = useState(3);
+  const [perDay, setPerDay] = useState(initialPerDay);
 
   const mapped = places.filter((p) => p.coords);
   const unmapped = places.filter((p) => !p.coords);
@@ -36,7 +43,7 @@ export default function TripPlan({ places, removable = false, keepOrder = false,
             {t('trip.order')}{' '}
             <select value={order} onChange={(e) => setOrder(e.target.value)}>
               <option value="shortest">{t('trip.shortest')}</option>
-              <option value="given">{t(keepOrder ? 'trip.traditional' : givenLabel)}</option>
+              <option value="given">{t(orderName ?? (keepOrder ? 'trip.traditional' : givenLabel))}</option>
             </select>
           </label>
           <label>
