@@ -13,7 +13,7 @@ export default function TripStop({ place, number, hopKm, removable }) {
         {number}
       </span>
       <a href={`#/place/${place.id}`} className="trip-stop-link">
-        <Photo image={place.image} alt="" icon={icon} className="trip-photo" />
+        <Photo image={place.image} alt="" icon={icon} className="trip-photo" width={250} />
         <span className="trip-stop-text">
           <strong>{name(place)}</strong>
           <span className="muted">

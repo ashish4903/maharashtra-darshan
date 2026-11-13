@@ -4,6 +4,13 @@ All notable changes to this project are listed here. The format follows [Keep a 
 
 ## [Unreleased]
 
+### Changed
+
+- Faster loading:
+  - Card photos load at 500 px and small thumbnails at 250 px, instead of 960 px. For example, the Ajanta card photo drops from 280 KB to 88 KB.
+  - The code is split into app, React and data files, so browsers keep React and the data cached across updates.
+  - Early connections to Wikimedia’s photo servers.
+
 ### Added
 
 - Link previews: shared links show a card with a 1200×630 image (the state map with a dot per district, in English and Marathi), a title and a description, via Open Graph and Twitter tags. `npm run og-image` redraws the image from the data.

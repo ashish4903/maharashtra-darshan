@@ -29,6 +29,7 @@ import {
   shortName,
   suggestUrl,
   talukaCounts,
+  thumbAt,
 } from './catalogue';
 
 describe('generated data', () => {
@@ -126,6 +127,18 @@ describe('generated data', () => {
     // Tests run from the project folder
     const form = readFileSync('.github/ISSUE_TEMPLATE/suggest-a-place.yml', 'utf8');
     for (const d of districts) expect(form).toContain(`- "${shortName(d.name)}"`);
+  });
+
+  it('asks Wikimedia for smaller thumbnails where photos are small', () => {
+    const src = 'https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Ajanta_%2863%29.jpg/960px-Ajanta_%2863%29.jpg';
+    expect(thumbAt(src, 500)).toBe(src.replace('/960px-', '/500px-'));
+    expect(thumbAt(src, 250)).toMatch(/\/250px-Ajanta_%2863%29\.jpg$/);
+    expect(thumbAt('https://example.org/photo.jpg', 500)).toBe('https://example.org/photo.jpg');
+    // Most photos are resizable thumbnails; small originals are left as they are
+    const photos = places.filter((x) => x.image).map((x) => x.image.src);
+    const resizable = photos.filter((src) => /\/\d+px-[^/]+$/.test(src));
+    expect(resizable.length).toBeGreaterThan(photos.length / 2);
+    for (const src of photos.filter((s) => !resizable.includes(s))) expect(thumbAt(src, 500)).toBe(src);
   });
 
   it('has no duplicate places or dishes', () => {

@@ -11,7 +11,7 @@ export default function DistrictGrid({ districts }) {
         return (
           <li key={d.id}>
             <a href={`#/district/${d.id}`} className="district-card">
-              <Photo image={coverImage({ district: d.id })} alt="" icon="📍" className="district-photo" />
+              <Photo image={coverImage({ district: d.id })} alt="" icon="📍" className="district-photo" width={250} />
               <span className="district-text">
                 <span className="district-name">{shortName(name(d))}</span>
                 <span lang={lang === 'mr' ? 'en' : 'mr'}>{otherName(d)}</span>
