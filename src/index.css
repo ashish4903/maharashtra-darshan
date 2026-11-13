@@ -902,8 +902,13 @@ section + section,
   cursor: pointer;
 }
 
-.carousel-arrows button:hover {
+.carousel-arrows button:hover:not(:disabled) {
   border-color: var(--accent);
+}
+
+.carousel-arrows button:disabled {
+  opacity: 0.35;
+  cursor: default;
 }
 
 .carousel-track {
