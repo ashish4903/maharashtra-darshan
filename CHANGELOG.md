@@ -4,14 +4,15 @@ All notable changes to this project are listed here. The format follows [Keep a 
 
 ## [Unreleased]
 
+## [1.1.0] - 2026-11-13
+
+Planning: where to go, and when. See what is at its best each month, get a ready getaway from where you start, and check the weather for each day of a trip.
+
 ### Added
 
 - Weather-aware trips: every trip, circuit and planned getaway has a start date. Within 16 days, each day shows its forecast (Open-Meteo, coordinates only). Heavy rain on a day with forts, trails or beaches, or extreme heat, gets a warning; a rainy outdoor day can be swapped with a drier, less outdoor day in one tap. Trips further ahead get a monsoon note when relevant.
-
 - Plan a getaway (`#/plan`): from a starting district or your location, for 1–4 days, with interests (forts, temples, nature, heritage) and a month. It picks places within reach, boosts ones in season, keeps the trip compact and orders it from the start, with food along the way, festivals that month, Save and Share. There is a “Plan a getaway” button on the home page.
-
-- Where to go, and when: a “Best in {month}” carousel on the home page, a month picker (`#/seasons`), and “Best time” on place pages. 12 sourced seasons: monsoon waterfalls and treks, Kaas flowers, winter birds at Bhigwan and Karnala, summer hill stations, and Nagpur oranges. The data build checks each claim against the place’s own article.
-
+- Where to go, and when: a “Best this month” carousel on the home page, a month picker (`#/seasons`), and “Best time” on place pages. 12 sourced seasons: monsoon waterfalls and treks, Kaas flowers, winter birds at Bhigwan and Karnala, summer hill stations, and Nagpur oranges. The data build checks each claim against the place’s own article.
 - Places and dishes that have no Wikipedia article of their own:
   - 59 places from the official district websites (Washim, Gadchiroli, Parbhani, Palghar, Jalgaon, Nanded, Bhandara and more), for example the Swinging Towers of Farkande, Wadadham Fossil Park, Banjara Virasat museum, Tipeshwar sanctuary and Matsyodari Devi temple.
   - 13 dishes mentioned in Wikipedia articles: Saoji cuisine, tarri poha, Santra barfi, tambda and pandhara rassa, Puneri and Kolhapuri misal, kothimbir vadi, varan bhaat, mande, patodi, sev bhaji and sabudana khichdi.
