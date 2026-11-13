@@ -72,8 +72,11 @@ export function monthRange(months, monthName) {
   return start === end ? monthName(start) : `${monthName(start)}–${monthName(end)}`;
 }
 
-/** Festivals and fairs; `months` are 1–12 (empty for ones held every few years). */
-export const festivals = data.festivals ?? [];
+/**
+ * Festivals and fairs; `months` are 1–12 (empty for ones held every few years).
+ * The name is the Wikipedia title without its disambiguation: "Pola (festival)" -> "Pola".
+ */
+export const festivals = (data.festivals ?? []).map((f) => ({ ...f, name: f.name.replace(/\s+\([^)]*\)$/, '') }));
 export const festivalsAt = (placeId) => festivals.filter((f) => f.places.includes(placeId));
 
 /** How many months until a festival next comes round (0 = this month). */
