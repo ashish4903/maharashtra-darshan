@@ -15,10 +15,12 @@ All notable changes to this project are listed here. The format follows [Keep a 
 
 ### Changed
 
+- Phone layout: the header fits on one line (the logo leads home), the home page buttons sit side by side, place lists use compact cards with a small photo (a district page is about a third as long), a place’s actions are one row you can swipe, and the search box hint is shorter so it isn’t cut off.
 - 16 places sourced from district websites that could not be reached when the data was built (Akola, Dhule, Mumbai Suburban, Nanded, Nashik, Palghar, Ratnagiri) are hidden until their source can be checked again. They are kept in `data/curated.json` under `paused`.
 
 ### Fixed
 
+- On phones, district and place pages no longer run past the right edge of the screen (cut-off chips, tabs, cards and weather).
 - Carousel arrows: they no longer show on rows where every card already fits (such as History trails on a wide screen), and each arrow turns off at its end of the row.
 
 ## [1.1.0] - 2026-11-13

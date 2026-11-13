@@ -1012,6 +1012,8 @@ section + section,
 
 .level-layout {
   display: grid;
+  /* minmax(0, …): a wide row (chips, tabs, swipeable buttons) scrolls instead of widening the page */
+  grid-template-columns: minmax(0, 1fr);
   gap: 1.5rem;
   margin-top: 1.25rem;
 }
@@ -2150,5 +2152,177 @@ section + section,
   .trail-photo {
     aspect-ratio: 16 / 10;
     max-height: none;
+  }
+}
+
+/* ---------- Phones: compact layout (under 600px) ---------- */
+@media (max-width: 599px) {
+  /* Header on one line: the logo already links home, so "Explore" is hidden */
+  .site-header-inner {
+    gap: 0.5rem;
+    padding: 0.5rem 16px;
+  }
+
+  .brand {
+    gap: 0.5rem;
+    min-width: 0;
+  }
+
+  .brand-mark {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+
+  .brand-name {
+    font-size: 0.95rem;
+    white-space: nowrap;
+  }
+
+  .brand-mr {
+    font-size: 0.72rem;
+    white-space: nowrap;
+  }
+
+  .site-nav {
+    flex: none;
+    align-items: center;
+  }
+
+  .site-nav a[href='#/'] {
+    display: none;
+  }
+
+  .site-nav a,
+  .lang-switch {
+    padding: 0.4rem 0.65rem;
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+
+  /* Home hero: main action full width, the other two side by side */
+  .hero {
+    padding: 1.5rem 1.1rem;
+  }
+
+  .hero h1 {
+    font-size: 1.75rem;
+  }
+
+  .hero-lead {
+    font-size: 0.95rem;
+  }
+
+  .hero-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+
+  .hero-actions > :first-child {
+    grid-column: 1 / -1;
+  }
+
+  .hero-actions .button {
+    justify-content: center;
+    padding: 0.6rem 0.75rem;
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+
+  .hero-stats {
+    gap: 0.25rem 0.9rem;
+    margin-top: 1.25rem;
+  }
+
+  .hero-stats strong {
+    font-size: 1.05rem;
+  }
+
+  /* Place lists: a small square photo beside the text instead of a tall card */
+  .card-grid {
+    gap: 0.75rem;
+  }
+
+  .card-grid .place-card .card-link {
+    flex-direction: row;
+  }
+
+  .card-grid .place-card .card-media {
+    flex: 0 0 112px;
+    aspect-ratio: auto;
+    min-height: 112px;
+  }
+
+  .card-grid .place-card .photo-empty {
+    font-size: 2rem;
+  }
+
+  /* only the kind's icon on the photo; its name stays for screen readers */
+  .card-grid .place-card .card-badge {
+    left: 0.4rem;
+    bottom: 0.4rem;
+    padding: 0.15rem 0.35rem;
+    font-size: 0;
+  }
+
+  .card-grid .place-card .card-badge > span {
+    font-size: 0.85rem;
+  }
+
+  .card-grid .place-card .card-body {
+    min-width: 0;
+    padding: 0.7rem 2.9rem 0.75rem 0.85rem;
+    border-top: 0;
+    border-left: 3px solid var(--region, var(--accent));
+  }
+
+  .card-grid .place-card .card-title {
+    font-size: 1rem;
+  }
+
+  .card-grid .place-card .card-meta {
+    padding-top: 0.4rem;
+  }
+
+  .card-grid .place-card .save-button {
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 2.1rem;
+    height: 2.1rem;
+    box-shadow: none;
+    background: var(--surface-2);
+  }
+
+  /* Place page: the actions in one row you can swipe */
+  .place-actions {
+    flex-wrap: nowrap;
+    margin: 0 -16px;
+    padding: 0.1rem 16px 0.4rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .place-actions::-webkit-scrollbar {
+    display: none;
+  }
+
+  .place-actions > * {
+    flex: none;
+  }
+
+  /* Getting there: the Directions button goes under the name */
+  .getting-there li {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: start;
+    row-gap: 0.5rem;
+  }
+
+  .getting-there-go {
+    grid-column: 2;
+    justify-self: start;
+    padding: 0.45rem 0.9rem;
+    font-size: 0.85rem;
   }
 }
