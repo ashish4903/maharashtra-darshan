@@ -798,5 +798,20 @@
       { "name": "Sev bhaji", "region": "statewide", "source": "https://en.wikipedia.org/wiki/Maharashtrian_cuisine", "evidence": "sev bhaji", "photo": "Sev Bhaji and Bhakri.jpg" },
       { "name": "Sabudana khichdi", "region": "statewide", "source": "https://en.wikipedia.org/wiki/Maharashtrian_cuisine", "evidence": "sabudana k", "about": "A typical breakfast dish.", "photo": "Sabudana Khichdi with Sweet curd.JPG" }
     ]
-  }
+  },
+
+  "seasons": [
+    { "ref": "Kaas Plateau", "type": "place", "months": [8,9], "evidence": ["valley of flowers","September"], "reason": "flowers" },
+    { "ref": "Thoseghar Waterfalls", "type": "place", "months": [7,8,9,10,11], "evidence": ["July to November"], "reason": "waterfall" },
+    { "ref": "Dabhosa Waterfalls", "type": "place", "months": [6,7,8,9], "evidence": ["monsoon"], "reason": "waterfall" },
+    { "ref": "Amboli, Sindhudurg", "type": "place", "months": [6,7,8,9], "evidence": ["waterfalls and mist during the monsoon"], "reason": "waterfall" },
+    { "ref": "Lonavala", "type": "place", "months": [6,7,8,9], "evidence": ["peaks during the monsoon"], "reason": "monsoon" },
+    { "ref": "Rajgad Fort", "type": "place", "months": [6,7,8,9], "evidence": ["especially during the monsoon"], "reason": "monsoon" },
+    { "ref": "Bhigwan", "type": "place", "months": [12,1,2,3], "evidence": ["flamingo","between December and March"], "reason": "birds" },
+    { "ref": "Karnala Bird Sanctuary", "type": "place", "months": [11,12,1,2], "evidence": ["winter mig"], "reason": "birds" },
+    { "ref": "Mahabaleshwar", "type": "place", "months": [3,4,5], "evidence": ["summer capital"], "reason": "summer" },
+    { "ref": "Panchgani", "type": "place", "months": [3,4,5], "evidence": ["summer resort"], "reason": "summer" },
+    { "ref": "Matheran", "type": "place", "months": [3,4,5], "evidence": ["summer heat"], "reason": "summer" },
+    { "ref": "Nagpur orange", "type": "food", "months": [9,10,11,12], "evidence": ["September to December"], "reason": "fruit" }
+  ]
 }

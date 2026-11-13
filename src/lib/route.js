@@ -5,6 +5,7 @@
 //   #/place/Q4386            one place (Wikidata id)
 //   #/circuit/ashtavinayak   a themed circuit
 //   #/festivals              festivals and fairs, month by month
+//   #/seasons                what's at its best in each month
 //   #/trip                   my saved places
 //   #/trip/Q1,Q2,Q3          a trip someone shared
 import { getCircuit, getDistrict, getPlace, getRegion } from './catalogue';
@@ -14,7 +15,7 @@ const exists = { region: getRegion, district: getDistrict, place: getPlace, circ
 
 export function parseHash(hash) {
   const [, view, id] = hash.replace(/^#/, '').split('/');
-  if (view === 'festivals') return { view };
+  if (view === 'festivals' || view === 'seasons') return { view };
   if (view === 'trip') {
     const ids = (id ?? '').split(',').filter((x) => getPlace(x));
     return ids.length ? { view, ids } : { view };
@@ -25,7 +26,7 @@ export function parseHash(hash) {
 
 export function toHash({ view, id, ids }) {
   if (view === 'home') return '#/';
-  if (view === 'festivals') return '#/festivals';
+  if (view === 'festivals' || view === 'seasons') return `#/${view}`;
   if (view === 'trip') return ids?.length ? `#/trip/${ids.join(',')}` : '#/trip';
   return `#/${view}/${id}`;
 }

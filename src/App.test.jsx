@@ -261,6 +261,29 @@ describe('App', () => {
     expect(within(tarri).getByText(/Source: en\.wikipedia\.org/)).toBeTruthy();
   });
 
+  it('shows where to go in any month, and the best time on a place', async () => {
+    const user = userEvent.setup();
+    window.location.hash = '#/seasons';
+    render(<App />);
+    expect(screen.getByRole('heading', { level: 1, name: 'Where to go, and when' })).toBeTruthy();
+
+    await user.click(screen.getByRole('button', { name: /^Jan/ }));
+    expect(screen.getByRole('heading', { level: 2, name: 'Best in January' })).toBeTruthy();
+    const atBest = screen.getByRole('region', { name: 'Places at their best' });
+    expect(within(atBest).getByRole('heading', { level: 3, name: 'Bhigwan' })).toBeTruthy();
+    expect(within(atBest).getByText(/Bird season · Dec–Mar/)).toBeTruthy();
+
+    await user.click(screen.getByRole('button', { name: /^Aug/ }));
+    expect(screen.getByRole('heading', { level: 3, name: 'Kas Plateau Reserved Forest' })).toBeTruthy();
+
+    cleanup();
+    const thoseghar = places.find((p) => p.name === 'Thoseghar Waterfalls');
+    window.location.hash = `#/place/${thoseghar.id}`;
+    render(<App />);
+    expect(screen.getByText('Best time')).toBeTruthy();
+    expect(screen.getByText(/Monsoon waterfalls · Jul–Nov/)).toBeTruthy();
+  });
+
   it('lists festivals month by month and on their places', async () => {
     window.location.hash = '#/festivals';
     render(<App />);

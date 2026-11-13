@@ -1,10 +1,11 @@
 import Photo from './Photo';
 import SaveButton from './SaveButton';
+import SeasonNote from './SeasonNote';
 import useLang from '../lib/useLang';
 import { KINDS, getDistrict, shortName } from '../lib/catalogue';
 import { formatKm } from '../lib/geo';
 
-export default function PlaceCard({ place, showDistrict = false, km }) {
+export default function PlaceCard({ place, showDistrict = false, km, showSeason = false }) {
   const { t, kind, name, otherName, lang } = useLang();
   const icon = KINDS[place.kind].icon;
   const district = getDistrict(place.district);
@@ -25,6 +26,7 @@ export default function PlaceCard({ place, showDistrict = false, km }) {
               {otherName(place)}
             </p>
           )}
+          {showSeason && <SeasonNote item={place} />}
           {place.highlight && <p className="card-highlight">★ {place.highlight}</p>}
           {place.description && (
             <p className="card-text" lang="en">

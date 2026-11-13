@@ -2,8 +2,11 @@ import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import {
   KINDS,
+  SEASON_ICONS,
   STATEWIDE,
   SUGGEST_URL,
+  bestIn,
+  monthRange,
   areaName,
   circuitPlaces,
   circuits,
@@ -142,6 +145,21 @@ describe('generated data', () => {
     const resizable = photos.filter((src) => /\/\d+px-[^/]+$/.test(src));
     expect(resizable.length).toBeGreaterThan(photos.length / 2);
     for (const src of photos.filter((s) => !resizable.includes(s))) expect(thumbAt(src, 500)).toBe(src);
+  });
+
+  it('knows what is at its best each month', () => {
+    const short = (m) => ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][m - 1];
+    expect(monthRange([12, 1, 2, 3], short)).toBe('Dec–Mar');
+    expect(monthRange([7, 8, 9, 10, 11], short)).toBe('Jul–Nov');
+    expect(monthRange([9], short)).toBe('Sep');
+    expect(bestIn(1).places.map((p) => p.name)).toContain('Bhigwan');
+    expect(bestIn(8).places.map((p) => p.name)).toEqual(expect.arrayContaining(['Kas Plateau Reserved Forest', 'Lonavala']));
+    expect(bestIn(10).foods.map((f) => f.name)).toContain('Nagpur orange');
+    expect(bestIn(8).festivals.map((f) => f.name)).toContain('Ganesh Chaturthi');
+    for (const p of [...places, ...foods].filter((x) => x.best)) {
+      expect(SEASON_ICONS[p.best.reason]).toBeDefined();
+      expect(p.best.months.every((m) => m >= 1 && m <= 12)).toBe(true);
+    }
   });
 
   it('has no duplicate places or dishes', () => {
