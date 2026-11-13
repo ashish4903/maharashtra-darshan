@@ -1,28 +1,17 @@
-import { useEffect, useState } from 'react';
 import useLang from '../lib/useLang';
+import useWikiSummary from '../lib/useWikiSummary';
 
 /**
- * The opening paragraph of the place's Wikipedia article, loaded when the page
- * opens. It is shown with a credit and a link, as Wikipedia's licence asks.
- * If it can't load (offline, blocked), the section is simply left out.
+ * The opening paragraph of a Wikipedia article, with a credit and a link,
+ * as Wikipedia's licence asks. Pass `summary` from useWikiSummary when the
+ * page also needs the text (the place page reads it aloud); otherwise it
+ * loads its own. If it couldn't load (offline, blocked), it is left out.
  */
-export default function WikiSummary({ url }) {
+export default function WikiSummary({ url, summary: given }) {
   const { t } = useLang();
-  const [summary, setSummary] = useState({ url: null, text: null });
-  const title = decodeURIComponent(url.split('/wiki/')[1] ?? '');
-
-  useEffect(() => {
-    const controller = new AbortController();
-    fetch(`https://en.wikipedia.org/api/rest_v1/page/summary/${encodeURIComponent(title)}`, {
-      signal: controller.signal,
-    })
-      .then((res) => (res.ok ? res.json() : null))
-      .then((json) => setSummary({ url, text: json?.extract ?? '' }))
-      .catch(() => setSummary({ url, text: '' }));
-    return () => controller.abort();
-  }, [url, title]);
-
-  if (summary.url !== url) return <p className="summary-loading">{t('summary.loading')}</p>;
+  const own = useWikiSummary(given ? null : url);
+  const summary = given ?? own;
+  if (summary.loading) return <p className="summary-loading">{t('summary.loading')}</p>;
   if (!summary.text) return null;
   const [before, middle, after] = t('summary.from').split(/\{wikipedia\}|\{licence\}/);
   return (

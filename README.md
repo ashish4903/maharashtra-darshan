@@ -16,6 +16,7 @@ One place to explore Maharashtra region by region: Konkan, Western Maharashtra, 
 - **Food to try:** 52 dishes and GI-tagged local produce, such as Sangli turmeric, Mahabaleshwar strawberries, Jalgaon bananas and Vengurla cashew, for each region and district. Each dish has a **Top-rated spots on Google Maps** link, and each place has **Top-rated restaurants nearby**. These open a Google Maps search, where Google shows its current ratings. We never copy or store ratings, and no API key is used.
 - **A page for every place:** each one has:
   - the opening paragraph of its Wikipedia article
+  - **🔊 Listen:** the page read aloud in English or Marathi by your phone’s own voice, with pause, stop and speed. Nothing is recorded or sent anywhere. Without a Marathi or Hindi voice on the device, it reads in English and says so
   - its region and district, and its location on the map
   - the nearest places, with distances
   - food to try nearby
@@ -25,6 +26,7 @@ One place to explore Maharashtra region by region: Konkan, Western Maharashtra, 
   - shows the route on the map
   - gives Google Maps directions for each day or the whole trip
   - weather-aware days: pick a start date, and for trips within 16 days each day shows its forecast. Rain or heat on a day with forts, trails or beaches gets a warning and a one-tap “swap with a drier day”
+  - 🔊 each day can be read aloud, stop by stop
   - **Share this trip** creates a link that opens the same plan for a friend, who can save it.
 
   Saved places stay in your browser only.

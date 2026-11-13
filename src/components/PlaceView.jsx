@@ -3,6 +3,7 @@ import Banner from './Banner';
 import SaveButton from './SaveButton';
 import ShareButton from './ShareButton';
 import WikiSummary from './WikiSummary';
+import ListenButton from './ListenButton';
 import MaharashtraMap from './MaharashtraMap';
 import Carousel from './Carousel';
 import PlaceCard from './PlaceCard';
@@ -10,6 +11,8 @@ import FoodCard from './FoodCard';
 import Weather from './Weather';
 import SeasonNote from './SeasonNote';
 import useLang from '../lib/useLang';
+import useWikiSummary from '../lib/useWikiSummary';
+import { placeScript } from '../lib/speech';
 import {
   KINDS,
   areaName,
@@ -37,6 +40,8 @@ export default function PlaceView({ placeId }) {
   const food = foodsIn({ district: place.district });
   const taluka = place.taluka && district.talukas.find((x) => x.id === place.taluka);
   const partOf = circuitsWith(place.id);
+  const summary = useWikiSummary(place.wikipedia);
+  const script = (lang) => placeScript(lang, { place, district, taluka, summary: summary.text });
 
   return (
     <article className={`level place-page region-${place.region}`}>
@@ -59,6 +64,7 @@ export default function PlaceView({ placeId }) {
       <div className="level-layout">
         <div className="level-main">
           <div className="place-actions">
+            <ListenButton script={script} label={t('listen.placeLabel', { name: name(place) })} />
             <SaveButton place={place} withLabel />
             <ShareButton title={name(place)} />
             {place.coords && (
@@ -155,7 +161,7 @@ export default function PlaceView({ placeId }) {
           )}
 
           {place.wikipedia ? (
-            <WikiSummary url={place.wikipedia} />
+            <WikiSummary url={place.wikipedia} summary={summary} />
           ) : (
             <p className="source-note">
               {t('place.notOnWikipedia')}{' '}
