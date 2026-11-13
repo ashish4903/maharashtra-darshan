@@ -7,6 +7,7 @@ import MaharashtraMap from './MaharashtraMap';
 import Carousel from './Carousel';
 import PlaceCard from './PlaceCard';
 import FoodCard from './FoodCard';
+import Weather from './Weather';
 import useLang from '../lib/useLang';
 import {
   KINDS,
@@ -106,6 +107,8 @@ export default function PlaceView({ placeId }) {
               </div>
             )}
           </dl>
+
+          <Weather coords={place.coords} />
 
           {partOf.length > 0 && (
             <p className="part-of">

@@ -180,6 +180,20 @@ const en = {
   'festival.note':
     'Festivals follow the Hindu lunar calendar, so their dates move a little each year. Check the date before you travel.',
 
+  'weather.title': 'Weather here',
+  'weather.today': 'Today',
+  'weather.credit': 'Weather data by Open-Meteo.com (CC BY 4.0)',
+  'weather.clear': 'Clear',
+  'weather.partly': 'Partly cloudy',
+  'weather.cloudy': 'Cloudy',
+  'weather.fog': 'Fog',
+  'weather.drizzle': 'Drizzle',
+  'weather.rain': 'Rain',
+  'weather.showers': 'Showers',
+  'weather.snow': 'Snow',
+  'weather.storm': 'Thunderstorm',
+  'weather.unknown': 'Weather',
+
   'footer.data':
     'Districts, talukas, names and descriptions come from {wikidata} (CC0). Every place and dish links to its {wikipedia} article. Photos are freely licensed images from {commons}, credited on each place’s page. Map outline from {naturalEarth} (public domain). Data updated {date}.',
   'footer.code': 'Source code',
@@ -361,6 +375,20 @@ const mr = {
   'festival.here': 'इथले सण:',
   'festival.occasional': 'काही वर्षांतून एकदा',
   'festival.note': 'सण हिंदू पंचांगानुसार येतात, त्यामुळे तारखा दरवर्षी थोड्या बदलतात. प्रवासापूर्वी तारीख तपासा.',
+
+  'weather.title': 'इथले हवामान',
+  'weather.today': 'आज',
+  'weather.credit': 'हवामान माहिती: Open-Meteo.com (CC BY 4.0)',
+  'weather.clear': 'स्वच्छ',
+  'weather.partly': 'अंशतः ढगाळ',
+  'weather.cloudy': 'ढगाळ',
+  'weather.fog': 'धुके',
+  'weather.drizzle': 'रिमझिम',
+  'weather.rain': 'पाऊस',
+  'weather.showers': 'सरी',
+  'weather.snow': 'हिमवृष्टी',
+  'weather.storm': 'वादळी पाऊस',
+  'weather.unknown': 'हवामान',
 
   'footer.data':
     'जिल्हे, तालुके, नावे आणि वर्णने {wikidata} (CC0) वरून. प्रत्येक ठिकाण आणि पदार्थाला त्याचा {wikipedia} लेख जोडलेला आहे. छायाचित्रे {commons} वरील मुक्त परवान्याची आहेत, प्रत्येक ठिकाणाच्या पानावर श्रेय दिले आहे. नकाशाची रेषा {naturalEarth} (सार्वजनिक) वरून. माहिती अद्ययावत: {date}.',

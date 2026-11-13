@@ -206,6 +206,39 @@ describe('App', () => {
     expect(screen.getByText('Nearby places')).toBeTruthy();
   });
 
+  it('shows a short weather forecast on place pages', async () => {
+    vi.stubGlobal(
+      'fetch',
+      vi.fn(async (url) => ({
+        ok: true,
+        json: async () =>
+          url.startsWith('https://api.open-meteo.com/')
+            ? {
+                daily: {
+                  time: ['2026-11-12', '2026-11-13'],
+                  weather_code: [0, 63],
+                  temperature_2m_max: [31.4, 28],
+                  temperature_2m_min: [18.6, 19],
+                  precipitation_probability_max: [0, 80],
+                },
+              }
+            : { extract: 'A summary from Wikipedia.' },
+      })),
+    );
+    const lonar = places.find((p) => p.name === 'Lonar Lake');
+    window.location.hash = `#/place/${lonar.id}`;
+    render(<App />);
+
+    const weather = await screen.findByRole('region', { name: 'Weather here' });
+    expect(within(weather).getByText('Today')).toBeTruthy();
+    expect(within(weather).getByText('Clear')).toBeTruthy();
+    expect(within(weather).getByText('31° / 19°')).toBeTruthy();
+    expect(within(weather).getByText('Rain')).toBeTruthy();
+    expect(within(weather).getByRole('link', { name: /Open-Meteo/ })).toBeTruthy();
+    const call = fetch.mock.calls.find(([u]) => u.startsWith('https://api.open-meteo.com/'))[0];
+    expect(new URL(call).searchParams.get('latitude')).toBe(String(lonar.coords[0]));
+  });
+
   it('lists festivals month by month and on their places', async () => {
     window.location.hash = '#/festivals';
     render(<App />);

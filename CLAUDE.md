@@ -22,7 +22,7 @@ React (Vite) app for exploring Maharashtra: regions → districts → talukas, p
 - `src/lib/route.js`: hash routes `#/`, `#/region/<id>`, `#/district/<Wikidata id>`, `#/place/<Wikidata id>`, `#/circuit/<id>`, `#/festivals`, `#/trip`, `#/trip/<ids>` (shared)
 - `src/lib/i18n.js`: all interface text in English and Marathi; use `useLang()` (`t`, `name`, `kind`) in components, and never hard-code visible text. A test fails if a Marathi translation is missing
 - `src/components/TripProvider.jsx` + `src/lib/useTrip.js`: saved places (localStorage only)
-- Runtime network calls: only Wikipedia's REST summary (`WikiSummary.jsx`) and Commons images. Google Maps appears only as plain search links (`mapsSearchUrl`); never scrape, copy or store Google ratings, and never add a Maps API key without the owner's approval. Keep it that way: no trackers or analytics
+- Runtime network calls: only Wikipedia's REST summary (`WikiSummary.jsx`), Commons images and Open-Meteo forecasts (`Weather.jsx`, coordinates only). Google Maps appears only as plain search links (`mapsSearchUrl`); never scrape, copy or store Google ratings, and never add a Maps API key without the owner's approval. Keep it that way: no trackers or analytics
 - `src/components/`: one small component per file
 - `src/index.css`: all styles, mobile-first; each region colour is a CSS variable
 
