@@ -38,4 +38,4 @@ React (Vite) app for exploring Maharashtra: regions → districts → talukas, p
 - **No invented data.** Every entry needs a Wikipedia article, and `npm run data` must verify it. If a check fails, drop or fix the entry; never weaken the check.
 - Plain React + CSS, no UI library unless asked. Mobile-first. One component per file.
 - **Security:** never commit secrets, tokens, `.env` files or personal data. The app needs no keys. Don't read files outside this folder, or any config or credential files, without asking the owner first.
-- Commit author must be the GitHub noreply address. New branch + PR per change. Add a line under "Unreleased" in `CHANGELOG.md`.
+- Commit author must be the GitHub noreply address. New branch + PR per change. Add a line under "Unreleased" in `CHANGELOG.md` (keep one Added / Changed / Fixed block each). Release only when the owner asks: move Unreleased into a new version section and raise package.json `version`; CI publishes the GitHub Release.
