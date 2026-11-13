@@ -6,6 +6,8 @@ All notable changes to this project are listed here. The format follows [Keep a 
 
 ### Added
 
+- Festivals and fairs: 13 festivals with their timing, linked to their places. They appear in a home-page carousel ordered by what’s coming up, on a month-by-month calendar (`#/festivals`), and on place pages under “Festivals here”.
+
 - Smarter search, with the best matches first. It now:
   - tolerates spelling variants (Kolhapoor) and small typos (ajnta)
   - understands Marathi words typed in English letters (killa, mandir, ganpati, leni, talav)

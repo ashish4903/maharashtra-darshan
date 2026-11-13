@@ -10691,5 +10691,258 @@
     "Q1779418"
    ]
   }
+ ],
+ "festivals": [
+  {
+   "id": "Q23808180",
+   "name": "Pandharpur Vari",
+   "when": "Ashadh, ending on Ashadhi Ekadashi (June–July)",
+   "months": [
+    6,
+    7
+   ],
+   "region": "western-maharashtra",
+   "places": [
+    "Q1192430",
+    "Q589653",
+    "Q1779418"
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/A_procession_Palkhi_festival_Hindu_culture_religion_rites_rituals_sights.jpg/960px-A_procession_Palkhi_festival_Hindu_culture_religion_rites_rituals_sights.jpg",
+    "file": "A_procession_Palkhi_festival_Hindu_culture_religion_rites_rituals_sights.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Pandharpur_Vari",
+   "nameMr": "वारी",
+   "description": "annual pilgrimage to Pandharpur, Maharashtra"
+  },
+  {
+   "id": "Q929250",
+   "name": "Ganesh Chaturthi",
+   "when": "Bhadrapada (August–September)",
+   "months": [
+    8,
+    9
+   ],
+   "region": "statewide",
+   "places": [
+    "Q5208445",
+    "Q6374068",
+    "Q13115097"
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Ganesh_pundal.jpg/960px-Ganesh_pundal.jpg",
+    "file": "Ganesh_pundal.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Ganesh_Chaturthi",
+   "nameMr": "गणेश चतुर्थी",
+   "description": "multi-day Hindu festival revering god Ganesha (August–September)"
+  },
+  {
+   "id": "Q13121950",
+   "name": "Nashik-Trimbakeshwar Simhastha",
+   "when": "Every 12 years; next in 2027",
+   "months": [],
+   "region": "north-maharashtra",
+   "places": [
+    "Q2426825"
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Kumbha_mela_on_ghats_of_the_river_godavari_nashik.jpg/960px-Kumbha_mela_on_ghats_of_the_river_godavari_nashik.jpg",
+    "file": "Kumbha_mela_on_ghats_of_the_river_godavari_nashik.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Nashik-Trimbakeshwar_Simhastha",
+   "nameMr": "सिंहस्थ कुंभमेळा",
+   "description": "Hindu religious mela"
+  },
+  {
+   "id": "Q615384",
+   "name": "Gudi Padwa",
+   "when": "Chaitra, the Marathi New Year (spring)",
+   "months": [
+    3,
+    4
+   ],
+   "region": "statewide",
+   "places": [],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/34/A_new_year_procession_on_Gudi_Padwa_festival%2C_Dombivli_Maharashtra.jpg/960px-A_new_year_procession_on_Gudi_Padwa_festival%2C_Dombivli_Maharashtra.jpg",
+    "file": "A_new_year_procession_on_Gudi_Padwa_festival,_Dombivli_Maharashtra.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Gudi_Padwa",
+   "nameMr": "गुढीपाडवा",
+   "description": "Marathi Hindu new year festival"
+  },
+  {
+   "id": "Q13121483",
+   "name": "Shiv Jayanti",
+   "when": "19 February",
+   "months": [
+    2
+   ],
+   "region": "statewide",
+   "places": [
+    "Q3520074"
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Shivaji_Maharaj_Raigad.jpg/960px-Shivaji_Maharaj_Raigad.jpg",
+    "file": "Shivaji_Maharaj_Raigad.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Shiv_Jayanti",
+   "nameMr": "शिव जयंती",
+   "description": "birthday of Shivaji, a festival and public holiday of Maharashtra, India"
+  },
+  {
+   "id": "Q10253",
+   "name": "Makar Sankranti",
+   "when": "Mid-January",
+   "months": [
+    1
+   ],
+   "region": "statewide",
+   "places": [],
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/53/Photo_of_makar_sankranti_devootees.jpg",
+    "file": "Photo_of_makar_sankranti_devootees.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Makar_Sankranti",
+   "nameMr": "मकरसंक्रांत",
+   "description": "Hindu festival that reveres Surya (sun god)"
+  },
+  {
+   "id": "Q10269",
+   "name": "Navaratri",
+   "when": "Ashvin (September–October)",
+   "months": [
+    9,
+    10
+   ],
+   "region": "statewide",
+   "places": [
+    "Q7852108",
+    "Q3595240",
+    "Q6096471",
+    "Q3823613"
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Shardiya_Navratri_Festival_in_Pune_2020.jpg/960px-Shardiya_Navratri_Festival_in_Pune_2020.jpg",
+    "file": "Shardiya_Navratri_Festival_in_Pune_2020.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Navaratri",
+   "nameMr": "नवरात्री",
+   "description": "annual Hindu festival"
+  },
+  {
+   "id": "Q3325016",
+   "name": "Sharada Purnima",
+   "when": "Ashvin full moon (October)",
+   "months": [
+    10
+   ],
+   "region": "statewide",
+   "places": [],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Kojagori_Laxmi_.jpg/960px-Kojagori_Laxmi_.jpg",
+    "file": "Kojagori_Laxmi_.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Sharada_Purnima",
+   "nameMr": "कोजागरी पौर्णिमा",
+   "description": "Festival"
+  },
+  {
+   "id": "Q10244",
+   "name": "Diwali",
+   "when": "Kartika (October–November)",
+   "months": [
+    10,
+    11
+   ],
+   "region": "statewide",
+   "places": [],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/The_Rangoli_of_Lights.jpg/960px-The_Rangoli_of_Lights.jpg",
+    "file": "The_Rangoli_of_Lights.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Diwali",
+   "nameMr": "दिवाळी",
+   "description": "Hindu, Jain, Sikh, Buddhist and South Asian festival of lights"
+  },
+  {
+   "id": "Q28164099",
+   "name": "Dahi Handi",
+   "when": "Krishna Janmashtami (August–September)",
+   "months": [
+    8,
+    9
+   ],
+   "region": "konkan",
+   "places": [],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Dahi_Handi.JPG/960px-Dahi_Handi.JPG",
+    "file": "Dahi_Handi.JPG"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Dahi_Handi",
+   "nameMr": "दहीहंडी",
+   "description": "events and a team sport during the Hindu festival Gokulashtami"
+  },
+  {
+   "id": "Q848070",
+   "name": "Maha Shivaratri",
+   "when": "Magha–Phalguna (February–March)",
+   "months": [
+    2,
+    3
+   ],
+   "region": "statewide",
+   "places": [
+    "Q2426825",
+    "Q1093326",
+    "Q1092799",
+    "Q15194007",
+    "Q60617890"
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/02_Mahashivratree_festival.JPG/960px-02_Mahashivratree_festival.JPG",
+    "file": "02_Mahashivratree_festival.JPG"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Maha_Shivaratri",
+   "nameMr": "महाशिवरात्र",
+   "description": "Hindu festival for contemplation of self and Shiva"
+  },
+  {
+   "id": "Q6349943",
+   "name": "Kala Ghoda Arts Festival",
+   "when": "February, nine days",
+   "months": [
+    2
+   ],
+   "region": "konkan",
+   "places": [
+    "Q6349947"
+   ],
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/43/Kala_ghoda_2007_entrance.jpg",
+    "file": "Kala_ghoda_2007_entrance.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Kala_Ghoda_Arts_Festival",
+   "description": "Annual Arts Festival in Mumbai, India"
+  },
+  {
+   "id": "Q7423132",
+   "name": "Sarangkheda",
+   "when": "Datta Jayanti horse fair (December)",
+   "months": [
+    12
+   ],
+   "region": "north-maharashtra",
+   "places": [
+    "Q7423132"
+   ],
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/da/Datt_Mandir_Sarangkheda.jpg",
+    "file": "Datt_Mandir_Sarangkheda.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Sarangkheda",
+   "description": "village in Maharashtra, India"
+  }
  ]
 }

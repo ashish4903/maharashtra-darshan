@@ -333,6 +333,49 @@ async function main() {
     });
   }
 
+  // Festivals: every `whenEvidence` word must be in the festival's article, and
+  // each place's evidence in the festival article or the place's own article.
+  const festivals = [];
+  const festivalPages = [];
+  for (const f of curated.festivals ?? []) {
+    const page = await wikipedia(f.wiki);
+    if (!page?.wikidata) {
+      problems.push(`Festival "${f.wiki}": no Wikipedia page with a Wikidata item`);
+      continue;
+    }
+    for (const w of f.whenEvidence) {
+      if (!mentions(page.text, [w])) problems.push(`Festival "${page.title}": "${w}" not found in its article`);
+    }
+    if (!regionIds.has(f.region)) problems.push(`Festival "${page.title}": unknown region ${f.region}`);
+    const ids = [];
+    for (const stop of f.places) {
+      const placePage = await wikipedia(stop.wiki);
+      if (!placePage?.wikidata || !placeIds.has(placePage.wikidata)) {
+        problems.push(`Festival "${page.title}": "${stop.wiki}" is not one of the listed places`);
+        continue;
+      }
+      if (!mentions(page.text, [stop.evidence]) && !mentions(placePage.text, [stop.evidence]))
+        problems.push(`Festival "${page.title}": "${stop.evidence}" not found for "${stop.wiki}"`);
+      ids.push(placePage.wikidata);
+    }
+    festivalPages.push(page.wikidata);
+    festivals.push({
+      id: page.wikidata,
+      name: page.title,
+      when: f.when,
+      months: f.months,
+      region: f.region,
+      places: ids,
+      image: page.image,
+      wikipedia: wikiUrl(page.title),
+    });
+  }
+  const festivalDetails = await wikidataDetails(festivalPages);
+  for (const f of festivals) {
+    f.nameMr = festivalDetails.get(f.id)?.nameMr;
+    f.description = festivalDetails.get(f.id)?.description;
+  }
+
   // Maharashtra's bounding box (see src/data/outline.json), with a small margin
   const inState = ([lat, lon]) => lat > 15.5 && lat < 22.2 && lon > 72.5 && lon < 81;
   for (const item of [...districts, ...places]) {
@@ -356,11 +399,12 @@ async function main() {
     places,
     foods,
     circuits,
+    festivals,
   };
   await writeFile(OUT, JSON.stringify(data, null, 1) + '\n');
   const talukas = districts.reduce((n, d) => n + d.talukas.length, 0);
   console.log(
-    `Wrote ${regions.length} regions, ${districts.length} districts, ${talukas} talukas, ${places.length} places, ${foods.length} foods, ${circuits.length} circuits.`,
+    `Wrote ${regions.length} regions, ${districts.length} districts, ${talukas} talukas, ${places.length} places, ${foods.length} foods, ${circuits.length} circuits, ${festivals.length} festivals.`,
   );
 }
 

@@ -7,7 +7,10 @@ import {
   circuits,
   circuitsWith,
   coverImage,
+  festivals,
   foodSpotQuery,
+  monthsUntil,
+  upcomingFestivals,
   mapsSearchUrl,
   districts,
   featuredPlaces,
@@ -96,6 +99,20 @@ describe('generated data', () => {
     }
     const ajanta = places.find((p) => p.name === 'Ajanta Caves');
     expect(circuitsWith(ajanta.id).map((c) => c.id)).toContain('unesco');
+  });
+
+  it('orders festivals by when they next come round', () => {
+    expect(festivals.length).toBeGreaterThan(8);
+    const ganesh = festivals.find((f) => f.name === 'Ganesh Chaturthi');
+    expect(monthsUntil(ganesh, 8)).toBe(0);
+    expect(monthsUntil(ganesh, 10)).toBe(10);
+    expect(upcomingFestivals(8)[0].months).toContain(8);
+    const occasional = festivals.find((f) => f.months.length === 0);
+    expect(upcomingFestivals(1).at(-1)).toBe(occasional);
+    for (const f of festivals) {
+      expect(f.wikipedia).toMatch(/^https:\/\/en\.wikipedia\.org\/wiki\//);
+      for (const id of f.places) expect(getPlace(id)).toBeDefined();
+    }
   });
 
   it('has no duplicate places or dishes', () => {
