@@ -2743,6 +2743,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Mumbai_03-2016_30_Gateway_of_India.jpg/960px-Mumbai_03-2016_30_Gateway_of_India.jpg",
     "file": "Mumbai_03-2016_30_Gateway_of_India.jpg"
    },
+   "commons": "Gateway of India",
    "wikipedia": "https://en.wikipedia.org/wiki/Gateway_of_India",
    "verifiedBy": "wikidata"
   },
@@ -2762,6 +2763,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Chhatrapati_shivaji_terminus%2C_esterno_01.jpg/960px-Chhatrapati_shivaji_terminus%2C_esterno_01.jpg",
     "file": "Chhatrapati_shivaji_terminus,_esterno_01.jpg"
    },
+   "commons": "Chhatrapati Shivaji Maharaj Terminus",
    "wikipedia": "https://en.wikipedia.org/wiki/Chhatrapati_Shivaji_Terminus",
    "verifiedBy": "wikidata"
   },
@@ -2781,6 +2783,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/Chhatrapati_Shivaji_Maharaj_Vastu_Sangrahalaya.jpg/960px-Chhatrapati_Shivaji_Maharaj_Vastu_Sangrahalaya.jpg",
     "file": "Chhatrapati_Shivaji_Maharaj_Vastu_Sangrahalaya.jpg"
    },
+   "commons": "Chhatrapati Shivaji Maharaj Vastu Sangrahalaya",
    "wikipedia": "https://en.wikipedia.org/wiki/Chhatrapati_Shivaji_Maharaj_Vastu_Sangrahalaya",
    "verifiedBy": "wikidata"
   },
@@ -2800,6 +2803,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Shree_Siddhivinayak_Temple_Mumbai.jpg/960px-Shree_Siddhivinayak_Temple_Mumbai.jpg",
     "file": "Shree_Siddhivinayak_Temple_Mumbai.jpg"
    },
+   "commons": "Siddhivinayak Temple, Mumbai",
    "wikipedia": "https://en.wikipedia.org/wiki/Siddhivinayak_Temple%2C_Mumbai",
    "verifiedBy": "wikidata"
   },
@@ -2819,6 +2823,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Mumbai_03-2016_12_Haji_Ali_Dargah.jpg/960px-Mumbai_03-2016_12_Haji_Ali_Dargah.jpg",
     "file": "Mumbai_03-2016_12_Haji_Ali_Dargah.jpg"
    },
+   "commons": "Haji Ali Dargah",
    "wikipedia": "https://en.wikipedia.org/wiki/Haji_Ali_Dargah",
    "verifiedBy": "wikidata"
   },
@@ -2838,6 +2843,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/Mani_Bhavan_-_Gandhi%27s_house_in_Mumbai.jpg/960px-Mani_Bhavan_-_Gandhi%27s_house_in_Mumbai.jpg",
     "file": "Mani_Bhavan_-_Gandhi's_house_in_Mumbai.jpg"
    },
+   "commons": "Mani Bhavan",
    "wikipedia": "https://en.wikipedia.org/wiki/Mani_Bhavan",
    "verifiedBy": "wikidata"
   },
@@ -2857,6 +2863,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Ganpati_Visarjan.jpg/960px-Ganpati_Visarjan.jpg",
     "file": "Ganpati_Visarjan.jpg"
    },
+   "commons": "Girgaum Chowpatty",
    "wikipedia": "https://en.wikipedia.org/wiki/Girgaon_Chowpatty",
    "verifiedBy": "wikidata"
   },
@@ -2876,6 +2883,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Mumbai_03-2016_27_skyline_at_Marine_Drive.jpg/960px-Mumbai_03-2016_27_skyline_at_Marine_Drive.jpg",
     "file": "Mumbai_03-2016_27_skyline_at_Marine_Drive.jpg"
    },
+   "commons": "Marine Drive",
    "wikipedia": "https://en.wikipedia.org/wiki/Marine_Drive%2C_Mumbai",
    "verifiedBy": "wikidata"
   },
@@ -2894,6 +2902,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/7/70/Bangangatank.jpg",
     "file": "Bangangatank.jpg"
    },
+   "commons": "Banganga Tank",
    "wikipedia": "https://en.wikipedia.org/wiki/Banganga_Tank",
    "verifiedBy": "wikidata"
   },
@@ -2913,6 +2922,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/2/27/Mumbadevi_temple.jpg",
     "file": "Mumbadevi_temple.jpg"
    },
+   "commons": "Mumba Devi Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Mumba_Devi_Temple",
    "verifiedBy": "wikipedia"
   },
@@ -2931,6 +2941,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/7/70/Afghan-Church%2C_Bombay-FV.jpg",
     "file": "Afghan-Church,_Bombay-FV.jpg"
    },
+   "commons": "Afghan Church",
    "wikipedia": "https://en.wikipedia.org/wiki/Afghan_Church",
    "verifiedBy": "wikipedia"
   },
@@ -2950,6 +2961,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Mumbai_03-2016_72_Flora_Fountain.jpg/960px-Mumbai_03-2016_72_Flora_Fountain.jpg",
     "file": "Mumbai_03-2016_72_Flora_Fountain.jpg"
    },
+   "commons": "Flora Fountain",
    "wikipedia": "https://en.wikipedia.org/wiki/Flora_Fountain",
    "verifiedBy": "wikidata"
   },
@@ -2969,6 +2981,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Rajabai_Clock_Tower%2C_Mumbai_%2831_August_2008%29.jpg/960px-Rajabai_Clock_Tower%2C_Mumbai_%2831_August_2008%29.jpg",
     "file": "Rajabai_Clock_Tower,_Mumbai_(31_August_2008).jpg"
    },
+   "commons": "Rajabai Clock Tower",
    "wikipedia": "https://en.wikipedia.org/wiki/Rajabai_Clock_Tower",
    "verifiedBy": "wikidata"
   },
@@ -2988,6 +3001,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Kala_Ghoda_Statue.jpg/960px-Kala_Ghoda_Statue.jpg",
     "file": "Kala_Ghoda_Statue.jpg"
    },
+   "commons": "Kala Ghoda",
    "wikipedia": "https://en.wikipedia.org/wiki/Kala_Ghoda",
    "verifiedBy": "wikidata"
   },
@@ -3007,6 +3021,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Taj_Mahal_Palace_Hotel_photo.jpg/960px-Taj_Mahal_Palace_Hotel_photo.jpg",
     "file": "Taj_Mahal_Palace_Hotel_photo.jpg"
    },
+   "commons": "Taj Mahal Palace Hotel",
    "wikipedia": "https://en.wikipedia.org/wiki/Taj_Mahal_Palace_Hotel",
    "verifiedBy": "wikidata"
   },
@@ -3026,6 +3041,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Bandra%E2%80%93Worli_Sea_Link.jpg/960px-Bandra%E2%80%93Worli_Sea_Link.jpg",
     "file": "Bandra–Worli_Sea_Link.jpg"
    },
+   "commons": "Bandra–Worli Sea Link",
    "wikipedia": "https://en.wikipedia.org/wiki/Bandra%E2%80%93Worli_Sea_Link",
    "verifiedBy": "wikidata"
   },
@@ -3045,6 +3061,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Mumbai_03-2016_41_Bombay_High_Court.jpg/960px-Mumbai_03-2016_41_Bombay_High_Court.jpg",
     "file": "Mumbai_03-2016_41_Bombay_High_Court.jpg"
    },
+   "commons": "Bombay High Court",
    "wikipedia": "https://en.wikipedia.org/wiki/Bombay_High_Court",
    "verifiedBy": "wikidata"
   },
@@ -3064,6 +3081,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Mahim_Fort_6.jpg/960px-Mahim_Fort_6.jpg",
     "file": "Mahim_Fort_6.jpg"
    },
+   "commons": "Mahim Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Mahim_Fort",
    "verifiedBy": "wikidata"
   },
@@ -3083,6 +3101,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Worli_Fort_Mumbai.jpg/960px-Worli_Fort_Mumbai.jpg",
     "file": "Worli_Fort_Mumbai.jpg"
    },
+   "commons": "Worli Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Worli_Fort",
    "verifiedBy": "wikidata"
   },
@@ -3102,6 +3121,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Sewri_Fort_Inside_12.jpg/960px-Sewri_Fort_Inside_12.jpg",
     "file": "Sewri_Fort_Inside_12.jpg"
    },
+   "commons": "Sewri Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Sewri_Fort",
    "verifiedBy": "wikidata"
   },
@@ -3120,6 +3140,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Gate_of_Mercy_Synagogue_3.jpg/960px-Gate_of_Mercy_Synagogue_3.jpg",
     "file": "Gate_of_Mercy_Synagogue_3.jpg"
    },
+   "commons": "Shaar Harahamim Synagogues in Mumbai",
    "wikipedia": "https://en.wikipedia.org/wiki/Gate_of_Mercy_Synagogue",
    "verifiedBy": "wikidata"
   },
@@ -3139,6 +3160,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ee/Mahalaxmi-temple-1.jpg/960px-Mahalaxmi-temple-1.jpg",
     "file": "Mahalaxmi-temple-1.jpg"
    },
+   "commons": "Old images of Mahalakshmi temple, Mumbai",
    "wikipedia": "https://en.wikipedia.org/wiki/Mahalakshmi_Temple%2C_Mumbai",
    "verifiedBy": "wikipedia"
   },
@@ -3158,6 +3180,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Kanheri_Caves_prayer_hall.JPG/960px-Kanheri_Caves_prayer_hall.JPG",
     "file": "Kanheri_Caves_prayer_hall.JPG"
    },
+   "commons": "Kanheri Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Kanheri_Caves",
    "verifiedBy": "wikidata"
   },
@@ -3177,6 +3200,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/4/4b/SGNP-Bombay.jpg",
     "file": "SGNP-Bombay.jpg"
    },
+   "commons": "Sanjay Gandhi National Park",
    "wikipedia": "https://en.wikipedia.org/wiki/Sanjay_Gandhi_National_Park",
    "verifiedBy": "wikipedia"
   },
@@ -3196,6 +3220,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Mahakali_caves.jpg/960px-Mahakali_caves.jpg",
     "file": "Mahakali_caves.jpg"
    },
+   "commons": "Mahakali Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Mahakali_Caves",
    "verifiedBy": "wikidata"
   },
@@ -3215,6 +3240,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Jogeshwari_Caves_inside.jpg/960px-Jogeshwari_Caves_inside.jpg",
     "file": "Jogeshwari_Caves_inside.jpg"
    },
+   "commons": "Jogeshwari Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Jogeshwari_Caves",
    "verifiedBy": "wikidata"
   },
@@ -3234,6 +3260,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Mandapeshwar_Caves_Panorama_view.jpg/960px-Mandapeshwar_Caves_Panorama_view.jpg",
     "file": "Mandapeshwar_Caves_Panorama_view.jpg"
    },
+   "commons": "Mandapeshwar Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Mandapeshwar_Caves",
    "verifiedBy": "wikidata"
   },
@@ -3253,6 +3280,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Powai_Lake_Summer.JPG/960px-Powai_Lake_Summer.JPG",
     "file": "Powai_Lake_Summer.JPG"
    },
+   "commons": "Powai Lake",
    "wikipedia": "https://en.wikipedia.org/wiki/Powai_Lake",
    "verifiedBy": "wikipedia"
   },
@@ -3272,6 +3300,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Juhu_beach_%28Arial%29.jpg/960px-Juhu_beach_%28Arial%29.jpg",
     "file": "Juhu_beach_(Arial).jpg"
    },
+   "commons": "Juhu",
    "wikipedia": "https://en.wikipedia.org/wiki/Juhu",
    "verifiedBy": "wikipedia"
   },
@@ -3310,6 +3339,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Mount_Mary_Church_%28Bombay%29.jpg/960px-Mount_Mary_Church_%28Bombay%29.jpg",
     "file": "Mount_Mary_Church_(Bombay).jpg"
    },
+   "commons": "Mount Mary Church, Bandra",
    "wikipedia": "https://en.wikipedia.org/wiki/Basilica_of_Our_Lady_of_the_Mount%2C_Bandra",
    "verifiedBy": "wikidata"
   },
@@ -3329,6 +3359,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Bandra-fort-mumbai.jpg/960px-Bandra-fort-mumbai.jpg",
     "file": "Bandra-fort-mumbai.jpg"
    },
+   "commons": "Castella de Aguada",
    "wikipedia": "https://en.wikipedia.org/wiki/Castella_de_Aguada",
    "verifiedBy": "wikidata"
   },
@@ -3365,6 +3396,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/c/c4/St_Andrew%27s_Church%2C_Bandra.jpg",
     "file": "St_Andrew's_Church,_Bandra.jpg"
    },
+   "commons": "St. Andrew's Church, Mumbai",
    "wikipedia": "https://en.wikipedia.org/wiki/St._Andrew's_Church%2C_Mumbai",
    "verifiedBy": "wikidata"
   },
@@ -3384,6 +3416,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Aarey_Milk_Colony%2C_Mumbai.jpg/960px-Aarey_Milk_Colony%2C_Mumbai.jpg",
     "file": "Aarey_Milk_Colony,_Mumbai.jpg"
    },
+   "commons": "Aarey Milk Colony",
    "wikipedia": "https://en.wikipedia.org/wiki/Aarey_Forest",
    "verifiedBy": "wikidata"
   },
@@ -3403,6 +3436,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Vajreshwari_Mandir.jpg/960px-Vajreshwari_Mandir.jpg",
     "file": "Vajreshwari_Mandir.jpg"
    },
+   "commons": "Vajreshwari Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Vajreshwari_Temple",
    "verifiedBy": "wikidata"
   },
@@ -3422,6 +3456,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Shiv_Mandir%2C_Ambarnath_in_January_2024_%2811%29.jpg/960px-Shiv_Mandir%2C_Ambarnath_in_January_2024_%2811%29.jpg",
     "file": "Shiv_Mandir,_Ambarnath_in_January_2024_(11).jpg"
    },
+   "commons": "Shiv Mandir, Ambarnath",
    "wikipedia": "https://en.wikipedia.org/wiki/Shiv_Mandir%2C_Ambarnath",
    "verifiedBy": "wikidata"
   },
@@ -3440,6 +3475,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Upvan_Lake_-_Night_View.JPG",
     "file": "Upvan_Lake_-_Night_View.JPG"
    },
+   "commons": "Upvan Lake",
    "wikipedia": "https://en.wikipedia.org/wiki/Upvan_Lake",
    "verifiedBy": "wikidata"
   },
@@ -3459,6 +3495,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Towards_Mahuli_Fort.jpg/960px-Towards_Mahuli_Fort.jpg",
     "file": "Towards_Mahuli_Fort.jpg"
    },
+   "commons": "Mahuli Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Mahuli",
    "verifiedBy": "wikidata"
   },
@@ -3478,6 +3515,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Ghodbander_Fort%2C_Ghodbunder_Village_at_Mira_Bhayandar%2C_Maharashtra_401107.jpg/960px-Ghodbander_Fort%2C_Ghodbunder_Village_at_Mira_Bhayandar%2C_Maharashtra_401107.jpg",
     "file": "Ghodbander_Fort,_Ghodbunder_Village_at_Mira_Bhayandar,_Maharashtra_401107.jpg"
    },
+   "commons": "Ghodbunder Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Ghodbunder_Fort",
    "verifiedBy": "wikidata"
   },
@@ -3494,6 +3532,7 @@
     19.2954,
     73.2077
    ],
+   "commons": "Titwala",
    "wikipedia": "https://en.wikipedia.org/wiki/Titwala",
    "verifiedBy": "wikidata"
   },
@@ -3545,6 +3584,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Birla_Mandir%2C_Shahad_%28114%29.jpg/960px-Birla_Mandir%2C_Shahad_%28114%29.jpg",
     "file": "Birla_Mandir,_Shahad_(114).jpg"
    },
+   "commons": "Birla Mandir, Shahad",
    "wikipedia": "https://en.wikipedia.org/wiki/Birla_Mandir%2C_Shahad",
    "verifiedBy": "wikidata"
   },
@@ -3564,6 +3604,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Gorakhgad.jpg/960px-Gorakhgad.jpg",
     "file": "Gorakhgad.jpg"
    },
+   "commons": "Gorakhgad",
    "wikipedia": "https://en.wikipedia.org/wiki/Gorakhgad",
    "verifiedBy": "wikidata"
   },
@@ -3574,6 +3615,7 @@
    "kind": "nature",
    "region": "konkan",
    "district": "Q943099",
+   "commons": "Yeoor",
    "wikipedia": "https://en.wikipedia.org/wiki/Yeoor",
    "verifiedBy": "wikipedia"
   },
@@ -3592,6 +3634,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Dongri_Fort_2.jpg/960px-Dongri_Fort_2.jpg",
     "file": "Dongri_Fort_2.jpg"
    },
+   "commons": "Dongri fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Dongri_Fort",
    "verifiedBy": "wikidata"
   },
@@ -3611,6 +3654,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Malang_Fort1.jpg/960px-Malang_Fort1.jpg",
     "file": "Malang_Fort1.jpg"
    },
+   "commons": "Malanggad",
    "wikipedia": "https://en.wikipedia.org/wiki/Malanggad",
    "verifiedBy": "wikidata"
   },
@@ -3668,6 +3712,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/9/93/Vasai_fort_building2.jpg",
     "file": "Vasai_fort_building2.jpg"
    },
+   "commons": "Vasai Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Fort_Vasai",
    "verifiedBy": "wikidata"
   },
@@ -3687,6 +3732,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Arnala-fort-entrance.jpg/960px-Arnala-fort-entrance.jpg",
     "file": "Arnala-fort-entrance.jpg"
    },
+   "commons": "Fort Arnala",
    "wikipedia": "https://en.wikipedia.org/wiki/Arnala_fort",
    "verifiedBy": "wikidata"
   },
@@ -3707,6 +3753,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Dahbosa_Waterfalls.jpg/960px-Dahbosa_Waterfalls.jpg",
     "file": "Dahbosa_Waterfalls.jpg"
    },
+   "commons": "Dabhosa Waterfalls",
    "wikipedia": "https://en.wikipedia.org/wiki/Dabhosa_Waterfalls",
    "verifiedBy": "wikidata",
    "best": {
@@ -3734,6 +3781,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Kelva_Beach.JPG/960px-Kelva_Beach.JPG",
     "file": "Kelva_Beach.JPG"
    },
+   "commons": "Kelwa Beach",
    "wikipedia": "https://en.wikipedia.org/wiki/Kelwa_Beach",
    "verifiedBy": "wikipedia"
   },
@@ -3753,6 +3801,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Jaivilas_Palace%2C_Jawhar.jpg/960px-Jaivilas_Palace%2C_Jawhar.jpg",
     "file": "Jaivilas_Palace,_Jawhar.jpg"
    },
+   "commons": "Jawhar",
    "wikipedia": "https://en.wikipedia.org/wiki/Jawhar",
    "verifiedBy": "wikipedia"
   },
@@ -3789,6 +3838,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Beach-new.jpg",
     "file": "Beach-new.jpg"
    },
+   "commons": "Dahanu",
    "wikipedia": "https://en.wikipedia.org/wiki/Dahanu",
    "verifiedBy": "wikidata"
   },
@@ -3828,6 +3878,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Habitat_Tansa_WLS_by_Dr._Raju_Kasambe_DSCN4979_%287%29.jpg/960px-Habitat_Tansa_WLS_by_Dr._Raju_Kasambe_DSCN4979_%287%29.jpg",
     "file": "Habitat_Tansa_WLS_by_Dr._Raju_Kasambe_DSCN4979_(7).jpg"
    },
+   "commons": "Tansa Wildlife Sanctuary",
    "wikipedia": "https://en.wikipedia.org/wiki/Tansa_Wildlife_Sanctuary",
    "verifiedBy": "wikipedia"
   },
@@ -3866,6 +3917,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Shirgaon_Fort.jpg/960px-Shirgaon_Fort.jpg",
     "file": "Shirgaon_Fort.jpg"
    },
+   "commons": "Shirgaon Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Shirgaon_Fort",
    "verifiedBy": "wikipedia"
   },
@@ -3885,6 +3937,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Asheri_Fort.jpg/960px-Asheri_Fort.jpg",
     "file": "Asheri_Fort.jpg"
    },
+   "commons": "Asheri Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Asheri_fort",
    "verifiedBy": "wikidata"
   },
@@ -3919,6 +3972,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Tandulwadi_fort.jpg/960px-Tandulwadi_fort.jpg",
     "file": "Tandulwadi_fort.jpg"
    },
+   "commons": "Tandulwadi Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Tandulwadi_Fort",
    "verifiedBy": "wikidata"
   },
@@ -3952,6 +4006,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Elephanta_Caves_Trimurti.jpg/960px-Elephanta_Caves_Trimurti.jpg",
     "file": "Elephanta_Caves_Trimurti.jpg"
    },
+   "commons": "Elephanta Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Elephanta_Caves",
    "verifiedBy": "wikidata"
   },
@@ -3971,6 +4026,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Nagarkhana%2C_Raigad_Fort%2C_India.jpg/960px-Nagarkhana%2C_Raigad_Fort%2C_India.jpg",
     "file": "Nagarkhana,_Raigad_Fort,_India.jpg"
    },
+   "commons": "Raigad Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Raigad_Fort",
    "verifiedBy": "wikidata"
   },
@@ -3986,6 +4042,7 @@
     18.2996,
     72.9644
    ],
+   "commons": "Murud-Janjira",
    "wikipedia": "https://en.wikipedia.org/wiki/Murud-Janjira",
    "verifiedBy": "wikidata"
   },
@@ -4006,6 +4063,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Matheran_In_Clouds.jpg/960px-Matheran_In_Clouds.jpg",
     "file": "Matheran_In_Clouds.jpg"
    },
+   "commons": "Matheran",
    "wikipedia": "https://en.wikipedia.org/wiki/Matheran",
    "verifiedBy": "wikidata",
    "best": {
@@ -4033,6 +4091,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Kolaba_Fort_-_Alibag.JPG/960px-Kolaba_Fort_-_Alibag.JPG",
     "file": "Kolaba_Fort_-_Alibag.JPG"
    },
+   "commons": "Kolaba Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Kolaba_Fort",
    "verifiedBy": "wikidata"
   },
@@ -4052,6 +4111,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/07/The_Lighthouse%2C_Khanderi_Fort.jpg/960px-The_Lighthouse%2C_Khanderi_Fort.jpg",
     "file": "The_Lighthouse,_Khanderi_Fort.jpg"
    },
+   "commons": "Khanderi",
    "wikipedia": "https://en.wikipedia.org/wiki/Khanderi",
    "verifiedBy": "wikidata"
   },
@@ -4071,6 +4131,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Archaic_archtecture_of_Kondana_caves.jpg/960px-Archaic_archtecture_of_Kondana_caves.jpg",
     "file": "Archaic_archtecture_of_Kondana_caves.jpg"
    },
+   "commons": "Kondana Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Kondana_Caves",
    "verifiedBy": "wikidata"
   },
@@ -4090,6 +4151,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Kuda-caves-15.JPG/960px-Kuda-caves-15.JPG",
     "file": "Kuda-caves-15.JPG"
    },
+   "commons": "Kuda Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Kuda_Caves",
    "verifiedBy": "wikidata"
   },
@@ -4110,6 +4172,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Karnala_006.jpg/960px-Karnala_006.jpg",
     "file": "Karnala_006.jpg"
    },
+   "commons": "Karnala Bird Sanctuary",
    "wikipedia": "https://en.wikipedia.org/wiki/Karnala_Bird_Sanctuary",
    "verifiedBy": "wikidata",
    "best": {
@@ -4139,6 +4202,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Alibag_Sea_beach_3%2C_Maharashtra.JPG",
     "file": "Alibag_Sea_beach_3,_Maharashtra.JPG"
    },
+   "commons": "Alibag",
    "wikipedia": "https://en.wikipedia.org/wiki/Alibag",
    "verifiedBy": "wikidata"
   },
@@ -4158,6 +4222,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Kashid_Beach_1.jpg/960px-Kashid_Beach_1.jpg",
     "file": "Kashid_Beach_1.jpg"
    },
+   "commons": "Kashid",
    "wikipedia": "https://en.wikipedia.org/wiki/Kashid",
    "verifiedBy": "wikidata"
   },
@@ -4178,6 +4243,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Diveagar_beach_another_view.jpg/960px-Diveagar_beach_another_view.jpg",
     "file": "Diveagar_beach_another_view.jpg"
    },
+   "commons": "Diveagar",
    "wikipedia": "https://en.wikipedia.org/wiki/Diveagar",
    "verifiedBy": "wikidata"
   },
@@ -4197,6 +4263,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Harihareshwar_beach.jpg/960px-Harihareshwar_beach.jpg",
     "file": "Harihareshwar_beach.jpg"
    },
+   "commons": "Harihareshwar",
    "wikipedia": "https://en.wikipedia.org/wiki/Harihareshwar",
    "verifiedBy": "wikidata"
   },
@@ -4217,6 +4284,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Srivardhan_beach.jpg/960px-Srivardhan_beach.jpg",
     "file": "Srivardhan_beach.jpg"
    },
+   "commons": "Shrivardhan",
    "wikipedia": "https://en.wikipedia.org/wiki/Shrivardhan",
    "verifiedBy": "wikidata"
   },
@@ -4293,6 +4361,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Sudhagad_Fort.jpg/960px-Sudhagad_Fort.jpg",
     "file": "Sudhagad_Fort.jpg"
    },
+   "commons": "Sudhagad",
    "wikipedia": "https://en.wikipedia.org/wiki/Sudhagad",
    "verifiedBy": "wikidata"
   },
@@ -4312,6 +4381,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Portuguese_church_of_Korlai_fort.jpg/960px-Portuguese_church_of_Korlai_fort.jpg",
     "file": "Portuguese_church_of_Korlai_fort.jpg"
    },
+   "commons": "Korlai Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Korlai_Fort",
    "verifiedBy": "wikidata"
   },
@@ -4331,6 +4401,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Revdanda_Fort_outer_walls_01.JPG/960px-Revdanda_Fort_outer_walls_01.JPG",
     "file": "Revdanda_Fort_outer_walls_01.JPG"
    },
+   "commons": "Revdanda Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Revdanda_Fort",
    "verifiedBy": "wikidata"
   },
@@ -4347,6 +4418,7 @@
     18.7286,
     72.8676
    ],
+   "commons": "Kihim Beach",
    "wikipedia": "https://en.wikipedia.org/wiki/Kihim",
    "verifiedBy": "wikidata"
   },
@@ -4407,6 +4479,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Kalavantinicha_Durga.jpg/960px-Kalavantinicha_Durga.jpg",
     "file": "Kalavantinicha_Durga.jpg"
    },
+   "commons": "Kalavantin Durg",
    "wikipedia": "https://en.wikipedia.org/wiki/Kalavantin_Durg",
    "verifiedBy": "wikidata"
   },
@@ -4426,6 +4499,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Yash.jpg/960px-Yash.jpg",
     "file": "Yash.jpg"
    },
+   "commons": "Karnala Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Karnala_Fort",
    "verifiedBy": "wikidata"
   },
@@ -4445,6 +4519,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Prabal_machi.jpg/960px-Prabal_machi.jpg",
     "file": "Prabal_machi.jpg"
    },
+   "commons": "Prabalgad",
    "wikipedia": "https://en.wikipedia.org/wiki/Prabalgad",
    "verifiedBy": "wikidata"
   },
@@ -4464,6 +4539,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/1/14/Irshal_gad_pinnacle.jpg",
     "file": "Irshal_gad_pinnacle.jpg"
    },
+   "commons": "Irshalgad",
    "wikipedia": "https://en.wikipedia.org/wiki/Irshalgad",
    "verifiedBy": "wikidata"
   },
@@ -4483,6 +4559,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Kothaligad_Fort1.jpg/960px-Kothaligad_Fort1.jpg",
     "file": "Kothaligad_Fort1.jpg"
    },
+   "commons": "Kothaligad",
    "wikipedia": "https://en.wikipedia.org/wiki/Kothaligad",
    "verifiedBy": "wikidata"
   },
@@ -4502,6 +4579,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Surrounded_by.jpg/960px-Surrounded_by.jpg",
     "file": "Surrounded_by.jpg"
    },
+   "commons": "Padmadurg",
    "wikipedia": "https://en.wikipedia.org/wiki/Padmadurg",
    "verifiedBy": "wikidata"
   },
@@ -4577,6 +4655,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/A_Beach_at_GanapatiPule.jpg/960px-A_Beach_at_GanapatiPule.jpg",
     "file": "A_Beach_at_GanapatiPule.jpg"
    },
+   "commons": "Ganpatipule",
    "wikipedia": "https://en.wikipedia.org/wiki/Ganpatipule",
    "verifiedBy": "wikidata"
   },
@@ -4596,6 +4675,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Entrance_to_Suvarnadurg.JPG/960px-Entrance_to_Suvarnadurg.JPG",
     "file": "Entrance_to_Suvarnadurg.JPG"
    },
+   "commons": "Suvarnadurg",
    "wikipedia": "https://en.wikipedia.org/wiki/Suvarnadurg",
    "verifiedBy": "wikidata"
   },
@@ -4615,6 +4695,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Jaigad_outerwall1.jpg/960px-Jaigad_outerwall1.jpg",
     "file": "Jaigad_outerwall1.jpg"
    },
+   "commons": "Jaigad Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Jaigad_Fort",
    "verifiedBy": "wikidata"
   },
@@ -4631,6 +4712,7 @@
     17.47,
     73.2
    ],
+   "commons": "Guhagar",
    "wikipedia": "https://en.wikipedia.org/wiki/Guhagar",
    "verifiedBy": "wikidata"
   },
@@ -4651,6 +4733,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/Dapoli_Village_Top_View.jpg/960px-Dapoli_Village_Top_View.jpg",
     "file": "Dapoli_Village_Top_View.jpg"
    },
+   "commons": "Dapoli",
    "wikipedia": "https://en.wikipedia.org/wiki/Dapoli",
    "verifiedBy": "wikidata"
   },
@@ -4670,6 +4753,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Marleshwar_entrance.JPG/960px-Marleshwar_entrance.JPG",
     "file": "Marleshwar_entrance.JPG"
    },
+   "commons": "Marleshwar",
    "wikipedia": "https://en.wikipedia.org/wiki/Marleshwar",
    "verifiedBy": "wikidata"
   },
@@ -4689,6 +4773,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Parshuram_Temple_Chiplun.jpg/960px-Parshuram_Temple_Chiplun.jpg",
     "file": "Parshuram_Temple_Chiplun.jpg"
    },
+   "commons": "Parshuram Temple, Chiplun",
    "wikipedia": "https://en.wikipedia.org/wiki/Parshuram_Temple%2C_Chiplun",
    "verifiedBy": "wikipedia"
   },
@@ -4708,6 +4793,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/%E0%A4%AA%E0%A4%A8%E0%A5%8D%E0%A4%B9%E0%A4%BE%E0%A4%B3%E0%A5%87%E0%A4%95%E0%A4%BE%E0%A4%9C%E0%A5%80_%E0%A4%B2%E0%A5%87%E0%A4%A3%E0%A5%80.jpg/960px-%E0%A4%AA%E0%A4%A8%E0%A5%8D%E0%A4%B9%E0%A4%BE%E0%A4%B3%E0%A5%87%E0%A4%95%E0%A4%BE%E0%A4%9C%E0%A5%80_%E0%A4%B2%E0%A5%87%E0%A4%A3%E0%A5%80.jpg",
     "file": "पन्हाळेकाजी_लेणी.jpg"
    },
+   "commons": "Panhalakaji Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Panhalakaji_Caves",
    "verifiedBy": "wikidata"
   },
@@ -4723,6 +4809,7 @@
     16.808,
     73.3149
    ],
+   "commons": "Purnagad",
    "wikipedia": "https://en.wikipedia.org/wiki/Purnagad",
    "verifiedBy": "wikidata"
   },
@@ -4779,6 +4866,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Bankot_Fort.jpg/960px-Bankot_Fort.jpg",
     "file": "Bankot_Fort.jpg"
    },
+   "commons": "Bankot Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Bankot_fort",
    "verifiedBy": "wikidata"
   },
@@ -4813,6 +4901,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Rasalgad1.jpg/960px-Rasalgad1.jpg",
     "file": "Rasalgad1.jpg"
    },
+   "commons": "Rasalgad",
    "wikipedia": "https://en.wikipedia.org/wiki/Rasalgad",
    "verifiedBy": "wikidata"
   },
@@ -4847,6 +4936,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Ratnadurg_Entrance.jpg/960px-Ratnadurg_Entrance.jpg",
     "file": "Ratnadurg_Entrance.jpg"
    },
+   "commons": "Ratnagiri Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Ratnagiri_Fort%2C_Maharashtra",
    "verifiedBy": "wikidata"
   },
@@ -4867,6 +4957,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Sindhudurg_fort.JPG",
     "file": "Sindhudurg_fort.JPG"
    },
+   "commons": "Sindhudurg Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Sindhudurg_Fort",
    "verifiedBy": "wikidata"
   },
@@ -4887,6 +4978,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Tarkarli_Photo_by_Sandeep_Wairkar.jpg/960px-Tarkarli_Photo_by_Sandeep_Wairkar.jpg",
     "file": "Tarkarli_Photo_by_Sandeep_Wairkar.jpg"
    },
+   "commons": "Tarkarli",
    "wikipedia": "https://en.wikipedia.org/wiki/Tarkarli",
    "verifiedBy": "wikipedia"
   },
@@ -4907,6 +4999,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/Bastions_of_vijaydurg.jpg/960px-Bastions_of_vijaydurg.jpg",
     "file": "Bastions_of_vijaydurg.jpg"
    },
+   "commons": "Vijaydurg",
    "wikipedia": "https://en.wikipedia.org/wiki/Vijaydurg_Fort",
    "verifiedBy": "wikipedia"
   },
@@ -4926,6 +5019,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/Amboli5.jpg",
     "file": "Amboli5.jpg"
    },
+   "commons": "Amboli, Sindhudurg",
    "wikipedia": "https://en.wikipedia.org/wiki/Amboli%2C_Sindhudurg",
    "verifiedBy": "wikidata",
    "best": {
@@ -4973,6 +5067,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Devgad_fort.JPG/960px-Devgad_fort.JPG",
     "file": "Devgad_fort.JPG"
    },
+   "commons": "Devgad",
    "wikipedia": "https://en.wikipedia.org/wiki/Devgad_Fort",
    "verifiedBy": "wikidata"
   },
@@ -4992,6 +5087,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Kunakeshwar_temple_1.jpg",
     "file": "Kunakeshwar_temple_1.jpg"
    },
+   "commons": "Kunkeshwar",
    "wikipedia": "https://en.wikipedia.org/wiki/Kunkeshwar",
    "verifiedBy": "wikipedia"
   },
@@ -5023,6 +5119,7 @@
     16,
     73.75
    ],
+   "commons": "Sawantwadi",
    "wikipedia": "https://en.wikipedia.org/wiki/Sawantwadi",
    "verifiedBy": "wikidata"
   },
@@ -5039,6 +5136,7 @@
     16.0667,
     73.4667
    ],
+   "commons": "Malvan",
    "wikipedia": "https://en.wikipedia.org/wiki/Malvan",
    "verifiedBy": "wikidata"
   },
@@ -5059,6 +5157,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/en/e/e5/Vengurla_Beach_2.jpg",
     "file": "Vengurla_Beach_2.jpg"
    },
+   "commons": "Vengurla",
    "wikipedia": "https://en.wikipedia.org/wiki/Vengurla",
    "verifiedBy": "wikidata"
   },
@@ -5074,6 +5173,7 @@
     16.171,
     73.4987
    ],
+   "commons": "Bharatgad",
    "wikipedia": "https://en.wikipedia.org/wiki/Bharatgad",
    "verifiedBy": "wikidata"
   },
@@ -5089,6 +5189,7 @@
     15.7529,
     73.6657
    ],
+   "commons": "Yashwantgad Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Yashwantgad_Fort",
    "verifiedBy": "wikidata"
   },
@@ -5122,6 +5223,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Front_view_of_Shaniwar_Wada_illuminated.jpg/960px-Front_view_of_Shaniwar_Wada_illuminated.jpg",
     "file": "Front_view_of_Shaniwar_Wada_illuminated.jpg"
    },
+   "commons": "Shaniwar Wada",
    "wikipedia": "https://en.wikipedia.org/wiki/Shaniwar_Wada",
    "verifiedBy": "wikidata"
   },
@@ -5141,6 +5243,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Sinhagad.jpg/960px-Sinhagad.jpg",
     "file": "Sinhagad.jpg"
    },
+   "commons": "Sinhagad",
    "wikipedia": "https://en.wikipedia.org/wiki/Sinhagad",
    "verifiedBy": "wikidata"
   },
@@ -5161,6 +5264,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Bhimashankar.jpg",
     "file": "Bhimashankar.jpg"
    },
+   "commons": "Bhimashankar",
    "wikipedia": "https://en.wikipedia.org/wiki/Bhimashankar_Temple",
    "verifiedBy": "wikipedia"
   },
@@ -5180,6 +5284,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Tiger_Valley_Bridge_view_3.jpg/960px-Tiger_Valley_Bridge_view_3.jpg",
     "file": "Tiger_Valley_Bridge_view_3.jpg"
    },
+   "commons": "Lonavala",
    "wikipedia": "https://en.wikipedia.org/wiki/Lonavala",
    "verifiedBy": "wikidata",
    "best": {
@@ -5208,6 +5313,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Karla_caves_Chaitya.jpg/960px-Karla_caves_Chaitya.jpg",
     "file": "Karla_caves_Chaitya.jpg"
    },
+   "commons": "Karla Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Karla_Caves",
    "verifiedBy": "wikidata"
   },
@@ -5227,6 +5333,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Shivneri_fort1.JPG/960px-Shivneri_fort1.JPG",
     "file": "Shivneri_fort1.JPG"
    },
+   "commons": "Shivneri Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Shivneri_Fort",
    "verifiedBy": "wikidata"
   },
@@ -5246,6 +5353,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Pune_Palace.jpg/960px-Pune_Palace.jpg",
     "file": "Pune_Palace.jpg"
    },
+   "commons": "Aga Khan Palace",
    "wikipedia": "https://en.wikipedia.org/wiki/Aga_Khan_Palace",
    "verifiedBy": "wikidata"
   },
@@ -5265,6 +5373,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/The_Bhaje_Caves_05.jpg",
     "file": "The_Bhaje_Caves_05.jpg"
    },
+   "commons": "Bhaja Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Bhaja_Caves",
    "verifiedBy": "wikidata"
   },
@@ -5284,6 +5393,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Panoramic_view_of_the_bastions_of_Lohagad_Fort_2.jpg/960px-Panoramic_view_of_the_bastions_of_Lohagad_Fort_2.jpg",
     "file": "Panoramic_view_of_the_bastions_of_Lohagad_Fort_2.jpg"
    },
+   "commons": "Lohagad",
    "wikipedia": "https://en.wikipedia.org/wiki/Lohagad",
    "verifiedBy": "wikidata"
   },
@@ -5304,6 +5414,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Lenyadri.jpg/960px-Lenyadri.jpg",
     "file": "Lenyadri.jpg"
    },
+   "commons": "Lenyadri",
    "wikipedia": "https://en.wikipedia.org/wiki/Lenyadri",
    "verifiedBy": "wikidata"
   },
@@ -5323,6 +5434,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Torna_Fort_aka_Kille_Prachangad.jpg/960px-Torna_Fort_aka_Kille_Prachangad.jpg",
     "file": "Torna_Fort_aka_Kille_Prachangad.jpg"
    },
+   "commons": "Torna Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Torna_Fort",
    "verifiedBy": "wikidata"
   },
@@ -5342,6 +5454,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Building_of_Raja_Dinkar_Kelkar_Museum%2C_Pune.jpg/960px-Building_of_Raja_Dinkar_Kelkar_Museum%2C_Pune.jpg",
     "file": "Building_of_Raja_Dinkar_Kelkar_Museum,_Pune.jpg"
    },
+   "commons": "Raja Dinkar Kelkar Museum",
    "wikipedia": "https://en.wikipedia.org/wiki/Raja_Dinkar_Kelkar_Museum",
    "verifiedBy": "wikidata"
   },
@@ -5361,6 +5474,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Dagdusheth_Ganpati_Temple_Decorated_during_Ganesh_Chaturti_September_2012_%281%29.JPG/960px-Dagdusheth_Ganpati_Temple_Decorated_during_Ganesh_Chaturti_September_2012_%281%29.JPG",
     "file": "Dagdusheth_Ganpati_Temple_Decorated_during_Ganesh_Chaturti_September_2012_(1).JPG"
    },
+   "commons": "Dagadusheth Halwai Ganapati Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Dagadusheth_Halwai_Ganapati_Temple",
    "verifiedBy": "wikidata"
   },
@@ -5380,6 +5494,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Khandoba_temple_Pune.jpg/960px-Khandoba_temple_Pune.jpg",
     "file": "Khandoba_temple_Pune.jpg"
    },
+   "commons": "Jejuri",
    "wikipedia": "https://en.wikipedia.org/wiki/Jejuri",
    "verifiedBy": "wikidata"
   },
@@ -5401,6 +5516,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Aalandi_sidew_view_from_insie.JPG/960px-Aalandi_sidew_view_from_insie.JPG",
     "file": "Aalandi_sidew_view_from_insie.JPG"
    },
+   "commons": "Alandi",
    "wikipedia": "https://en.wikipedia.org/wiki/Alandi",
    "verifiedBy": "wikidata"
   },
@@ -5421,6 +5537,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Gatha_temple.JPG/960px-Gatha_temple.JPG",
     "file": "Gatha_temple.JPG"
    },
+   "commons": "Dehu",
    "wikipedia": "https://en.wikipedia.org/wiki/Dehu",
    "verifiedBy": "wikidata"
   },
@@ -5460,6 +5577,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Morgaon.jpg/960px-Morgaon.jpg",
     "file": "Morgaon.jpg"
    },
+   "commons": "Morgaon temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Ganesha_Temple%2C_Morgaon",
    "verifiedBy": "wikipedia"
   },
@@ -5481,6 +5599,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Ranjangaon_Mahaganapati_Temple_Viman.jpg/960px-Ranjangaon_Mahaganapati_Temple_Viman.jpg",
     "file": "Ranjangaon_Mahaganapati_Temple_Viman.jpg"
    },
+   "commons": "Mahaganapati Temple, Ranjangaon",
    "wikipedia": "https://en.wikipedia.org/wiki/Ranjangaon_Ganpati",
    "verifiedBy": "wikipedia"
   },
@@ -5502,6 +5621,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Shri_Cintamani_of_Theur.jpg/960px-Shri_Cintamani_of_Theur.jpg",
     "file": "Shri_Cintamani_of_Theur.jpg"
    },
+   "commons": "Chintamani Temple, Theur",
    "wikipedia": "https://en.wikipedia.org/wiki/Chintamani_Temple%2C_Theur",
    "verifiedBy": "wikidata"
   },
@@ -5542,6 +5662,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Bedsa_Caves_main_vihara.jpg/960px-Bedsa_Caves_main_vihara.jpg",
     "file": "Bedsa_Caves_main_vihara.jpg"
    },
+   "commons": "Bedse Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Bedse_Caves",
    "verifiedBy": "wikidata"
   },
@@ -5561,6 +5682,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/2nd_century_BCE_Nanaghat_Sanskrit_Inscriptions_Maharashtra_India_2.jpg/960px-2nd_century_BCE_Nanaghat_Sanskrit_Inscriptions_Maharashtra_India_2.jpg",
     "file": "2nd_century_BCE_Nanaghat_Sanskrit_Inscriptions_Maharashtra_India_2.jpg"
    },
+   "commons": "Naneghat",
    "wikipedia": "https://en.wikipedia.org/wiki/Naneghat",
    "verifiedBy": "wikidata"
   },
@@ -5577,6 +5699,7 @@
     19.132,
     73.554
    ],
+   "commons": "Bhimashankar Wildlife Sanctuary",
    "wikipedia": "https://en.wikipedia.org/wiki/Bhimashankar_Wildlife_Sanctuary",
    "verifiedBy": "wikipedia"
   },
@@ -5596,6 +5719,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Mayureshwar_Wildlife_Sanctuary_Entrance.jpg/960px-Mayureshwar_Wildlife_Sanctuary_Entrance.jpg",
     "file": "Mayureshwar_Wildlife_Sanctuary_Entrance.jpg"
    },
+   "commons": "Mayureshwar Wildlife Sanctuary",
    "wikipedia": "https://en.wikipedia.org/wiki/Mayureshwar_Wildlife_Sanctuary",
    "verifiedBy": "wikipedia"
   },
@@ -5616,6 +5740,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/7/7b/Phoenicopterus_roseus_-Bhigwan%2C_Maharashtra%2C_India_-four-8.jpg",
     "file": "Phoenicopterus_roseus_-Bhigwan,_Maharashtra,_India_-four-8.jpg"
    },
+   "commons": "Bhigwan",
    "wikipedia": "https://en.wikipedia.org/wiki/Bhigwan",
    "verifiedBy": "wikipedia",
    "best": {
@@ -5644,6 +5769,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Suvela_machi%2CRajgad_fort%2C_Maharashtra%2CIndia_July2015.jpg/960px-Suvela_machi%2CRajgad_fort%2C_Maharashtra%2CIndia_July2015.jpg",
     "file": "Suvela_machi,Rajgad_fort,_Maharashtra,India_July2015.jpg"
    },
+   "commons": "Rajgad Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Rajgad",
    "verifiedBy": "wikidata",
    "best": {
@@ -5672,6 +5798,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Purandar_Fort_-_AB.jpg/960px-Purandar_Fort_-_AB.jpg",
     "file": "Purandar_Fort_-_AB.jpg"
    },
+   "commons": "Purandar Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Purandar_Fort",
    "verifiedBy": "wikidata"
   },
@@ -5691,6 +5818,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Pataleshwar_cave_temple.JPG/960px-Pataleshwar_cave_temple.JPG",
     "file": "Pataleshwar_cave_temple.JPG"
    },
+   "commons": "Pataleshwar",
    "wikipedia": "https://en.wikipedia.org/wiki/Pataleshwar_Caves",
    "verifiedBy": "wikidata"
   },
@@ -5710,6 +5838,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Parvati.JPG/960px-Parvati.JPG",
     "file": "Parvati.JPG"
    },
+   "commons": "Parvati Hill",
    "wikipedia": "https://en.wikipedia.org/wiki/Parvati_Hill",
    "verifiedBy": "wikidata"
   },
@@ -5729,6 +5858,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Three_individual_Shikhar_at_Bhuleshwar_temple.jpg/960px-Three_individual_Shikhar_at_Bhuleshwar_temple.jpg",
     "file": "Three_individual_Shikhar_at_Bhuleshwar_temple.jpg"
    },
+   "commons": "Bhuleshwar Temple, Pune",
    "wikipedia": "https://en.wikipedia.org/wiki/Bhuleshwar_Temple",
    "verifiedBy": "wikidata"
   },
@@ -5749,6 +5879,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Junnar_city.jpg/960px-Junnar_city.jpg",
     "file": "Junnar_city.jpg"
    },
+   "commons": "Junnar",
    "wikipedia": "https://en.wikipedia.org/wiki/Junnar",
    "verifiedBy": "wikidata"
   },
@@ -5768,6 +5899,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Tikona_Panorama.jpg/960px-Tikona_Panorama.jpg",
     "file": "Tikona_Panorama.jpg"
    },
+   "commons": "Tikona",
    "wikipedia": "https://en.wikipedia.org/wiki/Tikona",
    "verifiedBy": "wikidata"
   },
@@ -5787,6 +5919,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Tung_Fort.jpg/960px-Tung_Fort.jpg",
     "file": "Tung_Fort.jpg"
    },
+   "commons": "Tung fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Tung_Fort",
    "verifiedBy": "wikidata"
   },
@@ -5806,6 +5939,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Fortification_wall_at_visapur.jpg/960px-Fortification_wall_at_visapur.jpg",
     "file": "Fortification_wall_at_visapur.jpg"
    },
+   "commons": "Visapur Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Visapur_Fort",
    "verifiedBy": "wikidata"
   },
@@ -5826,6 +5960,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Jivdhan_fort.jpg/960px-Jivdhan_fort.jpg",
     "file": "Jivdhan_fort.jpg"
    },
+   "commons": "Jivdhan Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Jivdhan",
    "verifiedBy": "wikidata"
   },
@@ -5842,6 +5977,7 @@
     18.05,
     73.7333
    ],
+   "commons": "Raireshwar",
    "wikipedia": "https://en.wikipedia.org/wiki/Raireshwar",
    "verifiedBy": "wikidata"
   },
@@ -5861,6 +5997,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Chaturshringi-TempleGates.jpg",
     "file": "Chaturshringi-TempleGates.jpg"
    },
+   "commons": "Chaturshringi Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Chaturshringi_Temple",
    "verifiedBy": "wikidata"
   },
@@ -5880,6 +6017,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/KasbaganpatiMandir.JPG/960px-KasbaganpatiMandir.JPG",
     "file": "KasbaganpatiMandir.JPG"
    },
+   "commons": "Kasba Ganpati temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Kasba_Ganapati",
    "verifiedBy": "wikidata"
   },
@@ -5899,6 +6037,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Khandoba_temple_Pune.jpg/960px-Khandoba_temple_Pune.jpg",
     "file": "Khandoba_temple_Pune.jpg"
    },
+   "commons": "Khandoba Temple, Jejuri",
    "wikipedia": "https://en.wikipedia.org/wiki/Khandoba_Temple%2C_Jejuri",
    "verifiedBy": "wikidata"
   },
@@ -5918,6 +6057,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Korigad_from_Lonavla.JPG/960px-Korigad_from_Lonavla.JPG",
     "file": "Korigad_from_Lonavla.JPG"
    },
+   "commons": "Korigad",
    "wikipedia": "https://en.wikipedia.org/wiki/Korigad",
    "verifiedBy": "wikidata"
   },
@@ -5936,6 +6076,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/9/97/Bhimasankar_group_Chaitya.jpg",
     "file": "Bhimasankar_group_Chaitya.jpg"
    },
+   "commons": "Manmodi",
    "wikipedia": "https://en.wikipedia.org/wiki/Manmodi_Caves",
    "verifiedBy": "wikidata"
   },
@@ -5955,6 +6096,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Sarasbag_%2810%29.JPG/960px-Sarasbag_%2810%29.JPG",
     "file": "Sarasbag_(10).JPG"
    },
+   "commons": "Sarasbaug Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Sarasbaug_Ganpati",
    "verifiedBy": "wikidata"
   },
@@ -5973,6 +6115,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Kukadeshwar_Temple_01.jpg/960px-Kukadeshwar_Temple_01.jpg",
     "file": "Kukadeshwar_Temple_01.jpg"
    },
+   "commons": "Kukadeshwar Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Kukdeshwar_Temple",
    "verifiedBy": "wikidata"
   },
@@ -5992,6 +6135,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Khadakwasla_Dam_image.JPG/960px-Khadakwasla_Dam_image.JPG",
     "file": "Khadakwasla_Dam_image.JPG"
    },
+   "commons": "Khadakwasla Dam",
    "wikipedia": "https://en.wikipedia.org/wiki/Khadakwasla_Dam",
    "verifiedBy": "wikidata"
   },
@@ -6011,6 +6155,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Panshet_Dam.JPG/960px-Panshet_Dam.JPG",
     "file": "Panshet_Dam.JPG"
    },
+   "commons": "Panshet Dam",
    "wikipedia": "https://en.wikipedia.org/wiki/Panshet_Dam",
    "verifiedBy": "wikipedia"
   },
@@ -6031,6 +6176,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/MAHABALESWAR_LANDSCAPE.jpg/960px-MAHABALESWAR_LANDSCAPE.jpg",
     "file": "MAHABALESWAR_LANDSCAPE.jpg"
    },
+   "commons": "Mahabaleshwar",
    "wikipedia": "https://en.wikipedia.org/wiki/Mahabaleshwar",
    "verifiedBy": "wikidata",
    "best": {
@@ -6058,6 +6204,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Kaas-7016.jpg/960px-Kaas-7016.jpg",
     "file": "Kaas-7016.jpg"
    },
+   "commons": "Kaas Plateau",
    "wikipedia": "https://en.wikipedia.org/wiki/Kas_Plateau_Reserved_Forest",
    "verifiedBy": "wikidata",
    "best": {
@@ -6084,6 +6231,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Pratapgad_The_Fort_of_Valour.jpg/960px-Pratapgad_The_Fort_of_Valour.jpg",
     "file": "Pratapgad_The_Fort_of_Valour.jpg"
    },
+   "commons": "Pratapgad",
    "wikipedia": "https://en.wikipedia.org/wiki/Pratapgad",
    "verifiedBy": "wikidata"
   },
@@ -6116,6 +6264,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Main_Gateway%2C_Ajinkyatara_02.jpg/960px-Main_Gateway%2C_Ajinkyatara_02.jpg",
     "file": "Main_Gateway,_Ajinkyatara_02.jpg"
    },
+   "commons": "Ajinkyatara",
    "wikipedia": "https://en.wikipedia.org/wiki/Ajinkyatara",
    "verifiedBy": "wikidata"
   },
@@ -6135,6 +6284,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Sajjangad_entrance.jpg/960px-Sajjangad_entrance.jpg",
     "file": "Sajjangad_entrance.jpg"
    },
+   "commons": "Sajjangad",
    "wikipedia": "https://en.wikipedia.org/wiki/Sajjangad",
    "verifiedBy": "wikidata"
   },
@@ -6173,6 +6323,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/9/96/Yamai.jpg",
     "file": "Yamai.jpg"
    },
+   "commons": "Yamai Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Yamai_Temple",
    "verifiedBy": "wikidata"
   },
@@ -6192,6 +6343,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/%E0%B2%A4%E0%B3%8B%E0%B2%B6%E0%B3%86%E0%B2%98%E0%B2%B0%E0%B3%8D_%E0%B2%9C%E0%B2%B2%E0%B2%AA%E0%B2%BE%E0%B2%A4.JPG/960px-%E0%B2%A4%E0%B3%8B%E0%B2%B6%E0%B3%86%E0%B2%98%E0%B2%B0%E0%B3%8D_%E0%B2%9C%E0%B2%B2%E0%B2%AA%E0%B2%BE%E0%B2%A4.JPG",
     "file": "ತೋಶೆಘರ್_ಜಲಪಾತ.JPG"
    },
+   "commons": "Thoseghar Falls",
    "wikipedia": "https://en.wikipedia.org/wiki/Thoseghar_Waterfalls",
    "verifiedBy": "wikipedia",
    "best": {
@@ -6221,6 +6373,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Panchghani_Hill.jpg/960px-Panchghani_Hill.jpg",
     "file": "Panchghani_Hill.jpg"
    },
+   "commons": "Panchgani",
    "wikipedia": "https://en.wikipedia.org/wiki/Panchgani",
    "verifiedBy": "wikidata",
    "best": {
@@ -6248,6 +6401,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Water_being_released_from_the_gates_of_Koyana_Dam_in_Satara_district%2C_Maharashtra%2C_India.jpg/960px-Water_being_released_from_the_gates_of_Koyana_Dam_in_Satara_district%2C_Maharashtra%2C_India.jpg",
     "file": "Water_being_released_from_the_gates_of_Koyana_Dam_in_Satara_district,_Maharashtra,_India.jpg"
    },
+   "commons": "Koyna Dam",
    "wikipedia": "https://en.wikipedia.org/wiki/Koyna_Dam",
    "verifiedBy": "wikipedia"
   },
@@ -6300,6 +6454,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Vajrai.jpg/960px-Vajrai.jpg",
     "file": "Vajrai.jpg"
    },
+   "commons": "Vajrai Waterfall",
    "wikipedia": "https://en.wikipedia.org/wiki/Vajrai_Waterfall",
    "verifiedBy": "wikipedia"
   },
@@ -6320,6 +6475,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Kamalgad_Fort.jpg/960px-Kamalgad_Fort.jpg",
     "file": "Kamalgad_Fort.jpg"
    },
+   "commons": "Kamalgad Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Kamalgad",
    "verifiedBy": "wikidata"
   },
@@ -6456,6 +6612,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Oriental_Garden_Lizard_or_Bloodsucker.jpg/960px-Oriental_Garden_Lizard_or_Bloodsucker.jpg",
     "file": "Oriental_Garden_Lizard_or_Bloodsucker.jpg"
    },
+   "commons": "Chandoli National Park",
    "wikipedia": "https://en.wikipedia.org/wiki/Chandoli_National_Park",
    "verifiedBy": "wikipedia"
   },
@@ -6559,6 +6716,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Mahalaxmi_Temple%2C_Kolhapur.jpg/960px-Mahalaxmi_Temple%2C_Kolhapur.jpg",
     "file": "Mahalaxmi_Temple,_Kolhapur.jpg"
    },
+   "commons": "Mahalakshmi Temple, Kolhapur",
    "wikipedia": "https://en.wikipedia.org/wiki/Mahalakshmi_Temple%2C_Kolhapur",
    "verifiedBy": "wikidata"
   },
@@ -6578,6 +6736,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Teen_darwaza_panhala.jpg/960px-Teen_darwaza_panhala.jpg",
     "file": "Teen_darwaza_panhala.jpg"
    },
+   "commons": "Panhala Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Panhala_Fort",
    "verifiedBy": "wikidata"
   },
@@ -6597,6 +6756,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/KhidrapurTemple.JPG/960px-KhidrapurTemple.JPG",
     "file": "KhidrapurTemple.JPG"
    },
+   "commons": "Kopeshwar temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Kopeshwar_Temple",
    "verifiedBy": "wikidata"
   },
@@ -6616,6 +6776,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/Jyotiba1.jpg",
     "file": "Jyotiba1.jpg"
    },
+   "commons": "Jyotiba Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Jyotiba_Temple",
    "verifiedBy": "wikidata"
   },
@@ -6631,6 +6792,7 @@
     16.3848,
     73.9553
    ],
+   "commons": "Radhanagari Wildlife Sanctuary",
    "wikipedia": "https://en.wikipedia.org/wiki/Radhanagari_Wildlife_Sanctuary",
    "verifiedBy": "wikidata"
   },
@@ -6650,6 +6812,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Kolhapur_New_Palace.jpg/960px-Kolhapur_New_Palace.jpg",
     "file": "Kolhapur_New_Palace.jpg"
    },
+   "commons": "New Palace, Kolhapur",
    "wikipedia": "https://en.wikipedia.org/wiki/New_Palace%2C_Kolhapur",
    "verifiedBy": "wikidata"
   },
@@ -6704,6 +6867,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Surviving_Structure_on_Vishalgad.jpg/960px-Surviving_Structure_on_Vishalgad.jpg",
     "file": "Surviving_Structure_on_Vishalgad.jpg"
    },
+   "commons": "Vishalgad",
    "wikipedia": "https://en.wikipedia.org/wiki/Vishalgad",
    "verifiedBy": "wikidata"
   },
@@ -6723,6 +6887,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Kolhapur_Mahadwar_BhavaniMandap.JPG/960px-Kolhapur_Mahadwar_BhavaniMandap.JPG",
     "file": "Kolhapur_Mahadwar_BhavaniMandap.JPG"
    },
+   "commons": "Bhavani Mandap",
    "wikipedia": "https://en.wikipedia.org/wiki/Bhavani_Mandap",
    "verifiedBy": "wikidata"
   },
@@ -6758,6 +6923,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Gagagngad.jpg/960px-Gagagngad.jpg",
     "file": "Gagagngad.jpg"
    },
+   "commons": "Gaganbavda (Kolhapur)",
    "wikipedia": "https://en.wikipedia.org/wiki/Gaganbawada",
    "verifiedBy": "wikidata"
   },
@@ -6776,6 +6942,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Shalini_Palace.jpg/960px-Shalini_Palace.jpg",
     "file": "Shalini_Palace.jpg"
    },
+   "commons": "Shalini Palace",
    "wikipedia": "https://en.wikipedia.org/wiki/Shalini_Palace",
    "verifiedBy": "wikidata"
   },
@@ -6870,6 +7037,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Pandharpur_Vithoba_temple.jpg",
     "file": "Pandharpur_Vithoba_temple.jpg"
    },
+   "commons": "Pandharpur",
    "wikipedia": "https://en.wikipedia.org/wiki/Pandharpur",
    "verifiedBy": "wikidata"
   },
@@ -6888,6 +7056,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Siddheshwar_temple_02.JPG/960px-Siddheshwar_temple_02.JPG",
     "file": "Siddheshwar_temple_02.JPG"
    },
+   "commons": "Siddheshwar Temple, Solapur",
    "wikipedia": "https://en.wikipedia.org/wiki/Siddheshwar_Temple%2C_Solapur",
    "verifiedBy": "wikidata"
   },
@@ -6907,6 +7076,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Hatti_Darwaja.jpg/960px-Hatti_Darwaja.jpg",
     "file": "Hatti_Darwaja.jpg"
    },
+   "commons": "Solapur Bhuikot Killa",
    "wikipedia": "https://en.wikipedia.org/wiki/Solapur_Bhuikot_Killa",
    "verifiedBy": "wikidata"
   },
@@ -6956,6 +7126,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/5/57/Great_Indian_Bustard_in_newly_opened_area.jpg",
     "file": "Great_Indian_Bustard_in_newly_opened_area.jpg"
    },
+   "commons": "Great Indian Bustard Sanctuary",
    "wikipedia": "https://en.wikipedia.org/wiki/Great_Indian_Bustard_Sanctuary",
    "verifiedBy": "wikipedia"
   },
@@ -6990,6 +7161,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Upstream_of_the_Bhima_Dam_and_reservoir.jpg/960px-Upstream_of_the_Bhima_Dam_and_reservoir.jpg",
     "file": "Upstream_of_the_Bhima_Dam_and_reservoir.jpg"
    },
+   "commons": "Ujjani Dam",
    "wikipedia": "https://en.wikipedia.org/wiki/Ujjani_Dam",
    "verifiedBy": "wikipedia"
   },
@@ -7010,6 +7182,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Trimbakeshwar_Temple-Nashik-Maharashtra-1.jpg/960px-Trimbakeshwar_Temple-Nashik-Maharashtra-1.jpg",
     "file": "Trimbakeshwar_Temple-Nashik-Maharashtra-1.jpg"
    },
+   "commons": "Trimbakeshwar Shiva Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Trimbakeshwar_Temple",
    "verifiedBy": "wikidata"
   },
@@ -7029,6 +7202,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Nasik_cave_17.jpg",
     "file": "Nasik_cave_17.jpg"
    },
+   "commons": "Nasik Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Nasik_Caves",
    "verifiedBy": "wikidata"
   },
@@ -7049,6 +7223,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Goddess_Saptashrungi_Devi_Temple1.jpg/960px-Goddess_Saptashrungi_Devi_Temple1.jpg",
     "file": "Goddess_Saptashrungi_Devi_Temple1.jpg"
    },
+   "commons": "Saptashrungi",
    "wikipedia": "https://en.wikipedia.org/wiki/Saptashrungi",
    "verifiedBy": "wikidata"
   },
@@ -7068,6 +7243,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Hariharfort.jpg/960px-Hariharfort.jpg",
     "file": "Hariharfort.jpg"
    },
+   "commons": "Harihar Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Harihar_fort",
    "verifiedBy": "wikidata"
   },
@@ -7087,6 +7263,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Kalaram_Temple_Nashik_Corner_View.jpg/960px-Kalaram_Temple_Nashik_Corner_View.jpg",
     "file": "Kalaram_Temple_Nashik_Corner_View.jpg"
    },
+   "commons": "Kalaram Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Kalaram_Temple",
    "verifiedBy": "wikipedia"
   },
@@ -7107,6 +7284,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Shri_1008_Rishabdev_Bhagwan_108_idol_at_Mangi_Tungi.jpg/960px-Shri_1008_Rishabdev_Bhagwan_108_idol_at_Mangi_Tungi.jpg",
     "file": "Shri_1008_Rishabdev_Bhagwan_108_idol_at_Mangi_Tungi.jpg"
    },
+   "commons": "Statue of Ahimsa",
    "wikipedia": "https://en.wikipedia.org/wiki/Statue_of_Ahimsa",
    "verifiedBy": "wikidata"
   },
@@ -7123,6 +7301,7 @@
     20.008,
     74.007
    ],
+   "commons": "Nandur Madhmeshwar Bird Sanctuary",
    "wikipedia": "https://en.wikipedia.org/wiki/Nandur_Madhmeshwar_Bird_Sanctuary",
    "verifiedBy": "wikidata"
   },
@@ -7156,6 +7335,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Mangi_Tungi_twin_pinnacle.jpg/960px-Mangi_Tungi_twin_pinnacle.jpg",
     "file": "Mangi_Tungi_twin_pinnacle.jpg"
    },
+   "commons": "Mangi-Tungi",
    "wikipedia": "https://en.wikipedia.org/wiki/Mangi-Tungi",
    "verifiedBy": "wikidata"
   },
@@ -7175,6 +7355,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Ankai_Fort14.jpg/960px-Ankai_Fort14.jpg",
     "file": "Ankai_Fort14.jpg"
    },
+   "commons": "Ankai Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Ankai_Fort",
    "verifiedBy": "wikidata"
   },
@@ -7194,6 +7375,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Gondeshwar_temple.jpg/960px-Gondeshwar_temple.jpg",
     "file": "Gondeshwar_temple.jpg"
    },
+   "commons": "Gondeshwar Temple, Sinnar",
    "wikipedia": "https://en.wikipedia.org/wiki/Gondeshwar_Temple%2C_Sinnar",
    "verifiedBy": "wikidata"
   },
@@ -7232,6 +7414,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Salher_Fort.jpg/960px-Salher_Fort.jpg",
     "file": "Salher_Fort.jpg"
    },
+   "commons": "Salher Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Salher",
    "verifiedBy": "wikipedia"
   },
@@ -7251,6 +7434,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/0226_Hill_Fort_of_Galnah_%281804%29.jpg/960px-0226_Hill_Fort_of_Galnah_%281804%29.jpg",
     "file": "0226_Hill_Fort_of_Galnah_(1804).jpg"
    },
+   "commons": "Galna fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Galna_Fort",
    "verifiedBy": "wikidata"
   },
@@ -7284,6 +7468,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Gargoti_Museum_Precious_stone.jpg/960px-Gargoti_Museum_Precious_stone.jpg",
     "file": "Gargoti_Museum_Precious_stone.jpg"
    },
+   "commons": "Gargoti Museum",
    "wikipedia": "https://en.wikipedia.org/wiki/Gargoti_Museum",
    "verifiedBy": "wikipedia"
   },
@@ -7300,6 +7485,7 @@
     20.7814,
     74.0639
    ],
+   "commons": "Rohida Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Mulher",
    "verifiedBy": "wikidata"
   },
@@ -7318,6 +7504,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Chandwad_Fort.jpg/960px-Chandwad_Fort.jpg",
     "file": "Chandwad_Fort.jpg"
    },
+   "commons": "Chandwad Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Chandwad_fort",
    "verifiedBy": "wikidata"
   },
@@ -7337,6 +7524,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Bhandardara_lake.jpg/960px-Bhandardara_lake.jpg",
     "file": "Bhandardara_lake.jpg"
    },
+   "commons": "Bhandardara",
    "wikipedia": "https://en.wikipedia.org/wiki/Bhandardara",
    "verifiedBy": "wikipedia"
   },
@@ -7357,6 +7545,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Igatpuri_waterfall.jpg/960px-Igatpuri_waterfall.jpg",
     "file": "Igatpuri_waterfall.jpg"
    },
+   "commons": "Igatpuri",
    "wikipedia": "https://en.wikipedia.org/wiki/Igatpuri",
    "verifiedBy": "wikidata"
   },
@@ -7376,6 +7565,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Alang_Traverse_1.jpg/960px-Alang_Traverse_1.jpg",
     "file": "Alang_Traverse_1.jpg"
    },
+   "commons": "Alang Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Alang_Fort",
    "verifiedBy": "wikidata"
   },
@@ -7395,6 +7585,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Kulangfort.jpg/960px-Kulangfort.jpg",
     "file": "Kulangfort.jpg"
    },
+   "commons": "Kulang Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Kulang_Fort",
    "verifiedBy": "wikidata"
   },
@@ -7414,6 +7605,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Malegaon_Malegaon_fortFort.jpg/960px-Malegaon_Malegaon_fortFort.jpg",
     "file": "Malegaon_Malegaon_fortFort.jpg"
    },
+   "commons": "Malegaon Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Malegaon_Fort",
    "verifiedBy": "wikidata"
   },
@@ -7432,6 +7624,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Gajpanth_Jain_Mandir.jpg/960px-Gajpanth_Jain_Mandir.jpg",
     "file": "Gajpanth_Jain_Mandir.jpg"
    },
+   "commons": "Gajpanth",
    "wikipedia": "https://en.wikipedia.org/wiki/Gajpanth",
    "verifiedBy": "wikidata"
   },
@@ -7509,6 +7702,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Shani_Shignapur_renowned_for_its_Shani_temple.jpg/960px-Shani_Shignapur_renowned_for_its_Shani_temple.jpg",
     "file": "Shani_Shignapur_renowned_for_its_Shani_temple.jpg"
    },
+   "commons": "Shani Shingnapur",
    "wikipedia": "https://en.wikipedia.org/wiki/Shani_Shingnapur",
    "verifiedBy": "wikidata"
   },
@@ -7559,6 +7753,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Kalbhairav_pinnacle_Scj.jpg/960px-Kalbhairav_pinnacle_Scj.jpg",
     "file": "Kalbhairav_pinnacle_Scj.jpg"
    },
+   "commons": "Harishchandragad",
    "wikipedia": "https://en.wikipedia.org/wiki/Harishchandragad",
    "verifiedBy": "wikidata"
   },
@@ -7578,6 +7773,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Ahmednagar_Fort_Main_Gate.jpg/960px-Ahmednagar_Fort_Main_Gate.jpg",
     "file": "Ahmednagar_Fort_Main_Gate.jpg"
    },
+   "commons": "Ahmednagar Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Ahmednagar_Fort",
    "verifiedBy": "wikidata"
   },
@@ -7597,6 +7793,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/Amruteshwar_Temple_Entrance_Ratangad.JPG/960px-Amruteshwar_Temple_Entrance_Ratangad.JPG",
     "file": "Amruteshwar_Temple_Entrance_Ratangad.JPG"
    },
+   "commons": "Amruteshwar Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Amruteshwar_Temple",
    "verifiedBy": "wikidata"
   },
@@ -7618,6 +7815,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Kalasubai_from_base.jpg/960px-Kalasubai_from_base.jpg",
     "file": "Kalasubai_from_base.jpg"
    },
+   "commons": "Kalsubai",
    "wikipedia": "https://en.wikipedia.org/wiki/Kalsubai",
    "verifiedBy": "wikipedia"
   },
@@ -7638,6 +7836,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Nighoj_potoles_river.jpg/960px-Nighoj_potoles_river.jpg",
     "file": "Nighoj_potoles_river.jpg"
    },
+   "commons": "Nighoj",
    "wikipedia": "https://en.wikipedia.org/wiki/Nighoj",
    "verifiedBy": "wikidata"
   },
@@ -7659,6 +7858,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Siddhi_Vinayak_at_Siddhatek.jpg/960px-Siddhi_Vinayak_at_Siddhatek.jpg",
     "file": "Siddhi_Vinayak_at_Siddhatek.jpg"
    },
+   "commons": "Siddhivinayak Temple, Siddhatek",
    "wikipedia": "https://en.wikipedia.org/wiki/Siddhivinayak_Temple%2C_Siddhatek",
    "verifiedBy": "wikipedia"
   },
@@ -7675,6 +7875,7 @@
     19.5514,
     74.9278
    ],
+   "commons": "Nevasa, Ahmednagar",
    "wikipedia": "https://en.wikipedia.org/wiki/Nevasa",
    "verifiedBy": "wikidata"
   },
@@ -7693,6 +7894,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Tomb_Of_Salabat_Khan_II_.jpg/960px-Tomb_Of_Salabat_Khan_II_.jpg",
     "file": "Tomb_Of_Salabat_Khan_II_.jpg"
    },
+   "commons": "Tomb of Salabat Khan II",
    "wikipedia": "https://en.wikipedia.org/wiki/Tomb_of_Salabat_Khan_II",
    "verifiedBy": "wikidata"
   },
@@ -7711,6 +7913,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Meher_baba_tomb.jpg",
     "file": "Meher_baba_tomb.jpg"
    },
+   "commons": "Meherabad",
    "wikipedia": "https://en.wikipedia.org/wiki/Meherabad",
    "verifiedBy": "wikidata"
   },
@@ -7727,6 +7930,7 @@
     18.659,
     75.468
    ],
+   "commons": "Kharda",
    "wikipedia": "https://en.wikipedia.org/wiki/Kharda",
    "verifiedBy": "wikidata"
   },
@@ -7746,6 +7950,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Rameshvara_Hindu_Temple_ruins%2C_Pedgaon_Maharashtra.jpg",
     "file": "Rameshvara_Hindu_Temple_ruins,_Pedgaon_Maharashtra.jpg"
    },
+   "commons": "Bahadurgad",
    "wikipedia": "https://en.wikipedia.org/wiki/Bahadur_Fort",
    "verifiedBy": "wikidata"
   },
@@ -7765,6 +7970,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Ratangad_fort_from_ratanwadi.jpg/960px-Ratangad_fort_from_ratanwadi.jpg",
     "file": "Ratangad_fort_from_ratanwadi.jpg"
    },
+   "commons": "Ratangad",
    "wikipedia": "https://en.wikipedia.org/wiki/Ratangad",
    "verifiedBy": "wikipedia"
   },
@@ -7814,6 +8020,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Cavalry_Tank_museum._%2830527888443%29.jpg/960px-Cavalry_Tank_museum._%2830527888443%29.jpg",
     "file": "Cavalry_Tank_museum._(30527888443).jpg"
    },
+   "commons": "Cavalry Tank Museum, Ahmednagar",
    "wikipedia": "https://en.wikipedia.org/wiki/Cavalry_Tank_Museum%2C_Ahmednagar",
    "verifiedBy": "wikidata"
   },
@@ -7833,6 +8040,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Faria_Bagh_Palace_of_second_Nizam.JPG/960px-Faria_Bagh_Palace_of_second_Nizam.JPG",
     "file": "Faria_Bagh_Palace_of_second_Nizam.JPG"
    },
+   "commons": "Faria Bagh",
    "wikipedia": "https://en.wikipedia.org/wiki/Farah_Bagh",
    "verifiedBy": "wikidata"
   },
@@ -7852,6 +8060,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/3/31/Laling_fort.JPG",
     "file": "Laling_fort.JPG"
    },
+   "commons": "Laling fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Laling_fort",
    "verifiedBy": "wikidata"
   },
@@ -7872,6 +8081,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Thalner_Fort.jpg/960px-Thalner_Fort.jpg",
     "file": "Thalner_Fort.jpg"
    },
+   "commons": "Thalner Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Thalner",
    "verifiedBy": "wikidata"
   },
@@ -7974,6 +8184,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Mehrun_Lake.jpg/960px-Mehrun_Lake.jpg",
     "file": "Mehrun_Lake.jpg"
    },
+   "commons": "Mehrun Lake",
    "wikipedia": "https://en.wikipedia.org/wiki/Mehrun_Lake",
    "verifiedBy": "wikidata"
   },
@@ -7989,6 +8200,7 @@
     21.382,
     75.876
    ],
+   "commons": "Yawal Wildlife Sanctuary",
    "wikipedia": "https://en.wikipedia.org/wiki/Yawal_Wildlife_Sanctuary",
    "verifiedBy": "wikidata"
   },
@@ -8077,6 +8289,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Changdev_Temple_Muktainagar_Dist_Jalgaon_P1220210_%282%29.JPG/960px-Changdev_Temple_Muktainagar_Dist_Jalgaon_P1220210_%282%29.JPG",
     "file": "Changdev_Temple_Muktainagar_Dist_Jalgaon_P1220210_(2).JPG"
    },
+   "commons": "Muktainagar",
    "wikipedia": "https://en.wikipedia.org/wiki/Muktainagar",
    "verifiedBy": "wikidata"
   },
@@ -8114,6 +8327,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/D_N_College_Faizpur_21.jpg/960px-D_N_College_Faizpur_21.jpg",
     "file": "D_N_College_Faizpur_21.jpg"
    },
+   "commons": "Faizpur",
    "wikipedia": "https://en.wikipedia.org/wiki/Faizpur",
    "verifiedBy": "wikidata"
   },
@@ -8162,6 +8376,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/d/da/Datt_Mandir_Sarangkheda.jpg",
     "file": "Datt_Mandir_Sarangkheda.jpg"
    },
+   "commons": "Sarangkheda",
    "wikipedia": "https://en.wikipedia.org/wiki/Sarangkheda",
    "verifiedBy": "wikipedia"
   },
@@ -8181,6 +8396,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Ajanta_%2863%29.jpg/960px-Ajanta_%2863%29.jpg",
     "file": "Ajanta_(63).jpg"
    },
+   "commons": "Ajanta Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Ajanta_Caves",
    "verifiedBy": "wikidata"
   },
@@ -8196,6 +8412,7 @@
     20.0268,
     75.1771
    ],
+   "commons": "Ellora Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Ellora_Caves",
    "verifiedBy": "wikidata"
   },
@@ -8215,6 +8432,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/78/The_Tomb_of_Dilras_Banu_Begum.jpg/960px-The_Tomb_of_Dilras_Banu_Begum.jpg",
     "file": "The_Tomb_of_Dilras_Banu_Begum.jpg"
    },
+   "commons": "Bibi Ka Maqbara",
    "wikipedia": "https://en.wikipedia.org/wiki/Bibi_Ka_Maqbara",
    "verifiedBy": "wikidata"
   },
@@ -8234,6 +8452,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Daulatabad_Fort_a_view.JPG/960px-Daulatabad_Fort_a_view.JPG",
     "file": "Daulatabad_Fort_a_view.JPG"
    },
+   "commons": "Daulatabad Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Daulatabad_Fort",
    "verifiedBy": "wikidata"
   },
@@ -8253,6 +8472,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Grishneshwar_temple_in_Aurangabad_district.jpg/960px-Grishneshwar_temple_in_Aurangabad_district.jpg",
     "file": "Grishneshwar_temple_in_Aurangabad_district.jpg"
    },
+   "commons": "Grishneshwar Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Ghrishneshwar_Temple",
    "verifiedBy": "wikidata"
   },
@@ -8272,6 +8492,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/en/f/fc/Kailash_temple_%28Ellora_cave_no_15%29_at_Verul.png",
     "file": "Kailash_temple_(Ellora_cave_no_15)_at_Verul.png"
    },
+   "commons": "Kailasa Temple, Ellora",
    "wikipedia": "https://en.wikipedia.org/wiki/Kailasa_Temple%2C_Ellora",
    "verifiedBy": "wikidata"
   },
@@ -8291,6 +8512,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/4_Pitalkhora_overview.jpg/960px-4_Pitalkhora_overview.jpg",
     "file": "4_Pitalkhora_overview.jpg"
    },
+   "commons": "Pitalkhora Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Pitalkhora",
    "verifiedBy": "wikidata"
   },
@@ -8310,6 +8532,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/1_Hinayana_style_Aurangabad_Buddhist_Cave_with_stupa.jpg/960px-1_Hinayana_style_Aurangabad_Buddhist_Cave_with_stupa.jpg",
     "file": "1_Hinayana_style_Aurangabad_Buddhist_Cave_with_stupa.jpg"
    },
+   "commons": "Aurangabad Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Aurangabad_Caves",
    "verifiedBy": "wikidata"
   },
@@ -8347,6 +8570,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Tomb_of_Aurangzeb_at_Khuldabad%2C_Aurangabad%2C_1850s.jpg/960px-Tomb_of_Aurangzeb_at_Khuldabad%2C_Aurangabad%2C_1850s.jpg",
     "file": "Tomb_of_Aurangzeb_at_Khuldabad,_Aurangabad,_1850s.jpg"
    },
+   "commons": "Khuldabad",
    "wikipedia": "https://en.wikipedia.org/wiki/Khuldabad",
    "verifiedBy": "wikidata"
   },
@@ -8366,6 +8590,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Panchakki_fountain%2C_Aurangabad.jpg/960px-Panchakki_fountain%2C_Aurangabad.jpg",
     "file": "Panchakki_fountain,_Aurangabad.jpg"
    },
+   "commons": "Panchakki",
    "wikipedia": "https://en.wikipedia.org/wiki/Panchakki",
    "verifiedBy": "wikidata"
   },
@@ -8385,6 +8610,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Soneri_Mahal%2C_Aurangabad.jpg/960px-Soneri_Mahal%2C_Aurangabad.jpg",
     "file": "Soneri_Mahal,_Aurangabad.jpg"
    },
+   "commons": "Soneri Mahal",
    "wikipedia": "https://en.wikipedia.org/wiki/Soneri_Mahal",
    "verifiedBy": "wikidata"
   },
@@ -8404,6 +8630,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Jayakwadi_Dam.jpg/960px-Jayakwadi_Dam.jpg",
     "file": "Jayakwadi_Dam.jpg"
    },
+   "commons": "Jayakwadi Dam",
    "wikipedia": "https://en.wikipedia.org/wiki/Jayakwadi_Dam",
    "verifiedBy": "wikipedia"
   },
@@ -8470,6 +8697,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Tomb_Aurangzeb.jpg/960px-Tomb_Aurangzeb.jpg",
     "file": "Tomb_Aurangzeb.jpg"
    },
+   "commons": "Tomb of Aurangzeb",
    "wikipedia": "https://en.wikipedia.org/wiki/Tomb_of_Aurangzeb",
    "verifiedBy": "wikidata"
   },
@@ -8488,6 +8716,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Bhadkal_Gate.JPG/960px-Bhadkal_Gate.JPG",
     "file": "Bhadkal_Gate.JPG"
    },
+   "commons": "Bhadkal Gate",
    "wikipedia": "https://en.wikipedia.org/wiki/Bhadkal_Gate",
    "verifiedBy": "wikidata"
   },
@@ -8568,6 +8797,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Entrance_and_Exit.jpg/960px-Entrance_and_Exit.jpg",
     "file": "Entrance_and_Exit.jpg"
    },
+   "commons": "Antur Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Antur_Fort",
    "verifiedBy": "wikidata"
   },
@@ -8597,6 +8827,7 @@
     19.8433,
     75.8919
    ],
+   "commons": "Jalna Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Jalna_Fort",
    "verifiedBy": "wikipedia"
   },
@@ -8651,6 +8882,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Kankaleshwar_temple_beed.jpg",
     "file": "Kankaleshwar_temple_beed.jpg"
    },
+   "commons": "Kankaleshwar Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Kankaleshwar_Temple",
    "verifiedBy": "wikidata"
   },
@@ -8671,6 +8903,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/95/Ambajogai_Yogeshwari_Temple.jpg/960px-Ambajogai_Yogeshwari_Temple.jpg",
     "file": "Ambajogai_Yogeshwari_Temple.jpg"
    },
+   "commons": "Ambajogai",
    "wikipedia": "https://en.wikipedia.org/wiki/Ambajogai",
    "verifiedBy": "wikidata"
   },
@@ -8691,6 +8924,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Parli_Vaijnath_Town_in_AP_W_IMG_7922.jpg/960px-Parli_Vaijnath_Town_in_AP_W_IMG_7922.jpg",
     "file": "Parli_Vaijnath_Town_in_AP_W_IMG_7922.jpg"
    },
+   "commons": "Parli",
    "wikipedia": "https://en.wikipedia.org/wiki/Parli_Vaijnath",
    "verifiedBy": "wikidata"
   },
@@ -8710,6 +8944,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Raje_Shahaji_Mahadwar_of_Tulja_Bhavani_Temple.jpg/960px-Raje_Shahaji_Mahadwar_of_Tulja_Bhavani_Temple.jpg",
     "file": "Raje_Shahaji_Mahadwar_of_Tulja_Bhavani_Temple.jpg"
    },
+   "commons": "Tulja Bhavani Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Tulja_Bhavani_Temple",
    "verifiedBy": "wikidata"
   },
@@ -8729,6 +8964,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Dharashiv_cave_main_hall_front.jpg/960px-Dharashiv_cave_main_hall_front.jpg",
     "file": "Dharashiv_cave_main_hall_front.jpg"
    },
+   "commons": "Dharashiv Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Dharashiv_Caves",
    "verifiedBy": "wikidata"
   },
@@ -8748,6 +8984,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Main_Entrance%2C_Naldurg_fort.jpg/960px-Main_Entrance%2C_Naldurg_fort.jpg",
     "file": "Main_Entrance,_Naldurg_fort.jpg"
    },
+   "commons": "Naldurg Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Naldurg_Fort",
    "verifiedBy": "wikidata"
   },
@@ -8767,6 +9004,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Mahadarwaza_of_Paranda_fort.jpg/960px-Mahadarwaza_of_Paranda_fort.jpg",
     "file": "Mahadarwaza_of_Paranda_fort.jpg"
    },
+   "commons": "Paranda Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Paranda_Fort",
    "verifiedBy": "wikidata"
   },
@@ -8798,6 +9036,7 @@
     18.3213,
     76.133
    ],
+   "commons": "Ter, Maharashtra",
    "wikipedia": "https://en.wikipedia.org/wiki/Ter%2C_Maharashtra",
    "verifiedBy": "wikidata"
   },
@@ -8816,6 +9055,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/5/58/Trivikram_Temple_Ter_1.jpg",
     "file": "Trivikram_Temple_Ter_1.jpg"
    },
+   "commons": "Trivikrama Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Trivikrama_Temple",
    "verifiedBy": "wikidata"
   },
@@ -8899,6 +9139,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Takht_Sri_Hazur_Sahib.jpg",
     "file": "Takht_Sri_Hazur_Sahib.jpg"
    },
+   "commons": "Hazur Sahib",
    "wikipedia": "https://en.wikipedia.org/wiki/Hazur_Sahib",
    "verifiedBy": "wikidata"
   },
@@ -8918,6 +9159,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Indien2012_1301_Kandhar.jpg/960px-Indien2012_1301_Kandhar.jpg",
     "file": "Indien2012_1301_Kandhar.jpg"
    },
+   "commons": "Kandhar Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Kandhar_Fort",
    "verifiedBy": "wikidata"
   },
@@ -8938,6 +9180,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Indien2012_1356_Mahur_Fort.jpg/960px-Indien2012_1356_Mahur_Fort.jpg",
     "file": "Indien2012_1356_Mahur_Fort.jpg"
    },
+   "commons": "Mahur Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Mahur_Fort",
    "verifiedBy": "wikidata"
   },
@@ -8959,6 +9202,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Renukadevi_mahur.JPG/960px-Renukadevi_mahur.JPG",
     "file": "Renukadevi_mahur.JPG"
    },
+   "commons": "Mahur, Maharashtra",
    "wikipedia": "https://en.wikipedia.org/wiki/Mahur%2C_Maharashtra",
    "verifiedBy": "wikidata"
   },
@@ -9043,6 +9287,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Aundha_Nagnath_Shiva_Temple_Jyotirlinga_Maharashtra_India.jpg/960px-Aundha_Nagnath_Shiva_Temple_Jyotirlinga_Maharashtra_India.jpg",
     "file": "Aundha_Nagnath_Shiva_Temple_Jyotirlinga_Maharashtra_India.jpg"
    },
+   "commons": "Aundha Nagnath Shiva Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Aundha_Nagnath_Temple",
    "verifiedBy": "wikidata"
   },
@@ -9097,6 +9342,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Dheekshabhoomi_in_Nagpur.jpg/960px-Dheekshabhoomi_in_Nagpur.jpg",
     "file": "Dheekshabhoomi_in_Nagpur.jpg"
    },
+   "commons": "Deekshabhoomi",
    "wikipedia": "https://en.wikipedia.org/wiki/Deekshabhoomi",
    "verifiedBy": "wikidata"
   },
@@ -9117,6 +9363,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Spire_of_Main_Shrine_-_Ram_Temple%2C_Ramtek.JPG/960px-Spire_of_Main_Shrine_-_Ram_Temple%2C_Ramtek.JPG",
     "file": "Spire_of_Main_Shrine_-_Ram_Temple,_Ramtek.JPG"
    },
+   "commons": "Ramtek",
    "wikipedia": "https://en.wikipedia.org/wiki/Ramtek",
    "verifiedBy": "wikidata"
   },
@@ -9136,6 +9383,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Gorewada_lake4.jpg/960px-Gorewada_lake4.jpg",
     "file": "Gorewada_lake4.jpg"
    },
+   "commons": "Gorewada Lake",
    "wikipedia": "https://en.wikipedia.org/wiki/Gorewada_Lake",
    "verifiedBy": "wikidata"
   },
@@ -9150,6 +9398,7 @@
     20.8356,
     79.5111
    ],
+   "commons": "Umred Karhandla Wildlife Sanctuary",
    "wikipedia": "https://en.wikipedia.org/wiki/Umred_Pauni_Karhandla_Wildlife_Sanctuary",
    "verifiedBy": "wikidata"
   },
@@ -9225,6 +9474,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/A_view_of_Maharajbag%2C_Nagpur.jpg/960px-A_view_of_Maharajbag%2C_Nagpur.jpg",
     "file": "A_view_of_Maharajbag,_Nagpur.jpg"
    },
+   "commons": "Maharajbag Zoo",
    "wikipedia": "https://en.wikipedia.org/wiki/Maharajbagh_Zoo",
    "verifiedBy": "wikidata"
   },
@@ -9244,6 +9494,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Gorewada_Zoo.png",
     "file": "Gorewada_Zoo.png"
    },
+   "commons": "Gorewada Rescue Centre",
    "wikipedia": "https://en.wikipedia.org/wiki/Gorewada_Zoo",
    "verifiedBy": "wikipedia"
   },
@@ -9260,6 +9511,7 @@
     21.4,
     79.25
    ],
+   "commons": "Mansar",
    "wikipedia": "https://en.wikipedia.org/wiki/Mansar%2C_India",
    "verifiedBy": "wikidata"
   },
@@ -9279,6 +9531,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Futala_Lake.jpg/960px-Futala_Lake.jpg",
     "file": "Futala_Lake.jpg"
    },
+   "commons": "Futala Lake",
    "wikipedia": "https://en.wikipedia.org/wiki/Futala_Lake",
    "verifiedBy": "wikipedia"
   },
@@ -9354,6 +9607,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Totaladoh_dam_-_panoramio.jpg/960px-Totaladoh_dam_-_panoramio.jpg",
     "file": "Totaladoh_dam_-_panoramio.jpg"
    },
+   "commons": "Totladoh Dam",
    "wikipedia": "https://en.wikipedia.org/wiki/Totladoh_Dam",
    "verifiedBy": "wikipedia"
   },
@@ -9373,6 +9627,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Adi_Nivas%2C_Sewagram_Ashram.JPG/960px-Adi_Nivas%2C_Sewagram_Ashram.JPG",
     "file": "Adi_Nivas,_Sewagram_Ashram.JPG"
    },
+   "commons": "Sevagram",
    "wikipedia": "https://en.wikipedia.org/wiki/Sevagram",
    "verifiedBy": "wikidata"
   },
@@ -9388,6 +9643,7 @@
     20.9775,
     78.6758
    ],
+   "commons": "Bor Wildlife Sanctuary",
    "wikipedia": "https://en.wikipedia.org/wiki/Bor_Wildlife_Sanctuary",
    "verifiedBy": "wikidata"
   },
@@ -9408,6 +9664,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Hazrath_Fariduddin_Ganj_Shakkar_Chilla_Place.jpg/960px-Hazrath_Fariduddin_Ganj_Shakkar_Chilla_Place.jpg",
     "file": "Hazrath_Fariduddin_Ganj_Shakkar_Chilla_Place.jpg"
    },
+   "commons": "Wardha district",
    "wikipedia": "https://en.wikipedia.org/wiki/Wardha_district",
    "verifiedBy": "wikipedia"
   },
@@ -9437,6 +9694,7 @@
     20.78,
     79.63
    ],
+   "commons": "Pauni",
    "wikipedia": "https://en.wikipedia.org/wiki/Pauni",
    "verifiedBy": "wikidata"
   },
@@ -9456,6 +9714,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Nagzira_Tiger_By_Vijay_Phulwadhawa.jpg",
     "file": "Nagzira_Tiger_By_Vijay_Phulwadhawa.jpg"
    },
+   "commons": "Nawegaon National Park",
    "wikipedia": "https://en.wikipedia.org/wiki/Navegaon_National_Park",
    "verifiedBy": "wikidata"
   },
@@ -9494,6 +9753,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Nagzira_Tiger_By_Vijay_Phulwadhawa.jpg",
     "file": "Nagzira_Tiger_By_Vijay_Phulwadhawa.jpg"
    },
+   "commons": "Nagzira",
    "wikipedia": "https://en.wikipedia.org/wiki/Nagzira",
    "verifiedBy": "wikipedia"
   },
@@ -9513,6 +9773,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/At_Itiadoh_Dam_-_panoramio.jpg/960px-At_Itiadoh_Dam_-_panoramio.jpg",
     "file": "At_Itiadoh_Dam_-_panoramio.jpg"
    },
+   "commons": "Itiadoh Dam",
    "wikipedia": "https://en.wikipedia.org/wiki/Itiadoh_Dam",
    "verifiedBy": "wikidata"
   },
@@ -9532,6 +9793,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/da/Panthera_tigris_tigris_Tidoba_20150306.jpg/960px-Panthera_tigris_tigris_Tidoba_20150306.jpg",
     "file": "Panthera_tigris_tigris_Tidoba_20150306.jpg"
    },
+   "commons": "Tadoba Andhari Tiger Reserve",
    "wikipedia": "https://en.wikipedia.org/wiki/Tadoba_Andhari_Tiger_Reserve",
    "verifiedBy": "wikidata"
   },
@@ -9565,6 +9827,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Ghodazari.jpg",
     "file": "Ghodazari.jpg"
    },
+   "commons": "Ghodazari Wildlife Sanctuary",
    "wikipedia": "https://en.wikipedia.org/wiki/Ghodazari_Wildlife_Sanctuary",
    "verifiedBy": "wikidata"
   },
@@ -9632,6 +9895,7 @@
     19.674,
     79.125
    ],
+   "commons": "Manikgad Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Manikgad",
    "verifiedBy": "wikidata"
   },
@@ -9732,6 +9996,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Melghat_Tiger_Reserve.JPG/960px-Melghat_Tiger_Reserve.JPG",
     "file": "Melghat_Tiger_Reserve.JPG"
    },
+   "commons": "Melghat",
    "wikipedia": "https://en.wikipedia.org/wiki/Melghat",
    "verifiedBy": "wikidata"
   },
@@ -9751,6 +10016,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Gawilgarh_Fort_-_C.SHELARE.jpg",
     "file": "Gawilgarh_Fort_-_C.SHELARE.jpg"
    },
+   "commons": "Gawilghur",
    "wikipedia": "https://en.wikipedia.org/wiki/Gawilghur",
    "verifiedBy": "wikidata"
   },
@@ -9769,6 +10035,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Muktagiri_temples.jpg/960px-Muktagiri_temples.jpg",
     "file": "Muktagiri_temples.jpg"
    },
+   "commons": "Muktagiri",
    "wikipedia": "https://en.wikipedia.org/wiki/Muktagiri",
    "verifiedBy": "wikipedia"
   },
@@ -9846,6 +10113,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Upper_Wardha_Dam.jpg/960px-Upper_Wardha_Dam.jpg",
     "file": "Upper_Wardha_Dam.jpg"
    },
+   "commons": "Upper Wardha Dam",
    "wikipedia": "https://en.wikipedia.org/wiki/Upper_Wardha_Dam",
    "verifiedBy": "wikipedia"
   },
@@ -9866,6 +10134,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Narnala_fort.jpg/960px-Narnala_fort.jpg",
     "file": "Narnala_fort.jpg"
    },
+   "commons": "Narnala Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Narnala",
    "verifiedBy": "wikidata"
   },
@@ -9885,6 +10154,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Akola_Fort.png/960px-Akola_Fort.png",
     "file": "Akola_Fort.png"
    },
+   "commons": "Akola Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Akola_Fort",
    "verifiedBy": "wikidata"
   },
@@ -9904,6 +10174,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Balapur_fort.jpg/960px-Balapur_fort.jpg",
     "file": "Balapur_fort.jpg"
    },
+   "commons": "Balapur Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Balapur_Fort",
    "verifiedBy": "wikidata"
   },
@@ -9940,6 +10211,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/5/51/Karanja_Guru_Mandir.jpg",
     "file": "Karanja_Guru_Mandir.jpg"
    },
+   "commons": "Karanja Lad",
    "wikipedia": "https://en.wikipedia.org/wiki/Karanja_Lad",
    "verifiedBy": "wikidata"
   },
@@ -9977,6 +10249,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Lonar_Crater%2C_Panorama.jpg/960px-Lonar_Crater%2C_Panorama.jpg",
     "file": "Lonar_Crater,_Panorama.jpg"
    },
+   "commons": "Lonar Lake",
    "wikipedia": "https://en.wikipedia.org/wiki/Lonar_Lake",
    "verifiedBy": "wikidata"
   },
@@ -9997,6 +10270,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Gajanan_Maharaj_Temple_%2884134%29.jpg/960px-Gajanan_Maharaj_Temple_%2884134%29.jpg",
     "file": "Gajanan_Maharaj_Temple_(84134).jpg"
    },
+   "commons": "Shegaon",
    "wikipedia": "https://en.wikipedia.org/wiki/Shegaon",
    "verifiedBy": "wikidata"
   },
@@ -10094,6 +10368,7 @@
     "src": "https://upload.wikimedia.org/wikipedia/commons/5/51/Painganga-Wildlife-Sanctuary.jpg",
     "file": "Painganga-Wildlife-Sanctuary.jpg"
    },
+   "commons": "Painganga Wildlife Sanctuary",
    "wikipedia": "https://en.wikipedia.org/wiki/Painganga_Wildlife_Sanctuary",
    "verifiedBy": "wikipedia"
   },
@@ -10134,6 +10409,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Shahsrakund_waterfall_02.jpg/960px-Shahsrakund_waterfall_02.jpg",
     "file": "Shahsrakund_waterfall_02.jpg"
    },
+   "commons": "Sahasrakund Waterfall",
    "wikipedia": "https://en.wikipedia.org/wiki/Sahasrakund_Waterfall",
    "verifiedBy": "wikipedia"
   },
@@ -10154,6 +10430,7 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/EntryPointOf-Wani.jpg/960px-EntryPointOf-Wani.jpg",
     "file": "EntryPointOf-Wani.jpg"
    },
+   "commons": "Wani, Maharashtra",
    "wikipedia": "https://en.wikipedia.org/wiki/Wani%2C_Yavatmal",
    "verifiedBy": "wikidata"
   },

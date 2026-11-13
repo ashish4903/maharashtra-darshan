@@ -23,11 +23,12 @@ React (Vite) app for exploring Maharashtra: regions → districts → talukas, p
 - `src/lib/tripWeather.js`: per-day trip forecasts (one Open-Meteo request, each day's first stop), rain/heat warnings on outdoor days and the drier-day swap
 - `src/lib/speech.js`: listen mode (browser speech only: voice choice with Marathi → Hindi → English fallback, sentence chunks, place and trip-day scripts, one shared player); `useWikiSummary.js` loads the summary for both display and listening
 - `scripts/trails.mjs`: history trails. Each stop's wording is ours, but every evidence group must appear in ONE sentence of the place's article, a listed source or the trail's article, and every year shown must be in a matched sentence. `npm run trails` re-checks and updates only the trails; `npm run data` checks them too
+- `scripts/commons.mjs` (`npm run commons`): adds only each place's Commons category (Wikidata P373) for the gallery; `npm run data` adds it too
 - `src/lib/trip.js`: route ordering, day split, Google Maps directions links
 - `src/lib/route.js`: hash routes `#/`, `#/region/<id>`, `#/district/<Wikidata id>`, `#/place/<Wikidata id>`, `#/circuit/<id>`, `#/trail/<id>[/<stop>]`, `#/festivals`, `#/seasons`, `#/plan`, `#/trip`, `#/trip/<ids>` (shared)
 - `src/lib/i18n.js`: all interface text in English and Marathi; use `useLang()` (`t`, `name`, `kind`) in components, and never hard-code visible text. A test fails if a Marathi translation is missing
 - `src/components/TripProvider.jsx` + `src/lib/useTrip.js`: saved places (localStorage only)
-- Runtime network calls: only Wikipedia's REST summary (`WikiSummary.jsx`), Commons images and Open-Meteo forecasts (`Weather.jsx` and `TripPlan.jsx`, coordinates only). Google Maps appears only as plain search links (`mapsSearchUrl`); never scrape, copy or store Google ratings, and never add a Maps API key without the owner's approval. Keep it that way: no trackers or analytics
+- Runtime network calls: only Wikipedia's REST summary (`WikiSummary.jsx`), Commons images, the Commons category search for the place gallery (`src/lib/commons.js`, category name only, licence-filtered, `utm_*` stripped) and Open-Meteo forecasts (`Weather.jsx` and `TripPlan.jsx`, coordinates only). Google Maps appears only as plain search links (`mapsSearchUrl`); never scrape, copy or store Google ratings, and never add a Maps API key without the owner's approval. Keep it that way: no trackers or analytics
 - `src/components/`: one small component per file
 - `src/index.css`: all styles, mobile-first; each region colour is a CSS variable
 
