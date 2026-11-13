@@ -9,6 +9,10 @@ All notable changes to this project are listed here. The format follows [Keep a 
 - History trails: walk through a story on the map, in time order. A timeline slider (or Play) moves through the stops while the map draws the route so far. Four trails with 32 stops: Shivaji Maharaj and Swarajya, Saints and the Wari, Caves to the Peshwas, and the Road to freedom and equality, in English and Marathi. Every event and year is checked against one sentence of the cited Wikipedia article (`npm run trails`). Place pages link to their trail stop (“In history”), and stops can be shared, listened to, or planned as a trip.
 - Listen mode: a 🔊 Listen button on every place page and on each trip day reads it aloud in English or Marathi, using the device’s own voice (nothing is recorded or sent). It has pause, stop and three speeds. Without a Marathi or Hindi voice it reads in English and says so; Wikipedia text is always read with an English voice.
 
+### Fixed
+
+- Carousel arrows: they no longer show on rows where every card already fits (such as History trails on a wide screen), and each arrow turns off at its end of the row.
+
 ## [1.1.0] - 2026-11-13
 
 Planning: where to go, and when. See what is at its best each month, get a ready getaway from where you start, and check the weather for each day of a trip.
