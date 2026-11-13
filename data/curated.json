@@ -734,7 +734,23 @@
     { "wiki": "Kala Ghoda Arts Festival", "when": "February, nine days", "whenEvidence": ["February"], "months": [2], "region": "konkan",
       "places": [{ "wiki": "Kala Ghoda", "evidence": "Kala Ghoda" }] },
     { "wiki": "Sarangkheda", "when": "Datta Jayanti horse fair (December)", "whenEvidence": ["Datta Jayanti","horse"], "months": [12], "region": "north-maharashtra",
-      "places": [{ "wiki": "Sarangkheda", "evidence": "horse" }] }
+      "places": [{ "wiki": "Sarangkheda", "evidence": "horse" }] },
+    { "wiki": "Pola (festival)", "when": "Pithori Amavasya in Shraavana (usually August)", "whenEvidence": ["Shraavana", "August"], "months": [8], "region": "statewide",
+      "places": [] },
+    { "wiki": "Narali Poornima", "when": "Full moon of Shravan (July–August)", "whenEvidence": ["Shravan", "July or August"], "months": [7, 8], "region": "konkan",
+      "places": [] },
+    { "wiki": "Vata Purnima", "when": "Full moon of Jyeshtha (May–June)", "whenEvidence": ["Jyeshtha", "May–June"], "months": [5, 6], "region": "statewide",
+      "places": [] },
+    { "wiki": "Dhammachakra Pravartan Din", "when": "Ashoka Vijayadashami and 14 October", "whenEvidence": ["Ashoka Vijayadashami", "14 October"], "months": [10], "region": "vidarbha",
+      "places": [{ "wiki": "Deekshabhoomi", "evidence": "Deekshabhoomi" }] },
+    { "wiki": "Prabodhini Ekadashi", "when": "Kartiki Ekadashi, bright half of Kartika (October–November)", "whenEvidence": ["Kartika", "October", "November"], "months": [10, 11], "region": "western-maharashtra",
+      "places": [{ "wiki": "Pandharpur", "evidence": "Pandharpur" }] },
+    { "wiki": "Bandra Fair", "when": "Starts the Sunday after 8 September", "whenEvidence": ["8th of September"], "months": [9], "region": "konkan",
+      "places": [] },
+    { "wiki": "Sawai Gandharva Bhimsen Festival", "when": "First two weeks of December, in Pune", "whenEvidence": ["first two weeks of December", "Pune"], "months": [12], "region": "western-maharashtra",
+      "places": [] },
+    { "wiki": "Hola Mohalla", "when": "Second day of Chet (usually March), at Nanded", "whenEvidence": ["Chet", "March", "Nanded"], "months": [3], "region": "marathwada",
+      "places": [{ "wiki": "Hazur Sahib", "evidence": "Nanded" }] }
   ],
 
   "extras": {

@@ -226,3 +226,11 @@ describe('helpers', () => {
     expect(search('a').places).toEqual([]);
   });
 });
+
+describe('festival names', () => {
+  it('drops Wikipedia disambiguation from names but keeps the article link', () => {
+    const pola = festivals.find((f) => f.wikipedia.endsWith('/Pola_(festival)'));
+    expect(pola.name).toBe('Pola');
+    expect(festivals.filter((f) => /\(.*\)$/.test(f.name))).toEqual([]);
+  });
+});

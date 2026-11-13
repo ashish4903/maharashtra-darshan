@@ -12032,6 +12032,141 @@
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Sarangkheda",
    "description": "village in Maharashtra, India"
+  },
+  {
+   "id": "Q7208833",
+   "name": "Pola (festival)",
+   "when": "Pithori Amavasya in Shraavana (usually August)",
+   "months": [
+    8
+   ],
+   "region": "statewide",
+   "places": [],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Pola_in_Chinawal_9.jpg/960px-Pola_in_Chinawal_9.jpg",
+    "file": "Pola_in_Chinawal_9.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Pola_(festival)",
+   "nameMr": "पोळा",
+   "description": "agricultural festival of Maharashtra"
+  },
+  {
+   "id": "Q48727124",
+   "name": "Narali Poornima",
+   "when": "Full moon of Shravan (July–August)",
+   "months": [
+    7,
+    8
+   ],
+   "region": "konkan",
+   "places": [],
+   "wikipedia": "https://en.wikipedia.org/wiki/Narali_Poornima",
+   "description": "Hindu festival dedicated to Varuna"
+  },
+  {
+   "id": "Q3635091",
+   "name": "Vata Purnima",
+   "when": "Full moon of Jyeshtha (May–June)",
+   "months": [
+    5,
+    6
+   ],
+   "region": "statewide",
+   "places": [],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Vat_Purnima_image_by_Raju_Kasambe_DSCN6393_21.jpg/960px-Vat_Purnima_image_by_Raju_Kasambe_DSCN6393_21.jpg",
+    "file": "Vat_Purnima_image_by_Raju_Kasambe_DSCN6393_21.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Vata_Purnima",
+   "nameMr": "वटपौर्णिमा",
+   "description": "Observance by Hindu married women"
+  },
+  {
+   "id": "Q28757683",
+   "name": "Dhammachakra Pravartan Din",
+   "when": "Ashoka Vijayadashami and 14 October",
+   "months": [
+    10
+   ],
+   "region": "vidarbha",
+   "places": [
+    "Q1182325"
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Deekshabhoomi_Nagpur.jpg/960px-Deekshabhoomi_Nagpur.jpg",
+    "file": "Deekshabhoomi_Nagpur.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Dhammachakra_Pravartan_Din",
+   "nameMr": "धम्मचक्र प्रवर्तन दिन",
+   "description": "Buddhist festival in India"
+  },
+  {
+   "id": "Q3635950",
+   "name": "Prabodhini Ekadashi",
+   "when": "Kartiki Ekadashi, bright half of Kartika (October–November)",
+   "months": [
+    10,
+    11
+   ],
+   "region": "western-maharashtra",
+   "places": [
+    "Q1779418"
+   ],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/NarayanaTirumala6.JPG/960px-NarayanaTirumala6.JPG",
+    "file": "NarayanaTirumala6.JPG"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Prabodhini_Ekadashi",
+   "nameMr": "कार्तिकी एकादशी",
+   "description": "Hindu observance"
+  },
+  {
+   "id": "Q4854690",
+   "name": "Bandra Fair",
+   "when": "Starts the Sunday after 8 September",
+   "months": [
+    9
+   ],
+   "region": "konkan",
+   "places": [],
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Statue_of_Our_Lady_of_Mount.jpg/960px-Statue_of_Our_Lady_of_Mount.jpg",
+    "file": "Statue_of_Our_Lady_of_Mount.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Bandra_Fair",
+   "description": "Fair in Mumbai"
+  },
+  {
+   "id": "Q7428544",
+   "name": "Sawai Gandharva Bhimsen Festival",
+   "when": "First two weeks of December, in Pune",
+   "months": [
+    12
+   ],
+   "region": "western-maharashtra",
+   "places": [],
+   "wikipedia": "https://en.wikipedia.org/wiki/Sawai_Gandharva_Bhimsen_Festival",
+   "nameMr": "सवाई गंधर्व भीमसेन महोत्सव",
+   "description": "Indian classical music festival"
+  },
+  {
+   "id": "Q3635002",
+   "name": "Hola Mohalla",
+   "when": "Second day of Chet (usually March), at Nanded",
+   "months": [
+    3
+   ],
+   "region": "marathwada",
+   "places": [
+    "Q3694968"
+   ],
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Still_From_Hola_Mohalla.jpg",
+    "file": "Still_From_Hola_Mohalla.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Hola_Mohalla",
+   "nameMr": "होला मोहल्ला",
+   "description": "Annual Sikh Festival held in March, often concurrent with Holi"
   }
  ],
  "trails": [
