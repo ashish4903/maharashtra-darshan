@@ -28,6 +28,9 @@ export default function Hero() {
         >
           {t('hero.explore')}
         </button>
+        <a href="#/plan" className="button button-ghost">
+          {t('plan.cta')}
+        </a>
         <SurpriseButton />
       </div>
       <ul className="hero-stats">
