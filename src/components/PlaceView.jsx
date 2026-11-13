@@ -9,6 +9,7 @@ import Carousel from './Carousel';
 import PlaceCard from './PlaceCard';
 import FoodCard from './FoodCard';
 import Weather from './Weather';
+import GettingThere from './GettingThere';
 import SeasonNote from './SeasonNote';
 import useLang from '../lib/useLang';
 import useWikiSummary from '../lib/useWikiSummary';
@@ -131,6 +132,8 @@ export default function PlaceView({ placeId }) {
           </dl>
 
           <Weather coords={place.coords} />
+
+          <GettingThere place={place} />
 
           {partOf.length > 0 && (
             <p className="part-of">

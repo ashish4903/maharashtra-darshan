@@ -1309,6 +1309,61 @@ section + section,
   font-weight: 600;
 }
 
+/* Getting there: nearest station and airport on place pages */
+.getting-there {
+  margin: 1.25rem 0;
+}
+
+.getting-there-title {
+  margin-bottom: 0.6rem;
+}
+
+.getting-there ul {
+  display: grid;
+  gap: 0.6rem;
+  margin: 0;
+  padding: 0;
+}
+
+.getting-there li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+}
+
+.getting-there-icon {
+  font-size: 1.4rem;
+  line-height: 1;
+}
+
+.getting-there-text {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.getting-there-label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+}
+
+.getting-there-text a {
+  font-weight: 600;
+}
+
+.getting-there-go {
+  flex: none;
+}
+
 .summary {
   padding: 1.1rem 1.25rem;
   border-left: 4px solid var(--region, var(--accent));
