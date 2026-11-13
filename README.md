@@ -75,6 +75,10 @@ If any check fails, the build stops.
 
 ## Adding a place or dish
 
+**Anyone** can suggest a place, dish or festival with the [suggestion form](https://github.com/ashish4903/maharashtra-darshan/issues/new?template=suggest-a-place.yml). The app links to it from every district page. It asks for the English Wikipedia article, because entries need a source.
+
+To add one yourself:
+
 1. Find the place's or dish's English Wikipedia article. `npm run suggest -- <District>` lists candidates from the district's Wikipedia categories and its tourism sections.
 2. Add a line to [`data/curated.json`](data/curated.json). The format is in [`.claude/skills/add-place-or-food/SKILL.md`](.claude/skills/add-place-or-food/SKILL.md).
 3. Run `npm run data`, then `npm test`, and open a pull request.

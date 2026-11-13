@@ -1,0 +1,101 @@
+name: Suggest a place, dish or festival
+description: Tell us about somewhere in Maharashtra that the app is missing.
+title: "Suggestion: "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping! Every entry in Maharashtra Darshan must come from a source,
+        so please include the **English Wikipedia article** about it. Suggestions without
+        an article can't be added yet, but we keep them for when one is written.
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: The place, dish or festival, for example "Kalamb Chintamani temple".
+    validations:
+      required: true
+  - type: dropdown
+    id: district
+    attributes:
+      label: District
+      options:
+        - "Mumbai City"
+        - "Mumbai Suburban"
+        - "Thane"
+        - "Palghar"
+        - "Raigad"
+        - "Ratnagiri"
+        - "Sindhudurg"
+        - "Pune"
+        - "Satara"
+        - "Sangli"
+        - "Kolhapur"
+        - "Solapur"
+        - "Nashik"
+        - "Ahilyanagar"
+        - "Dhule"
+        - "Jalgaon"
+        - "Nandurbar"
+        - "Chhatrapati Sambhajinagar"
+        - "Jalna"
+        - "Beed"
+        - "Dharashiv"
+        - "Latur"
+        - "Nanded"
+        - "Parbhani"
+        - "Hingoli"
+        - "Nagpur"
+        - "Wardha"
+        - "Bhandara"
+        - "Gondia"
+        - "Chandrapur"
+        - "Gadchiroli"
+        - "Amravati"
+        - "Akola"
+        - "Washim"
+        - "Buldhana"
+        - "Yavatmal"
+        - "Across Maharashtra"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is it?
+      options:
+        - "Fort"
+        - "Place of worship"
+        - "Pilgrim town"
+        - "Heritage site or museum"
+        - "Nature and wildlife (lake, waterfall, sanctuary)"
+        - "Hill station"
+        - "Beach"
+        - "Town"
+        - "Village"
+        - "Dish or local food"
+        - "Festival or fair"
+        - "Other"
+    validations:
+      required: true
+  - type: input
+    id: wikipedia
+    attributes:
+      label: English Wikipedia article
+      description: The link to its article, for example https://en.wikipedia.org/wiki/Kalamb,_Yavatmal
+      placeholder: https://en.wikipedia.org/wiki/...
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why is it worth visiting? (optional)
+      description: In your own words. Please don't paste text from other websites.
+  - type: checkboxes
+    id: own-words
+    attributes:
+      label: Before you send
+      options:
+        - label: I haven't copied text or photos from other websites.
+          required: true

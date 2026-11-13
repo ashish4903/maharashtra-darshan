@@ -1,7 +1,9 @@
+import { readFileSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
 import {
   KINDS,
   STATEWIDE,
+  SUGGEST_URL,
   areaName,
   circuitPlaces,
   circuits,
@@ -25,6 +27,7 @@ import {
   regions,
   search,
   shortName,
+  suggestUrl,
   talukaCounts,
 } from './catalogue';
 
@@ -113,6 +116,16 @@ describe('generated data', () => {
       expect(f.wikipedia).toMatch(/^https:\/\/en\.wikipedia\.org\/wiki\//);
       for (const id of f.places) expect(getPlace(id)).toBeDefined();
     }
+  });
+
+  it('pre-fills the suggestion form with a district from its dropdown', () => {
+    const sambhajinagar = districts.find((d) => d.name.startsWith('Chhatrapati'));
+    expect(suggestUrl()).toBe(SUGGEST_URL);
+    expect(suggestUrl(sambhajinagar.id)).toBe(`${SUGGEST_URL}&district=Chhatrapati%20Sambhajinagar`);
+    // Every district name the app sends must be an option in the form
+    // Tests run from the project folder
+    const form = readFileSync('.github/ISSUE_TEMPLATE/suggest-a-place.yml', 'utf8');
+    for (const d of districts) expect(form).toContain(`- "${shortName(d.name)}"`);
   });
 
   it('has no duplicate places or dishes', () => {

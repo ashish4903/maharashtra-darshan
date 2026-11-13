@@ -1,6 +1,6 @@
 import { Fragment } from 'react';
 import useLang from '../lib/useLang';
-import { generated } from '../lib/catalogue';
+import { SUGGEST_URL, generated } from '../lib/catalogue';
 
 const LINKS = {
   wikidata: ['https://www.wikidata.org/', 'Wikidata'],
@@ -29,6 +29,10 @@ export default function Footer() {
       <p>
         <a href="https://github.com/ashish4903/maharashtra-darshan" target="_blank" rel="noreferrer">
           {t('footer.code')}
+        </a>{' '}
+        ·{' '}
+        <a href={SUGGEST_URL} target="_blank" rel="noreferrer">
+          {t('footer.suggest')}
         </a>{' '}
         · {t('footer.licence')}
       </p>
