@@ -239,6 +239,28 @@ describe('App', () => {
     expect(new URL(call).searchParams.get('latitude')).toBe(String(lonar.coords[0]));
   });
 
+  it('shows places and dishes that have no Wikipedia article, with their source', async () => {
+    const farkande = places.find((p) => p.name === 'Swinging Towers of Farkande');
+    expect(farkande.wikipedia).toBeUndefined();
+    window.location.hash = `#/place/${farkande.id}`;
+    render(<App />);
+
+    expect(screen.getByRole('heading', { level: 1, name: /Swinging Towers of Farkande/ })).toBeTruthy();
+    const source = screen.getByRole('link', { name: /Source: jalgaon\.gov\.in/ });
+    expect(source.getAttribute('href')).toMatch(/^https:\/\/jalgaon\.gov\.in\//);
+    expect(screen.getByText(/no Wikipedia article about this place yet/)).toBeTruthy();
+    // No Wikipedia summary is requested for it
+    expect(fetch.mock.calls.some(([u]) => u.includes('/page/summary/'))).toBe(false);
+
+    cleanup();
+    const nagpur = districts.find((d) => d.name === 'Nagpur district');
+    window.location.hash = `#/district/${nagpur.id}`;
+    render(<App />);
+    await userEvent.setup().click(screen.getByRole('tab', { name: /Food/ }));
+    const tarri = screen.getByRole('heading', { level: 3, name: 'Tarri poha' }).closest('.card');
+    expect(within(tarri).getByText(/Source: en\.wikipedia\.org/)).toBeTruthy();
+  });
+
   it('lists festivals month by month and on their places', async () => {
     window.location.hash = '#/festivals';
     render(<App />);

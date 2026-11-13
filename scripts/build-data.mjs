@@ -17,6 +17,16 @@
 // Needs network access. No keys or accounts are used.
 
 import { readFile, writeFile } from 'node:fs/promises';
+import { commonsImage, geocode, slug, sourceText } from './extras.mjs';
+
+/** Great-circle distance in km (same as src/lib/geo.js). */
+function distanceKm([lat1, lon1], [lat2, lon2]) {
+  const rad = Math.PI / 180;
+  const a =
+    Math.sin(((lat2 - lat1) * rad) / 2) ** 2 +
+    Math.cos(lat1 * rad) * Math.cos(lat2 * rad) * Math.sin(((lon2 - lon1) * rad) / 2) ** 2;
+  return 2 * 6371 * Math.asin(Math.sqrt(a));
+}
 
 const ROOT = new URL('../', import.meta.url);
 const OUT = new URL('src/data/maharashtra.json', ROOT);
@@ -293,6 +303,92 @@ async function main() {
       district: d?.id,
       image: page.image,
       wikipedia: wikiUrl(page.title),
+    });
+  }
+
+  // Extras: places and dishes with no Wikipedia article of their own. Each cites
+  // a source page (an official district website, or a Wikipedia article that
+  // mentions it) that must contain its evidence; photos only from Commons with
+  // a free licence; coordinates from the source or OpenStreetMap, checked to
+  // lie near the district.
+  const textOf = async (url) =>
+    url.startsWith('https://en.wikipedia.org/wiki/')
+      ? (await wikipedia(decodeURIComponent(url.split('/wiki/')[1]).replace(/_/g, ' ')))?.text
+      : sourceText(url);
+  async function extraCommon(e, label) {
+    const text = await textOf(e.source);
+    if (!text) {
+      problems.push(`${label} "${e.name}": source ${e.source} could not be read`);
+      return null;
+    }
+    const missing = [e.evidence].flat().filter((ev) => !mentions(text, [ev]));
+    if (missing.length) {
+      problems.push(`${label} "${e.name}": ${missing.map((m) => `"${m}"`).join(', ')} not found on ${e.source}`);
+      return null;
+    }
+    let image;
+    if (e.photo) {
+      image = await commonsImage(e.photo);
+      if (!image) problems.push(`${label} "${e.name}": photo ${e.photo} is missing or not freely licensed`);
+    }
+    return { image };
+  }
+
+  for (const e of curated.extras?.places ?? []) {
+    const d = findDistrict(e.district);
+    const common = await extraCommon(e, 'Extra place');
+    if (!common) continue;
+    let coords = e.coords;
+    let coordsFrom = coords ? 'source' : undefined;
+    if (!coords && e.geocode) {
+      // Try the full search, then just the town after the comma ("Rajur, Bhokardan" -> "Bhokardan")
+      const queries = [...new Set([e.geocode, e.geocode.split(',').pop().trim()])];
+      for (const q of queries) {
+        const hit = await geocode(q);
+        // Accept it when OpenStreetMap's own address names the district, or it lies within 150 km
+        const inDistrict =
+          hit && (mentions(hit.address, d.names) || (d.coords && distanceKm(hit.coords, d.coords) <= 150));
+        if (inDistrict) {
+          coords = hit.coords;
+          coordsFrom = 'openstreetmap';
+          break;
+        }
+      }
+      if (!coords) notes.push(`Extra place "${e.name}": no OpenStreetMap location in ${d.name} for "${e.geocode}"`);
+    }
+    places.push({
+      id: `x-${slug(e.name)}`,
+      name: e.name,
+      nameMr: e.nameMr,
+      description: e.about,
+      kind: e.kind,
+      region: d.region,
+      district: d.id,
+      coords,
+      coordsFrom,
+      image: common.image,
+      source: e.source,
+      sourceName: new URL(e.source).hostname.replace(/^www\./, ''),
+    });
+  }
+
+  for (const e of curated.extras?.foods ?? []) {
+    if (!regionIds.has(e.region)) problems.push(`Extra food "${e.name}": unknown region ${e.region}`);
+    const d = e.district ? findDistrict(e.district) : undefined;
+    if (d && d.region !== e.region) problems.push(`Extra food "${e.name}": ${d.name} is not in ${e.region}`);
+    const common = await extraCommon(e, 'Extra food');
+    if (!common) continue;
+    foods.push({
+      id: `x-${slug(e.name)}`,
+      name: e.name,
+      nameMr: e.nameMr,
+      description: e.about,
+      type: e.type === 'produce' ? 'produce' : 'dish',
+      region: e.region,
+      district: d?.id,
+      image: common.image,
+      source: e.source,
+      sourceName: new URL(e.source).hostname.replace(/^www\./, ''),
     });
   }
 

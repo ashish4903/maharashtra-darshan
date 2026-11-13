@@ -15,7 +15,7 @@ The entry needs an English Wikipedia article that has a Wikidata item. Search fo
 https://en.wikipedia.org/w/api.php?action=query&list=search&format=json&srsearch=<words>
 ```
 
-If no article exists, don't add the entry. Tell the user instead.
+If no article exists, add it under `extras` instead (see below).
 
 ## 2. Edit `data/curated.json`
 
@@ -32,6 +32,13 @@ Add one line, keeping the region grouping:
 To find candidates, run `npm run suggest -- <District>`. It lists articles from the district's Wikipedia categories and its tourism sections. Many famous temples have no article of their own; use the town's article and give it a highlight, as with `Kalamb, Yavatmal`.
 - Dish: `{ "wiki": "<exact title>", "region": "<region id or statewide>", "district": "<optional>", "evidence": "<word>" }`
   - `evidence` must be a word the article itself uses to tie the dish to that place, such as `Kolhapur` or `Konkan`.
+
+## Without a Wikipedia article (`extras`)
+
+- Place: `{ "name", "district", "kind", "source": "<official district page or Wikipedia article that mentions it>", "evidence": "<words on that page>", "geocode": "<place, town>", "photo": "<Commons file, optional>" }`
+- Dish: `{ "name", "region", "district"?, "source", "evidence", "about"?, "photo"? }`
+- Prefer the district site's own tourist-place page (`https://<district>.gov.in/en/tourist-place/...`). Find photos with a Commons search; the build rejects files that aren't freely licensed.
+- Write `about` only from what the source says.
 
 ## 3. Run `npm run data`
 

@@ -86,6 +86,7 @@ const en = {
 
   'card.away': '{km} away',
   'card.readWikipedia': 'Read on Wikipedia ↗',
+  'card.readSource': 'Source: {site} ↗',
   'card.save': 'Save {name} to my trip',
   'card.unsave': 'Remove {name} from my trip',
 
@@ -108,6 +109,9 @@ const en = {
   'place.copied': '✓ Link copied',
   'place.map': '🗺️ Open map',
   'place.wikipedia': '📖 Wikipedia',
+  'place.source': '📄 Source: {site}',
+  'place.notOnWikipedia': 'There’s no Wikipedia article about this place yet. It is listed from',
+  'place.osm': 'Location from OpenStreetMap,',
   'place.restaurants': '🍴 Top-rated restaurants nearby',
   'place.restaurantsTitle': 'Opens Google Maps, which shows current ratings',
   'place.region': 'Region',
@@ -286,6 +290,7 @@ const mr = {
 
   'card.away': '{km} दूर',
   'card.readWikipedia': 'Wikipedia वर वाचा ↗',
+  'card.readSource': 'स्रोत: {site} ↗',
   'card.save': '{name} माझ्या सहलीत जोडा',
   'card.unsave': '{name} माझ्या सहलीतून काढा',
 
@@ -308,6 +313,9 @@ const mr = {
   'place.copied': '✓ दुवा कॉपी झाला',
   'place.map': '🗺️ नकाशा उघडा',
   'place.wikipedia': '📖 Wikipedia',
+  'place.source': '📄 स्रोत: {site}',
+  'place.notOnWikipedia': 'या ठिकाणाविषयी अजून Wikipedia लेख नाही. ही माहिती येथून:',
+  'place.osm': 'स्थान OpenStreetMap वरून,',
   'place.restaurants': '🍴 जवळची सर्वोत्तम उपाहारगृहे',
   'place.restaurantsTitle': 'Google Maps उघडते, तिथे सध्याचे रेटिंग दिसते',
   'place.region': 'विभाग',

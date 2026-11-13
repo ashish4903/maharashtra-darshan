@@ -4,6 +4,14 @@ All notable changes to this project are listed here. The format follows [Keep a 
 
 ## [Unreleased]
 
+### Added
+
+- Places and dishes that have no Wikipedia article of their own:
+  - 59 places from the official district websites (Washim, Gadchiroli, Parbhani, Palghar, Jalgaon, Nanded, Bhandara and more), for example the Swinging Towers of Farkande, Wadadham Fossil Park, Banjara Virasat museum, Tipeshwar sanctuary and Matsyodari Devi temple.
+  - 13 dishes mentioned in Wikipedia articles: Saoji cuisine, tarri poha, Santra barfi, tambda and pandhara rassa, Puneri and Kolhapuri misal, kothimbir vadi, varan bhaat, mande, patodi, sev bhaji and sabudana khichdi.
+  - Each cites its source page, which the build checks names it. 28 have free Commons photos, and 52 places have OpenStreetMap locations.
+- 466 places (from 407) and 52 dishes (from 39).
+
 ## [1.0.0] - 2026-11-12
 
 The first public release: a guide to Maharashtra, region by region, in English and मराठी. Every place, dish, festival and fact is checked against Wikipedia or Wikidata before it is added.

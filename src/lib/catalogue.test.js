@@ -42,8 +42,11 @@ describe('generated data', () => {
   });
 
   it('gives every region, district, place and dish a source link', () => {
-    for (const item of [...regions, ...places, ...foods]) {
-      expect(item.source ?? item.wikipedia).toMatch(/^https:\/\/en\.wikipedia\.org\/wiki\//);
+    for (const item of regions) expect(item.source).toMatch(/^https:\/\/en\.wikipedia\.org\/wiki\//);
+    for (const item of [...places, ...foods]) {
+      if (item.wikipedia) expect(item.wikipedia).toMatch(/^https:\/\/en\.wikipedia\.org\/wiki\//);
+      // Entries without their own article cite an official page or a Wikipedia article that mentions them
+      else expect(item.source).toMatch(/^https:\/\/([a-z0-9-]+\.)*(gov\.in|nic\.in|wikipedia\.org)\//);
     }
   });
 

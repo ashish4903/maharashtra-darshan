@@ -35,7 +35,7 @@ React (Vite) app for exploring Maharashtra: regions → districts → talukas, p
 
 ## Rules
 
-- **No invented data.** Every entry needs a Wikipedia article, and `npm run data` must verify it. If a check fails, drop or fix the entry; never weaken the check.
+- **No invented data.** Every entry needs a source that `npm run data` verifies: its own Wikipedia article, or (in `extras`) an official district site (`*.gov.in`/`*.nic.in`) or a Wikipedia article that mentions it. Photos only from Wikimedia Commons with a free licence (never copied from other sites). If a check fails, drop or fix the entry; never weaken the check.
 - Plain React + CSS, no UI library unless asked. Mobile-first. One component per file.
 - **Security:** never commit secrets, tokens, `.env` files or personal data. The app needs no keys. Don't read files outside this folder, or any config or credential files, without asking the owner first.
 - Commit author must be the GitHub noreply address. New branch + PR per change. Add a line under "Unreleased" in `CHANGELOG.md` (keep one Added / Changed / Fixed block each). Release only when the owner asks: move Unreleased into a new version section and raise package.json `version`; CI publishes the GitHub Release.
