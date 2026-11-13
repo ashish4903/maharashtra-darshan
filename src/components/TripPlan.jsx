@@ -2,9 +2,12 @@ import { useEffect, useState } from 'react';
 import MaharashtraMap from './MaharashtraMap';
 import TripStop from './TripStop';
 import DayWeather from './DayWeather';
+import ListenButton from './ListenButton';
 import useLang from '../lib/useLang';
 import { directionsUrl, routeKm, shortestRoute, splitDays } from '../lib/trip';
 import { formatKm } from '../lib/geo';
+import { getDistrict } from '../lib/catalogue';
+import { dayScript } from '../lib/speech';
 import {
   FORECAST_DAYS,
   OUTDOOR_KINDS,
@@ -148,6 +151,13 @@ export default function TripPlan({
                 <a href={directionsUrl(day.stops.map((s) => s.place))} target="_blank" rel="noreferrer">
                   {t('trip.directions')}
                 </a>
+                <ListenButton
+                  compact
+                  label={t('listen.dayLabel', { n: i + 1 })}
+                  script={(l) =>
+                    dayScript(l, { n: i + 1, stops: day.stops.map((s) => s.place), districtOf: (p) => getDistrict(p.district) })
+                  }
+                />
               </header>
               {forecasts[i] && <DayWeather forecast={forecasts[i]} />}
               {(assessments[i].rain || assessments[i].heat) && (

@@ -1842,3 +1842,32 @@ section + section,
     scroll-padding: 0;
   }
 }
+
+/* Listen mode: read a place or a trip day aloud */
+.listen {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.listen-rate {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.listen-rate select {
+  margin-left: 0.25rem;
+}
+
+.listen-note {
+  flex-basis: 100%;
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.listen-compact {
+  flex-basis: 100%;
+}

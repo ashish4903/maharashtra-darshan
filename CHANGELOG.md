@@ -4,6 +4,10 @@ All notable changes to this project are listed here. The format follows [Keep a 
 
 ## [Unreleased]
 
+### Added
+
+- Listen mode: a 🔊 Listen button on every place page and on each trip day reads it aloud in English or Marathi, using the device’s own voice (nothing is recorded or sent). It has pause, stop and three speeds. Without a Marathi or Hindi voice it reads in English and says so; Wikipedia text is always read with an English voice.
+
 ## [1.1.0] - 2026-11-13
 
 Planning: where to go, and when. See what is at its best each month, get a ready getaway from where you start, and check the weather for each day of a trip.

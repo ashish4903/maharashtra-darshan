@@ -86,6 +86,56 @@ describe('App', () => {
     expect(cards).not.toContain('Ajanta Caves');
   });
 
+  it('reads a place aloud with the device’s voice, and can pause and stop', async () => {
+    const user = userEvent.setup();
+    const spoken = [];
+    const synth = {
+      getVoices: () => [{ lang: 'en-IN', name: 'English (India)' }],
+      speak: vi.fn((u) => spoken.push(u)),
+      cancel: vi.fn(),
+      pause: vi.fn(),
+      resume: vi.fn(),
+      addEventListener: () => {},
+      removeEventListener: () => {},
+    };
+    vi.stubGlobal('speechSynthesis', synth);
+    vi.stubGlobal(
+      'SpeechSynthesisUtterance',
+      class {
+        constructor(text) {
+          this.text = text;
+        }
+      },
+    );
+    const ajanta = places.find((p) => p.name === 'Ajanta Caves');
+    window.location.hash = `#/place/${ajanta.id}`;
+    render(<App />);
+    await screen.findByText('A summary from Wikipedia.');
+
+    await user.click(screen.getByRole('button', { name: 'Listen to Ajanta Caves' }));
+    const text = spoken.map((u) => u.text);
+    expect(text[0]).toBe('Ajanta Caves.');
+    expect(text).toContain('A summary from Wikipedia.');
+    expect(spoken[0].lang).toBe('en-IN');
+
+    await user.click(screen.getByRole('button', { name: /Pause/ }));
+    expect(synth.pause).toHaveBeenCalled();
+    await user.click(screen.getByRole('button', { name: /Resume/ }));
+    await user.click(screen.getByRole('button', { name: /Stop/ }));
+    expect(synth.cancel).toHaveBeenCalled();
+    expect(screen.getByRole('button', { name: 'Listen to Ajanta Caves' })).toBeTruthy();
+    cleanup();
+
+    // In Marathi on a device with no Marathi or Hindi voice, it reads English and says so
+    spoken.length = 0;
+    localStorage.setItem('maharashtra-darshan-lang-v1', 'mr');
+    render(<App />);
+    await screen.findByText('A summary from Wikipedia.');
+    await user.click(screen.getByRole('button', { name: /बद्दल ऐका/ }));
+    expect(spoken[0].text).toBe('Ajanta Caves.');
+    expect(screen.getByText(/मराठी आवाज नाही/)).toBeTruthy();
+  });
+
   it('opens a place with its Wikipedia summary and nearby places', async () => {
     const ajanta = places.find((p) => p.name === 'Ajanta Caves');
     window.location.hash = `#/place/${ajanta.id}`;

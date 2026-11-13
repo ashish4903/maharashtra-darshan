@@ -206,6 +206,20 @@ const en = {
   'weather.storm': 'Thunderstorm',
   'weather.unknown': 'Weather',
 
+  'listen.play': 'Listen',
+  'listen.pause': 'Pause',
+  'listen.resume': 'Resume',
+  'listen.stop': 'Stop',
+  'listen.speed': 'Speed',
+  'listen.placeLabel': 'Listen to {name}',
+  'listen.dayLabel': 'Listen to Day {n}',
+  'listen.noMarathi': 'This device has no Marathi voice, so it is read in English.',
+  'listen.placeIntro': '{name}. {kind}, in {district} district.',
+  'listen.taluka': 'It is in {taluka} taluka.',
+  'listen.best': 'Best time: {reason}, {months}.',
+  'listen.to': 'to',
+  'listen.stop.n': 'Stop {n}: {name}. {kind}, {district} district.',
+
   'season.title': 'Where to go, and when',
   'season.intro':
     'Pick a month to see the places at their best, food in season and festivals. Every season comes from the place’s own Wikipedia article.',
@@ -455,6 +469,20 @@ const mr = {
   'weather.snow': 'हिमवृष्टी',
   'weather.storm': 'वादळी पाऊस',
   'weather.unknown': 'हवामान',
+
+  'listen.play': 'ऐका',
+  'listen.pause': 'थांबवा',
+  'listen.resume': 'पुढे ऐका',
+  'listen.stop': 'बंद करा',
+  'listen.speed': 'वेग',
+  'listen.placeLabel': '{name} बद्दल ऐका',
+  'listen.dayLabel': 'दिवस {n} ऐका',
+  'listen.noMarathi': 'या उपकरणावर मराठी आवाज नाही, म्हणून इंग्रजीत वाचले जात आहे.',
+  'listen.placeIntro': '{name}. {district} जिल्ह्यातील {kind}.',
+  'listen.taluka': 'हे {taluka} तालुक्यात आहे.',
+  'listen.best': 'भेटीसाठी उत्तम काळ: {reason}, {months}.',
+  'listen.to': 'ते',
+  'listen.stop.n': 'थांबा {n}: {name}. {district} जिल्ह्यातील {kind}.',
 
   'season.title': 'कुठे जावे, आणि केव्हा',
   'season.intro':

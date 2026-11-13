@@ -21,6 +21,7 @@ React (Vite) app for exploring Maharashtra: regions → districts → talukas, p
 - `src/lib/geo.js`: map projection, distances, nearest places
 - `src/lib/planner.js`: getaway planner (scoring, compact picks, route from a start)
 - `src/lib/tripWeather.js`: per-day trip forecasts (one Open-Meteo request, each day's first stop), rain/heat warnings on outdoor days and the drier-day swap
+- `src/lib/speech.js`: listen mode (browser speech only: voice choice with Marathi → Hindi → English fallback, sentence chunks, place and trip-day scripts, one shared player); `useWikiSummary.js` loads the summary for both display and listening
 - `src/lib/trip.js`: route ordering, day split, Google Maps directions links
 - `src/lib/route.js`: hash routes `#/`, `#/region/<id>`, `#/district/<Wikidata id>`, `#/place/<Wikidata id>`, `#/circuit/<id>`, `#/festivals`, `#/seasons`, `#/plan`, `#/trip`, `#/trip/<ids>` (shared)
 - `src/lib/i18n.js`: all interface text in English and Marathi; use `useLang()` (`t`, `name`, `kind`) in components, and never hard-code visible text. A test fails if a Marathi translation is missing
