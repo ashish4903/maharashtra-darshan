@@ -8,6 +8,7 @@ React (Vite) app for exploring Maharashtra: regions → districts → talukas, p
 - `npm test`: Vitest (tests sit next to the code as `*.test.js(x)`)
 - `npm run lint`, `npm run build`
 - `npm run suggest -- <District>`: candidate places from Wikipedia (writes ignored suggestions.json)
+- `npm run og-image`: redraws public/og-image.svg (convert it to PNG, see the script)
 - `npm run data`: rebuilds `src/data/maharashtra.json` from Wikidata/Wikipedia (needs network)
 
 ## Where things are

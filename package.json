@@ -13,7 +13,8 @@
     "lint": "eslint .",
     "data": "node scripts/build-data.mjs",
     "outline": "node scripts/build-outline.mjs",
-    "suggest": "node scripts/suggest-places.mjs"
+    "suggest": "node scripts/suggest-places.mjs",
+    "og-image": "node scripts/og-image.mjs"
   },
   "dependencies": {
     "react": "^19.3.1",

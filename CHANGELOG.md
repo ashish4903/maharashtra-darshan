@@ -6,6 +6,8 @@ All notable changes to this project are listed here. The format follows [Keep a 
 
 ### Added
 
+- Link previews: shared links show a card with a 1200×630 image (the state map with a dot per district, in English and Marathi), a title and a description, via Open Graph and Twitter tags. `npm run og-image` redraws the image from the data.
+
 - “Suggest a place”: a GitHub issue form asking for the name, district, type and Wikipedia article. It is linked from every district’s places (pre-filled with that district), from empty lists and from the footer.
 
 - Weather on place pages: a 4-day forecast (sky, high and low, chance of rain) from Open-Meteo, which is free, needs no API key and is credited on the page. Only the place’s coordinates are sent.
