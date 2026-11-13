@@ -19,6 +19,7 @@
 import { readFile, writeFile } from 'node:fs/promises';
 import { commonsImage, geocode, slug, sourceText } from './extras.mjs';
 import { buildTrails } from './trails.mjs';
+import { addTransport } from './transport.mjs';
 
 /** Great-circle distance in km (same as src/lib/geo.js). */
 function distanceKm([lat1, lon1], [lat2, lon2]) {
@@ -529,6 +530,7 @@ async function main() {
     festivals,
     trails,
   };
+  console.log(await addTransport(data));
   await writeFile(OUT, JSON.stringify(data, null, 1) + '\n');
   const talukas = districts.reduce((n, d) => n + d.talukas.length, 0);
   console.log(

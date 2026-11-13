@@ -2745,7 +2745,15 @@
    },
    "commons": "Gateway of India",
    "wikipedia": "https://en.wikipedia.org/wiki/Gateway_of_India",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q5118143",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 19
+   }
   },
   {
    "id": "Q235884",
@@ -2765,7 +2773,15 @@
    },
    "commons": "Chhatrapati Shivaji Maharaj Terminus",
    "wikipedia": "https://en.wikipedia.org/wiki/Chhatrapati_Shivaji_Terminus",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q235884",
+    "km": 0
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 17
+   }
   },
   {
    "id": "Q1071500",
@@ -2785,7 +2801,15 @@
    },
    "commons": "Chhatrapati Shivaji Maharaj Vastu Sangrahalaya",
    "wikipedia": "https://en.wikipedia.org/wiki/Chhatrapati_Shivaji_Maharaj_Vastu_Sangrahalaya",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q5118143",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 18
+   }
   },
   {
    "id": "Q13115097",
@@ -2805,7 +2829,15 @@
    },
    "commons": "Siddhivinayak Temple, Mumbai",
    "wikipedia": "https://en.wikipedia.org/wiki/Siddhivinayak_Temple%2C_Mumbai",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q118610698",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 9
+   }
   },
   {
    "id": "Q542756",
@@ -2825,7 +2857,15 @@
    },
    "commons": "Haji Ali Dargah",
    "wikipedia": "https://en.wikipedia.org/wiki/Haji_Ali_Dargah",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q6732924",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 13
+   }
   },
   {
    "id": "Q3634413",
@@ -2845,7 +2885,15 @@
    },
    "commons": "Mani Bhavan",
    "wikipedia": "https://en.wikipedia.org/wiki/Mani_Bhavan",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q5226483",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 16
+   }
   },
   {
    "id": "Q5564239",
@@ -2865,7 +2913,15 @@
    },
    "commons": "Girgaum Chowpatty",
    "wikipedia": "https://en.wikipedia.org/wiki/Girgaon_Chowpatty",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q5121186",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 16
+   }
   },
   {
    "id": "Q985828",
@@ -2885,7 +2941,15 @@
    },
    "commons": "Marine Drive",
    "wikipedia": "https://en.wikipedia.org/wiki/Marine_Drive%2C_Mumbai",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q6764160",
+    "km": 0
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 17
+   }
   },
   {
    "id": "Q4855094",
@@ -2904,7 +2968,15 @@
    },
    "commons": "Banganga Tank",
    "wikipedia": "https://en.wikipedia.org/wiki/Banganga_Tank",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q5121186",
+    "km": 3
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 18
+   }
   },
   {
    "id": "Q3520892",
@@ -2924,7 +2996,15 @@
    },
    "commons": "Mumba Devi Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Mumba_Devi_Temple",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q6764160",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 16
+   }
   },
   {
    "id": "Q3918419",
@@ -2943,7 +3023,15 @@
    },
    "commons": "Afghan Church",
    "wikipedia": "https://en.wikipedia.org/wiki/Afghan_Church",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q5118143",
+    "km": 4
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 21
+   }
   },
   {
    "id": "Q5460296",
@@ -2963,7 +3051,15 @@
    },
    "commons": "Flora Fountain",
    "wikipedia": "https://en.wikipedia.org/wiki/Flora_Fountain",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q5118143",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 18
+   }
   },
   {
    "id": "Q7285587",
@@ -2983,7 +3079,15 @@
    },
    "commons": "Rajabai Clock Tower",
    "wikipedia": "https://en.wikipedia.org/wiki/Rajabai_Clock_Tower",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q5118143",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 18
+   }
   },
   {
    "id": "Q6349947",
@@ -3003,7 +3107,15 @@
    },
    "commons": "Kala Ghoda",
    "wikipedia": "https://en.wikipedia.org/wiki/Kala_Ghoda",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q5118143",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 18
+   }
   },
   {
    "id": "Q19104",
@@ -3023,7 +3135,15 @@
    },
    "commons": "Taj Mahal Palace Hotel",
    "wikipedia": "https://en.wikipedia.org/wiki/Taj_Mahal_Palace_Hotel",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q5118143",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 19
+   }
   },
   {
    "id": "Q314572",
@@ -3043,7 +3163,15 @@
    },
    "commons": "Bandra–Worli Sea Link",
    "wikipedia": "https://en.wikipedia.org/wiki/Bandra%E2%80%93Worli_Sea_Link",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q4854695",
+    "km": 3
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 8
+   }
   },
   {
    "id": "Q695852",
@@ -3063,7 +3191,15 @@
    },
    "commons": "Bombay High Court",
    "wikipedia": "https://en.wikipedia.org/wiki/Bombay_High_Court",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q5118143",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 18
+   }
   },
   {
    "id": "Q3633207",
@@ -3083,7 +3219,15 @@
    },
    "commons": "Mahim Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Mahim_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q6734003",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 6
+   }
   },
   {
    "id": "Q5218318",
@@ -3103,7 +3247,15 @@
    },
    "commons": "Worli Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Worli_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q5367292",
+    "km": 3
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 9
+   }
   },
   {
    "id": "Q7458299",
@@ -3123,7 +3275,15 @@
    },
    "commons": "Sewri Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Sewri_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q7458298",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 10
+   }
   },
   {
    "id": "Q5527023",
@@ -3142,7 +3302,15 @@
    },
    "commons": "Shaar Harahamim Synagogues in Mumbai",
    "wikipedia": "https://en.wikipedia.org/wiki/Gate_of_Mercy_Synagogue",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q12445809",
+    "km": 0
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 16
+   }
   },
   {
    "id": "Q6732911",
@@ -3162,7 +3330,15 @@
    },
    "commons": "Old images of Mahalakshmi temple, Mumbai",
    "wikipedia": "https://en.wikipedia.org/wiki/Mahalakshmi_Temple%2C_Mumbai",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q3539796",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 14
+   }
   },
   {
    "id": "Q1356198",
@@ -3182,7 +3358,15 @@
    },
    "commons": "Kanheri Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Kanheri_Caves",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q6361555",
+    "km": 6
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 14
+   }
   },
   {
    "id": "Q648907",
@@ -3202,7 +3386,15 @@
    },
    "commons": "Sanjay Gandhi National Park",
    "wikipedia": "https://en.wikipedia.org/wiki/Sanjay_Gandhi_National_Park",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q5208848",
+    "km": 6
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 19
+   }
   },
   {
    "id": "Q6732862",
@@ -3222,7 +3414,15 @@
    },
    "commons": "Mahakali Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Mahakali_Caves",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q6214732",
+    "km": 3
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 5
+   }
   },
   {
    "id": "Q6214734",
@@ -3242,7 +3442,15 @@
    },
    "commons": "Jogeshwari Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Jogeshwari_Caves",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q6214732",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 6
+   }
   },
   {
    "id": "Q12444660",
@@ -3262,7 +3470,15 @@
    },
    "commons": "Mandapeshwar Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Mandapeshwar_Caves",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q5208848",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 17
+   }
   },
   {
    "id": "Q3348756",
@@ -3282,7 +3498,15 @@
    },
    "commons": "Powai Lake",
    "wikipedia": "https://en.wikipedia.org/wiki/Powai_Lake",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q6363526",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 6
+   }
   },
   {
    "id": "Q674362",
@@ -3302,7 +3526,15 @@
    },
    "commons": "Juhu",
    "wikipedia": "https://en.wikipedia.org/wiki/Juhu",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q7930143",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 4
+   }
   },
   {
    "id": "Q4932603",
@@ -3321,7 +3553,15 @@
     "file": "Fishing_in_Gorai_Beach,_Mumbai.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Gorai",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q4945508",
+    "km": 8
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 19
+   }
   },
   {
    "id": "Q3635765",
@@ -3341,7 +3581,15 @@
    },
    "commons": "Mount Mary Church, Bandra",
    "wikipedia": "https://en.wikipedia.org/wiki/Basilica_of_Our_Lady_of_the_Mount%2C_Bandra",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q4854695",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 7
+   }
   },
   {
    "id": "Q5049681",
@@ -3361,7 +3609,15 @@
    },
    "commons": "Castella de Aguada",
    "wikipedia": "https://en.wikipedia.org/wiki/Castella_de_Aguada",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q4854695",
+    "km": 3
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 7
+   }
   },
   {
    "id": "Q6778535",
@@ -3379,7 +3635,15 @@
     "file": "Marve-creek.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Marv%C3%A9_Beach",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q6740940",
+    "km": 6
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 14
+   }
   },
   {
    "id": "Q7586832",
@@ -3398,7 +3662,15 @@
    },
    "commons": "St. Andrew's Church, Mumbai",
    "wikipedia": "https://en.wikipedia.org/wiki/St._Andrew's_Church%2C_Mumbai",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q4854695",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 6
+   }
   },
   {
    "id": "Q4661699",
@@ -3418,7 +3690,15 @@
    },
    "commons": "Aarey Milk Colony",
    "wikipedia": "https://en.wikipedia.org/wiki/Aarey_Forest",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q18129030",
+    "km": 3
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 8
+   }
   },
   {
    "id": "Q7908958",
@@ -3438,7 +3718,15 @@
    },
    "commons": "Vajreshwari Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Vajreshwari_Temple",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q7908888",
+    "km": 19
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 47
+   }
   },
   {
    "id": "Q7499202",
@@ -3458,7 +3746,15 @@
    },
    "commons": "Shiv Mandir, Ambarnath",
    "wikipedia": "https://en.wikipedia.org/wiki/Shiv_Mandir%2C_Ambarnath",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q4741032",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 26
+   }
   },
   {
    "id": "Q7363375",
@@ -3477,7 +3773,15 @@
    },
    "commons": "Upvan Lake",
    "wikipedia": "https://en.wikipedia.org/wiki/Upvan_Lake",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q7710247",
+    "km": 4
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 17
+   }
   },
   {
    "id": "Q97309169",
@@ -3497,7 +3801,15 @@
    },
    "commons": "Mahuli Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Mahuli",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q4803517",
+    "km": 9
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 57
+   }
   },
   {
    "id": "Q2724028",
@@ -3517,7 +3829,15 @@
    },
    "commons": "Ghodbunder Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Ghodbunder_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q6872241",
+    "km": 4
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 23
+   }
   },
   {
    "id": "Q7810359",
@@ -3534,7 +3854,15 @@
    ],
    "commons": "Titwala",
    "wikipedia": "https://en.wikipedia.org/wiki/Titwala",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q7810360",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 37
+   }
   },
   {
    "id": "Q112741341",
@@ -3552,7 +3880,15 @@
     "file": "Durgadi_fort_in_1900's.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Durgadi_Fort",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q6354881",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 29
+   }
   },
   {
    "id": "Q7801984",
@@ -3566,7 +3902,15 @@
     72.9695
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Tikuji-Ni-Wadi",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q6354779",
+    "km": 5
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 20
+   }
   },
   {
    "id": "Q4916533",
@@ -3586,7 +3930,15 @@
    },
    "commons": "Birla Mandir, Shahad",
    "wikipedia": "https://en.wikipedia.org/wiki/Birla_Mandir%2C_Shahad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q7461421",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 30
+   }
   },
   {
    "id": "Q38251004",
@@ -3606,7 +3958,15 @@
    },
    "commons": "Gorakhgad",
    "wikipedia": "https://en.wikipedia.org/wiki/Gorakhgad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q7914755",
+    "km": 27
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 54
+   }
   },
   {
    "id": "Q8052481",
@@ -3636,7 +3996,15 @@
    },
    "commons": "Dongri fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Dongri_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q4901614",
+    "km": 6
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 26
+   }
   },
   {
    "id": "Q6741274",
@@ -3656,7 +4024,15 @@
    },
    "commons": "Malanggad",
    "wikipedia": "https://en.wikipedia.org/wiki/Malanggad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q4841008",
+    "km": 9
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 17
+   }
   },
   {
    "id": "Q6431119",
@@ -3675,7 +4051,15 @@
     "file": "Shri_Kopineshwar_Mandir.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Kopineshwar_Mandir%2C_Thane",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q7710247",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 16
+   }
   },
   {
    "id": "Q60754378",
@@ -3694,7 +4078,15 @@
     "file": "Masunda_Lake_in_Thane.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Masunda_Lake",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q7710247",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 16
+   }
   },
   {
    "id": "Q3230299",
@@ -3714,7 +4106,15 @@
    },
    "commons": "Vasai Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Fort_Vasai",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q6959544",
+    "km": 4
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 27
+   }
   },
   {
    "id": "Q3778583",
@@ -3734,7 +4134,15 @@
    },
    "commons": "Fort Arnala",
    "wikipedia": "https://en.wikipedia.org/wiki/Arnala_fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q7933645",
+    "km": 8
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 44
+   }
   },
   {
    "id": "Q28408082",
@@ -3764,6 +4172,14 @@
      9
     ],
     "reason": "waterfall"
+   },
+   "station": {
+    "id": "Q25549344",
+    "km": 45
+   },
+   "airport": {
+    "id": "Q1709224",
+    "km": 61
    }
   },
   {
@@ -3783,7 +4199,15 @@
    },
    "commons": "Kelwa Beach",
    "wikipedia": "https://en.wikipedia.org/wiki/Kelwa_Beach",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q6386620",
+    "km": 6
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 60
+   }
   },
   {
    "id": "Q2317504",
@@ -3803,7 +4227,15 @@
    },
    "commons": "Jawhar",
    "wikipedia": "https://en.wikipedia.org/wiki/Jawhar",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q30628739",
+    "km": 38
+   },
+   "airport": {
+    "id": "Q1709224",
+    "km": 70
+   }
   },
   {
    "id": "Q14207712",
@@ -3819,7 +4251,15 @@
     72.74
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Bordi",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q31295186",
+    "km": 3
+   },
+   "airport": {
+    "id": "Q1709224",
+    "km": 37
+   }
   },
   {
    "id": "Q1190226",
@@ -3840,7 +4280,15 @@
    },
    "commons": "Dahanu",
    "wikipedia": "https://en.wikipedia.org/wiki/Dahanu",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q5208777",
+    "km": 3
+   },
+   "airport": {
+    "id": "Q1709224",
+    "km": 53
+   }
   },
   {
    "id": "Q104861310",
@@ -3859,7 +4307,15 @@
     "file": "Tungareshwar_Temple_at_Vasai,_Mumbai.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Tungareshwar_Temple",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q6301980",
+    "km": 7
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 37
+   }
   },
   {
    "id": "Q105847575",
@@ -3880,7 +4336,15 @@
    },
    "commons": "Tansa Wildlife Sanctuary",
    "wikipedia": "https://en.wikipedia.org/wiki/Tansa_Wildlife_Sanctuary",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q4813149",
+    "km": 8
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 65
+   }
   },
   {
    "id": "Q13116668",
@@ -3899,7 +4363,15 @@
     "file": "Kohoj.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Kohoj",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q7420951",
+    "km": 20
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 66
+   }
   },
   {
    "id": "Q6493909",
@@ -3919,7 +4391,15 @@
    },
    "commons": "Shirgaon Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Shirgaon_Fort",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q7127480",
+    "km": 6
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 69
+   }
   },
   {
    "id": "Q13115569",
@@ -3939,7 +4419,15 @@
    },
    "commons": "Asheri Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Asheri_fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q4938432",
+    "km": 17
+   },
+   "airport": {
+    "id": "Q1709224",
+    "km": 69
+   }
   },
   {
    "id": "Q16893050",
@@ -3954,7 +4442,15 @@
     72.817
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Kaldurg_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q7127480",
+    "km": 5
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 67
+   }
   },
   {
    "id": "Q24929786",
@@ -3974,7 +4470,15 @@
    },
    "commons": "Tandulwadi Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Tandulwadi_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q7420951",
+    "km": 5
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 59
+   }
   },
   {
    "id": "Q19806079",
@@ -3988,7 +4492,15 @@
     72.7283
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Kelve_Fort",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q6386620",
+    "km": 7
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 61
+   }
   },
   {
    "id": "Q649384",
@@ -4008,7 +4520,15 @@
    },
    "commons": "Elephanta Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Elephanta_Caves",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q29026161",
+    "km": 9
+   },
+   "airport": {
+    "id": "Q504368",
+    "km": 15
+   }
   },
   {
    "id": "Q3626515",
@@ -4028,7 +4548,15 @@
    },
    "commons": "Raigad Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Raigad_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24929032",
+    "km": 17
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 64
+   }
   },
   {
    "id": "Q301996",
@@ -4044,7 +4572,15 @@
    ],
    "commons": "Murud-Janjira",
    "wikipedia": "https://en.wikipedia.org/wiki/Murud-Janjira",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15272988",
+    "km": 23
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 77
+   }
   },
   {
    "id": "Q463526",
@@ -4073,6 +4609,14 @@
      5
     ],
     "reason": "summer"
+   },
+   "station": {
+    "id": "Q31739504",
+    "km": 0
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 20
    }
   },
   {
@@ -4093,7 +4637,15 @@
    },
    "commons": "Kolaba Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Kolaba_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15234221",
+    "km": 23
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 45
+   }
   },
   {
    "id": "Q3827817",
@@ -4113,7 +4665,15 @@
    },
    "commons": "Khanderi",
    "wikipedia": "https://en.wikipedia.org/wiki/Khanderi",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24949619",
+    "km": 24
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 42
+   }
   },
   {
    "id": "Q15040927",
@@ -4133,7 +4693,15 @@
    },
    "commons": "Kondana Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Kondana_Caves",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q6694057",
+    "km": 6
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 36
+   }
   },
   {
    "id": "Q15040928",
@@ -4153,7 +4721,15 @@
    },
    "commons": "Kuda Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Kuda_Caves",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040863",
+    "km": 18
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 78
+   }
   },
   {
    "id": "Q6372818",
@@ -4183,6 +4759,14 @@
      2
     ],
     "reason": "birds"
+   },
+   "station": {
+    "id": "Q15271875",
+    "km": 5
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 9
    }
   },
   {
@@ -4204,7 +4788,15 @@
    },
    "commons": "Alibag",
    "wikipedia": "https://en.wikipedia.org/wiki/Alibag",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15234221",
+    "km": 21
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 44
+   }
   },
   {
    "id": "Q6374256",
@@ -4224,7 +4816,15 @@
    },
    "commons": "Kashid",
    "wikipedia": "https://en.wikipedia.org/wiki/Kashid",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15262309",
+    "km": 22
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 63
+   }
   },
   {
    "id": "Q5283881",
@@ -4245,7 +4845,15 @@
    },
    "commons": "Diveagar",
    "wikipedia": "https://en.wikipedia.org/wiki/Diveagar",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040863",
+    "km": 30
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 91
+   }
   },
   {
    "id": "Q5657411",
@@ -4265,7 +4873,15 @@
    },
    "commons": "Harihareshwar",
    "wikipedia": "https://en.wikipedia.org/wiki/Harihareshwar",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24929032",
+    "km": 35
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 110
+   }
   },
   {
    "id": "Q2566453",
@@ -4286,7 +4902,15 @@
    },
    "commons": "Shrivardhan",
    "wikipedia": "https://en.wikipedia.org/wiki/Shrivardhan",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24929032",
+    "km": 33
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 104
+   }
   },
   {
    "id": "Q17009209",
@@ -4322,7 +4946,15 @@
     "file": "Pali-_Shri_Ballaleshwar.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Ballaleshwar_Pali",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q15260779",
+    "km": 9
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 52
+   }
   },
   {
    "id": "Q7915401",
@@ -4343,7 +4975,15 @@
     "file": "Varadavinayak.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Varadvinayak",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q24944941",
+    "km": 4
+   },
+   "airport": {
+    "id": "Q7498345",
+    "km": 24
+   }
   },
   {
    "id": "Q7633748",
@@ -4363,7 +5003,15 @@
    },
    "commons": "Sudhagad",
    "wikipedia": "https://en.wikipedia.org/wiki/Sudhagad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15260779",
+    "km": 19
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 56
+   }
   },
   {
    "id": "Q6432353",
@@ -4383,7 +5031,15 @@
    },
    "commons": "Korlai Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Korlai_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15234221",
+    "km": 21
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 53
+   }
   },
   {
    "id": "Q24909257",
@@ -4403,7 +5059,15 @@
    },
    "commons": "Revdanda Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Revdanda_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15234221",
+    "km": 19
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 51
+   }
   },
   {
    "id": "Q14220837",
@@ -4420,7 +5084,15 @@
    ],
    "commons": "Kihim Beach",
    "wikipedia": "https://en.wikipedia.org/wiki/Kihim",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24949619",
+    "km": 19
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 36
+   }
   },
   {
    "id": "Q7180496",
@@ -4439,7 +5111,15 @@
     "file": "PhansadLandscape.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Phansad_Wildlife_Sanctuary",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q15262309",
+    "km": 19
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 65
+   }
   },
   {
    "id": "Q2238564",
@@ -4460,7 +5140,15 @@
     "file": "Savitri_river_at_Mahad.JPG"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Mahad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040920",
+    "km": 6
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 77
+   }
   },
   {
    "id": "Q16508414",
@@ -4481,7 +5169,15 @@
    },
    "commons": "Kalavantin Durg",
    "wikipedia": "https://en.wikipedia.org/wiki/Kalavantin_Durg",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q63361180",
+    "km": 5
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 15
+   }
   },
   {
    "id": "Q3827807",
@@ -4501,7 +5197,15 @@
    },
    "commons": "Karnala Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Karnala_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15271875",
+    "km": 4
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 12
+   }
   },
   {
    "id": "Q7237204",
@@ -4521,7 +5225,15 @@
    },
    "commons": "Prabalgad",
    "wikipedia": "https://en.wikipedia.org/wiki/Prabalgad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q63361180",
+    "km": 5
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 15
+   }
   },
   {
    "id": "Q13115923",
@@ -4541,7 +5253,15 @@
    },
    "commons": "Irshalgad",
    "wikipedia": "https://en.wikipedia.org/wiki/Irshalgad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q63357609",
+    "km": 4
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 17
+   }
   },
   {
    "id": "Q6433988",
@@ -4561,7 +5281,15 @@
    },
    "commons": "Kothaligad",
    "wikipedia": "https://en.wikipedia.org/wiki/Kothaligad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q4901853",
+    "km": 19
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 46
+   }
   },
   {
    "id": "Q7123842",
@@ -4581,7 +5309,15 @@
    },
    "commons": "Padmadurg",
    "wikipedia": "https://en.wikipedia.org/wiki/Padmadurg",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15272988",
+    "km": 24
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 75
+   }
   },
   {
    "id": "Q136943955",
@@ -4600,7 +5336,15 @@
     "file": "Lingana_pinnacle.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Lingana",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24929032",
+    "km": 23
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 57
+   }
   },
   {
    "id": "Q1068374",
@@ -4619,7 +5363,15 @@
     "file": "Unknown_Angre_Samadhi.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Chaul",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15234221",
+    "km": 19
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 51
+   }
   },
   {
    "id": "Q6748267",
@@ -4637,7 +5389,15 @@
     "file": "Mandwa_Beach,_March_2015.JPG"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Mandwa%2C_Maharashtra",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24949619",
+    "km": 11
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 29
+   }
   },
   {
    "id": "Q5521478",
@@ -4657,7 +5417,15 @@
    },
    "commons": "Ganpatipule",
    "wikipedia": "https://en.wikipedia.org/wiki/Ganpatipule",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040958",
+    "km": 16
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 121
+   }
   },
   {
    "id": "Q2099096",
@@ -4677,7 +5445,15 @@
    },
    "commons": "Suvarnadurg",
    "wikipedia": "https://en.wikipedia.org/wiki/Suvarnadurg",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040923",
+    "km": 34
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 123
+   }
   },
   {
    "id": "Q6123540",
@@ -4697,7 +5473,15 @@
    },
    "commons": "Jaigad Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Jaigad_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040957",
+    "km": 31
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 134
+   }
   },
   {
    "id": "Q1708334",
@@ -4714,7 +5498,15 @@
    ],
    "commons": "Guhagar",
    "wikipedia": "https://en.wikipedia.org/wiki/Guhagar",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040782",
+    "km": 27
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 145
+   }
   },
   {
    "id": "Q5221789",
@@ -4735,7 +5527,15 @@
    },
    "commons": "Dapoli",
    "wikipedia": "https://en.wikipedia.org/wiki/Dapoli",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040760",
+    "km": 24
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 120
+   }
   },
   {
    "id": "Q6771772",
@@ -4755,7 +5555,15 @@
    },
    "commons": "Marleshwar",
    "wikipedia": "https://en.wikipedia.org/wiki/Marleshwar",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040970",
+    "km": 14
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 84
+   }
   },
   {
    "id": "Q18129241",
@@ -4775,7 +5583,15 @@
    },
    "commons": "Parshuram Temple, Chiplun",
    "wikipedia": "https://en.wikipedia.org/wiki/Parshuram_Temple%2C_Chiplun",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q19805686",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 122
+   }
   },
   {
    "id": "Q16924964",
@@ -4795,7 +5611,15 @@
    },
    "commons": "Panhalakaji Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Panhalakaji_Caves",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040782",
+    "km": 17
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 126
+   }
   },
   {
    "id": "Q19809014",
@@ -4811,7 +5635,15 @@
    ],
    "commons": "Purnagad",
    "wikipedia": "https://en.wikipedia.org/wiki/Purnagad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040962",
+    "km": 21
+   },
+   "airport": {
+    "id": "Q16900194",
+    "km": 93
+   }
   },
   {
    "id": "Q5316378",
@@ -4829,7 +5661,15 @@
     "file": "Durga_Devi_Temple.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Durga_Devi_Temple%2C_Guhagar",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q21040782",
+    "km": 26
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 144
+   }
   },
   {
    "id": "Q38251240",
@@ -4848,7 +5688,15 @@
     "file": "Gopalgad_Outer_Wall.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Anjanvel_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040782",
+    "km": 27
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 139
+   }
   },
   {
    "id": "Q38251261",
@@ -4868,7 +5716,15 @@
    },
    "commons": "Bankot Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Bankot_fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040918",
+    "km": 34
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 113
+   }
   },
   {
    "id": "Q5589978",
@@ -4883,7 +5739,15 @@
     73.4878
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Gowalkot",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q19805686",
+    "km": 4
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 124
+   }
   },
   {
    "id": "Q24950082",
@@ -4903,7 +5767,15 @@
    },
    "commons": "Rasalgad",
    "wikipedia": "https://en.wikipedia.org/wiki/Rasalgad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040760",
+    "km": 12
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 101
+   }
   },
   {
    "id": "Q7127475",
@@ -4919,7 +5791,15 @@
     73.3281
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Palgad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24929043",
+    "km": 10
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 104
+   }
   },
   {
    "id": "Q38251357",
@@ -4938,7 +5818,15 @@
    },
    "commons": "Ratnagiri Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Ratnagiri_Fort%2C_Maharashtra",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q19983994",
+    "km": 9
+   },
+   "airport": {
+    "id": "Q16900194",
+    "km": 114
+   }
   },
   {
    "id": "Q13413791",
@@ -4959,7 +5847,15 @@
    },
    "commons": "Sindhudurg Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Sindhudurg_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24944719",
+    "km": 23
+   },
+   "airport": {
+    "id": "Q16900194",
+    "km": 9
+   }
   },
   {
    "id": "Q12431913",
@@ -4980,7 +5876,15 @@
    },
    "commons": "Tarkarli",
    "wikipedia": "https://en.wikipedia.org/wiki/Tarkarli",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q24944719",
+    "km": 23
+   },
+   "airport": {
+    "id": "Q16900194",
+    "km": 9
+   }
   },
   {
    "id": "Q3827850",
@@ -5001,7 +5905,15 @@
    },
    "commons": "Vijaydurg",
    "wikipedia": "https://en.wikipedia.org/wiki/Vijaydurg_Fort",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q21040974",
+    "km": 32
+   },
+   "airport": {
+    "id": "Q16900194",
+    "km": 66
+   }
   },
   {
    "id": "Q4716000",
@@ -5030,6 +5942,14 @@
      9
     ],
     "reason": "waterfall"
+   },
+   "station": {
+    "id": "Q24807831",
+    "km": 25
+   },
+   "airport": {
+    "id": "Q27981434",
+    "km": 30
    }
   },
   {
@@ -5049,7 +5969,15 @@
     "file": "Temple_Ghati_(East).jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Shri_Dev_Rameshwar_Temple",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24944629",
+    "km": 4
+   },
+   "airport": {
+    "id": "Q16900194",
+    "km": 17
+   }
   },
   {
    "id": "Q85756615",
@@ -5069,7 +5997,15 @@
    },
    "commons": "Devgad",
    "wikipedia": "https://en.wikipedia.org/wiki/Devgad_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040981",
+    "km": 38
+   },
+   "airport": {
+    "id": "Q16900194",
+    "km": 46
+   }
   },
   {
    "id": "Q878566",
@@ -5089,7 +6025,15 @@
    },
    "commons": "Kunkeshwar",
    "wikipedia": "https://en.wikipedia.org/wiki/Kunkeshwar",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q13116238",
+    "km": 36
+   },
+   "airport": {
+    "id": "Q16900194",
+    "km": 40
+   }
   },
   {
    "id": "Q13118330",
@@ -5104,7 +6048,15 @@
     73.5116
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Nivati_fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24944719",
+    "km": 20
+   },
+   "airport": {
+    "id": "Q16900194",
+    "km": 7
+   }
   },
   {
    "id": "Q1130165",
@@ -5121,7 +6073,15 @@
    ],
    "commons": "Sawantwadi",
    "wikipedia": "https://en.wikipedia.org/wiki/Sawantwadi",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24944726",
+    "km": 6
+   },
+   "airport": {
+    "id": "Q16900194",
+    "km": 23
+   }
   },
   {
    "id": "Q2450888",
@@ -5138,7 +6098,15 @@
    ],
    "commons": "Malvan",
    "wikipedia": "https://en.wikipedia.org/wiki/Malvan",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24944629",
+    "km": 23
+   },
+   "airport": {
+    "id": "Q16900194",
+    "km": 10
+   }
   },
   {
    "id": "Q2445434",
@@ -5159,7 +6127,15 @@
    },
    "commons": "Vengurla",
    "wikipedia": "https://en.wikipedia.org/wiki/Vengurla",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24944726",
+    "km": 15
+   },
+   "airport": {
+    "id": "Q16900194",
+    "km": 20
+   }
   },
   {
    "id": "Q55605342",
@@ -5175,7 +6151,15 @@
    ],
    "commons": "Bharatgad",
    "wikipedia": "https://en.wikipedia.org/wiki/Bharatgad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24944629",
+    "km": 20
+   },
+   "airport": {
+    "id": "Q16900194",
+    "km": 19
+   }
   },
   {
    "id": "Q19899114",
@@ -5191,7 +6175,15 @@
    ],
    "commons": "Yashwantgad Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Yashwantgad_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24944727",
+    "km": 17
+   },
+   "airport": {
+    "id": "Q27981434",
+    "km": 21
+   }
   },
   {
    "id": "Q20582670",
@@ -5205,7 +6197,15 @@
     72.864
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Sarjekot_fort",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q15234221",
+    "km": 23
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 45
+   }
   },
   {
    "id": "Q1351060",
@@ -5225,7 +6225,15 @@
    },
    "commons": "Shaniwar Wada",
    "wikipedia": "https://en.wikipedia.org/wiki/Shaniwar_Wada",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q14475834",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 10
+   }
   },
   {
    "id": "Q3078248",
@@ -5245,7 +6253,15 @@
    },
    "commons": "Sinhagad",
    "wikipedia": "https://en.wikipedia.org/wiki/Sinhagad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q14475834",
+    "km": 21
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 30
+   }
   },
   {
    "id": "Q1093326",
@@ -5266,7 +6282,15 @@
    },
    "commons": "Bhimashankar",
    "wikipedia": "https://en.wikipedia.org/wiki/Bhimashankar_Temple",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q7494039",
+    "km": 23
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 49
+   }
   },
   {
    "id": "Q1929511",
@@ -5295,6 +6319,14 @@
      9
     ],
     "reason": "monsoon"
+   },
+   "station": {
+    "id": "Q6669650",
+    "km": 0
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 43
    }
   },
   {
@@ -5315,7 +6347,15 @@
    },
    "commons": "Karla Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Karla_Caves",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15244125",
+    "km": 5
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 47
+   }
   },
   {
    "id": "Q3520074",
@@ -5335,7 +6375,15 @@
    },
    "commons": "Shivneri Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Shivneri_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q16901089",
+    "km": 55
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 69
+   }
   },
   {
    "id": "Q2344976",
@@ -5355,7 +6403,15 @@
    },
    "commons": "Aga Khan Palace",
    "wikipedia": "https://en.wikipedia.org/wiki/Aga_Khan_Palace",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q18125106",
+    "km": 3
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 4
+   }
   },
   {
    "id": "Q854709",
@@ -5375,7 +6431,15 @@
    },
    "commons": "Bhaja Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Bhaja_Caves",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15244125",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 49
+   }
   },
   {
    "id": "Q6667935",
@@ -5395,7 +6459,15 @@
    },
    "commons": "Lohagad",
    "wikipedia": "https://en.wikipedia.org/wiki/Lohagad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15244125",
+    "km": 4
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 49
+   }
   },
   {
    "id": "Q6523426",
@@ -5416,7 +6488,15 @@
    },
    "commons": "Lenyadri",
    "wikipedia": "https://en.wikipedia.org/wiki/Lenyadri",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q30592634",
+    "km": 59
+   },
+   "airport": {
+    "id": "Q7498345",
+    "km": 72
+   }
   },
   {
    "id": "Q7825964",
@@ -5436,7 +6516,15 @@
    },
    "commons": "Torna Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Torna_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040918",
+    "km": 36
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 46
+   }
   },
   {
    "id": "Q1134736",
@@ -5456,7 +6544,15 @@
    },
    "commons": "Raja Dinkar Kelkar Museum",
    "wikipedia": "https://en.wikipedia.org/wiki/Raja_Dinkar_Kelkar_Museum",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q14475834",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 11
+   }
   },
   {
    "id": "Q5208445",
@@ -5476,7 +6572,15 @@
    },
    "commons": "Dagadusheth Halwai Ganapati Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Dagadusheth_Halwai_Ganapati_Temple",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q14475834",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 10
+   }
   },
   {
    "id": "Q1755879",
@@ -5496,7 +6600,15 @@
    },
    "commons": "Jejuri",
    "wikipedia": "https://en.wikipedia.org/wiki/Jejuri",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24942862",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 43
+   }
   },
   {
    "id": "Q589653",
@@ -5518,7 +6630,15 @@
    },
    "commons": "Alandi",
    "wikipedia": "https://en.wikipedia.org/wiki/Alandi",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15234068",
+    "km": 11
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 11
+   }
   },
   {
    "id": "Q1192430",
@@ -5539,7 +6659,15 @@
    },
    "commons": "Dehu",
    "wikipedia": "https://en.wikipedia.org/wiki/Dehu",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15213513",
+    "km": 6
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 22
+   }
   },
   {
    "id": "Q111992541",
@@ -5558,7 +6686,15 @@
     "file": "Narsimha_temple_of_Nira_Narsingpur.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Laxmi_Narsimha_Temple%2C_Nira_Narsingpur",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q17068196",
+    "km": 33
+   },
+   "airport": {
+    "id": "Q7555807",
+    "km": 93
+   }
   },
   {
    "id": "Q6912006",
@@ -5579,7 +6715,15 @@
    },
    "commons": "Morgaon temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Ganesha_Temple%2C_Morgaon",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q24942862",
+    "km": 16
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 54
+   }
   },
   {
    "id": "Q7293114",
@@ -5601,7 +6745,15 @@
    },
    "commons": "Mahaganapati Temple, Ranjangaon",
    "wikipedia": "https://en.wikipedia.org/wiki/Ranjangaon_Ganpati",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q24942860",
+    "km": 29
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 38
+   }
   },
   {
    "id": "Q5101323",
@@ -5623,7 +6775,15 @@
    },
    "commons": "Chintamani Temple, Theur",
    "wikipedia": "https://en.wikipedia.org/wiki/Chintamani_Temple%2C_Theur",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24942845",
+    "km": 4
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 15
+   }
   },
   {
    "id": "Q7928965",
@@ -5643,7 +6803,15 @@
     "file": "Ozhar_-_Shri_Vighnahar.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Vigneshwara_Temple%2C_Ozar",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q16901089",
+    "km": 59
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 68
+   }
   },
   {
    "id": "Q4879428",
@@ -5664,7 +6832,15 @@
    },
    "commons": "Bedse Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Bedse_Caves",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15233325",
+    "km": 3
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 45
+   }
   },
   {
    "id": "Q3309717",
@@ -5684,7 +6860,15 @@
    },
    "commons": "Naneghat",
    "wikipedia": "https://en.wikipedia.org/wiki/Naneghat",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q4803517",
+    "km": 42
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 71
+   }
   },
   {
    "id": "Q854971",
@@ -5701,7 +6885,15 @@
    ],
    "commons": "Bhimashankar Wildlife Sanctuary",
    "wikipedia": "https://en.wikipedia.org/wiki/Bhimashankar_Wildlife_Sanctuary",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q7494039",
+    "km": 26
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 53
+   }
   },
   {
    "id": "Q17072649",
@@ -5721,7 +6913,15 @@
    },
    "commons": "Mayureshwar Wildlife Sanctuary",
    "wikipedia": "https://en.wikipedia.org/wiki/Mayureshwar_Wildlife_Sanctuary",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q30593326",
+    "km": 16
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 55
+   }
   },
   {
    "id": "Q24895718",
@@ -5751,6 +6951,14 @@
      3
     ],
     "reason": "birds"
+   },
+   "station": {
+    "id": "Q24948926",
+    "km": 25
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 93
    }
   },
   {
@@ -5780,6 +6988,14 @@
      9
     ],
     "reason": "monsoon"
+   },
+   "station": {
+    "id": "Q14475834",
+    "km": 36
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 45
    }
   },
   {
@@ -5800,7 +7016,15 @@
    },
    "commons": "Purandar Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Purandar_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24942862",
+    "km": 20
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 34
+   }
   },
   {
    "id": "Q7144204",
@@ -5820,7 +7044,15 @@
    },
    "commons": "Pataleshwar",
    "wikipedia": "https://en.wikipedia.org/wiki/Pataleshwar_Caves",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q14475834",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 10
+   }
   },
   {
    "id": "Q8531005",
@@ -5840,7 +7072,15 @@
    },
    "commons": "Parvati Hill",
    "wikipedia": "https://en.wikipedia.org/wiki/Parvati_Hill",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q14475834",
+    "km": 4
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 12
+   }
   },
   {
    "id": "Q4902130",
@@ -5860,7 +7100,15 @@
    },
    "commons": "Bhuleshwar Temple, Pune",
    "wikipedia": "https://en.wikipedia.org/wiki/Bhuleshwar_Temple",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24942860",
+    "km": 6
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 38
+   }
   },
   {
    "id": "Q2445461",
@@ -5881,7 +7129,15 @@
    },
    "commons": "Junnar",
    "wikipedia": "https://en.wikipedia.org/wiki/Junnar",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q16901089",
+    "km": 57
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 70
+   }
   },
   {
    "id": "Q3633183",
@@ -5901,7 +7157,15 @@
    },
    "commons": "Tikona",
    "wikipedia": "https://en.wikipedia.org/wiki/Tikona",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15244125",
+    "km": 13
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 43
+   }
   },
   {
    "id": "Q7852984",
@@ -5921,7 +7185,15 @@
    },
    "commons": "Tung fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Tung_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15244125",
+    "km": 9
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 49
+   }
   },
   {
    "id": "Q14238582",
@@ -5941,7 +7213,15 @@
    },
    "commons": "Visapur Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Visapur_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15244125",
+    "km": 3
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 48
+   }
   },
   {
    "id": "Q6203460",
@@ -5962,7 +7242,15 @@
    },
    "commons": "Jivdhan Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Jivdhan",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q4803517",
+    "km": 44
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 72
+   }
   },
   {
    "id": "Q7285054",
@@ -5979,7 +7267,15 @@
    ],
    "commons": "Raireshwar",
    "wikipedia": "https://en.wikipedia.org/wiki/Raireshwar",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040922",
+    "km": 35
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 62
+   }
   },
   {
    "id": "Q9396551",
@@ -5999,7 +7295,15 @@
    },
    "commons": "Chaturshringi Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Chaturshringi_Temple",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q14475834",
+    "km": 3
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 11
+   }
   },
   {
    "id": "Q6374068",
@@ -6019,7 +7323,15 @@
    },
    "commons": "Kasba Ganpati temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Kasba_Ganapati",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q14475834",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 10
+   }
   },
   {
    "id": "Q110823714",
@@ -6039,7 +7351,15 @@
    },
    "commons": "Khandoba Temple, Jejuri",
    "wikipedia": "https://en.wikipedia.org/wiki/Khandoba_Temple%2C_Jejuri",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24942862",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 43
+   }
   },
   {
    "id": "Q378531",
@@ -6059,7 +7379,15 @@
    },
    "commons": "Korigad",
    "wikipedia": "https://en.wikipedia.org/wiki/Korigad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q6669650",
+    "km": 15
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 52
+   }
   },
   {
    "id": "Q42873620",
@@ -6078,7 +7406,15 @@
    },
    "commons": "Manmodi",
    "wikipedia": "https://en.wikipedia.org/wiki/Manmodi_Caves",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q16901089",
+    "km": 55
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 67
+   }
   },
   {
    "id": "Q7423203",
@@ -6098,7 +7434,15 @@
    },
    "commons": "Sarasbaug Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Sarasbaug_Ganpati",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q14475834",
+    "km": 3
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 11
+   }
   },
   {
    "id": "Q97142914",
@@ -6117,7 +7461,15 @@
    },
    "commons": "Kukadeshwar Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Kukdeshwar_Temple",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q7494039",
+    "km": 47
+   },
+   "airport": {
+    "id": "Q3015728",
+    "km": 73
+   }
   },
   {
    "id": "Q2049815",
@@ -6137,7 +7489,15 @@
    },
    "commons": "Khadakwasla Dam",
    "wikipedia": "https://en.wikipedia.org/wiki/Khadakwasla_Dam",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15178790",
+    "km": 32
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 42
+   }
   },
   {
    "id": "Q3532394",
@@ -6157,7 +7517,15 @@
    },
    "commons": "Panshet Dam",
    "wikipedia": "https://en.wikipedia.org/wiki/Panshet_Dam",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q14475834",
+    "km": 30
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 40
+   }
   },
   {
    "id": "Q463273",
@@ -6186,6 +7554,14 @@
      5
     ],
     "reason": "summer"
+   },
+   "station": {
+    "id": "Q24929043",
+    "km": 27
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 78
    }
   },
   {
@@ -6213,6 +7589,14 @@
      9
     ],
     "reason": "flowers"
+   },
+   "station": {
+    "id": "Q24942870",
+    "km": 26
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 96
    }
   },
   {
@@ -6233,7 +7617,15 @@
    },
    "commons": "Pratapgad",
    "wikipedia": "https://en.wikipedia.org/wiki/Pratapgad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24929043",
+    "km": 19
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 80
+   }
   },
   {
    "id": "Q38250954",
@@ -6246,7 +7638,15 @@
     73.762
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Bhilar",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q24929043",
+    "km": 37
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 76
+   }
   },
   {
    "id": "Q4699755",
@@ -6266,7 +7666,15 @@
    },
    "commons": "Ajinkyatara",
    "wikipedia": "https://en.wikipedia.org/wiki/Ajinkyatara",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24942870",
+    "km": 7
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 101
+   }
   },
   {
    "id": "Q7402696",
@@ -6286,7 +7694,15 @@
    },
    "commons": "Sajjangad",
    "wikipedia": "https://en.wikipedia.org/wiki/Sajjangad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24942870",
+    "km": 17
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 104
+   }
   },
   {
    "id": "Q7916886",
@@ -6305,7 +7721,15 @@
     "file": "Vasota.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Vasota_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q19805686",
+    "km": 23
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 105
+   }
   },
   {
    "id": "Q8047826",
@@ -6325,7 +7749,15 @@
    },
    "commons": "Yamai Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Yamai_Temple",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24947852",
+    "km": 26
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 98
+   }
   },
   {
    "id": "Q7796893",
@@ -6355,6 +7787,14 @@
      11
     ],
     "reason": "waterfall"
+   },
+   "station": {
+    "id": "Q24942870",
+    "km": 25
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 110
    }
   },
   {
@@ -6383,6 +7823,14 @@
      5
     ],
     "reason": "summer"
+   },
+   "station": {
+    "id": "Q24942870",
+    "km": 38
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 74
    }
   },
   {
@@ -6403,7 +7851,15 @@
    },
    "commons": "Koyna Dam",
    "wikipedia": "https://en.wikipedia.org/wiki/Koyna_Dam",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q21040955",
+    "km": 25
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 100
+   }
   },
   {
    "id": "Q1785732",
@@ -6422,7 +7878,15 @@
     "file": "Koyna-Dam3.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Koyna_Wildlife_Sanctuary",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q19805686",
+    "km": 25
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 114
+   }
   },
   {
    "id": "Q6748029",
@@ -6437,7 +7901,15 @@
     73.875
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Mandhradevi",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24948919",
+    "km": 38
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 60
+   }
   },
   {
    "id": "Q17027454",
@@ -6456,7 +7928,15 @@
    },
    "commons": "Vajrai Waterfall",
    "wikipedia": "https://en.wikipedia.org/wiki/Vajrai_Waterfall",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q24942870",
+    "km": 26
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 98
+   }
   },
   {
    "id": "Q6355699",
@@ -6477,7 +7957,15 @@
    },
    "commons": "Kamalgad Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Kamalgad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040922",
+    "km": 36
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 71
+   }
   },
   {
    "id": "Q13121299",
@@ -6492,7 +7980,15 @@
     73.917
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Vairatgad_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24942870",
+    "km": 26
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 78
+   }
   },
   {
    "id": "Q19813839",
@@ -6512,7 +8008,15 @@
     "file": "Vardhangad.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Vardhangad_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24947852",
+    "km": 4
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 104
+   }
   },
   {
    "id": "Q19805572",
@@ -6528,7 +8032,15 @@
     74.126
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Kalyangad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24947852",
+    "km": 10
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 92
+   }
   },
   {
    "id": "Q7144613",
@@ -6546,7 +8058,15 @@
     "file": "Pateshwar_temple.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Pateshwar",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q24942870",
+    "km": 11
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 106
+   }
   },
   {
    "id": "Q19809121",
@@ -6561,7 +8081,15 @@
     73.6917
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Prachitgad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040956",
+    "km": 16
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 89
+   }
   },
   {
    "id": "Q19810106",
@@ -6576,7 +8104,15 @@
     74.269
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Machindragad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24944943",
+    "km": 17
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 56
+   }
   },
   {
    "id": "Q7508582",
@@ -6594,7 +8130,15 @@
     "file": "Kharsundi_siddhanath.JPG"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Sidhhanath_Temple%2C_Kharsundi",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24947849",
+    "km": 46
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 91
+   }
   },
   {
    "id": "Q3696259",
@@ -6614,7 +8158,15 @@
    },
    "commons": "Chandoli National Park",
    "wikipedia": "https://en.wikipedia.org/wiki/Chandoli_National_Park",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q21040956",
+    "km": 24
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 80
+   }
   },
   {
    "id": "Q7399055",
@@ -6629,7 +8181,15 @@
     74.3767
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Yashwantrao_Chavan_Sagareshwar_Wildlife_Sanctuary",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q24948477",
+    "km": 9
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 55
+   }
   },
   {
    "id": "Q15221380",
@@ -6643,7 +8203,15 @@
     74.6667
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Ganpati_Temple%2C_Tasgaon",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q24947849",
+    "km": 16
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 57
+   }
   },
   {
    "id": "Q25247500",
@@ -6658,7 +8226,15 @@
     74.414
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Kundal",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24948477",
+    "km": 4
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 52
+   }
   },
   {
    "id": "Q7503538",
@@ -6677,7 +8253,15 @@
     "file": "Shreekshetra_Audumbar_Temple.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Shreekshetra_Audumbar",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24947849",
+    "km": 4
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 44
+   }
   },
   {
    "id": "Q522760",
@@ -6698,7 +8282,15 @@
     "file": "Mirajmarketnorth.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Miraj",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q18619269",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 41
+   }
   },
   {
    "id": "Q3595240",
@@ -6718,7 +8310,15 @@
    },
    "commons": "Mahalakshmi Temple, Kolhapur",
    "wikipedia": "https://en.wikipedia.org/wiki/Mahalakshmi_Temple%2C_Kolhapur",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15209228",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 7
+   }
   },
   {
    "id": "Q7131008",
@@ -6738,7 +8338,15 @@
    },
    "commons": "Panhala Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Panhala_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15209228",
+    "km": 18
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 25
+   }
   },
   {
    "id": "Q6431081",
@@ -6758,7 +8366,15 @@
    },
    "commons": "Kopeshwar temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Kopeshwar_Temple",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q63357020",
+    "km": 14
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 43
+   }
   },
   {
    "id": "Q6319435",
@@ -6778,7 +8394,15 @@
    },
    "commons": "Jyotiba Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Jyotiba_Temple",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15209228",
+    "km": 12
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 19
+   }
   },
   {
    "id": "Q2125633",
@@ -6794,7 +8418,15 @@
    ],
    "commons": "Radhanagari Wildlife Sanctuary",
    "wikipedia": "https://en.wikipedia.org/wiki/Radhanagari_Wildlife_Sanctuary",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040981",
+    "km": 24
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 47
+   }
   },
   {
    "id": "Q7503478",
@@ -6814,7 +8446,15 @@
    },
    "commons": "New Palace, Kolhapur",
    "wikipedia": "https://en.wikipedia.org/wiki/New_Palace%2C_Kolhapur",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15209228",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 8
+   }
   },
   {
    "id": "Q7293225",
@@ -6833,7 +8473,15 @@
     "file": "Rankala_Lake_Kolhapur.png"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Rankala_Lake",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q15209228",
+    "km": 3
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 9
+   }
   },
   {
    "id": "Q6966394",
@@ -6849,7 +8497,15 @@
     74.6
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Narsobawadi",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q63360855",
+    "km": 14
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 33
+   }
   },
   {
    "id": "Q11954902",
@@ -6869,7 +8525,15 @@
    },
    "commons": "Vishalgad",
    "wikipedia": "https://en.wikipedia.org/wiki/Vishalgad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040968",
+    "km": 24
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 53
+   }
   },
   {
    "id": "Q4901525",
@@ -6889,7 +8553,15 @@
    },
    "commons": "Bhavani Mandap",
    "wikipedia": "https://en.wikipedia.org/wiki/Bhavani_Mandap",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15209228",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 8
+   }
   },
   {
    "id": "Q13121907",
@@ -6904,7 +8576,15 @@
     74.405
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Samangad",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q63358189",
+    "km": 30
+   },
+   "airport": {
+    "id": "Q1657741",
+    "km": 42
+   }
   },
   {
    "id": "Q5516804",
@@ -6925,7 +8605,15 @@
    },
    "commons": "Gaganbavda (Kolhapur)",
    "wikipedia": "https://en.wikipedia.org/wiki/Gaganbawada",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040978",
+    "km": 14
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 51
+   }
   },
   {
    "id": "Q7487233",
@@ -6944,7 +8632,15 @@
    },
    "commons": "Shalini Palace",
    "wikipedia": "https://en.wikipedia.org/wiki/Shalini_Palace",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15209228",
+    "km": 4
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 9
+   }
   },
   {
    "id": "Q5209882",
@@ -6958,7 +8654,15 @@
     73.8635
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Dajipur",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040981",
+    "km": 14
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 55
+   }
   },
   {
    "id": "Q19812310",
@@ -6974,7 +8678,15 @@
     73.851
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Rangana_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24944629",
+    "km": 19
+   },
+   "airport": {
+    "id": "Q16900194",
+    "km": 35
+   }
   },
   {
    "id": "Q24910495",
@@ -6989,7 +8701,15 @@
     73.8185
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Gagangad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q21040978",
+    "km": 12
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 52
+   }
   },
   {
    "id": "Q7280216",
@@ -7004,7 +8724,15 @@
     73.96
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Radhanagari_Dam",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q21040981",
+    "km": 25
+   },
+   "airport": {
+    "id": "Q1595024",
+    "km": 45
+   }
   },
   {
    "id": "Q2775457",
@@ -7039,7 +8767,15 @@
    },
    "commons": "Pandharpur",
    "wikipedia": "https://en.wikipedia.org/wiki/Pandharpur",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24944947",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q7555807",
+    "km": 65
+   }
   },
   {
    "id": "Q28450053",
@@ -7058,7 +8794,15 @@
    },
    "commons": "Siddheshwar Temple, Solapur",
    "wikipedia": "https://en.wikipedia.org/wiki/Siddheshwar_Temple%2C_Solapur",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q17090892",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q7555807",
+    "km": 6
+   }
   },
   {
    "id": "Q4902107",
@@ -7078,7 +8822,15 @@
    },
    "commons": "Solapur Bhuikot Killa",
    "wikipedia": "https://en.wikipedia.org/wiki/Solapur_Bhuikot_Killa",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q17090892",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q7555807",
+    "km": 6
+   }
   },
   {
    "id": "Q55603450",
@@ -7093,7 +8845,15 @@
     75.0227
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Akluj_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24944947",
+    "km": 40
+   },
+   "airport": {
+    "id": "Q7555807",
+    "km": 101
+   }
   },
   {
    "id": "Q239809",
@@ -7109,7 +8869,15 @@
     76.2056
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Akkalkot",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q23074002",
+    "km": 11
+   },
+   "airport": {
+    "id": "Q7555807",
+    "km": 31
+   }
   },
   {
    "id": "Q5599356",
@@ -7128,7 +8896,15 @@
    },
    "commons": "Great Indian Bustard Sanctuary",
    "wikipedia": "https://en.wikipedia.org/wiki/Great_Indian_Bustard_Sanctuary",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q48724452",
+    "km": 17
+   },
+   "airport": {
+    "id": "Q7555807",
+    "km": 23
+   }
   },
   {
    "id": "Q2445497",
@@ -7143,7 +8919,15 @@
     75.4667
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Mangalwedha",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24944947",
+    "km": 23
+   },
+   "airport": {
+    "id": "Q7555807",
+    "km": 51
+   }
   },
   {
    "id": "Q7878222",
@@ -7163,7 +8947,15 @@
    },
    "commons": "Ujjani Dam",
    "wikipedia": "https://en.wikipedia.org/wiki/Ujjani_Dam",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q17068196",
+    "km": 31
+   },
+   "airport": {
+    "id": "Q7555807",
+    "km": 99
+   }
   },
   {
    "id": "Q2426825",
@@ -7184,7 +8976,15 @@
    },
    "commons": "Trimbakeshwar Shiva Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Trimbakeshwar_Temple",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q30592634",
+    "km": 26
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 45
+   }
   },
   {
    "id": "Q7130537",
@@ -7204,7 +9004,15 @@
    },
    "commons": "Nasik Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Nasik_Caves",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15261058",
+    "km": 10
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 26
+   }
   },
   {
    "id": "Q6096471",
@@ -7225,7 +9033,15 @@
    },
    "commons": "Saptashrungi",
    "wikipedia": "https://en.wikipedia.org/wiki/Saptashrungi",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15262382",
+    "km": 37
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 30
+   }
   },
   {
    "id": "Q28174179",
@@ -7245,7 +9061,15 @@
    },
    "commons": "Harihar Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Harihar_fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15227969",
+    "km": 25
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 52
+   }
   },
   {
    "id": "Q6350697",
@@ -7265,7 +9089,15 @@
    },
    "commons": "Kalaram Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Kalaram_Temple",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q15261058",
+    "km": 8
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 17
+   }
   },
   {
    "id": "Q22813236",
@@ -7286,7 +9118,15 @@
    },
    "commons": "Statue of Ahimsa",
    "wikipedia": "https://en.wikipedia.org/wiki/Statue_of_Ahimsa",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q62005375",
+    "km": 48
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 82
+   }
   },
   {
    "id": "Q19808294",
@@ -7303,7 +9143,15 @@
    ],
    "commons": "Nandur Madhmeshwar Bird Sanctuary",
    "wikipedia": "https://en.wikipedia.org/wiki/Nandur_Madhmeshwar_Bird_Sanctuary",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15262382",
+    "km": 12
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 16
+   }
   },
   {
    "id": "Q6933628",
@@ -7317,7 +9165,15 @@
     73.836
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Muktidham",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q15261058",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 20
+   }
   },
   {
    "id": "Q3429894",
@@ -7337,7 +9193,15 @@
    },
    "commons": "Mangi-Tungi",
    "wikipedia": "https://en.wikipedia.org/wiki/Mangi-Tungi",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q62005375",
+    "km": 48
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 82
+   }
   },
   {
    "id": "Q24942932",
@@ -7357,7 +9221,15 @@
    },
    "commons": "Ankai Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Ankai_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q30623697",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q7498345",
+    "km": 56
+   }
   },
   {
    "id": "Q19806529",
@@ -7377,7 +9249,15 @@
    },
    "commons": "Gondeshwar Temple, Sinnar",
    "wikipedia": "https://en.wikipedia.org/wiki/Gondeshwar_Temple%2C_Sinnar",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24944934",
+    "km": 18
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 31
+   }
   },
   {
    "id": "Q2445508",
@@ -7396,7 +9276,15 @@
     "file": "Bharatratna_Dr._Babasaheb_Ambedkar_Mooktibhoomi_Memorial,_Yeola.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Yeola",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24944941",
+    "km": 16
+   },
+   "airport": {
+    "id": "Q7498345",
+    "km": 41
+   }
   },
   {
    "id": "Q7404420",
@@ -7416,7 +9304,15 @@
    },
    "commons": "Salher Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Salher",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q63360876",
+    "km": 46
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 67
+   }
   },
   {
    "id": "Q21076421",
@@ -7436,7 +9332,15 @@
    },
    "commons": "Galna fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Galna_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q19891337",
+    "km": 28
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 97
+   }
   },
   {
    "id": "Q18110727",
@@ -7470,7 +9374,15 @@
    },
    "commons": "Gargoti Museum",
    "wikipedia": "https://en.wikipedia.org/wiki/Gargoti_Museum",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q24944934",
+    "km": 14
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 28
+   }
   },
   {
    "id": "Q6933986",
@@ -7487,7 +9399,15 @@
    ],
    "commons": "Rohida Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Mulher",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q62005375",
+    "km": 52
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 75
+   }
   },
   {
    "id": "Q38251023",
@@ -7506,7 +9426,15 @@
    },
    "commons": "Chandwad Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Chandwad_fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15245124",
+    "km": 21
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 43
+   }
   },
   {
    "id": "Q281031",
@@ -7526,7 +9454,15 @@
    },
    "commons": "Bhandardara",
    "wikipedia": "https://en.wikipedia.org/wiki/Bhandardara",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q30592634",
+    "km": 25
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 68
+   }
   },
   {
    "id": "Q1756158",
@@ -7547,7 +9483,15 @@
    },
    "commons": "Igatpuri",
    "wikipedia": "https://en.wikipedia.org/wiki/Igatpuri",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15227969",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 60
+   }
   },
   {
    "id": "Q3827841",
@@ -7567,7 +9511,15 @@
    },
    "commons": "Alang Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Alang_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q30592634",
+    "km": 16
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 65
+   }
   },
   {
    "id": "Q28173976",
@@ -7587,7 +9539,15 @@
    },
    "commons": "Kulang Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Kulang_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15227969",
+    "km": 14
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 65
+   }
   },
   {
    "id": "Q38251139",
@@ -7607,7 +9567,15 @@
    },
    "commons": "Malegaon Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Malegaon_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q20718078",
+    "km": 30
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 80
+   }
   },
   {
    "id": "Q24939830",
@@ -7626,7 +9594,15 @@
    },
    "commons": "Gajpanth",
    "wikipedia": "https://en.wikipedia.org/wiki/Gajpanth",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15261058",
+    "km": 14
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 14
+   }
   },
   {
    "id": "Q7290176",
@@ -7645,7 +9621,15 @@
     "file": "Ramshej_Fort.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Ramsej_Fort",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q15261058",
+    "km": 20
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 15
+   }
   },
   {
    "id": "Q17069969",
@@ -7663,7 +9647,15 @@
     "file": "Sula-Logo.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Sula_Vineyards",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q15261058",
+    "km": 17
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 27
+   }
   },
   {
    "id": "Q1949112",
@@ -7683,7 +9675,15 @@
     "file": "Sai_baba_samadhi_mandir_.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Shirdi",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q7400483",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q7498345",
+    "km": 14
+   }
   },
   {
    "id": "Q2723631",
@@ -7704,7 +9704,15 @@
    },
    "commons": "Shani Shingnapur",
    "wikipedia": "https://en.wikipedia.org/wiki/Shani_Shingnapur",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q25549254",
+    "km": 29
+   },
+   "airport": {
+    "id": "Q7498345",
+    "km": 56
+   }
   },
   {
    "id": "Q3595192",
@@ -7720,7 +9728,15 @@
     74.41
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Ralegan_Siddhi",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24948806",
+    "km": 21
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 64
+   }
   },
   {
    "id": "Q5872827",
@@ -7735,7 +9751,15 @@
     74.6011
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Hiware_Bazar",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15178522",
+    "km": 13
+   },
+   "airport": {
+    "id": "Q7498345",
+    "km": 73
+   }
   },
   {
    "id": "Q3696257",
@@ -7755,7 +9779,15 @@
    },
    "commons": "Harishchandragad",
    "wikipedia": "https://en.wikipedia.org/wiki/Harishchandragad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q30592634",
+    "km": 40
+   },
+   "airport": {
+    "id": "Q7498345",
+    "km": 72
+   }
   },
   {
    "id": "Q4696135",
@@ -7775,7 +9807,15 @@
    },
    "commons": "Ahmednagar Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Ahmednagar_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15178522",
+    "km": 4
+   },
+   "airport": {
+    "id": "Q7498345",
+    "km": 77
+   }
   },
   {
    "id": "Q29025058",
@@ -7795,7 +9835,15 @@
    },
    "commons": "Amruteshwar Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Amruteshwar_Temple",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q30592634",
+    "km": 25
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 70
+   }
   },
   {
    "id": "Q3629166",
@@ -7817,7 +9865,15 @@
    },
    "commons": "Kalsubai",
    "wikipedia": "https://en.wikipedia.org/wiki/Kalsubai",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q30592634",
+    "km": 16
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 61
+   }
   },
   {
    "id": "Q15262323",
@@ -7838,7 +9894,15 @@
    },
    "commons": "Nighoj",
    "wikipedia": "https://en.wikipedia.org/wiki/Nighoj",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24948806",
+    "km": 36
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 56
+   }
   },
   {
    "id": "Q7508177",
@@ -7860,7 +9924,15 @@
    },
    "commons": "Siddhivinayak Temple, Siddhatek",
    "wikipedia": "https://en.wikipedia.org/wiki/Siddhivinayak_Temple%2C_Siddhatek",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q5228046",
+    "km": 16
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 86
+   }
   },
   {
    "id": "Q7003750",
@@ -7877,7 +9949,15 @@
    ],
    "commons": "Nevasa, Ahmednagar",
    "wikipedia": "https://en.wikipedia.org/wiki/Nevasa",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q25549254",
+    "km": 29
+   },
+   "airport": {
+    "id": "Q7498345",
+    "km": 59
+   }
   },
   {
    "id": "Q16901833",
@@ -7896,7 +9976,15 @@
    },
    "commons": "Tomb of Salabat Khan II",
    "wikipedia": "https://en.wikipedia.org/wiki/Tomb_of_Salabat_Khan_II",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15178522",
+    "km": 13
+   },
+   "airport": {
+    "id": "Q7498345",
+    "km": 82
+   }
   },
   {
    "id": "Q6809477",
@@ -7915,7 +10003,15 @@
    },
    "commons": "Meherabad",
    "wikipedia": "https://en.wikipedia.org/wiki/Meherabad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15178522",
+    "km": 5
+   },
+   "airport": {
+    "id": "Q7498345",
+    "km": 82
+   }
   },
   {
    "id": "Q6400611",
@@ -7932,7 +10028,15 @@
    ],
    "commons": "Kharda",
    "wikipedia": "https://en.wikipedia.org/wiki/Kharda",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24948743",
+    "km": 45
+   },
+   "airport": {
+    "id": "Q7555807",
+    "km": 125
+   }
   },
   {
    "id": "Q76834606",
@@ -7952,7 +10056,15 @@
    },
    "commons": "Bahadurgad",
    "wikipedia": "https://en.wikipedia.org/wiki/Bahadur_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q5228046",
+    "km": 14
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 83
+   }
   },
   {
    "id": "Q3632669",
@@ -7972,7 +10084,15 @@
    },
    "commons": "Ratangad",
    "wikipedia": "https://en.wikipedia.org/wiki/Ratangad",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q15227969",
+    "km": 25
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 73
+   }
   },
   {
    "id": "Q4701521",
@@ -7988,7 +10108,15 @@
     74.007
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Akole",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24944934",
+    "km": 44
+   },
+   "airport": {
+    "id": "Q7498345",
+    "km": 42
+   }
   },
   {
    "id": "Q6933701",
@@ -8002,7 +10130,15 @@
     74.5296
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Mula_Dam",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q15178522",
+    "km": 35
+   },
+   "airport": {
+    "id": "Q7498345",
+    "km": 43
+   }
   },
   {
    "id": "Q16256670",
@@ -8022,7 +10158,15 @@
    },
    "commons": "Cavalry Tank Museum, Ahmednagar",
    "wikipedia": "https://en.wikipedia.org/wiki/Cavalry_Tank_Museum%2C_Ahmednagar",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15178522",
+    "km": 3
+   },
+   "airport": {
+    "id": "Q7498345",
+    "km": 79
+   }
   },
   {
    "id": "Q15217339",
@@ -8042,7 +10186,15 @@
    },
    "commons": "Faria Bagh",
    "wikipedia": "https://en.wikipedia.org/wiki/Farah_Bagh",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15178522",
+    "km": 3
+   },
+   "airport": {
+    "id": "Q7498345",
+    "km": 79
+   }
   },
   {
    "id": "Q3827825",
@@ -8062,7 +10214,15 @@
    },
    "commons": "Laling fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Laling_fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15245124",
+    "km": 26
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 68
+   }
   },
   {
    "id": "Q7709740",
@@ -8083,7 +10243,15 @@
    },
    "commons": "Thalner Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Thalner",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q62005350",
+    "km": 16
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 161
+   }
   },
   {
    "id": "Q7561272",
@@ -8103,7 +10271,15 @@
     "file": "Main_gate_of_Songir_fort.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Songir",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q62005350",
+    "km": 12
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 140
+   }
   },
   {
    "id": "Q107404544",
@@ -8119,7 +10295,15 @@
     75.0225
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Aner_Dam_Wildlife_Sanctuary",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q62005350",
+    "km": 28
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 170
+   }
   },
   {
    "id": "Q4900946",
@@ -8134,7 +10318,15 @@
     74.33
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Bhamer_Dhule",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q19894455",
+    "km": 35
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 114
+   }
   },
   {
    "id": "Q19891538",
@@ -8148,7 +10340,15 @@
     75.553
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Gandhi_Teerth",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15229224",
+    "km": 8
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 121
+   }
   },
   {
    "id": "Q13118648",
@@ -8167,7 +10367,15 @@
     "file": "Temple_of_Chandika_Devi_-_Patan_-Maharashtra_-SGR_001.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Patnadevi",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q19891119",
+    "km": 15
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 69
+   }
   },
   {
    "id": "Q30673091",
@@ -8186,7 +10394,15 @@
    },
    "commons": "Mehrun Lake",
    "wikipedia": "https://en.wikipedia.org/wiki/Mehrun_Lake",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15229224",
+    "km": 4
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 125
+   }
   },
   {
    "id": "Q8050448",
@@ -8202,7 +10418,15 @@
    ],
    "commons": "Yawal Wildlife Sanctuary",
    "wikipedia": "https://en.wikipedia.org/wiki/Yawal_Wildlife_Sanctuary",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q19895797",
+    "km": 25
+   },
+   "airport": {
+    "id": "Q1658243",
+    "km": 149
+   }
   },
   {
    "id": "Q16892555",
@@ -8221,7 +10445,15 @@
     "file": "Padmalaya_temple.jpeg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Padmalaya",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q19891328",
+    "km": 19
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 112
+   }
   },
   {
    "id": "Q2764242",
@@ -8237,7 +10469,15 @@
     75.12
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Parola%2C_Maharashtra",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q19881901",
+    "km": 20
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 117
+   }
   },
   {
    "id": "Q85786888",
@@ -8256,7 +10496,15 @@
     "file": "Mudhai_Devi_temple_-_side_view.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Mudhai_Devi_Temple",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q19891119",
+    "km": 11
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 78
+   }
   },
   {
    "id": "Q13117112",
@@ -8291,7 +10539,15 @@
    },
    "commons": "Muktainagar",
    "wikipedia": "https://en.wikipedia.org/wiki/Muktainagar",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q62005340",
+    "km": 17
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 149
+   }
   },
   {
    "id": "Q589095",
@@ -8307,7 +10563,15 @@
     75.05
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Amalner",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q19881901",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 137
+   }
   },
   {
    "id": "Q1523144",
@@ -8329,7 +10593,15 @@
    },
    "commons": "Faizpur",
    "wikipedia": "https://en.wikipedia.org/wiki/Faizpur",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15198991",
+    "km": 15
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 153
+   }
   },
   {
    "id": "Q7825410",
@@ -8344,7 +10616,15 @@
     74.46
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Toranmal",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q96417616",
+    "km": 47
+   },
+   "airport": {
+    "id": "Q3274467",
+    "km": 137
+   }
   },
   {
    "id": "Q7238200",
@@ -8358,7 +10638,15 @@
     74.3167
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Prakasha",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q19894455",
+    "km": 17
+   },
+   "airport": {
+    "id": "Q3274467",
+    "km": 145
+   }
   },
   {
    "id": "Q7423132",
@@ -8378,7 +10666,15 @@
    },
    "commons": "Sarangkheda",
    "wikipedia": "https://en.wikipedia.org/wiki/Sarangkheda",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q31294033",
+    "km": 12
+   },
+   "airport": {
+    "id": "Q7116463",
+    "km": 159
+   }
   },
   {
    "id": "Q184427",
@@ -8398,7 +10694,15 @@
    },
    "commons": "Ajanta Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Ajanta_Caves",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q19892140",
+    "km": 29
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 83
+   }
   },
   {
    "id": "Q189616",
@@ -8414,7 +10718,15 @@
    ],
    "commons": "Ellora Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Ellora_Caves",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q17514078",
+    "km": 23
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 29
+   }
   },
   {
    "id": "Q856259",
@@ -8434,7 +10746,15 @@
    },
    "commons": "Bibi Ka Maqbara",
    "wikipedia": "https://en.wikipedia.org/wiki/Bibi_Ka_Maqbara",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q17514078",
+    "km": 5
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 9
+   }
   },
   {
    "id": "Q88667786",
@@ -8454,7 +10774,15 @@
    },
    "commons": "Daulatabad Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Daulatabad_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q17514078",
+    "km": 14
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 21
+   }
   },
   {
    "id": "Q1092799",
@@ -8474,7 +10802,15 @@
    },
    "commons": "Grishneshwar Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Ghrishneshwar_Temple",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q17514078",
+    "km": 24
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 30
+   }
   },
   {
    "id": "Q1268562",
@@ -8494,7 +10830,15 @@
    },
    "commons": "Kailasa Temple, Ellora",
    "wikipedia": "https://en.wikipedia.org/wiki/Kailasa_Temple%2C_Ellora",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q17514078",
+    "km": 23
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 29
+   }
   },
   {
    "id": "Q15040934",
@@ -8514,7 +10858,15 @@
    },
    "commons": "Pitalkhora Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Pitalkhora",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q19891119",
+    "km": 17
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 65
+   }
   },
   {
    "id": "Q4362303",
@@ -8534,7 +10886,15 @@
    },
    "commons": "Aurangabad Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Aurangabad_Caves",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q17514078",
+    "km": 6
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 11
+   }
   },
   {
    "id": "Q2445534",
@@ -8551,7 +10911,15 @@
     75.38
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Paithan",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q17514078",
+    "km": 43
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 43
+   }
   },
   {
    "id": "Q1025625",
@@ -8572,7 +10940,15 @@
    },
    "commons": "Khuldabad",
    "wikipedia": "https://en.wikipedia.org/wiki/Khuldabad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q17514078",
+    "km": 21
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 27
+   }
   },
   {
    "id": "Q7130250",
@@ -8592,7 +10968,15 @@
    },
    "commons": "Panchakki",
    "wikipedia": "https://en.wikipedia.org/wiki/Panchakki",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q17514078",
+    "km": 3
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 9
+   }
   },
   {
    "id": "Q61363414",
@@ -8612,7 +10996,15 @@
    },
    "commons": "Soneri Mahal",
    "wikipedia": "https://en.wikipedia.org/wiki/Soneri_Mahal",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q17514078",
+    "km": 5
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 11
+   }
   },
   {
    "id": "Q6167482",
@@ -8632,7 +11024,15 @@
    },
    "commons": "Jayakwadi Dam",
    "wikipedia": "https://en.wikipedia.org/wiki/Jayakwadi_Dam",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q17514078",
+    "km": 42
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 42
+   }
   },
   {
    "id": "Q5527862",
@@ -8647,7 +11047,15 @@
     75.1408
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Gautala_Autramghat_Sanctuary",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q19891119",
+    "km": 21
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 59
+   }
   },
   {
    "id": "Q4900536",
@@ -8666,7 +11074,15 @@
     "file": "Bhadra_Maruti_Temple.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Bhadra_Maruti_Temple",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q17514078",
+    "km": 21
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 27
+   }
   },
   {
    "id": "Q141353626",
@@ -8699,7 +11115,15 @@
    },
    "commons": "Tomb of Aurangzeb",
    "wikipedia": "https://en.wikipedia.org/wiki/Tomb_of_Aurangzeb",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q17514078",
+    "km": 21
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 27
+   }
   },
   {
    "id": "Q4900527",
@@ -8718,7 +11142,15 @@
    },
    "commons": "Bhadkal Gate",
    "wikipedia": "https://en.wikipedia.org/wiki/Bhadkal_Gate",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q17514078",
+    "km": 3
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 8
+   }
   },
   {
    "id": "Q15224128",
@@ -8731,7 +11163,15 @@
     75.3376
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Himayat_Bagh",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q17514078",
+    "km": 6
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 8
+   }
   },
   {
    "id": "Q6826852",
@@ -8745,7 +11185,15 @@
     75.1833
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Mhaismal",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q17514078",
+    "km": 28
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 33
+   }
   },
   {
    "id": "Q19882247",
@@ -8760,7 +11208,15 @@
     75.312
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Banoti_Waterfall",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q19894976",
+    "km": 25
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 65
+   }
   },
   {
    "id": "Q7404550",
@@ -8778,7 +11234,15 @@
     "file": "Salim_Ali_Lake.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Salim_Ali_Lake",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q17514078",
+    "km": 6
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 7
+   }
   },
   {
    "id": "Q24908268",
@@ -8799,7 +11263,15 @@
    },
    "commons": "Antur Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Antur_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q19891119",
+    "km": 25
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 65
+   }
   },
   {
    "id": "Q121591117",
@@ -8814,7 +11286,15 @@
     75.8764
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Kali_Masjid%2C_Jalna",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q10040691",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 50
+   }
   },
   {
    "id": "Q122496272",
@@ -8829,7 +11309,15 @@
    ],
    "commons": "Jalna Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Jalna_Fort",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q10040691",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 52
+   }
   },
   {
    "id": "Q583887",
@@ -8846,7 +11334,15 @@
     75.79
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Ambad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q10040691",
+    "km": 26
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 49
+   }
   },
   {
    "id": "Q60617890",
@@ -8865,7 +11361,15 @@
     "file": "Parli_Vaijnath_Temple_in_AP_W_IMG_7914.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Shri_Vaijnath_Temple",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24948741",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 91
+   }
   },
   {
    "id": "Q97142772",
@@ -8884,7 +11388,15 @@
    },
    "commons": "Kankaleshwar Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Kankaleshwar_Temple",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24948743",
+    "km": 4
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 105
+   }
   },
   {
    "id": "Q584032",
@@ -8905,7 +11417,15 @@
    },
    "commons": "Ambajogai",
    "wikipedia": "https://en.wikipedia.org/wiki/Ambajogai",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24948741",
+    "km": 20
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 111
+   }
   },
   {
    "id": "Q3785959",
@@ -8926,7 +11446,15 @@
    },
    "commons": "Parli",
    "wikipedia": "https://en.wikipedia.org/wiki/Parli_Vaijnath",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24948741",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 91
+   }
   },
   {
    "id": "Q7852108",
@@ -8946,7 +11474,15 @@
    },
    "commons": "Tulja Bhavani Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Tulja_Bhavani_Temple",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q7107118",
+    "km": 28
+   },
+   "airport": {
+    "id": "Q7555807",
+    "km": 47
+   }
   },
   {
    "id": "Q20717665",
@@ -8966,7 +11502,15 @@
    },
    "commons": "Dharashiv Caves",
    "wikipedia": "https://en.wikipedia.org/wiki/Dharashiv_Caves",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q7107118",
+    "km": 6
+   },
+   "airport": {
+    "id": "Q7555807",
+    "km": 64
+   }
   },
   {
    "id": "Q24908269",
@@ -8986,7 +11530,15 @@
    },
    "commons": "Naldurg Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Naldurg_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q18125726",
+    "km": 43
+   },
+   "airport": {
+    "id": "Q7555807",
+    "km": 44
+   }
   },
   {
    "id": "Q18615537",
@@ -9006,7 +11558,15 @@
    },
    "commons": "Paranda Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Paranda_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q17068196",
+    "km": 20
+   },
+   "airport": {
+    "id": "Q7555807",
+    "km": 88
+   }
   },
   {
    "id": "Q2724627",
@@ -9023,7 +11583,15 @@
     76.0699
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Tuljapur",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q7107118",
+    "km": 27
+   },
+   "airport": {
+    "id": "Q7555807",
+    "km": 45
+   }
   },
   {
    "id": "Q28172670",
@@ -9038,7 +11606,15 @@
    ],
    "commons": "Ter, Maharashtra",
    "wikipedia": "https://en.wikipedia.org/wiki/Ter%2C_Maharashtra",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q7107118",
+    "km": 14
+   },
+   "airport": {
+    "id": "Q7555807",
+    "km": 80
+   }
   },
   {
    "id": "Q56242029",
@@ -9057,7 +11633,15 @@
    },
    "commons": "Trivikrama Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Trivikrama_Temple",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q7107118",
+    "km": 15
+   },
+   "airport": {
+    "id": "Q7555807",
+    "km": 80
+   }
   },
   {
    "id": "Q7877186",
@@ -9072,7 +11656,15 @@
     77.1178
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Udgir_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q30623165",
+    "km": 31
+   },
+   "airport": {
+    "id": "Q619672",
+    "km": 67
+   }
   },
   {
    "id": "Q6400734",
@@ -9091,7 +11683,15 @@
     "file": "Indien2012_1240_Kharosa_Leni.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Kharosa",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q6497211",
+    "km": 33
+   },
+   "airport": {
+    "id": "Q619672",
+    "km": 90
+   }
   },
   {
    "id": "Q591243",
@@ -9107,7 +11707,15 @@
     76.5
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Ausa_(town)",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q6497211",
+    "km": 21
+   },
+   "airport": {
+    "id": "Q7555807",
+    "km": 91
+   }
   },
   {
    "id": "Q7508151",
@@ -9121,7 +11729,15 @@
     76.82
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Siddheshwar_%26_Ratneshwar_Temple",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q30623165",
+    "km": 30
+   },
+   "airport": {
+    "id": "Q619672",
+    "km": 79
+   }
   },
   {
    "id": "Q3694968",
@@ -9141,7 +11757,15 @@
    },
    "commons": "Hazur Sahib",
    "wikipedia": "https://en.wikipedia.org/wiki/Hazur_Sahib",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q20717450",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 3
+   }
   },
   {
    "id": "Q24908249",
@@ -9161,7 +11785,15 @@
    },
    "commons": "Kandhar Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Kandhar_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q20717450",
+    "km": 31
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 34
+   }
   },
   {
    "id": "Q96391538",
@@ -9182,7 +11814,15 @@
    },
    "commons": "Mahur Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Mahur_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q63358225",
+    "km": 49
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 97
+   }
   },
   {
    "id": "Q3823613",
@@ -9204,7 +11844,15 @@
    },
    "commons": "Mahur, Maharashtra",
    "wikipedia": "https://en.wikipedia.org/wiki/Mahur%2C_Maharashtra",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q63358225",
+    "km": 50
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 97
+   }
   },
   {
    "id": "Q22909031",
@@ -9218,7 +11866,15 @@
     76.45
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Sri_Sai_Janmasthan_Temple%2C_Pathri",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24949591",
+    "km": 15
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 92
+   }
   },
   {
    "id": "Q24907043",
@@ -9232,7 +11888,15 @@
     76.6846
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Nemgiri",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q24949591",
+    "km": 32
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 82
+   }
   },
   {
    "id": "Q19891702",
@@ -9250,7 +11914,15 @@
     "file": "Parbhani_dargah_festival_at_night.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Turabul_Haq_Dargah",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q24718427",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 57
+   }
   },
   {
    "id": "Q1657013",
@@ -9269,7 +11941,15 @@
     "file": "HYB_-_AWB_Pass._(28504188593).jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Gangakhed",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24948741",
+    "km": 26
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 65
+   }
   },
   {
    "id": "Q15194007",
@@ -9289,7 +11969,15 @@
    },
    "commons": "Aundha Nagnath Shiva Temple",
    "wikipedia": "https://en.wikipedia.org/wiki/Aundha_Nagnath_Temple",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24912178",
+    "km": 24
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 49
+   }
   },
   {
    "id": "Q24934741",
@@ -9305,7 +11993,15 @@
     77.1476
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Narsi%2C_Hingoli",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24912178",
+    "km": 8
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 71
+   }
   },
   {
    "id": "Q13628244",
@@ -9324,7 +12020,15 @@
     "file": "Aundha_Nagnath_Shiva_Temple_Jyotirlinga_Maharashtra_India.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Aundha_Nagnath",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24912178",
+    "km": 24
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 49
+   }
   },
   {
    "id": "Q1182325",
@@ -9344,7 +12048,15 @@
    },
    "commons": "Deekshabhoomi",
    "wikipedia": "https://en.wikipedia.org/wiki/Deekshabhoomi",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q4699920",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 4
+   }
   },
   {
    "id": "Q2545077",
@@ -9365,7 +12077,15 @@
    },
    "commons": "Ramtek",
    "wikipedia": "https://en.wikipedia.org/wiki/Ramtek",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q27963417",
+    "km": 3
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 44
+   }
   },
   {
    "id": "Q5586188",
@@ -9385,7 +12105,15 @@
    },
    "commons": "Gorewada Lake",
    "wikipedia": "https://en.wikipedia.org/wiki/Gorewada_Lake",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q63371820",
+    "km": 4
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 12
+   }
   },
   {
    "id": "Q16902313",
@@ -9400,7 +12128,15 @@
    ],
    "commons": "Umred Karhandla Wildlife Sanctuary",
    "wikipedia": "https://en.wikipedia.org/wiki/Umred_Pauni_Karhandla_Wildlife_Sanctuary",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q28173650",
+    "km": 11
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 56
+   }
   },
   {
    "id": "Q7288885",
@@ -9419,7 +12155,15 @@
     "file": "Raman_Science_Centre_Nagpur.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Raman_Science_Centre",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q6959021",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 8
+   }
   },
   {
    "id": "Q48734677",
@@ -9438,7 +12182,15 @@
     "file": "Dragon_Palace_Temple.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Dragon_Palace_Temple",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q61368113",
+    "km": 4
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 21
+   }
   },
   {
    "id": "Q8069530",
@@ -9457,7 +12209,15 @@
     "file": "Zero_mile_nagpur.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Zero_Mile_Stone_(Nagpur)",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q6959021",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 7
+   }
   },
   {
    "id": "Q15243715",
@@ -9476,7 +12236,15 @@
    },
    "commons": "Maharajbag Zoo",
    "wikipedia": "https://en.wikipedia.org/wiki/Maharajbagh_Zoo",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q6959021",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 6
+   }
   },
   {
    "id": "Q24952457",
@@ -9496,7 +12264,15 @@
    },
    "commons": "Gorewada Rescue Centre",
    "wikipedia": "https://en.wikipedia.org/wiki/Gorewada_Zoo",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q25549314",
+    "km": 4
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 12
+   }
   },
   {
    "id": "Q1320187",
@@ -9513,7 +12289,15 @@
    ],
    "commons": "Mansar",
    "wikipedia": "https://en.wikipedia.org/wiki/Mansar%2C_India",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q27963417",
+    "km": 5
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 40
+   }
   },
   {
    "id": "Q15221214",
@@ -9533,7 +12317,15 @@
    },
    "commons": "Futala Lake",
    "wikipedia": "https://en.wikipedia.org/wiki/Futala_Lake",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q6959021",
+    "km": 5
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 7
+   }
   },
   {
    "id": "Q13115315",
@@ -9552,7 +12344,15 @@
     "file": "AmbazariLake.JPG"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Ambazari_Lake",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q4699920",
+    "km": 4
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 4
+   }
   },
   {
    "id": "Q7531596",
@@ -9571,7 +12371,15 @@
     "file": "Sitabuldi_fort_gate.JPG"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Sitabuldi_Fort",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q6959021",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 7
+   }
   },
   {
    "id": "Q6401699",
@@ -9590,7 +12398,15 @@
     "file": "Khindsi_lake.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Khindsi_Lake",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q27963417",
+    "km": 7
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 48
+   }
   },
   {
    "id": "Q7828341",
@@ -9609,7 +12425,15 @@
    },
    "commons": "Totladoh Dam",
    "wikipedia": "https://en.wikipedia.org/wiki/Totladoh_Dam",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q27963417",
+    "km": 30
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 68
+   }
   },
   {
    "id": "Q3630222",
@@ -9629,7 +12453,15 @@
    },
    "commons": "Sevagram",
    "wikipedia": "https://en.wikipedia.org/wiki/Sevagram",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24944968",
+    "km": 5
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 56
+   }
   },
   {
    "id": "Q4944241",
@@ -9645,7 +12477,15 @@
    ],
    "commons": "Bor Wildlife Sanctuary",
    "wikipedia": "https://en.wikipedia.org/wiki/Bor_Wildlife_Sanctuary",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24944968",
+    "km": 27
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 41
+   }
   },
   {
    "id": "Q980608",
@@ -9666,7 +12506,15 @@
    },
    "commons": "Wardha district",
    "wikipedia": "https://en.wikipedia.org/wiki/Wardha_district",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q24944968",
+    "km": 11
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 55
+   }
   },
   {
    "id": "Q107283783",
@@ -9679,7 +12527,15 @@
     79.8063
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Koka_Wildlife_Sanctuary",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q24943949",
+    "km": 12
+   },
+   "airport": {
+    "id": "Q3914449",
+    "km": 61
+   }
   },
   {
    "id": "Q2719440",
@@ -9696,7 +12552,15 @@
    ],
    "commons": "Pauni",
    "wikipedia": "https://en.wikipedia.org/wiki/Pauni",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q28173650",
+    "km": 9
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 70
+   }
   },
   {
    "id": "Q763034",
@@ -9716,7 +12580,15 @@
    },
    "commons": "Nawegaon National Park",
    "wikipedia": "https://en.wikipedia.org/wiki/Navegaon_National_Park",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q30592457",
+    "km": 13
+   },
+   "airport": {
+    "id": "Q3914449",
+    "km": 67
+   }
   },
   {
    "id": "Q48725033",
@@ -9735,7 +12607,15 @@
     "file": "Hazra-fall.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Hajra_Falls",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q55609025",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q3914449",
+    "km": 40
+   }
   },
   {
    "id": "Q6959133",
@@ -9755,7 +12635,15 @@
    },
    "commons": "Nagzira",
    "wikipedia": "https://en.wikipedia.org/wiki/Nagzira",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q29467286",
+    "km": 20
+   },
+   "airport": {
+    "id": "Q3914449",
+    "km": 44
+   }
   },
   {
    "id": "Q6094688",
@@ -9775,7 +12663,15 @@
    },
    "commons": "Itiadoh Dam",
    "wikipedia": "https://en.wikipedia.org/wiki/Itiadoh_Dam",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q62127942",
+    "km": 19
+   },
+   "airport": {
+    "id": "Q3914449",
+    "km": 79
+   }
   },
   {
    "id": "Q2639563",
@@ -9795,7 +12691,15 @@
    },
    "commons": "Tadoba Andhari Tiger Reserve",
    "wikipedia": "https://en.wikipedia.org/wiki/Tadoba_Andhari_Tiger_Reserve",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q63369812",
+    "km": 33
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 99
+   }
   },
   {
    "id": "Q85745061",
@@ -9810,7 +12714,15 @@
     79.342
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Ballarpur_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q16869005",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 141
+   }
   },
   {
    "id": "Q55074851",
@@ -9829,7 +12741,15 @@
    },
    "commons": "Ghodazari Wildlife Sanctuary",
    "wikipedia": "https://en.wikipedia.org/wiki/Ghodazari_Wildlife_Sanctuary",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q63361172",
+    "km": 9
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 87
+   }
   },
   {
    "id": "Q4751380",
@@ -9866,7 +12786,15 @@
     "file": "Main_road_Bhadravati.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Bhadravati%2C_Maharashtra",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24927975",
+    "km": 9
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 110
+   }
   },
   {
    "id": "Q5384823",
@@ -9881,7 +12809,15 @@
     79.3048
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Irai_Dam",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q63369812",
+    "km": 19
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 106
+   }
   },
   {
    "id": "Q6749619",
@@ -9897,7 +12833,15 @@
    ],
    "commons": "Manikgad Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Manikgad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q16869005",
+    "km": 30
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 158
+   }
   },
   {
    "id": "Q60786586",
@@ -9915,7 +12859,15 @@
     "file": "Vairagad_fort.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Vairagad_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q62127942",
+    "km": 44
+   },
+   "airport": {
+    "id": "Q3914449",
+    "km": 123
+   }
   },
   {
    "id": "Q19458866",
@@ -9932,7 +12884,15 @@
     80.55
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Hemalkasa",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q63369796",
+    "km": 104
+   },
+   "airport": {
+    "id": "Q3914449",
+    "km": 237
+   }
   },
   {
    "id": "Q3313178",
@@ -9962,7 +12922,15 @@
     80.5339
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Tipagad_(Gadchiroli)",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24947932",
+    "km": 57
+   },
+   "airport": {
+    "id": "Q3914449",
+    "km": 118
+   }
   },
   {
    "id": "Q1105755",
@@ -9978,7 +12946,15 @@
     77.72
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Chikhaldara",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q20855602",
+    "km": 22
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 44
+   }
   },
   {
    "id": "Q2429161",
@@ -9998,7 +12974,15 @@
    },
    "commons": "Melghat",
    "wikipedia": "https://en.wikipedia.org/wiki/Melghat",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q20855602",
+    "km": 38
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 89
+   }
   },
   {
    "id": "Q932562",
@@ -10018,7 +13002,15 @@
    },
    "commons": "Gawilghur",
    "wikipedia": "https://en.wikipedia.org/wiki/Gawilghur",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q20855602",
+    "km": 22
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 75
+   }
   },
   {
    "id": "Q6933596",
@@ -10037,7 +13029,15 @@
    },
    "commons": "Muktagiri",
    "wikipedia": "https://en.wikipedia.org/wiki/Muktagiri",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q20855602",
+    "km": 14
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 65
+   }
   },
   {
    "id": "Q3364450",
@@ -10053,7 +13053,15 @@
     77.1486
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Gugamal_National_Park",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q24947925",
+    "km": 36
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 88
+   }
   },
   {
    "id": "Q137596748",
@@ -10067,7 +13075,15 @@
     77.25
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Wan_Wildlife_Sanctuary",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q20855602",
+    "km": 28
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 73
+   }
   },
   {
    "id": "Q28173301",
@@ -10082,7 +13098,15 @@
     78.14
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Kaundinyapur",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q24944973",
+    "km": 22
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 48
+   }
   },
   {
    "id": "Q7448986",
@@ -10096,7 +13120,15 @@
     77.318
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Semadoh",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q20855602",
+    "km": 33
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 87
+   }
   },
   {
    "id": "Q7898997",
@@ -10115,7 +13147,15 @@
    },
    "commons": "Upper Wardha Dam",
    "wikipedia": "https://en.wikipedia.org/wiki/Upper_Wardha_Dam",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q39046518",
+    "km": 30
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 62
+   }
   },
   {
    "id": "Q3824064",
@@ -10136,7 +13176,15 @@
    },
    "commons": "Narnala Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Narnala",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24947925",
+    "km": 16
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 86
+   }
   },
   {
    "id": "Q4701516",
@@ -10156,7 +13204,15 @@
    },
    "commons": "Akola Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Akola_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15178766",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 77
+   }
   },
   {
    "id": "Q4850070",
@@ -10176,7 +13232,15 @@
    },
    "commons": "Balapur Fort",
    "wikipedia": "https://en.wikipedia.org/wiki/Balapur_Fort",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24944156",
+    "km": 17
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 99
+   }
   },
   {
    "id": "Q85773598",
@@ -10192,7 +13256,15 @@
     77.5
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Karanja_Sohol_Wildlife_Sanctuary",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q30592162",
+    "km": 29
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 51
+   }
   },
   {
    "id": "Q2317517",
@@ -10213,7 +13285,15 @@
    },
    "commons": "Karanja Lad",
    "wikipedia": "https://en.wikipedia.org/wiki/Karanja_Lad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q15260320",
+    "km": 31
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 44
+   }
   },
   {
    "id": "Q130601880",
@@ -10231,7 +13311,15 @@
     "file": "Pohra_Devi_Temple_Washim_Maharastra.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Poharadevi_Jagdamba_Mata_Temple",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q30592162",
+    "km": 28
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 79
+   }
   },
   {
    "id": "Q2572189",
@@ -10251,7 +13339,15 @@
    },
    "commons": "Lonar Lake",
    "wikipedia": "https://en.wikipedia.org/wiki/Lonar_Lake",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q63360872",
+    "km": 54
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 117
+   }
   },
   {
    "id": "Q2566517",
@@ -10272,7 +13368,15 @@
    },
    "commons": "Shegaon",
    "wikipedia": "https://en.wikipedia.org/wiki/Shegaon",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24944156",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 106
+   }
   },
   {
    "id": "Q2545540",
@@ -10288,7 +13392,15 @@
     76.1333
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Sindkhed_Raja",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q10040691",
+    "km": 29
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 78
+   }
   },
   {
    "id": "Q137670177",
@@ -10302,7 +13414,15 @@
     76.65
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Dnyanganga_Wildlife_Sanctuary",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q24944156",
+    "km": 29
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 115
+   }
   },
   {
    "id": "Q66720413",
@@ -10320,7 +13440,15 @@
     "file": "Dhyan_Mandir_at_Anand_Sagar_Shegaon.JPG"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Anand_Sagar",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24944156",
+    "km": 3
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 107
+   }
   },
   {
    "id": "Q2673732",
@@ -10336,7 +13464,15 @@
     76.5667
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Mehkar",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24949584",
+    "km": 61
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 126
+   }
   },
   {
    "id": "Q15260861",
@@ -10350,7 +13486,15 @@
     76.1803
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Nalganga_Dam",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q6743870",
+    "km": 19
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 126
+   }
   },
   {
    "id": "Q113396038",
@@ -10370,7 +13514,15 @@
    },
    "commons": "Painganga Wildlife Sanctuary",
    "wikipedia": "https://en.wikipedia.org/wiki/Painganga_Wildlife_Sanctuary",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q63358225",
+    "km": 21
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 88
+   }
   },
   {
    "id": "Q2673737",
@@ -10391,7 +13543,15 @@
     "file": "Chintamani_Kalamb_1.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Kalamb%2C_Yavatmal",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24041342",
+    "km": 22
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 75
+   }
   },
   {
    "id": "Q24913607",
@@ -10411,7 +13571,15 @@
    },
    "commons": "Sahasrakund Waterfall",
    "wikipedia": "https://en.wikipedia.org/wiki/Sahasrakund_Waterfall",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q63358225",
+    "km": 15
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 72
+   }
   },
   {
    "id": "Q1748341",
@@ -10432,7 +13600,15 @@
    },
    "commons": "Wani, Maharashtra",
    "wikipedia": "https://en.wikipedia.org/wiki/Wani%2C_Yavatmal",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24927975",
+    "km": 13
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 116
+   }
   },
   {
    "id": "Q2724580",
@@ -10448,7 +13624,15 @@
     77.57
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Pusad",
-   "verifiedBy": "wikidata"
+   "verifiedBy": "wikidata",
+   "station": {
+    "id": "Q24912178",
+    "km": 49
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 85
+   }
   },
   {
    "id": "Q7898874",
@@ -10462,7 +13646,15 @@
     77.4506
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Upper_Pus_Dam",
-   "verifiedBy": "wikipedia"
+   "verifiedBy": "wikipedia",
+   "station": {
+    "id": "Q24949584",
+    "km": 33
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 93
+   }
   },
   {
    "id": "x-maha-samadhi-bhumi",
@@ -10476,7 +13668,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://bhandara.gov.in/tourist-place/maha-samadhi-bhumi/",
-   "sourceName": "bhandara.gov.in"
+   "sourceName": "bhandara.gov.in",
+   "station": {
+    "id": "Q28173650",
+    "km": 10
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 70
+   }
   },
   {
    "id": "x-rawanwadi-dam",
@@ -10490,7 +13690,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://bhandara.gov.in/tourist-place/rawanwadi-dam-2/",
-   "sourceName": "bhandara.gov.in"
+   "sourceName": "bhandara.gov.in",
+   "station": {
+    "id": "Q24943942",
+    "km": 21
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 69
+   }
   },
   {
    "id": "x-korambhi-devi-temple",
@@ -10504,7 +13712,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://bhandara.gov.in/tourist-place/korambhi-temple/",
-   "sourceName": "bhandara.gov.in"
+   "sourceName": "bhandara.gov.in",
+   "station": {
+    "id": "Q28173650",
+    "km": 12
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 65
+   }
   },
   {
    "id": "x-gosikhurd-dam",
@@ -10527,7 +13743,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://gadchiroli.gov.in/tourist-place/somnur-sangam-ta-sironcha/",
-   "sourceName": "gadchiroli.gov.in"
+   "sourceName": "gadchiroli.gov.in",
+   "station": {
+    "id": "Q6747214",
+    "km": 86
+   },
+   "airport": {
+    "id": "Q432474",
+    "km": 252
+   }
   },
   {
    "id": "x-chaprala-wildlife-sanctuary",
@@ -10555,7 +13779,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://gadchiroli.gov.in/tourist-place/wadadham-fossils-park/",
-   "sourceName": "gadchiroli.gov.in"
+   "sourceName": "gadchiroli.gov.in",
+   "station": {
+    "id": "Q19895712",
+    "km": 68
+   },
+   "airport": {
+    "id": "Q278667",
+    "km": 241
+   }
   },
   {
    "id": "x-glory-of-allapalli-forest",
@@ -10574,7 +13806,15 @@
     "licence": "CC BY-SA 4.0"
    },
    "source": "https://gadchiroli.gov.in/tourist-place/glory-of-allapalli/",
-   "sourceName": "gadchiroli.gov.in"
+   "sourceName": "gadchiroli.gov.in",
+   "station": {
+    "id": "Q63369796",
+    "km": 53
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 213
+   }
   },
   {
    "id": "x-markanda-deo-temple",
@@ -10593,7 +13833,15 @@
     "licence": "CC BY-SA 4.0"
    },
    "source": "https://gadchiroli.gov.in/tourist-place/markanda-deo-temple/",
-   "sourceName": "gadchiroli.gov.in"
+   "sourceName": "gadchiroli.gov.in",
+   "station": {
+    "id": "Q63361347",
+    "km": 44
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 149
+   }
   },
   {
    "id": "x-british-era-rest-house-sironcha",
@@ -10607,7 +13855,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://gadchiroli.gov.in/tourist-place/a-british-era-rest-house-at-sironcha/",
-   "sourceName": "gadchiroli.gov.in"
+   "sourceName": "gadchiroli.gov.in",
+   "station": {
+    "id": "Q6747214",
+    "km": 54
+   },
+   "airport": {
+    "id": "Q278667",
+    "km": 242
+   }
   },
   {
    "id": "x-k-k-moos-art-gallery",
@@ -10621,7 +13877,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://jalgaon.gov.in/en/tourist-place/kalamaharshi-k-k-moos-art-gallery/",
-   "sourceName": "jalgaon.gov.in"
+   "sourceName": "jalgaon.gov.in",
+   "station": {
+    "id": "Q15229224",
+    "km": 20
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 110
+   }
   },
   {
    "id": "x-unapdev-hot-springs",
@@ -10649,7 +13913,15 @@
     "licence": "CC BY-SA 4.0"
    },
    "source": "https://jalgaon.gov.in/en/tourist-place/swinging-towers-of-farkande/",
-   "sourceName": "jalgaon.gov.in"
+   "sourceName": "jalgaon.gov.in",
+   "station": {
+    "id": "Q19891328",
+    "km": 19
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 110
+   }
   },
   {
    "id": "x-manudevi-temple",
@@ -10672,7 +13944,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://nagpur.gov.in/tourist-place/khekranala-lake/",
-   "sourceName": "nagpur.gov.in"
+   "sourceName": "nagpur.gov.in",
+   "station": {
+    "id": "Q6959021",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 7
+   }
   },
   {
    "id": "x-satpuda-botanical-garden",
@@ -10686,7 +13966,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://nagpur.gov.in/tourist-place/satpuda-botanical-garden/",
-   "sourceName": "nagpur.gov.in"
+   "sourceName": "nagpur.gov.in",
+   "station": {
+    "id": "Q6959021",
+    "km": 5
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 7
+   }
   },
   {
    "id": "x-gandhi-sagar-lake",
@@ -10700,7 +13988,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://nagpur.gov.in/tourist-place/gandhi-sagar-lake/",
-   "sourceName": "nagpur.gov.in"
+   "sourceName": "nagpur.gov.in",
+   "station": {
+    "id": "Q6959021",
+    "km": 1
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 7
+   }
   },
   {
    "id": "x-astamba",
@@ -10714,7 +14010,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://nandurbar.gov.in/en/tourist-place/asthamba-nandurbar/",
-   "sourceName": "nandurbar.gov.in"
+   "sourceName": "nandurbar.gov.in",
+   "station": {
+    "id": "Q96417616",
+    "km": 51
+   },
+   "airport": {
+    "id": "Q3274467",
+    "km": 122
+   }
   },
   {
    "id": "x-shirish-kumar-mehta-memorial",
@@ -10728,7 +14032,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://nandurbar.gov.in/en/tourist-place/shirishkumar/",
-   "sourceName": "nandurbar.gov.in"
+   "sourceName": "nandurbar.gov.in",
+   "station": {
+    "id": "Q31294033",
+    "km": 20
+   },
+   "airport": {
+    "id": "Q3274467",
+    "km": 164
+   }
   },
   {
    "id": "x-charthana",
@@ -10747,7 +14059,15 @@
     "licence": "CC BY-SA 4.0"
    },
    "source": "https://parbhani.gov.in/en/tourist-place/chaarthana/",
-   "sourceName": "parbhani.gov.in"
+   "sourceName": "parbhani.gov.in",
+   "station": {
+    "id": "Q24949591",
+    "km": 30
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 96
+   }
   },
   {
    "id": "x-mudgaleshwar-temple-mudgal",
@@ -10761,7 +14081,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://parbhani.gov.in/en/tourist-place/mudgaleshwar-temple-mudgal/",
-   "sourceName": "parbhani.gov.in"
+   "sourceName": "parbhani.gov.in",
+   "station": {
+    "id": "Q24949591",
+    "km": 19
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 94
+   }
   },
   {
    "id": "x-mrityunjaya-pardeshwar-temple",
@@ -10775,7 +14103,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://parbhani.gov.in/en/tourist-place/mrityunjaya-pardeshwar-temple-mercury-shivlinga-parbhani/",
-   "sourceName": "parbhani.gov.in"
+   "sourceName": "parbhani.gov.in",
+   "station": {
+    "id": "Q24949591",
+    "km": 10
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 76
+   }
   },
   {
    "id": "x-narsimha-temple-pokharni",
@@ -10794,7 +14130,15 @@
     "licence": "CC BY-SA 4.0"
    },
    "source": "https://parbhani.gov.in/en/tourist-place/narsimha-mandir-pokharni/",
-   "sourceName": "parbhani.gov.in"
+   "sourceName": "parbhani.gov.in",
+   "station": {
+    "id": "Q24718427",
+    "km": 17
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 65
+   }
   },
   {
    "id": "x-neminath-digambar-jain-temple-navagadh",
@@ -10808,7 +14152,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://parbhani.gov.in/en/tourist-place/shri-neminath-digambar-jain-mandir-navagadh/",
-   "sourceName": "parbhani.gov.in"
+   "sourceName": "parbhani.gov.in",
+   "station": {
+    "id": "Q24949591",
+    "km": 10
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 76
+   }
   },
   {
    "id": "x-lal-mahal",
@@ -10827,7 +14179,15 @@
     "licence": "CC BY-SA 4.0"
    },
    "source": "https://pune.gov.in/en/tourist-place/lal-mahal/",
-   "sourceName": "pune.gov.in"
+   "sourceName": "pune.gov.in",
+   "station": {
+    "id": "Q14475834",
+    "km": 2
+   },
+   "airport": {
+    "id": "Q1432525",
+    "km": 10
+   }
   },
   {
    "id": "x-karmala",
@@ -10841,7 +14201,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://solapur.gov.in/en/tourist-place/karmala/",
-   "sourceName": "solapur.gov.in"
+   "sourceName": "solapur.gov.in",
+   "station": {
+    "id": "Q17068196",
+    "km": 41
+   },
+   "airport": {
+    "id": "Q7555807",
+    "km": 116
+   }
   },
   {
    "id": "x-barshi",
@@ -10855,7 +14223,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://solapur.gov.in/en/tourist-place/barshi/",
-   "sourceName": "solapur.gov.in"
+   "sourceName": "solapur.gov.in",
+   "station": {
+    "id": "Q24948614",
+    "km": 27
+   },
+   "airport": {
+    "id": "Q7555807",
+    "km": 72
+   }
   },
   {
    "id": "x-laxminarayan-temple-wardha",
@@ -10869,7 +14245,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://wardha.gov.in/en/tourist-place/laxminarayn-mandir/",
-   "sourceName": "wardha.gov.in"
+   "sourceName": "wardha.gov.in",
+   "station": {
+    "id": "Q24944968",
+    "km": 10
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 54
+   }
   },
   {
    "id": "x-paramdham-ashram-paunar",
@@ -10888,7 +14272,15 @@
     "licence": "CC BY 3.0"
    },
    "source": "https://wardha.gov.in/en/tourist-place/paramdham-aashram/",
-   "sourceName": "wardha.gov.in"
+   "sourceName": "wardha.gov.in",
+   "station": {
+    "id": "Q24944968",
+    "km": 7
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 52
+   }
   },
   {
    "id": "x-girad-dargah",
@@ -10907,7 +14299,15 @@
     "licence": "CC BY-SA 4.0"
    },
    "source": "https://wardha.gov.in/en/tourist-place/girad-darga/",
-   "sourceName": "wardha.gov.in"
+   "sourceName": "wardha.gov.in",
+   "station": {
+    "id": "Q43083502",
+    "km": 30
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 49
+   }
   },
   {
    "id": "x-banjara-virasat-nangara-museum",
@@ -10921,7 +14321,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://washim.gov.in/en/tourist-place/banjara-virasat-nangara-museum/",
-   "sourceName": "washim.gov.in"
+   "sourceName": "washim.gov.in",
+   "station": {
+    "id": "Q30592162",
+    "km": 28
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 79
+   }
   },
   {
    "id": "x-kanifnath-maharaj-temple-savargaon",
@@ -10935,7 +14343,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://washim.gov.in/en/tourist-place/shri-kanifnath-maharaj-savargaonta-mangrulpir/",
-   "sourceName": "washim.gov.in"
+   "sourceName": "washim.gov.in",
+   "station": {
+    "id": "Q24949584",
+    "km": 27
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 72
+   }
   },
   {
    "id": "x-sant-jholebaba-sansthan-chikhali",
@@ -10949,7 +14365,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://washim.gov.in/en/tourist-place/shri-sant-jholebaba-sansthan-chikhalita-mangrulpir/",
-   "sourceName": "washim.gov.in"
+   "sourceName": "washim.gov.in",
+   "station": {
+    "id": "Q24949584",
+    "km": 31
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 70
+   }
   },
   {
    "id": "x-murudeshwar-temple-rithad",
@@ -10963,7 +14387,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://washim.gov.in/en/tourist-place/shri-murudeshwar-temple-in-rithad/",
-   "sourceName": "washim.gov.in"
+   "sourceName": "washim.gov.in",
+   "station": {
+    "id": "Q24949584",
+    "km": 18
+   },
+   "airport": {
+    "id": "Q282238",
+    "km": 103
+   }
   },
   {
    "id": "x-sonal-dam",
@@ -10977,7 +14409,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://washim.gov.in/en/tourist-place/sonal-or-sonala-dam/",
-   "sourceName": "washim.gov.in"
+   "sourceName": "washim.gov.in",
+   "station": {
+    "id": "Q24949584",
+    "km": 27
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 72
+   }
   },
   {
    "id": "x-balaji-temple-washim",
@@ -10991,7 +14431,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://washim.gov.in/en/tourist-place/balaji-mandir-washim/",
-   "sourceName": "washim.gov.in"
+   "sourceName": "washim.gov.in",
+   "station": {
+    "id": "Q24949584",
+    "km": 23
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 77
+   }
   },
   {
    "id": "x-padmatirtha",
@@ -11005,7 +14453,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://washim.gov.in/en/tourist-place/padmatirtha-washim/",
-   "sourceName": "washim.gov.in"
+   "sourceName": "washim.gov.in",
+   "station": {
+    "id": "Q24949584",
+    "km": 23
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 77
+   }
   },
   {
    "id": "x-antariksha-parshvanath-jain-temple-shirpur",
@@ -11037,7 +14493,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://yavatmal.gov.in/en/tourist-places/",
-   "sourceName": "yavatmal.gov.in"
+   "sourceName": "yavatmal.gov.in",
+   "station": {
+    "id": "Q30592162",
+    "km": 38
+   },
+   "airport": {
+    "id": "Q4748633",
+    "km": 89
+   }
   },
   {
    "id": "x-matsyodari-devi-temple-ambad",
@@ -11051,7 +14515,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://jalna.gov.in/tourism/",
-   "sourceName": "jalna.gov.in"
+   "sourceName": "jalna.gov.in",
+   "station": {
+    "id": "Q10040691",
+    "km": 32
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 52
+   }
   },
   {
    "id": "x-rajur-ganpati-temple",
@@ -11065,7 +14537,15 @@
    ],
    "coordsFrom": "openstreetmap",
    "source": "https://jalna.gov.in/tourism/",
-   "sourceName": "jalna.gov.in"
+   "sourceName": "jalna.gov.in",
+   "station": {
+    "id": "Q10040691",
+    "km": 26
+   },
+   "airport": {
+    "id": "Q2903059",
+    "km": 52
+   }
   },
   {
    "id": "x-anchaleshwar-temple",
@@ -11084,7 +14564,15 @@
     "licence": "CC0"
    },
    "source": "https://chanda.nic.in/en/tourist-places/",
-   "sourceName": "chanda.nic.in"
+   "sourceName": "chanda.nic.in",
+   "station": {
+    "id": "Q63361347",
+    "km": 16
+   },
+   "airport": {
+    "id": "Q1657780",
+    "km": 121
+   }
   }
  ],
  "foods": [
@@ -12929,6 +16417,2136 @@
       }
      ]
     }
+   ]
+  }
+ ],
+ "hubs": [
+  {
+   "id": "Q4748633",
+   "kind": "airport",
+   "name": "Amravati Airport",
+   "code": "AVR",
+   "coords": [
+    20.813,
+    77.718
+   ]
+  },
+  {
+   "id": "Q2903059",
+   "kind": "airport",
+   "name": "Aurangabad Airport",
+   "nameMr": "छत्रपती संभाजीनगर विमानतळ",
+   "code": "IXU",
+   "coords": [
+    19.863,
+    75.398
+   ]
+  },
+  {
+   "id": "Q1657741",
+   "kind": "airport",
+   "name": "Belgaum Airport",
+   "nameMr": "बेळगांव विमानतळ",
+   "code": "IXG",
+   "coords": [
+    15.859,
+    74.618
+   ]
+  },
+  {
+   "id": "Q619672",
+   "kind": "airport",
+   "name": "Bidar Airport",
+   "nameMr": "बीदर विमानतळ",
+   "code": "IXX",
+   "coords": [
+    17.908,
+    77.486
+   ]
+  },
+  {
+   "id": "Q504368",
+   "kind": "airport",
+   "name": "Chhatrapati Shivaji Maharaj International Airport",
+   "nameMr": "छत्रपती शिवाजी आंतरराष्ट्रीय विमानतळ",
+   "code": "BOM",
+   "coords": [
+    19.089,
+    72.868
+   ]
+  },
+  {
+   "id": "Q1709224",
+   "kind": "airport",
+   "name": "Daman Airport",
+   "nameMr": "दमण विमानतळ",
+   "code": "NMB",
+   "coords": [
+    20.434,
+    72.843
+   ]
+  },
+  {
+   "id": "Q1658243",
+   "kind": "airport",
+   "name": "Devi Ahilya Bai Holkar Airport",
+   "nameMr": "देवी अहिल्याबाई होळकर विमानतळ",
+   "code": "IDR",
+   "coords": [
+    22.722,
+    75.801
+   ]
+  },
+  {
+   "id": "Q1657780",
+   "kind": "airport",
+   "name": "Dr. Babasaheb Ambedkar International Airport",
+   "nameMr": "डॉ. बाबासाहेब आंबेडकर आंतरराष्ट्रीय विमानतळ",
+   "code": "NAG",
+   "coords": [
+    21.093,
+    79.047
+   ]
+  },
+  {
+   "id": "Q3914449",
+   "kind": "airport",
+   "name": "Gondia Airport",
+   "nameMr": "गोंदिया विमानतळ",
+   "code": "GDB",
+   "coords": [
+    21.525,
+    80.288
+   ]
+  },
+  {
+   "id": "Q1595024",
+   "kind": "airport",
+   "name": "Kolhapur Airport",
+   "nameMr": "कोल्हापूर विमानतळ",
+   "code": "KLH",
+   "coords": [
+    16.665,
+    74.289
+   ]
+  },
+  {
+   "id": "Q27981434",
+   "kind": "airport",
+   "name": "Manohar International Airport",
+   "nameMr": "मनोहर आंतरराष्ट्रीय विमानतळ",
+   "code": "GOX",
+   "coords": [
+    15.73,
+    73.863
+   ]
+  },
+  {
+   "id": "Q282238",
+   "kind": "airport",
+   "name": "Nanded Airport",
+   "nameMr": "नांदेड विमानतळ",
+   "code": "NDC",
+   "coords": [
+    19.182,
+    77.319
+   ]
+  },
+  {
+   "id": "Q7116463",
+   "kind": "airport",
+   "name": "Nashik Airport",
+   "nameMr": "ओझर वायुसेना तळ",
+   "code": "ISK",
+   "coords": [
+    20.119,
+    73.913
+   ]
+  },
+  {
+   "id": "Q3015728",
+   "kind": "airport",
+   "name": "Navi Mumbai International Airport",
+   "nameMr": "नवी मुंबई आंतरराष्ट्रीय विमानतळ",
+   "code": "NMI",
+   "coords": [
+    18.985,
+    73.079
+   ]
+  },
+  {
+   "id": "Q1432525",
+   "kind": "airport",
+   "name": "Pune Airport",
+   "nameMr": "पुणे विमानतळ",
+   "code": "PNQ",
+   "coords": [
+    18.582,
+    73.92
+   ]
+  },
+  {
+   "id": "Q278667",
+   "kind": "airport",
+   "name": "Rajiv Gandhi International Airport",
+   "nameMr": "हैदराबाद आंतरराष्ट्रीय विमानतळ",
+   "code": "HYD",
+   "coords": [
+    17.239,
+    78.429
+   ]
+  },
+  {
+   "id": "Q7498345",
+   "kind": "airport",
+   "name": "Shirdi Airport",
+   "nameMr": "शिर्डी विमानतळ",
+   "code": "SAG",
+   "coords": [
+    19.689,
+    74.379
+   ]
+  },
+  {
+   "id": "Q16900194",
+   "kind": "airport",
+   "name": "Sindhudurg Airport",
+   "nameMr": "सिंधुदुर्ग विमानतळ",
+   "code": "SDW",
+   "coords": [
+    16,
+    73.533
+   ]
+  },
+  {
+   "id": "Q7555807",
+   "kind": "airport",
+   "name": "Solapur Airport",
+   "nameMr": "सोलापूर विमानतळ",
+   "code": "SSE",
+   "coords": [
+    17.628,
+    75.935
+   ]
+  },
+  {
+   "id": "Q3274467",
+   "kind": "airport",
+   "name": "Vadodara Airport",
+   "nameMr": "वडोदरा विमानतळ",
+   "code": "BDQ",
+   "coords": [
+    22.33,
+    73.219
+   ]
+  },
+  {
+   "id": "Q432474",
+   "kind": "airport",
+   "name": "Vijayawada Airport",
+   "nameMr": "विजयवाडा विमानतळ",
+   "code": "VGA",
+   "coords": [
+    16.528,
+    80.797
+   ]
+  },
+  {
+   "id": "Q20855602",
+   "kind": "station",
+   "name": "Achalpur railway station",
+   "nameMr": "अचलपूर रेल्वे स्थानक",
+   "coords": [
+    21.278,
+    77.519
+   ]
+  },
+  {
+   "id": "Q21040970",
+   "kind": "station",
+   "name": "Adavali railway station",
+   "nameMr": "आडवली रेल्वे स्थानक",
+   "coords": [
+    16.922,
+    73.593
+   ]
+  },
+  {
+   "id": "Q15178522",
+   "kind": "station",
+   "name": "Ahmednagar railway station",
+   "nameMr": "अहमदनगर रेल्वे स्थानक",
+   "coords": [
+    19.076,
+    74.722
+   ]
+  },
+  {
+   "id": "Q4699920",
+   "kind": "station",
+   "name": "Ajni railway station",
+   "nameMr": "अजनी रेल्वे स्थानक",
+   "coords": [
+    21.127,
+    79.083
+   ]
+  },
+  {
+   "id": "Q23074002",
+   "kind": "station",
+   "name": "Akalkot Road railway station",
+   "nameMr": "अक्कलकोट रोड रेल्वे स्थानक",
+   "coords": [
+    17.451,
+    76.138
+   ]
+  },
+  {
+   "id": "Q15178766",
+   "kind": "station",
+   "name": "Akola Junction railway station",
+   "nameMr": "अकोला रेल्वे स्थानक",
+   "coords": [
+    20.723,
+    77.005
+   ]
+  },
+  {
+   "id": "Q24947925",
+   "kind": "station",
+   "name": "Akot railway station",
+   "coords": [
+    21.096,
+    77.047
+   ]
+  },
+  {
+   "id": "Q15178790",
+   "kind": "station",
+   "name": "Akurdi railway station",
+   "nameMr": "आकुर्डी रेल्वे स्थानक",
+   "coords": [
+    18.648,
+    73.764
+   ]
+  },
+  {
+   "id": "Q96417616",
+   "kind": "station",
+   "name": "Alirajpur railway station",
+   "coords": [
+    22.3,
+    74.398
+   ]
+  },
+  {
+   "id": "Q19881901",
+   "kind": "station",
+   "name": "Amalner railway station",
+   "nameMr": "अमळनेर रेल्वे स्थानक",
+   "coords": [
+    21.05,
+    75.058
+   ]
+  },
+  {
+   "id": "Q4741032",
+   "kind": "station",
+   "name": "Ambarnath railway station",
+   "nameMr": "अंबरनाथ रेल्वे स्थानक",
+   "coords": [
+    19.21,
+    73.185
+   ]
+  },
+  {
+   "id": "Q21040782",
+   "kind": "station",
+   "name": "Anjani railway station",
+   "nameMr": "अंजणी रेल्वे स्थानक",
+   "coords": [
+    17.621,
+    73.399
+   ]
+  },
+  {
+   "id": "Q30623697",
+   "kind": "station",
+   "name": "Ankai Killa railway station",
+   "nameMr": "अंकाई किल्ला रेल्वे स्थानक",
+   "coords": [
+    20.183,
+    74.437
+   ]
+  },
+  {
+   "id": "Q21040955",
+   "kind": "station",
+   "name": "Aravali Road railway station",
+   "nameMr": "आरवली रोड रेल्वे स्थानक",
+   "coords": [
+    17.317,
+    73.538
+   ]
+  },
+  {
+   "id": "Q62127942",
+   "kind": "station",
+   "name": "Arjuni railway station",
+   "nameMr": "अर्जुनी रेल्वे स्थानक",
+   "coords": [
+    20.819,
+    80.021
+   ]
+  },
+  {
+   "id": "Q4803517",
+   "kind": "station",
+   "name": "Asangaon railway station",
+   "nameMr": "आसनगाव",
+   "coords": [
+    19.439,
+    73.308
+   ]
+  },
+  {
+   "id": "Q4813149",
+   "kind": "station",
+   "name": "Atgaon railway station",
+   "nameMr": "आटगाव रेल्वे स्थानक",
+   "coords": [
+    19.503,
+    73.328
+   ]
+  },
+  {
+   "id": "Q17514078",
+   "kind": "station",
+   "name": "Aurangabad railway station",
+   "nameMr": "औरंगाबाद रेल्वे स्थानक",
+   "coords": [
+    19.859,
+    75.311
+   ]
+  },
+  {
+   "id": "Q4841008",
+   "kind": "station",
+   "name": "Badlapur railway station",
+   "nameMr": "बदलापूर रेल्वे स्थानक",
+   "coords": [
+    19.166,
+    73.239
+   ]
+  },
+  {
+   "id": "Q48724452",
+   "kind": "station",
+   "name": "Bale railway station",
+   "coords": [
+    17.676,
+    75.845
+   ]
+  },
+  {
+   "id": "Q16869005",
+   "kind": "station",
+   "name": "Balharshah railway station",
+   "nameMr": "बल्हारशाह रेल्वे स्थानक",
+   "coords": [
+    19.849,
+    79.349
+   ]
+  },
+  {
+   "id": "Q4854695",
+   "kind": "station",
+   "name": "Bandra railway station",
+   "nameMr": "वांद्रे रेल्वे स्थानक",
+   "coords": [
+    19.054,
+    72.84
+   ]
+  },
+  {
+   "id": "Q24948926",
+   "kind": "station",
+   "name": "Baramati railway station",
+   "nameMr": "बारामती रेल्वे स्थानक",
+   "coords": [
+    18.154,
+    74.578
+   ]
+  },
+  {
+   "id": "Q24948743",
+   "kind": "station",
+   "name": "Beed railway station",
+   "coords": [
+    18.969,
+    75.739
+   ]
+  },
+  {
+   "id": "Q25549254",
+   "kind": "station",
+   "name": "Belapur (BAP) railway station",
+   "nameMr": "बेलापूर रेल्वे स्थानक",
+   "coords": [
+    19.619,
+    74.663
+   ]
+  },
+  {
+   "id": "Q24943942",
+   "kind": "station",
+   "name": "Bhandara Road railway station",
+   "nameMr": "भंडारा रोड रेल्वे स्थानक",
+   "coords": [
+    21.239,
+    79.648
+   ]
+  },
+  {
+   "id": "Q25549314",
+   "kind": "station",
+   "name": "Bharatwada railway station",
+   "coords": [
+    21.232,
+    79.017
+   ]
+  },
+  {
+   "id": "Q4901614",
+   "kind": "station",
+   "name": "Bhayandar railway station",
+   "nameMr": "भाईंदर रेल्वे स्थानक",
+   "coords": [
+    19.312,
+    72.853
+   ]
+  },
+  {
+   "id": "Q25549344",
+   "kind": "station",
+   "name": "Bhilad railway station",
+   "coords": [
+    20.275,
+    72.887
+   ]
+  },
+  {
+   "id": "Q24947849",
+   "kind": "station",
+   "name": "Bhilawadi railway station",
+   "nameMr": "भिलवडी रेल्वे स्थानक",
+   "coords": [
+    17.008,
+    74.517
+   ]
+  },
+  {
+   "id": "Q4901853",
+   "kind": "station",
+   "name": "Bhivpuri Road railway station",
+   "nameMr": "भिवपुरी रोड",
+   "coords": [
+    18.971,
+    73.331
+   ]
+  },
+  {
+   "id": "Q21040958",
+   "kind": "station",
+   "name": "Bhoke railway station",
+   "nameMr": "भोके रेल्वे स्थानक",
+   "coords": [
+    17.049,
+    73.381
+   ]
+  },
+  {
+   "id": "Q15198991",
+   "kind": "station",
+   "name": "Bhusaval Junction railway station",
+   "nameMr": "भुसावळ रेल्वे स्थानक",
+   "coords": [
+    21.047,
+    75.789
+   ]
+  },
+  {
+   "id": "Q4938432",
+   "kind": "station",
+   "name": "Boisar railway station",
+   "nameMr": "बोईसर रेल्वे स्थानक",
+   "coords": [
+    19.799,
+    72.762
+   ]
+  },
+  {
+   "id": "Q4945508",
+   "kind": "station",
+   "name": "Borivali railway station",
+   "nameMr": "बोरीवली रेल्वे स्थानक",
+   "coords": [
+    19.229,
+    72.856
+   ]
+  },
+  {
+   "id": "Q43083502",
+   "kind": "station",
+   "name": "Buti Bori railway station",
+   "nameMr": "बुटीबोरी रेल्वे स्थानक",
+   "coords": [
+    20.918,
+    79.014
+   ]
+  },
+  {
+   "id": "Q19891119",
+   "kind": "station",
+   "name": "Chalisgaon Junction railway station",
+   "nameMr": "चाळीसगाव जंक्शन रेल्वे स्थानक",
+   "coords": [
+    20.464,
+    74.999
+   ]
+  },
+  {
+   "id": "Q5121186",
+   "kind": "station",
+   "name": "Charni Road railway station",
+   "nameMr": "चर्नी रोड रेल्वे स्थानक",
+   "coords": [
+    18.952,
+    72.819
+   ]
+  },
+  {
+   "id": "Q15209228",
+   "kind": "station",
+   "name": "Chhatrapati Shahu Maharaj Terminus",
+   "nameMr": "छत्रपती शाहू महाराज टर्मिनस",
+   "coords": [
+    16.703,
+    74.238
+   ]
+  },
+  {
+   "id": "Q235884",
+   "kind": "station",
+   "name": "Chhatrapati Shivaji Terminus",
+   "nameMr": "छत्रपती शिवाजी महाराज टर्मिनस",
+   "coords": [
+    18.94,
+    72.835
+   ]
+  },
+  {
+   "id": "Q63361347",
+   "kind": "station",
+   "name": "Chichpalli railway station",
+   "coords": [
+    19.966,
+    79.443
+   ]
+  },
+  {
+   "id": "Q19805686",
+   "kind": "station",
+   "name": "Chiplun railway station",
+   "nameMr": "चिपळूण रेल्वे स्थानक",
+   "coords": [
+    17.543,
+    73.522
+   ]
+  },
+  {
+   "id": "Q63369812",
+   "kind": "station",
+   "name": "Choti Padoli railway station",
+   "coords": [
+    20.001,
+    79.253
+   ]
+  },
+  {
+   "id": "Q63357609",
+   "kind": "station",
+   "name": "Chouk railway station",
+   "nameMr": "चौक रेल्वे स्थानक",
+   "coords": [
+    18.903,
+    73.24
+   ]
+  },
+  {
+   "id": "Q5118143",
+   "kind": "station",
+   "name": "Churchgate railway station",
+   "nameMr": "चर्चगेट रेल्वे स्थानक",
+   "coords": [
+    18.935,
+    72.827
+   ]
+  },
+  {
+   "id": "Q5208777",
+   "kind": "station",
+   "name": "Dahanu Road railway station",
+   "nameMr": "डहाणू रोड रेल्वे स्थानक",
+   "coords": [
+    19.991,
+    72.743
+   ]
+  },
+  {
+   "id": "Q5208848",
+   "kind": "station",
+   "name": "Dahisar railway station",
+   "nameMr": "दहिसर रेल्वे स्थानक",
+   "coords": [
+    19.25,
+    72.86
+   ]
+  },
+  {
+   "id": "Q24947932",
+   "kind": "station",
+   "name": "Dalli-Rajhara railway station",
+   "coords": [
+    20.587,
+    81.068
+   ]
+  },
+  {
+   "id": "Q55609025",
+   "kind": "station",
+   "name": "Darekasa railway station",
+   "coords": [
+    21.271,
+    80.581
+   ]
+  },
+  {
+   "id": "Q30592162",
+   "kind": "station",
+   "name": "Darwha Motibagh railway station",
+   "coords": [
+    20.321,
+    77.768
+   ]
+  },
+  {
+   "id": "Q5228046",
+   "kind": "station",
+   "name": "Daund Junction railway station",
+   "nameMr": "दौंड रेल्वे स्थानक",
+   "coords": [
+    18.464,
+    74.579
+   ]
+  },
+  {
+   "id": "Q15213513",
+   "kind": "station",
+   "name": "Dehu Road railway station",
+   "nameMr": "देहू रोड रेल्वे स्थानक",
+   "coords": [
+    18.68,
+    73.734
+   ]
+  },
+  {
+   "id": "Q24944934",
+   "kind": "station",
+   "name": "Devlali railway station",
+   "coords": [
+    19.898,
+    73.837
+   ]
+  },
+  {
+   "id": "Q24944973",
+   "kind": "station",
+   "name": "Dhamangaon railway station",
+   "coords": [
+    20.785,
+    78.138
+   ]
+  },
+  {
+   "id": "Q19891328",
+   "kind": "station",
+   "name": "Dharangaon railway station",
+   "nameMr": "धरणगांव रेल्वे स्थानक",
+   "coords": [
+    21.006,
+    75.286
+   ]
+  },
+  {
+   "id": "Q19891337",
+   "kind": "station",
+   "name": "Dhule railway station",
+   "coords": [
+    20.888,
+    74.769
+   ]
+  },
+  {
+   "id": "Q24929043",
+   "kind": "station",
+   "name": "Diwankhavati railway station",
+   "nameMr": "दिवाणखवटी रेल्वे स्थानक",
+   "coords": [
+    17.855,
+    73.418
+   ]
+  },
+  {
+   "id": "Q31294033",
+   "kind": "station",
+   "name": "Dondaicha railway station",
+   "coords": [
+    21.331,
+    74.562
+   ]
+  },
+  {
+   "id": "Q31295186",
+   "kind": "station",
+   "name": "Gholvad railway station",
+   "nameMr": "घोलवड रेल्वे स्थानक",
+   "coords": [
+    20.087,
+    72.738
+   ]
+  },
+  {
+   "id": "Q18125106",
+   "kind": "station",
+   "name": "Ghorpuri railway station",
+   "nameMr": "घोरपडी रेल्वे स्थानक",
+   "coords": [
+    18.528,
+    73.893
+   ]
+  },
+  {
+   "id": "Q30592634",
+   "kind": "station",
+   "name": "Ghoti railway station",
+   "coords": [
+    19.723,
+    73.636
+   ]
+  },
+  {
+   "id": "Q63371820",
+   "kind": "station",
+   "name": "Godhani railway station",
+   "coords": [
+    21.211,
+    79.068
+   ]
+  },
+  {
+   "id": "Q30592457",
+   "kind": "station",
+   "name": "Gond Umri railway station",
+   "coords": [
+    21.022,
+    80.09
+   ]
+  },
+  {
+   "id": "Q24929032",
+   "kind": "station",
+   "name": "Goregaon Road railway station",
+   "nameMr": "गोरेगाव रोड रेल्वे स्थानक",
+   "coords": [
+    18.162,
+    73.303
+   ]
+  },
+  {
+   "id": "Q5226483",
+   "kind": "station",
+   "name": "Grant Road railway station",
+   "nameMr": "ग्रँट रोड रेल्वे स्थानक",
+   "coords": [
+    18.963,
+    72.816
+   ]
+  },
+  {
+   "id": "Q20717450",
+   "kind": "station",
+   "name": "Hazur Sahib Nanded railway station",
+   "nameMr": "हुजूर साहेब नांदेड रेल्वे स्थानक",
+   "coords": [
+    19.161,
+    77.31
+   ]
+  },
+  {
+   "id": "Q24912178",
+   "kind": "station",
+   "name": "Hingoli Deccan railway station",
+   "coords": [
+    19.726,
+    77.147
+   ]
+  },
+  {
+   "id": "Q18125726",
+   "kind": "station",
+   "name": "Hotgi Junction railway station",
+   "nameMr": "होटगी रेल्वे स्थानक",
+   "coords": [
+    17.566,
+    75.99
+   ]
+  },
+  {
+   "id": "Q15227969",
+   "kind": "station",
+   "name": "Igatpuri railway station",
+   "nameMr": "इगतपुरी रेल्वे स्थानक",
+   "coords": [
+    19.694,
+    73.562
+   ]
+  },
+  {
+   "id": "Q21040863",
+   "kind": "station",
+   "name": "Indapur railway station",
+   "nameMr": "इंदापूर रेल्वे स्थानक",
+   "coords": [
+    18.298,
+    73.245
+   ]
+  },
+  {
+   "id": "Q15229224",
+   "kind": "station",
+   "name": "Jalgaon Junction railway station",
+   "nameMr": "जळगाव रेल्वे स्थानक",
+   "coords": [
+    21.018,
+    75.563
+   ]
+  },
+  {
+   "id": "Q10040691",
+   "kind": "station",
+   "name": "Jalna railway station",
+   "nameMr": "जालना रेल्वे स्थानक",
+   "coords": [
+    19.831,
+    75.893
+   ]
+  },
+  {
+   "id": "Q19892140",
+   "kind": "station",
+   "name": "Jamner railway station",
+   "coords": [
+    20.806,
+    75.775
+   ]
+  },
+  {
+   "id": "Q24942862",
+   "kind": "station",
+   "name": "Jejuri railway station",
+   "nameMr": "जेजुरी रेल्वे स्थानक",
+   "coords": [
+    18.287,
+    74.171
+   ]
+  },
+  {
+   "id": "Q6214732",
+   "kind": "station",
+   "name": "Jogeshwari railway station",
+   "nameMr": "जोगेश्वरी रेल्वे स्थानक",
+   "coords": [
+    19.137,
+    72.849
+   ]
+  },
+  {
+   "id": "Q6301980",
+   "kind": "station",
+   "name": "Juchandra railway station",
+   "nameMr": "जुचंद्र रेल्वे स्थानक",
+   "coords": [
+    19.36,
+    72.872
+   ]
+  },
+  {
+   "id": "Q6354779",
+   "kind": "station",
+   "name": "Kalwa railway station",
+   "nameMr": "कळवा",
+   "coords": [
+    19.196,
+    72.998
+   ]
+  },
+  {
+   "id": "Q6354881",
+   "kind": "station",
+   "name": "Kalyan Junction railway station",
+   "nameMr": "कल्याण रेल्वे स्थानक",
+   "coords": [
+    19.235,
+    73.13
+   ]
+  },
+  {
+   "id": "Q15233325",
+   "kind": "station",
+   "name": "Kamshet railway station",
+   "nameMr": "कामशेत रेल्वे स्थानक",
+   "coords": [
+    18.767,
+    73.552
+   ]
+  },
+  {
+   "id": "Q6361555",
+   "kind": "station",
+   "name": "Kandivli railway station",
+   "nameMr": "कांदिवली रेल्वे स्थानक",
+   "coords": [
+    19.205,
+    72.852
+   ]
+  },
+  {
+   "id": "Q61368113",
+   "kind": "station",
+   "name": "Kanhan Junction railway station",
+   "nameMr": "कन्हान जंक्शन रेल्वे स्थानक",
+   "coords": [
+    21.226,
+    79.239
+   ]
+  },
+  {
+   "id": "Q6363526",
+   "kind": "station",
+   "name": "Kanjur Marg railway station",
+   "nameMr": "कांजुरमार्ग रेल्वे स्थानक",
+   "coords": [
+    19.128,
+    72.928
+   ]
+  },
+  {
+   "id": "Q13116238",
+   "kind": "station",
+   "name": "Kankavli railway station",
+   "nameMr": "कणकवली रेल्वे स्थानक",
+   "coords": [
+    16.259,
+    73.72
+   ]
+  },
+  {
+   "id": "Q24944943",
+   "kind": "station",
+   "name": "Karad railway station",
+   "nameMr": "कराड रेल्वे स्थानक",
+   "coords": [
+    17.31,
+    74.216
+   ]
+  },
+  {
+   "id": "Q21040922",
+   "kind": "station",
+   "name": "Karanjadi railway station",
+   "nameMr": "करंजाडी रेल्वे स्थानक",
+   "coords": [
+    17.998,
+    73.404
+   ]
+  },
+  {
+   "id": "Q15234068",
+   "kind": "station",
+   "name": "Kasarwadi railway station",
+   "nameMr": "कासारवाडी रेल्वे स्थानक",
+   "coords": [
+    18.608,
+    73.821
+   ]
+  },
+  {
+   "id": "Q15234221",
+   "kind": "station",
+   "name": "Kasu railway station",
+   "nameMr": "कासू रेल्वे स्थानक",
+   "coords": [
+    18.641,
+    73.079
+   ]
+  },
+  {
+   "id": "Q30593326",
+   "kind": "station",
+   "name": "Kedgaon railway station",
+   "nameMr": "केडगांव रेल्वे स्थानक",
+   "coords": [
+    18.482,
+    74.376
+   ]
+  },
+  {
+   "id": "Q6386620",
+   "kind": "station",
+   "name": "Kelve Road railway station",
+   "nameMr": "केळवे रोड रेल्वे स्थानक",
+   "coords": [
+    19.625,
+    72.791
+   ]
+  },
+  {
+   "id": "Q29026161",
+   "kind": "station",
+   "name": "Kharkopar railway station",
+   "nameMr": "खारकोपर रेल्वे स्थानक",
+   "coords": [
+    18.96,
+    73.014
+   ]
+  },
+  {
+   "id": "Q21040760",
+   "kind": "station",
+   "name": "Khed railway station",
+   "nameMr": "खेड रेल्वे स्थानक",
+   "coords": [
+    17.712,
+    73.409
+   ]
+  },
+  {
+   "id": "Q24948477",
+   "kind": "station",
+   "name": "Kirloskarvadi railway station",
+   "nameMr": "किर्लोस्करवाडी रेल्वे स्थानक",
+   "coords": [
+    17.084,
+    74.416
+   ]
+  },
+  {
+   "id": "Q24943949",
+   "kind": "station",
+   "name": "Koka railway station",
+   "coords": [
+    21.263,
+    79.712
+   ]
+  },
+  {
+   "id": "Q24944941",
+   "kind": "station",
+   "name": "Kopargaon railway station",
+   "nameMr": "कोपरगांव रेल्वे स्थानक",
+   "coords": [
+    19.903,
+    74.503
+   ]
+  },
+  {
+   "id": "Q24947852",
+   "kind": "station",
+   "name": "Koregaon railway station",
+   "nameMr": "कोरेगाव रेल्वे स्थानक",
+   "coords": [
+    17.691,
+    74.148
+   ]
+  },
+  {
+   "id": "Q24944719",
+   "kind": "station",
+   "name": "Kudal railway station",
+   "nameMr": "कुडाळ रेल्वे स्थानक",
+   "coords": [
+    16.018,
+    73.678
+   ]
+  },
+  {
+   "id": "Q17068196",
+   "kind": "station",
+   "name": "Kurduvadi Junction railway station",
+   "nameMr": "कुर्डुवाडी रेल्वे स्थानक",
+   "coords": [
+    18.091,
+    75.417
+   ]
+  },
+  {
+   "id": "Q6497211",
+   "kind": "station",
+   "name": "Latur railway station",
+   "nameMr": "लातूर रेल्वे स्थानक",
+   "coords": [
+    18.429,
+    76.556
+   ]
+  },
+  {
+   "id": "Q30623165",
+   "kind": "station",
+   "name": "Latur Road railway station",
+   "coords": [
+    18.506,
+    76.845
+   ]
+  },
+  {
+   "id": "Q6669650",
+   "kind": "station",
+   "name": "Lonavala railway station",
+   "nameMr": "लोणावळा रेल्वे स्थानक",
+   "coords": [
+    18.749,
+    73.408
+   ]
+  },
+  {
+   "id": "Q24942845",
+   "kind": "station",
+   "name": "Loni railway station",
+   "nameMr": "लोणी रेल्वे स्थानक",
+   "coords": [
+    18.492,
+    74.021
+   ]
+  },
+  {
+   "id": "Q6694057",
+   "kind": "station",
+   "name": "Lowjee railway station",
+   "nameMr": "लौजी रेल्वे स्थानक",
+   "coords": [
+    18.81,
+    73.335
+   ]
+  },
+  {
+   "id": "Q24948614",
+   "kind": "station",
+   "name": "Madha railway station",
+   "nameMr": "माढा रेल्वे स्थानक",
+   "coords": [
+    18.03,
+    75.547
+   ]
+  },
+  {
+   "id": "Q24944727",
+   "kind": "station",
+   "name": "Madure railway station",
+   "nameMr": "मादुरे रेल्वे स्थानक",
+   "coords": [
+    15.804,
+    73.813
+   ]
+  },
+  {
+   "id": "Q6732924",
+   "kind": "station",
+   "name": "Mahalaxmi railway station",
+   "nameMr": "महालक्ष्मी रेल्वे स्थानक",
+   "coords": [
+    18.982,
+    72.824
+   ]
+  },
+  {
+   "id": "Q6734003",
+   "kind": "station",
+   "name": "Mahim Junction railway station",
+   "nameMr": "माहिम रेल्वे स्थानक",
+   "coords": [
+    19.041,
+    72.847
+   ]
+  },
+  {
+   "id": "Q24927975",
+   "kind": "station",
+   "name": "Majri Junction railway station",
+   "coords": [
+    20.139,
+    79.044
+   ]
+  },
+  {
+   "id": "Q6740940",
+   "kind": "station",
+   "name": "Malad railway station",
+   "nameMr": "मालाड रेल्वे स्थानक",
+   "coords": [
+    19.187,
+    72.849
+   ]
+  },
+  {
+   "id": "Q15244125",
+   "kind": "station",
+   "name": "Malavli railway station",
+   "nameMr": "मळवली रेल्वे स्थानक",
+   "coords": [
+    18.744,
+    73.481
+   ]
+  },
+  {
+   "id": "Q6743870",
+   "kind": "station",
+   "name": "Malkapur railway station",
+   "coords": [
+    20.892,
+    76.203
+   ]
+  },
+  {
+   "id": "Q6747214",
+   "kind": "station",
+   "name": "Mancherial railway station",
+   "coords": [
+    18.879,
+    79.449
+   ]
+  },
+  {
+   "id": "Q15245124",
+   "kind": "station",
+   "name": "Manmad Junction railway station",
+   "nameMr": "मनमाड रेल्वे स्थानक",
+   "coords": [
+    20.25,
+    74.438
+   ]
+  },
+  {
+   "id": "Q24949591",
+   "kind": "station",
+   "name": "Manwath Road railway station",
+   "coords": [
+    19.358,
+    76.535
+   ]
+  },
+  {
+   "id": "Q6764160",
+   "kind": "station",
+   "name": "Marine Lines railway station",
+   "nameMr": "मरीन लाइन्स रेल्वे स्थानक",
+   "coords": [
+    18.946,
+    72.824
+   ]
+  },
+  {
+   "id": "Q12445809",
+   "kind": "station",
+   "name": "Masjid railway station",
+   "nameMr": "मस्जिद बंदर",
+   "coords": [
+    18.952,
+    72.839
+   ]
+  },
+  {
+   "id": "Q31739504",
+   "kind": "station",
+   "name": "Matheran railway station",
+   "nameMr": "माथेरान रेल्वे स्थानक",
+   "coords": [
+    18.989,
+    73.271
+   ]
+  },
+  {
+   "id": "Q6872241",
+   "kind": "station",
+   "name": "Mira Road railway station",
+   "nameMr": "मीरा रोड रेल्वे स्थानक",
+   "coords": [
+    19.28,
+    72.856
+   ]
+  },
+  {
+   "id": "Q18619269",
+   "kind": "station",
+   "name": "Miraj Junction railway station",
+   "nameMr": "मिरज रेल्वे स्थानक",
+   "coords": [
+    16.82,
+    74.639
+   ]
+  },
+  {
+   "id": "Q3539796",
+   "kind": "station",
+   "name": "Mumbai Central railway station",
+   "nameMr": "मुंबई सेंट्रल",
+   "coords": [
+    18.971,
+    72.819
+   ]
+  },
+  {
+   "id": "Q15260320",
+   "kind": "station",
+   "name": "Murtizapur Junction railway station",
+   "coords": [
+    20.736,
+    77.355
+   ]
+  },
+  {
+   "id": "Q63361172",
+   "kind": "station",
+   "name": "Nagbhir Junction railway station",
+   "coords": [
+    20.58,
+    79.7
+   ]
+  },
+  {
+   "id": "Q15260779",
+   "kind": "station",
+   "name": "Nagothane railway station",
+   "nameMr": "नागोठणे रेल्वे स्थानक",
+   "coords": [
+    18.54,
+    73.141
+   ]
+  },
+  {
+   "id": "Q6959021",
+   "kind": "station",
+   "name": "Nagpur Junction railway station",
+   "nameMr": "नागपूर रेल्वे स्थानक",
+   "coords": [
+    21.153,
+    79.089
+   ]
+  },
+  {
+   "id": "Q6959544",
+   "kind": "station",
+   "name": "Naigaon railway station",
+   "nameMr": "नायगांव रेल्वे स्थानक",
+   "coords": [
+    19.351,
+    72.846
+   ]
+  },
+  {
+   "id": "Q20718078",
+   "kind": "station",
+   "name": "Nandgaon railway station",
+   "coords": [
+    20.309,
+    74.66
+   ]
+  },
+  {
+   "id": "Q21040981",
+   "kind": "station",
+   "name": "Nandgaon Road railway station",
+   "nameMr": "नांदगाव रोड रेल्वे स्थानक",
+   "coords": [
+    16.387,
+    73.731
+   ]
+  },
+  {
+   "id": "Q19894455",
+   "kind": "station",
+   "name": "Nandurbar railway station",
+   "coords": [
+    21.375,
+    74.246
+   ]
+  },
+  {
+   "id": "Q62005350",
+   "kind": "station",
+   "name": "Nardana railway station",
+   "coords": [
+    21.178,
+    74.828
+   ]
+  },
+  {
+   "id": "Q15261058",
+   "kind": "station",
+   "name": "Nasik Road railway station",
+   "nameMr": "नाशिक रोड रेल्वे स्थानक",
+   "coords": [
+    19.948,
+    73.842
+   ]
+  },
+  {
+   "id": "Q62005375",
+   "kind": "station",
+   "name": "Navapur railway station",
+   "coords": [
+    21.166,
+    73.772
+   ]
+  },
+  {
+   "id": "Q15262309",
+   "kind": "station",
+   "name": "Nidi railway station",
+   "nameMr": "निडी रेल्वे स्थानक",
+   "coords": [
+    18.472,
+    73.107
+   ]
+  },
+  {
+   "id": "Q15262382",
+   "kind": "station",
+   "name": "Niphad railway station",
+   "coords": [
+    20.097,
+    74.079
+   ]
+  },
+  {
+   "id": "Q21040962",
+   "kind": "station",
+   "name": "Nivasar railway station",
+   "nameMr": "निवसर रेल्वे स्थानक",
+   "coords": [
+    16.947,
+    73.455
+   ]
+  },
+  {
+   "id": "Q7107118",
+   "kind": "station",
+   "name": "Osmanabad railway station",
+   "coords": [
+    18.248,
+    76.023
+   ]
+  },
+  {
+   "id": "Q63358189",
+   "kind": "station",
+   "name": "Pachhapur railway station",
+   "coords": [
+    16.093,
+    74.672
+   ]
+  },
+  {
+   "id": "Q19894976",
+   "kind": "station",
+   "name": "Pachora Junction railway station",
+   "coords": [
+    20.668,
+    75.348
+   ]
+  },
+  {
+   "id": "Q7127480",
+   "kind": "station",
+   "name": "Palghar railway station",
+   "nameMr": "पालघर रेल्वे स्थानक",
+   "coords": [
+    19.698,
+    72.772
+   ]
+  },
+  {
+   "id": "Q24944947",
+   "kind": "station",
+   "name": "Pandharpur railway station",
+   "nameMr": "पंढरपूर रेल्वे स्थानक",
+   "coords": [
+    17.668,
+    75.319
+   ]
+  },
+  {
+   "id": "Q24718427",
+   "kind": "station",
+   "name": "Parbhani Junction railway station",
+   "nameMr": "परभणी रेल्वे स्थानक",
+   "coords": [
+    19.257,
+    76.774
+   ]
+  },
+  {
+   "id": "Q118610698",
+   "kind": "station",
+   "name": "Parel railway station",
+   "nameMr": "परळ रेल्वे स्थानक",
+   "coords": [
+    19.009,
+    72.838
+   ]
+  },
+  {
+   "id": "Q24948741",
+   "kind": "station",
+   "name": "Parli Vaijnath railway station",
+   "nameMr": "परळी वैजनाथ रेल्वे स्थानक",
+   "coords": [
+    18.853,
+    76.524
+   ]
+  },
+  {
+   "id": "Q63360872",
+   "kind": "station",
+   "name": "Partur railway station",
+   "coords": [
+    19.576,
+    76.213
+   ]
+  },
+  {
+   "id": "Q28173650",
+   "kind": "station",
+   "name": "Pauni Road railway station",
+   "coords": [
+    20.748,
+    79.552
+   ]
+  },
+  {
+   "id": "Q63361180",
+   "kind": "station",
+   "name": "Poyanje railway station",
+   "nameMr": "मोहोपे रेल्वे स्थानक",
+   "coords": [
+    18.943,
+    73.194
+   ]
+  },
+  {
+   "id": "Q5367292",
+   "kind": "station",
+   "name": "Prabhadevi railway station",
+   "coords": [
+    19.007,
+    72.835
+   ]
+  },
+  {
+   "id": "Q21040974",
+   "kind": "station",
+   "name": "Rajapur Road railway station",
+   "nameMr": "राजापूर रोड रेल्वे स्थानक",
+   "coords": [
+    16.635,
+    73.627
+   ]
+  },
+  {
+   "id": "Q18129030",
+   "kind": "station",
+   "name": "Ram Mandir railway station",
+   "nameMr": "राम मंदिर रेल्वे स्थानक",
+   "coords": [
+    19.151,
+    72.85
+   ]
+  },
+  {
+   "id": "Q19895712",
+   "kind": "station",
+   "name": "Ramagundam railway station",
+   "coords": [
+    18.763,
+    79.435
+   ]
+  },
+  {
+   "id": "Q27963417",
+   "kind": "station",
+   "name": "Ramtek railway station",
+   "nameMr": "रामटेक रेल्वे स्थानक",
+   "coords": [
+    21.393,
+    79.3
+   ]
+  },
+  {
+   "id": "Q24948806",
+   "kind": "station",
+   "name": "Ranjangaon Road railway station",
+   "nameMr": "रांजणगांव रोड रेल्वे स्थानक",
+   "coords": [
+    18.878,
+    74.607
+   ]
+  },
+  {
+   "id": "Q15271875",
+   "kind": "station",
+   "name": "Rasayani railway station",
+   "nameMr": "रसायनी रेल्वे स्थानक",
+   "coords": [
+    18.894,
+    73.152
+   ]
+  },
+  {
+   "id": "Q19983994",
+   "kind": "station",
+   "name": "Ratnagiri railway station",
+   "nameMr": "रत्नागिरी रेल्वे स्थानक",
+   "coords": [
+    17.003,
+    73.357
+   ]
+  },
+  {
+   "id": "Q19895797",
+   "kind": "station",
+   "name": "Raver railway station",
+   "coords": [
+    21.222,
+    76.045
+   ]
+  },
+  {
+   "id": "Q15272988",
+   "kind": "station",
+   "name": "Roha railway station",
+   "nameMr": "रोहा रेल्वे स्थानक",
+   "coords": [
+    18.446,
+    73.124
+   ]
+  },
+  {
+   "id": "Q63358225",
+   "kind": "station",
+   "name": "Sahasrakund railway station",
+   "coords": [
+    19.403,
+    78.008
+   ]
+  },
+  {
+   "id": "Q7400483",
+   "kind": "station",
+   "name": "Sainagar Shirdi railway station",
+   "nameMr": "साईनगर शिर्डी रेल्वे स्थानक",
+   "coords": [
+    19.781,
+    74.481
+   ]
+  },
+  {
+   "id": "Q21040956",
+   "kind": "station",
+   "name": "Sangameshwar Road railway station",
+   "nameMr": "संगमेश्वर रोड रेल्वे स्थानक",
+   "coords": [
+    17.202,
+    73.546
+   ]
+  },
+  {
+   "id": "Q21040920",
+   "kind": "station",
+   "name": "Sape Wamane railway station",
+   "nameMr": "सापे वामणे रेल्वे स्थानक",
+   "coords": [
+    18.058,
+    73.372
+   ]
+  },
+  {
+   "id": "Q7420951",
+   "kind": "station",
+   "name": "Saphale railway station",
+   "nameMr": "सफाळे रेल्वे स्थानक",
+   "coords": [
+    19.577,
+    72.822
+   ]
+  },
+  {
+   "id": "Q24942870",
+   "kind": "station",
+   "name": "Satara railway station",
+   "nameMr": "सातारा रेल्वे स्थानक",
+   "coords": [
+    17.688,
+    74.064
+   ]
+  },
+  {
+   "id": "Q24807831",
+   "kind": "station",
+   "name": "Sawantwadi Road railway station",
+   "nameMr": "सावंतवाडी रेल्वे स्थानक",
+   "coords": [
+    15.867,
+    73.785
+   ]
+  },
+  {
+   "id": "Q24944968",
+   "kind": "station",
+   "name": "Sevagram Junction railway station",
+   "nameMr": "सेवाग्राम रेल्वे स्थानक",
+   "coords": [
+    20.739,
+    78.619
+   ]
+  },
+  {
+   "id": "Q7458298",
+   "kind": "station",
+   "name": "Sewri railway station",
+   "nameMr": "शिवडी रेल्वे स्थानक",
+   "coords": [
+    18.999,
+    72.855
+   ]
+  },
+  {
+   "id": "Q7461421",
+   "kind": "station",
+   "name": "Shahad railway station",
+   "nameMr": "शहाड",
+   "coords": [
+    19.245,
+    73.159
+   ]
+  },
+  {
+   "id": "Q63357020",
+   "kind": "station",
+   "name": "Shedbal railway station",
+   "coords": [
+    16.72,
+    74.753
+   ]
+  },
+  {
+   "id": "Q24944156",
+   "kind": "station",
+   "name": "Shegaon railway station",
+   "coords": [
+    20.802,
+    76.69
+   ]
+  },
+  {
+   "id": "Q7494039",
+   "kind": "station",
+   "name": "Shelu railway station",
+   "nameMr": "शेलू रेल्वे स्थानक",
+   "coords": [
+    19.063,
+    73.317
+   ]
+  },
+  {
+   "id": "Q14475834",
+   "kind": "station",
+   "name": "Shivaji Nagar railway station",
+   "nameMr": "शिवाजीनगर रेल्वे स्थानक",
+   "coords": [
+    18.532,
+    73.851
+   ]
+  },
+  {
+   "id": "Q24944629",
+   "kind": "station",
+   "name": "Sindhudurg railway station",
+   "nameMr": "सिंधुदुर्ग रेल्वे स्थानक",
+   "coords": [
+    16.111,
+    73.679
+   ]
+  },
+  {
+   "id": "Q63369796",
+   "kind": "station",
+   "name": "Sirpur Town railway station",
+   "coords": [
+    19.479,
+    79.56
+   ]
+  },
+  {
+   "id": "Q17090892",
+   "kind": "station",
+   "name": "Solapur railway station",
+   "nameMr": "सोलापूर रेल्वे स्थानक",
+   "coords": [
+    17.664,
+    75.893
+   ]
+  },
+  {
+   "id": "Q16901089",
+   "kind": "station",
+   "name": "Talegaon railway station",
+   "nameMr": "तळेगाव रेल्वे स्थानक",
+   "coords": [
+    18.735,
+    73.672
+   ]
+  },
+  {
+   "id": "Q24948919",
+   "kind": "station",
+   "name": "Taradgaon railway station",
+   "coords": [
+    18.038,
+    74.238
+   ]
+  },
+  {
+   "id": "Q7710247",
+   "kind": "station",
+   "name": "Thane railway station",
+   "nameMr": "ठाणे रेल्वे स्थानक",
+   "coords": [
+    19.186,
+    72.975
+   ]
+  },
+  {
+   "id": "Q29467286",
+   "kind": "station",
+   "name": "Tirora railway station",
+   "coords": [
+    21.415,
+    79.918
+   ]
+  },
+  {
+   "id": "Q7810360",
+   "kind": "station",
+   "name": "Titwala railway station",
+   "nameMr": "टिटवाळा रेल्वे स्थानक",
+   "coords": [
+    19.297,
+    73.203
+   ]
+  },
+  {
+   "id": "Q21040957",
+   "kind": "station",
+   "name": "Ukshi railway station",
+   "nameMr": "उक्शी रेल्वे स्थानक",
+   "coords": [
+    17.13,
+    73.456
+   ]
+  },
+  {
+   "id": "Q30628739",
+   "kind": "station",
+   "name": "Umbermali railway station",
+   "nameMr": "उंबरमाळी रेल्वे स्थानक",
+   "coords": [
+    19.628,
+    73.423
+   ]
+  },
+  {
+   "id": "Q24949619",
+   "kind": "station",
+   "name": "Uran railway station",
+   "nameMr": "उरण रेल्वे स्थानक",
+   "coords": [
+    18.878,
+    72.953
+   ]
+  },
+  {
+   "id": "Q21040978",
+   "kind": "station",
+   "name": "Vaibhavwadi Road railway station",
+   "nameMr": "वैभववाडी रोड रेल्वे स्थानक",
+   "coords": [
+    16.512,
+    73.708
+   ]
+  },
+  {
+   "id": "Q7908888",
+   "kind": "station",
+   "name": "Vaitarna railway station",
+   "nameMr": "वैतरणा रेल्वे स्थानक",
+   "coords": [
+    19.518,
+    72.85
+   ]
+  },
+  {
+   "id": "Q7914755",
+   "kind": "station",
+   "name": "Vangani railway station",
+   "nameMr": "वांगणी रेल्वे स्थानक",
+   "coords": [
+    19.094,
+    73.301
+   ]
+  },
+  {
+   "id": "Q62005340",
+   "kind": "station",
+   "name": "Varangaon railway station",
+   "coords": [
+    21.01,
+    75.902
+   ]
+  },
+  {
+   "id": "Q21040918",
+   "kind": "station",
+   "name": "Veer railway station",
+   "nameMr": "वीर रेल्वे स्थानक",
+   "coords": [
+    18.113,
+    73.33
+   ]
+  },
+  {
+   "id": "Q63360855",
+   "kind": "station",
+   "name": "Vijaynagar railway station",
+   "coords": [
+    16.778,
+    74.696
+   ]
+  },
+  {
+   "id": "Q21040968",
+   "kind": "station",
+   "name": "Vilavade railway station",
+   "nameMr": "विळावडे रेल्वे स्थानक",
+   "coords": [
+    16.786,
+    73.619
+   ]
+  },
+  {
+   "id": "Q7930143",
+   "kind": "station",
+   "name": "Vile Parle railway station",
+   "nameMr": "विले पार्ले रेल्वे स्थानक",
+   "coords": [
+    19.099,
+    72.844
+   ]
+  },
+  {
+   "id": "Q21040923",
+   "kind": "station",
+   "name": "Vinhere railway station",
+   "nameMr": "विन्हेरे रेल्वे स्थानक",
+   "coords": [
+    17.915,
+    73.384
+   ]
+  },
+  {
+   "id": "Q7933645",
+   "kind": "station",
+   "name": "Virar railway station",
+   "nameMr": "विरार रेल्वे स्थानक",
+   "coords": [
+    19.454,
+    72.812
+   ]
+  },
+  {
+   "id": "Q63360876",
+   "kind": "station",
+   "name": "Waghai railway station",
+   "coords": [
+    20.773,
+    73.5
+   ]
+  },
+  {
+   "id": "Q39046518",
+   "kind": "station",
+   "name": "Warud Orange City railway station",
+   "coords": [
+    21.459,
+    78.276
+   ]
+  },
+  {
+   "id": "Q24949584",
+   "kind": "station",
+   "name": "Washim railway station",
+   "coords": [
+    20.103,
+    77.148
+   ]
+  },
+  {
+   "id": "Q24041342",
+   "kind": "station",
+   "name": "Yavatmal Terminus",
+   "nameMr": "यवतमाळ टर्मिनस",
+   "coords": [
+    20.387,
+    78.12
+   ]
+  },
+  {
+   "id": "Q24942860",
+   "kind": "station",
+   "name": "Yevat railway station",
+   "nameMr": "यवत रेल्वे स्थानक",
+   "coords": [
+    18.489,
+    74.256
+   ]
+  },
+  {
+   "id": "Q24944726",
+   "kind": "station",
+   "name": "Zarap railway station",
+   "nameMr": "झाराप रेल्वे स्थानक",
+   "coords": [
+    15.948,
+    73.734
    ]
   }
  ]

@@ -72,6 +72,12 @@ export function monthRange(months, monthName) {
   return start === end ? monthName(start) : `${monthName(start)}–${monthName(end)}`;
 }
 
+// Nearest railway stations and airports (place.station / place.airport point here).
+// A hub's name is its English Wikipedia title.
+const hubUrl = (name) => 'https://en.wikipedia.org/wiki/' + encodeURIComponent(name.replace(/ /g, '_'));
+const hubIndex = new Map((data.hubs ?? []).map((h) => [h.id, { ...h, wikipedia: hubUrl(h.name) }]));
+export const getHub = (id) => hubIndex.get(id);
+
 /**
  * Festivals and fairs; `months` are 1–12 (empty for ones held every few years).
  * The name is the Wikipedia title without its disambiguation: "Pola (festival)" -> "Pola".

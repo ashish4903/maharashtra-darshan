@@ -25,6 +25,7 @@ React (Vite) app for exploring Maharashtra: regions → districts → talukas, p
 - `src/lib/speech.js`: listen mode (browser speech only: voice choice with Marathi → Hindi → English fallback, sentence chunks, place and trip-day scripts, one shared player); `useWikiSummary.js` loads the summary for both display and listening
 - `scripts/trails.mjs`: history trails. Each stop's wording is ours, but every evidence group must appear in ONE sentence of the place's article, a listed source or the trail's article, and every year shown must be in a matched sentence. `npm run trails` re-checks and updates only the trails; `npm run data` checks them too
 - `scripts/commons.mjs` (`npm run commons`): adds only each place's Commons category (Wikidata P373) for the gallery; `npm run data` adds it too
+- `scripts/transport.mjs` (`npm run transport`): nearest railway station and airport with scheduled flights for each place (`place.station`/`place.airport` → `hubs`), from Wikidata and Wikipedia; `npm run data` runs it too
 - `src/lib/trip.js`: route ordering, day split, Google Maps directions links
 - `src/lib/route.js`: hash routes `#/`, `#/region/<id>`, `#/district/<Wikidata id>`, `#/place/<Wikidata id>`, `#/circuit/<id>`, `#/trail/<id>[/<stop>]`, `#/festivals`, `#/seasons`, `#/plan`, `#/trip`, `#/trip/<ids>` (shared)
 - `src/lib/i18n.js`: all interface text in English and Marathi; use `useLang()` (`t`, `name`, `kind`) in components, and never hard-code visible text. A test fails if a Marathi translation is missing

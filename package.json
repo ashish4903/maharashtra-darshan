@@ -16,7 +16,8 @@
     "suggest": "node scripts/suggest-places.mjs",
     "og-image": "node scripts/og-image.mjs",
     "trails": "node scripts/trails.mjs",
-    "commons": "node scripts/commons.mjs"
+    "commons": "node scripts/commons.mjs",
+    "transport": "node scripts/transport.mjs"
   },
   "dependencies": {
     "react": "^19.3.1",
