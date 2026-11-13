@@ -15,7 +15,8 @@
     "outline": "node scripts/build-outline.mjs",
     "suggest": "node scripts/suggest-places.mjs",
     "og-image": "node scripts/og-image.mjs",
-    "trails": "node scripts/trails.mjs"
+    "trails": "node scripts/trails.mjs",
+    "commons": "node scripts/commons.mjs"
   },
   "dependencies": {
     "react": "^19.3.1",

@@ -170,10 +170,11 @@ async function wikidataDetails(ids) {
   const out = new Map(ids.map((id) => [id, { districts: new Set(), talukas: new Set() }]));
   for (let i = 0; i < ids.length; i += 60) {
     const values = `VALUES ?p { ${ids.slice(i, i + 60).map((id) => 'wd:' + id).join(' ')} }`;
-    const labels = await sparql(`SELECT ?p ?mr ?desc ?coord WHERE { ${values}
+    const labels = await sparql(`SELECT ?p ?mr ?desc ?coord ?commons WHERE { ${values}
       OPTIONAL { ?p rdfs:label ?mr FILTER(lang(?mr) = "mr") }
       OPTIONAL { ?p schema:description ?desc FILTER(lang(?desc) = "en") }
-      OPTIONAL { ?p wdt:P625 ?coord } }`);
+      OPTIONAL { ?p wdt:P625 ?coord }
+      OPTIONAL { ?p wdt:P373 ?commons } }`);
     const areas = await sparql(`SELECT DISTINCT ?p ?a ?kind WHERE { ${values}
       ?p wdt:P131+ ?a . VALUES ?kind { wd:${DISTRICT_OF_INDIA} wd:${TALUKA_OF_MAHARASHTRA} } ?a wdt:P31 ?kind . }`);
     for (const r of labels) {
@@ -181,6 +182,7 @@ async function wikidataDetails(ids) {
       e.nameMr ??= r.mr?.value;
       e.description ??= r.desc?.value;
       e.coords ??= point(r.coord?.value);
+      e.commons ??= r.commons?.value; // Commons category, for the place page's gallery
     }
     for (const r of areas) {
       const e = out.get(qid(r.p.value));
@@ -277,6 +279,7 @@ async function main() {
       // Wikipedia's coordinates, or Wikidata's when the article has none
       coords: page.coords ?? wd?.coords,
       image: page.image,
+      commons: wd?.commons,
       wikipedia: wikiUrl(page.title),
       verifiedBy,
     });
