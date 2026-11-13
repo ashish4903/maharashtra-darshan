@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-12",
+ "generated": "2026-11-13",
  "licence": "Data from Wikidata (CC0). Links point to Wikipedia articles (CC BY-SA 4.0).",
  "regions": [
   {
@@ -10091,6 +10091,882 @@
    ],
    "wikipedia": "https://en.wikipedia.org/wiki/Upper_Pus_Dam",
    "verifiedBy": "wikipedia"
+  },
+  {
+   "id": "x-maa-kalanka-devi-temple",
+   "name": "Maa Kalanka Devi Temple",
+   "kind": "temple",
+   "region": "vidarbha",
+   "district": "Q520510",
+   "coords": [
+    20.7618,
+    77.1921
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://akola.gov.in/en/tourist-place/maa-kalanka-devi-temple/",
+   "sourceName": "akola.gov.in"
+  },
+  {
+   "id": "x-katepurna-wildlife-sanctuary",
+   "name": "Katepurna Wildlife Sanctuary",
+   "kind": "nature",
+   "region": "vidarbha",
+   "district": "Q520510",
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Katepurna_Wildlife_Sanctuary.jpg",
+    "file": "Katepurna Wildlife Sanctuary.jpg",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://akola.gov.in/en/tourist-place/katepurna/",
+   "sourceName": "akola.gov.in"
+  },
+  {
+   "id": "x-salasar-balaji-temple-akola",
+   "name": "Salasar Balaji Temple, Akola",
+   "kind": "temple",
+   "region": "vidarbha",
+   "district": "Q520510",
+   "coords": [
+    20.707,
+    76.9734
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://akola.gov.in/en/tourist-place/salasarmandir/",
+   "sourceName": "akola.gov.in"
+  },
+  {
+   "id": "x-maha-samadhi-bhumi",
+   "name": "Maha Samadhi Bhumi",
+   "kind": "heritage",
+   "region": "vidarbha",
+   "district": "Q1813857",
+   "coords": [
+    20.7926,
+    79.636
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://bhandara.gov.in/tourist-place/maha-samadhi-bhumi/",
+   "sourceName": "bhandara.gov.in"
+  },
+  {
+   "id": "x-rawanwadi-dam",
+   "name": "Rawanwadi Dam",
+   "kind": "nature",
+   "region": "vidarbha",
+   "district": "Q1813857",
+   "coords": [
+    21.0578,
+    79.7147
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://bhandara.gov.in/tourist-place/rawanwadi-dam-2/",
+   "sourceName": "bhandara.gov.in"
+  },
+  {
+   "id": "x-korambhi-devi-temple",
+   "name": "Korambhi Devi Temple",
+   "kind": "temple",
+   "region": "vidarbha",
+   "district": "Q1813857",
+   "coords": [
+    20.8418,
+    79.6163
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://bhandara.gov.in/tourist-place/korambhi-temple/",
+   "sourceName": "bhandara.gov.in"
+  },
+  {
+   "id": "x-gosikhurd-dam",
+   "name": "Gosikhurd Dam",
+   "kind": "nature",
+   "region": "vidarbha",
+   "district": "Q1813857",
+   "source": "https://bhandara.gov.in/tourist-place/gosekhurd-dam/",
+   "sourceName": "bhandara.gov.in"
+  },
+  {
+   "id": "x-rajwade-sanshodhan-mandal-museum",
+   "name": "Rajwade Sanshodhan Mandal museum",
+   "kind": "heritage",
+   "region": "north-maharashtra",
+   "district": "Q1797383",
+   "coords": [
+    21.1305,
+    74.4901
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://dhule.gov.in/en/tourist-place/history-v-k-rajwade-research-board/",
+   "sourceName": "dhule.gov.in"
+  },
+  {
+   "id": "x-somnur-sangam",
+   "name": "Somnur Sangam",
+   "kind": "nature",
+   "region": "vidarbha",
+   "district": "Q1804847",
+   "coords": [
+    18.7326,
+    80.2486
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://gadchiroli.gov.in/tourist-place/somnur-sangam-ta-sironcha/",
+   "sourceName": "gadchiroli.gov.in"
+  },
+  {
+   "id": "x-chaprala-wildlife-sanctuary",
+   "name": "Chaprala Wildlife Sanctuary",
+   "kind": "nature",
+   "region": "vidarbha",
+   "district": "Q1804847",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/View_of_Chaprala_Wildlife_Sanctuary.jpg/960px-View_of_Chaprala_Wildlife_Sanctuary.jpg",
+    "file": "View of Chaprala Wildlife Sanctuary.jpg",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://gadchiroli.gov.in/tourist-place/chaprala-wildlife-sanctuary/",
+   "sourceName": "gadchiroli.gov.in"
+  },
+  {
+   "id": "x-wadadham-fossil-park",
+   "name": "Wadadham Fossil Park",
+   "kind": "heritage",
+   "region": "vidarbha",
+   "district": "Q1804847",
+   "coords": [
+    18.741,
+    80.0761
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://gadchiroli.gov.in/tourist-place/wadadham-fossils-park/",
+   "sourceName": "gadchiroli.gov.in"
+  },
+  {
+   "id": "x-glory-of-allapalli-forest",
+   "name": "Glory of Allapalli forest",
+   "kind": "nature",
+   "region": "vidarbha",
+   "district": "Q1804847",
+   "coords": [
+    19.4298,
+    80.0611
+   ],
+   "coordsFrom": "openstreetmap",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Glory_of_Allapalli.jpg/960px-Glory_of_Allapalli.jpg",
+    "file": "Glory of Allapalli.jpg",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://gadchiroli.gov.in/tourist-place/glory-of-allapalli/",
+   "sourceName": "gadchiroli.gov.in"
+  },
+  {
+   "id": "x-markanda-deo-temple",
+   "name": "Markanda Deo Temple",
+   "kind": "temple",
+   "region": "vidarbha",
+   "district": "Q1804847",
+   "coords": [
+    19.994,
+    79.8653
+   ],
+   "coordsFrom": "openstreetmap",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Destructed_part_of_main_Markanda_temple-Chamorshi-Gadchiroli-Maharashtra.jpg/960px-Destructed_part_of_main_Markanda_temple-Chamorshi-Gadchiroli-Maharashtra.jpg",
+    "file": "Destructed part of main Markanda temple-Chamorshi-Gadchiroli-Maharashtra.jpg",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://gadchiroli.gov.in/tourist-place/markanda-deo-temple/",
+   "sourceName": "gadchiroli.gov.in"
+  },
+  {
+   "id": "x-british-era-rest-house-sironcha",
+   "name": "British-era Rest House, Sironcha",
+   "kind": "heritage",
+   "region": "vidarbha",
+   "district": "Q1804847",
+   "coords": [
+    18.8482,
+    79.9639
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://gadchiroli.gov.in/tourist-place/a-british-era-rest-house-at-sironcha/",
+   "sourceName": "gadchiroli.gov.in"
+  },
+  {
+   "id": "x-k-k-moos-art-gallery",
+   "name": "K. K. Moos Art Gallery",
+   "kind": "heritage",
+   "region": "north-maharashtra",
+   "district": "Q1797291",
+   "coords": [
+    20.8429,
+    75.5261
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://jalgaon.gov.in/en/tourist-place/kalamaharshi-k-k-moos-art-gallery/",
+   "sourceName": "jalgaon.gov.in"
+  },
+  {
+   "id": "x-unapdev-hot-springs",
+   "name": "Unapdev hot springs",
+   "kind": "nature",
+   "region": "north-maharashtra",
+   "district": "Q1797291",
+   "source": "https://jalgaon.gov.in/en/tourist-place/unapdev-hot-water-fountain/",
+   "sourceName": "jalgaon.gov.in"
+  },
+  {
+   "id": "x-swinging-towers-of-farkande",
+   "name": "Swinging Towers of Farkande",
+   "kind": "heritage",
+   "region": "north-maharashtra",
+   "district": "Q1797291",
+   "coords": [
+    20.8403,
+    75.263
+   ],
+   "coordsFrom": "openstreetmap",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Swinging_Towers_of_Farkande.jpg/960px-Swinging_Towers_of_Farkande.jpg",
+    "file": "Swinging Towers of Farkande.jpg",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://jalgaon.gov.in/en/tourist-place/swinging-towers-of-farkande/",
+   "sourceName": "jalgaon.gov.in"
+  },
+  {
+   "id": "x-manudevi-temple",
+   "name": "Manudevi Temple",
+   "kind": "temple",
+   "region": "north-maharashtra",
+   "district": "Q1797291",
+   "source": "https://jalgaon.gov.in/en/tourist-place/manudevi-temple/",
+   "sourceName": "jalgaon.gov.in"
+  },
+  {
+   "id": "x-chhota-kashmir",
+   "name": "Chhota Kashmir",
+   "kind": "nature",
+   "region": "konkan",
+   "district": "Q2085374",
+   "coords": [
+    19.1693,
+    72.8588
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://mumbaisuburban.gov.in/en/tourist-place/chhota-kashmir/",
+   "sourceName": "mumbaisuburban.gov.in"
+  },
+  {
+   "id": "x-khekranala-lake",
+   "name": "Khekranala Lake",
+   "kind": "nature",
+   "region": "vidarbha",
+   "district": "Q1797367",
+   "coords": [
+    21.1498,
+    79.0821
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://nagpur.gov.in/tourist-place/khekranala-lake/",
+   "sourceName": "nagpur.gov.in"
+  },
+  {
+   "id": "x-satpuda-botanical-garden",
+   "name": "Satpuda Botanical Garden",
+   "kind": "nature",
+   "region": "vidarbha",
+   "district": "Q1797367",
+   "coords": [
+    21.1585,
+    79.039
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://nagpur.gov.in/tourist-place/satpuda-botanical-garden/",
+   "sourceName": "nagpur.gov.in"
+  },
+  {
+   "id": "x-gandhi-sagar-lake",
+   "name": "Gandhi Sagar Lake",
+   "kind": "nature",
+   "region": "vidarbha",
+   "district": "Q1797367",
+   "coords": [
+    21.1498,
+    79.0821
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://nagpur.gov.in/tourist-place/gandhi-sagar-lake/",
+   "sourceName": "nagpur.gov.in"
+  },
+  {
+   "id": "x-kaleshwar-temple",
+   "name": "Kaleshwar Temple",
+   "kind": "temple",
+   "region": "marathwada",
+   "district": "Q692389",
+   "coords": [
+    19.1199,
+    77.2839
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://nanded.gov.in/en/tourist-place/kaleshwar-temple/",
+   "sourceName": "nanded.gov.in"
+  },
+  {
+   "id": "x-unkeshwar-mahadev-temple",
+   "name": "Unkeshwar Mahadev Temple",
+   "kind": "temple",
+   "region": "marathwada",
+   "district": "Q692389",
+   "coords": [
+    19.8562,
+    78.2503
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://nanded.gov.in/en/tourist-place/unkeshwar-mahadev-temple/",
+   "sourceName": "nanded.gov.in"
+  },
+  {
+   "id": "x-hottal-temples",
+   "name": "Hottal temples",
+   "kind": "heritage",
+   "region": "marathwada",
+   "district": "Q692389",
+   "coords": [
+    18.5497,
+    77.5791
+   ],
+   "coordsFrom": "openstreetmap",
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/SidhheshwarTemple_Hottal.jpg",
+    "file": "SidhheshwarTemple Hottal.jpg",
+    "licence": "CC BY-SA 3.0"
+   },
+   "source": "https://nanded.gov.in/en/tourist-place/hottal/",
+   "sourceName": "nanded.gov.in"
+  },
+  {
+   "id": "x-bavari-nagar-mahavihar-dabhad",
+   "name": "Bavari Nagar Mahavihar, Dabhad",
+   "kind": "temple",
+   "region": "marathwada",
+   "district": "Q692389",
+   "coords": [
+    19.2356,
+    77.3561
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://nanded.gov.in/en/tourist-place/bavari-nagar-dabhad-mahavihar/",
+   "sourceName": "nanded.gov.in"
+  },
+  {
+   "id": "x-astamba",
+   "name": "Astamba",
+   "kind": "pilgrimage",
+   "region": "north-maharashtra",
+   "district": "Q1623525",
+   "coords": [
+    21.8498,
+    74.281
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://nandurbar.gov.in/en/tourist-place/asthamba-nandurbar/",
+   "sourceName": "nandurbar.gov.in"
+  },
+  {
+   "id": "x-shirish-kumar-mehta-memorial",
+   "name": "Shirish Kumar Mehta memorial",
+   "kind": "heritage",
+   "region": "north-maharashtra",
+   "district": "Q1623525",
+   "coords": [
+    21.5142,
+    74.5406
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://nandurbar.gov.in/en/tourist-place/shirishkumar/",
+   "sourceName": "nandurbar.gov.in"
+  },
+  {
+   "id": "x-hanuman-point-jawhar",
+   "name": "Hanuman Point, Jawhar",
+   "kind": "nature",
+   "region": "konkan",
+   "district": "Q18003119",
+   "coords": [
+    19.9125,
+    73.2252
+   ],
+   "coordsFrom": "openstreetmap",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Jaivilas_Palace_from_Hanuman_Point%2C_Jawhar.jpg/960px-Jaivilas_Palace_from_Hanuman_Point%2C_Jawhar.jpg",
+    "file": "Jaivilas Palace from Hanuman Point, Jawhar.jpg",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://palghar.gov.in/en/tourist-place/hanuman-point/",
+   "sourceName": "palghar.gov.in"
+  },
+  {
+   "id": "x-shirpamal-jawhar",
+   "name": "Shirpamal, Jawhar",
+   "kind": "heritage",
+   "region": "konkan",
+   "district": "Q18003119",
+   "coords": [
+    19.9125,
+    73.2252
+   ],
+   "coordsFrom": "openstreetmap",
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Shirpamal_Jawhar.jpg",
+    "file": "Shirpamal Jawhar.jpg",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://palghar.gov.in/en/tourist-place/shirpamal/",
+   "sourceName": "palghar.gov.in"
+  },
+  {
+   "id": "x-kalmandavi-waterfall",
+   "name": "Kalmandavi Waterfall",
+   "kind": "nature",
+   "region": "konkan",
+   "district": "Q18003119",
+   "coords": [
+    19.9125,
+    73.2252
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://palghar.gov.in/en/tourist-place/kalmandavi-waterfall/",
+   "sourceName": "palghar.gov.in"
+  },
+  {
+   "id": "x-hiradpada-waterfall",
+   "name": "Hiradpada Waterfall",
+   "kind": "nature",
+   "region": "konkan",
+   "district": "Q18003119",
+   "coords": [
+    19.9972,
+    73.224
+   ],
+   "coordsFrom": "openstreetmap",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Hiradpada_Waterfall%2C_Jawhar.jpg/960px-Hiradpada_Waterfall%2C_Jawhar.jpg",
+    "file": "Hiradpada Waterfall, Jawhar.jpg",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://palghar.gov.in/en/tourist-place/hiradpada-waterfall/",
+   "sourceName": "palghar.gov.in"
+  },
+  {
+   "id": "x-mahalakshmi-temple-dahanu",
+   "name": "Mahalakshmi Temple, Dahanu",
+   "kind": "temple",
+   "region": "konkan",
+   "district": "Q18003119",
+   "coords": [
+    19.9407,
+    72.9345
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://palghar.gov.in/en/tourist-place/mahalakshmi-temple/",
+   "sourceName": "palghar.gov.in"
+  },
+  {
+   "id": "x-charthana",
+   "name": "Charthana",
+   "kind": "heritage",
+   "region": "marathwada",
+   "district": "Q1797389",
+   "coords": [
+    19.627,
+    76.5383
+   ],
+   "coordsFrom": "openstreetmap",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Charthana_Village_Stepwell.jpg/960px-Charthana_Village_Stepwell.jpg",
+    "file": "Charthana Village Stepwell.jpg",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://parbhani.gov.in/en/tourist-place/chaarthana/",
+   "sourceName": "parbhani.gov.in"
+  },
+  {
+   "id": "x-mudgaleshwar-temple-mudgal",
+   "name": "Mudgaleshwar Temple, Mudgal",
+   "kind": "temple",
+   "region": "marathwada",
+   "district": "Q1797389",
+   "coords": [
+    19.2195,
+    76.4284
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://parbhani.gov.in/en/tourist-place/mudgaleshwar-temple-mudgal/",
+   "sourceName": "parbhani.gov.in"
+  },
+  {
+   "id": "x-mrityunjaya-pardeshwar-temple",
+   "name": "Mrityunjaya Pardeshwar Temple",
+   "kind": "temple",
+   "region": "marathwada",
+   "district": "Q1797389",
+   "coords": [
+    19.2902,
+    76.6026
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://parbhani.gov.in/en/tourist-place/mrityunjaya-pardeshwar-temple-mercury-shivlinga-parbhani/",
+   "sourceName": "parbhani.gov.in"
+  },
+  {
+   "id": "x-narsimha-temple-pokharni",
+   "name": "Narsimha Temple, Pokharni",
+   "kind": "temple",
+   "region": "marathwada",
+   "district": "Q1797389",
+   "coords": [
+    19.1147,
+    76.7073
+   ],
+   "coordsFrom": "openstreetmap",
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/Narsimha_Temple_in_Pokharni%2C_Parbhani.jpg",
+    "file": "Narsimha Temple in Pokharni, Parbhani.jpg",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://parbhani.gov.in/en/tourist-place/narsimha-mandir-pokharni/",
+   "sourceName": "parbhani.gov.in"
+  },
+  {
+   "id": "x-neminath-digambar-jain-temple-navagadh",
+   "name": "Neminath Digambar Jain Temple, Navagadh",
+   "kind": "temple",
+   "region": "marathwada",
+   "district": "Q1797389",
+   "coords": [
+    19.2902,
+    76.6026
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://parbhani.gov.in/en/tourist-place/shri-neminath-digambar-jain-mandir-navagadh/",
+   "sourceName": "parbhani.gov.in"
+  },
+  {
+   "id": "x-lal-mahal",
+   "name": "Lal Mahal",
+   "kind": "heritage",
+   "region": "western-maharashtra",
+   "district": "Q1797336",
+   "coords": [
+    18.5185,
+    73.8567
+   ],
+   "coordsFrom": "openstreetmap",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Lal_Mahal%2C_Pune.jpg/960px-Lal_Mahal%2C_Pune.jpg",
+    "file": "Lal Mahal, Pune.jpg",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://pune.gov.in/en/tourist-place/lal-mahal/",
+   "sourceName": "pune.gov.in"
+  },
+  {
+   "id": "x-karmala",
+   "name": "Karmala",
+   "kind": "pilgrimage",
+   "region": "western-maharashtra",
+   "district": "Q1797263",
+   "coords": [
+    18.3214,
+    75.1169
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://solapur.gov.in/en/tourist-place/karmala/",
+   "sourceName": "solapur.gov.in"
+  },
+  {
+   "id": "x-barshi",
+   "name": "Barshi",
+   "kind": "pilgrimage",
+   "region": "western-maharashtra",
+   "district": "Q1797263",
+   "coords": [
+    18.2341,
+    75.6875
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://solapur.gov.in/en/tourist-place/barshi/",
+   "sourceName": "solapur.gov.in"
+  },
+  {
+   "id": "x-laxminarayan-temple-wardha",
+   "name": "Laxminarayan Temple, Wardha",
+   "kind": "temple",
+   "region": "vidarbha",
+   "district": "Q980608",
+   "coords": [
+    20.8256,
+    78.6131
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://wardha.gov.in/en/tourist-place/laxminarayn-mandir/",
+   "sourceName": "wardha.gov.in"
+  },
+  {
+   "id": "x-paramdham-ashram-paunar",
+   "name": "Paramdham Ashram, Paunar",
+   "kind": "pilgrimage",
+   "region": "vidarbha",
+   "district": "Q980608",
+   "coords": [
+    20.7817,
+    78.6704
+   ],
+   "coordsFrom": "openstreetmap",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Shree_%27Bharat_Ram%27_Mandir%2C_Paunar_Ashram_-_panoramio.jpg/960px-Shree_%27Bharat_Ram%27_Mandir%2C_Paunar_Ashram_-_panoramio.jpg",
+    "file": "Shree 'Bharat Ram' Mandir, Paunar Ashram - panoramio.jpg",
+    "licence": "CC BY 3.0"
+   },
+   "source": "https://wardha.gov.in/en/tourist-place/paramdham-aashram/",
+   "sourceName": "wardha.gov.in"
+  },
+  {
+   "id": "x-girad-dargah",
+   "name": "Girad Dargah",
+   "kind": "temple",
+   "region": "vidarbha",
+   "district": "Q980608",
+   "coords": [
+    20.66,
+    79.1134
+   ],
+   "coordsFrom": "openstreetmap",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/Hazrath_Fariduddin_Ganj_Shakkar_Chilla.jpg/960px-Hazrath_Fariduddin_Ganj_Shakkar_Chilla.jpg",
+    "file": "Hazrath Fariduddin Ganj Shakkar Chilla.jpg",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://wardha.gov.in/en/tourist-place/girad-darga/",
+   "sourceName": "wardha.gov.in"
+  },
+  {
+   "id": "x-banjara-virasat-nangara-museum",
+   "name": "Banjara Virasat Nangara Museum",
+   "kind": "heritage",
+   "region": "vidarbha",
+   "district": "Q1804858",
+   "coords": [
+    20.1107,
+    77.6272
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://washim.gov.in/en/tourist-place/banjara-virasat-nangara-museum/",
+   "sourceName": "washim.gov.in"
+  },
+  {
+   "id": "x-kanifnath-maharaj-temple-savargaon",
+   "name": "Kanifnath Maharaj Temple, Savargaon",
+   "kind": "temple",
+   "region": "vidarbha",
+   "district": "Q1804858",
+   "coords": [
+    20.2759,
+    77.3261
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://washim.gov.in/en/tourist-place/shri-kanifnath-maharaj-savargaonta-mangrulpir/",
+   "sourceName": "washim.gov.in"
+  },
+  {
+   "id": "x-sant-jholebaba-sansthan-chikhali",
+   "name": "Sant Jholebaba Sansthan, Chikhali",
+   "kind": "temple",
+   "region": "vidarbha",
+   "district": "Q1804858",
+   "coords": [
+    20.359,
+    77.253
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://washim.gov.in/en/tourist-place/shri-sant-jholebaba-sansthan-chikhalita-mangrulpir/",
+   "sourceName": "washim.gov.in"
+  },
+  {
+   "id": "x-murudeshwar-temple-rithad",
+   "name": "Murudeshwar Temple, Rithad",
+   "kind": "temple",
+   "region": "vidarbha",
+   "district": "Q1804858",
+   "coords": [
+    20.0535,
+    76.9794
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://washim.gov.in/en/tourist-place/shri-murudeshwar-temple-in-rithad/",
+   "sourceName": "washim.gov.in"
+  },
+  {
+   "id": "x-sonal-dam",
+   "name": "Sonal Dam",
+   "kind": "nature",
+   "region": "vidarbha",
+   "district": "Q1804858",
+   "coords": [
+    20.2759,
+    77.3261
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://washim.gov.in/en/tourist-place/sonal-or-sonala-dam/",
+   "sourceName": "washim.gov.in"
+  },
+  {
+   "id": "x-balaji-temple-washim",
+   "name": "Balaji Temple, Washim",
+   "kind": "temple",
+   "region": "vidarbha",
+   "district": "Q1804858",
+   "coords": [
+    20.2874,
+    77.237
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://washim.gov.in/en/tourist-place/balaji-mandir-washim/",
+   "sourceName": "washim.gov.in"
+  },
+  {
+   "id": "x-padmatirtha",
+   "name": "Padmatirtha",
+   "kind": "temple",
+   "region": "vidarbha",
+   "district": "Q1804858",
+   "coords": [
+    20.2874,
+    77.237
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://washim.gov.in/en/tourist-place/padmatirtha-washim/",
+   "sourceName": "washim.gov.in"
+  },
+  {
+   "id": "x-antariksha-parshvanath-jain-temple-shirpur",
+   "name": "Antariksha Parshvanath Jain Temple, Shirpur",
+   "kind": "temple",
+   "region": "vidarbha",
+   "district": "Q1804858",
+   "source": "https://washim.gov.in/en/tourist-place/jain-temple-shirpur-jain/",
+   "sourceName": "washim.gov.in"
+  },
+  {
+   "id": "x-lokmanya-tilak-s-birthplace",
+   "name": "Lokmanya Tilak’s birthplace",
+   "kind": "heritage",
+   "region": "konkan",
+   "district": "Q1771768",
+   "coords": [
+    17.2826,
+    73.457
+   ],
+   "coordsFrom": "openstreetmap",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Lokmanya_Tilak_Birthplace_in_Ratnagiri_03.jpg/960px-Lokmanya_Tilak_Birthplace_in_Ratnagiri_03.jpg",
+    "file": "Lokmanya Tilak Birthplace in Ratnagiri 03.jpg",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://ratnagiri.gov.in/en/tourist-place/birthplace-of-lokmanya-tilak/",
+   "sourceName": "ratnagiri.gov.in"
+  },
+  {
+   "id": "x-tipeshwar-wildlife-sanctuary",
+   "name": "Tipeshwar Wildlife Sanctuary",
+   "kind": "nature",
+   "region": "vidarbha",
+   "district": "Q1804852",
+   "source": "https://yavatmal.gov.in/en/tourist-place/name-of-tourist-place-to-visit/",
+   "sourceName": "yavatmal.gov.in"
+  },
+  {
+   "id": "x-baba-kambalposh-dargah-arni",
+   "name": "Baba Kambalposh Dargah, Arni",
+   "kind": "temple",
+   "region": "vidarbha",
+   "district": "Q1804852",
+   "coords": [
+    20.0539,
+    77.9942
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://yavatmal.gov.in/en/tourist-places/",
+   "sourceName": "yavatmal.gov.in"
+  },
+  {
+   "id": "x-matsyodari-devi-temple-ambad",
+   "name": "Matsyodari Devi Temple, Ambad",
+   "kind": "temple",
+   "region": "marathwada",
+   "district": "Q1804863",
+   "coords": [
+    19.5654,
+    75.7757
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://jalna.gov.in/tourism/",
+   "sourceName": "jalna.gov.in"
+  },
+  {
+   "id": "x-rajur-ganpati-temple",
+   "name": "Rajur Ganpati Temple",
+   "kind": "temple",
+   "region": "marathwada",
+   "district": "Q1804863",
+   "coords": [
+    20.0585,
+    75.8529
+   ],
+   "coordsFrom": "openstreetmap",
+   "source": "https://jalna.gov.in/tourism/",
+   "sourceName": "jalna.gov.in"
+  },
+  {
+   "id": "x-anjaneri",
+   "name": "Anjaneri",
+   "kind": "hill-station",
+   "region": "north-maharashtra",
+   "district": "Q1797269",
+   "coords": [
+    19.946,
+    73.5868
+   ],
+   "coordsFrom": "openstreetmap",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Anjaneri_mountain%2Cnashik.jpg/960px-Anjaneri_mountain%2Cnashik.jpg",
+    "file": "Anjaneri mountain,nashik.jpg",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://nashik.gov.in/tourism/",
+   "sourceName": "nashik.gov.in"
+  },
+  {
+   "id": "x-anchaleshwar-temple",
+   "name": "Anchaleshwar Temple",
+   "kind": "temple",
+   "region": "vidarbha",
+   "district": "Q1797274",
+   "coords": [
+    20.0968,
+    79.5045
+   ],
+   "coordsFrom": "openstreetmap",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/0101421_Anchaleswar_Mahadev_Temple%2C_Chandrapur_Fort%2C_Maharashtra_002.jpg/960px-0101421_Anchaleswar_Mahadev_Temple%2C_Chandrapur_Fort%2C_Maharashtra_002.jpg",
+    "file": "0101421 Anchaleswar Mahadev Temple, Chandrapur Fort, Maharashtra 002.jpg",
+    "licence": "CC0"
+   },
+   "source": "https://chanda.nic.in/en/tourist-places/",
+   "sourceName": "chanda.nic.in"
   }
  ],
  "foods": [
@@ -10573,6 +11449,183 @@
     "file": "Delicious_Ragda_Patties_.HEIC.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Ragda_pattice"
+  },
+  {
+   "id": "x-saoji-cuisine",
+   "name": "Saoji cuisine",
+   "description": "Nagpur’s own Varhadi or Saoji cooking.",
+   "type": "dish",
+   "region": "vidarbha",
+   "district": "Q1797367",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Chicken_Curry%40_Saoji_Nagpur.JPG/960px-Chicken_Curry%40_Saoji_Nagpur.JPG",
+    "file": "Chicken Curry@ Saoji Nagpur.JPG",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://en.wikipedia.org/wiki/Nagpur",
+   "sourceName": "en.wikipedia.org"
+  },
+  {
+   "id": "x-tarri-poha",
+   "name": "Tarri poha",
+   "description": "A Nagpur variety of poha.",
+   "type": "dish",
+   "region": "vidarbha",
+   "district": "Q1797367",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Tarri_poha.jpg/960px-Tarri_poha.jpg",
+    "file": "Tarri poha.jpg",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://en.wikipedia.org/wiki/Nagpur",
+   "sourceName": "en.wikipedia.org"
+  },
+  {
+   "id": "x-santra-barfi",
+   "name": "Santra barfi",
+   "description": "A sweet made from Nagpur’s oranges.",
+   "type": "dish",
+   "region": "vidarbha",
+   "district": "Q1797367",
+   "source": "https://en.wikipedia.org/wiki/Nagpur",
+   "sourceName": "en.wikipedia.org"
+  },
+  {
+   "id": "x-puneri-misal",
+   "name": "Puneri misal",
+   "description": "Pune’s style of misal.",
+   "type": "dish",
+   "region": "western-maharashtra",
+   "district": "Q1797336",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Puneri_misal.jpg/960px-Puneri_misal.jpg",
+    "file": "Puneri misal.jpg",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://en.wikipedia.org/wiki/Pune",
+   "sourceName": "en.wikipedia.org"
+  },
+  {
+   "id": "x-tambda-rassa",
+   "name": "Tambda rassa",
+   "description": "Kolhapur’s soup-like red curry.",
+   "type": "dish",
+   "region": "western-maharashtra",
+   "district": "Q1797312",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Chicken_Thali_Kolhapuri.jpg/960px-Chicken_Thali_Kolhapuri.jpg",
+    "file": "Chicken Thali Kolhapuri.jpg",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://en.wikipedia.org/wiki/Kolhapur",
+   "sourceName": "en.wikipedia.org"
+  },
+  {
+   "id": "x-pandhara-rassa",
+   "name": "Pandhara rassa",
+   "description": "Kolhapur’s soup-like white curry.",
+   "type": "dish",
+   "region": "western-maharashtra",
+   "district": "Q1797312",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Mutton_thali_with_red%2C_white_curry_-_Our_home_at_Pune_-_Maharashtra_-IMG_6923.jpg/960px-Mutton_thali_with_red%2C_white_curry_-_Our_home_at_Pune_-_Maharashtra_-IMG_6923.jpg",
+    "file": "Mutton thali with red, white curry - Our home at Pune - Maharashtra -IMG 6923.jpg",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://en.wikipedia.org/wiki/Kolhapur",
+   "sourceName": "en.wikipedia.org"
+  },
+  {
+   "id": "x-kolhapuri-misal",
+   "name": "Kolhapuri misal",
+   "description": "Kolhapur’s spicy misal.",
+   "type": "dish",
+   "region": "western-maharashtra",
+   "district": "Q1797312",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Kolhapuri_misal.jpg/960px-Kolhapuri_misal.jpg",
+    "file": "Kolhapuri misal.jpg",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://en.wikipedia.org/wiki/Kolhapur",
+   "sourceName": "en.wikipedia.org"
+  },
+  {
+   "id": "x-kothimbir-vadi",
+   "name": "Kothimbir vadi",
+   "description": "Coriander rolled in chickpea flour, steamed then pan-fried.",
+   "type": "dish",
+   "region": "statewide",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Kothimbir_vadi.JPG/960px-Kothimbir_vadi.JPG",
+    "file": "Kothimbir vadi.JPG",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://en.wikipedia.org/wiki/Maharashtrian_cuisine",
+   "sourceName": "en.wikipedia.org"
+  },
+  {
+   "id": "x-varan-bhaat",
+   "name": "Varan bhaat",
+   "description": "Varan (dal) with rice.",
+   "type": "dish",
+   "region": "statewide",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/Varan_Bhat.jpg/960px-Varan_Bhat.jpg",
+    "file": "Varan Bhat.jpg",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://en.wikipedia.org/wiki/Maharashtrian_cuisine",
+   "sourceName": "en.wikipedia.org"
+  },
+  {
+   "id": "x-mande",
+   "name": "Mande",
+   "description": "A traditional bread.",
+   "type": "dish",
+   "region": "statewide",
+   "source": "https://en.wikipedia.org/wiki/Maharashtrian_cuisine",
+   "sourceName": "en.wikipedia.org"
+  },
+  {
+   "id": "x-patodi",
+   "name": "Patodi",
+   "type": "dish",
+   "region": "statewide",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Patodi.jpg/960px-Patodi.jpg",
+    "file": "Patodi.jpg",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://en.wikipedia.org/wiki/Maharashtrian_cuisine",
+   "sourceName": "en.wikipedia.org"
+  },
+  {
+   "id": "x-sev-bhaji",
+   "name": "Sev bhaji",
+   "type": "dish",
+   "region": "statewide",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Sev_Bhaji_and_Bhakri.jpg/960px-Sev_Bhaji_and_Bhakri.jpg",
+    "file": "Sev Bhaji and Bhakri.jpg",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://en.wikipedia.org/wiki/Maharashtrian_cuisine",
+   "sourceName": "en.wikipedia.org"
+  },
+  {
+   "id": "x-sabudana-khichdi",
+   "name": "Sabudana khichdi",
+   "description": "A typical breakfast dish.",
+   "type": "dish",
+   "region": "statewide",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Sabudana_Khichdi_with_Sweet_curd.JPG/960px-Sabudana_Khichdi_with_Sweet_curd.JPG",
+    "file": "Sabudana Khichdi with Sweet curd.JPG",
+    "licence": "CC BY-SA 4.0"
+   },
+   "source": "https://en.wikipedia.org/wiki/Maharashtrian_cuisine",
+   "sourceName": "en.wikipedia.org"
   }
  ],
  "circuits": [

@@ -26,7 +26,7 @@ export default function FoodCard({ food, fromHere = false, districtId, near }) {
 
   return (
     <div className={`card food-card region-${food.region}`}>
-      <a href={food.wikipedia} target="_blank" rel="noreferrer" className="card-link">
+      <a href={food.wikipedia ?? food.source} target="_blank" rel="noreferrer" className="card-link">
         <div className="card-media">
           <Photo image={food.image} alt={name(food)} icon={produce ? '🧺' : '🍽️'} />
           <span className="card-badge">
@@ -46,7 +46,7 @@ export default function FoodCard({ food, fromHere = false, districtId, near }) {
             </p>
           )}
           <p className="card-meta">
-            <span>{t('card.readWikipedia')}</span>
+            <span>{food.wikipedia ? t('card.readWikipedia') : t('card.readSource', { site: food.sourceName })}</span>
           </p>
         </div>
       </a>

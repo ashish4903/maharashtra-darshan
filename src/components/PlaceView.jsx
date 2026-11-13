@@ -65,9 +65,15 @@ export default function PlaceView({ placeId }) {
                 {t('place.map')}
               </a>
             )}
-            <a className="button button-ghost" href={place.wikipedia} target="_blank" rel="noreferrer">
-              {t('place.wikipedia')}
-            </a>
+            {place.wikipedia ? (
+              <a className="button button-ghost" href={place.wikipedia} target="_blank" rel="noreferrer">
+                {t('place.wikipedia')}
+              </a>
+            ) : (
+              <a className="button button-ghost" href={place.source} target="_blank" rel="noreferrer">
+                {t('place.source', { site: place.sourceName })}
+              </a>
+            )}
             <a
               className="button button-ghost"
               href={mapsSearchUrl(`restaurants near ${place.name}, ${areaName(place.district)}`)}
@@ -139,7 +145,25 @@ export default function PlaceView({ placeId }) {
             </p>
           )}
 
-          <WikiSummary url={place.wikipedia} />
+          {place.wikipedia ? (
+            <WikiSummary url={place.wikipedia} />
+          ) : (
+            <p className="source-note">
+              {t('place.notOnWikipedia')}{' '}
+              <a href={place.source} target="_blank" rel="noreferrer">
+                {place.sourceName}
+              </a>
+              .
+            </p>
+          )}
+          {place.coordsFrom === 'openstreetmap' && (
+            <p className="source-note">
+              {t('place.osm')}{' '}
+              <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">
+                © OpenStreetMap contributors
+              </a>
+            </p>
+          )}
 
           {place.image && (
             <p className="source-note">
