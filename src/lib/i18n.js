@@ -197,6 +197,9 @@ const en = {
   'footer.data':
     'Districts, talukas, names and descriptions come from {wikidata} (CC0). Every place and dish links to its {wikipedia} article. Photos are freely licensed images from {commons}, credited on each place’s page. Map outline from {naturalEarth} (public domain). Data updated {date}.',
   'footer.code': 'Source code',
+  'footer.suggest': 'Suggest a place',
+  'suggest.prompt': 'Know a place we’re missing?',
+  'suggest.link': 'Suggest it (needs a GitHub account) ↗',
   'footer.licence': 'MIT licence',
 };
 
@@ -393,6 +396,9 @@ const mr = {
   'footer.data':
     'जिल्हे, तालुके, नावे आणि वर्णने {wikidata} (CC0) वरून. प्रत्येक ठिकाण आणि पदार्थाला त्याचा {wikipedia} लेख जोडलेला आहे. छायाचित्रे {commons} वरील मुक्त परवान्याची आहेत, प्रत्येक ठिकाणाच्या पानावर श्रेय दिले आहे. नकाशाची रेषा {naturalEarth} (सार्वजनिक) वरून. माहिती अद्ययावत: {date}.',
   'footer.code': 'स्रोत कोड',
+  'footer.suggest': 'ठिकाण सुचवा',
+  'suggest.prompt': 'आमच्याकडे नसलेले ठिकाण माहीत आहे?',
+  'suggest.link': 'सुचवा (GitHub खाते लागते) ↗',
   'footer.licence': 'MIT परवाना',
 };
 

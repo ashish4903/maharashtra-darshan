@@ -6,6 +6,7 @@ import PlaceList from './PlaceList';
 import FoodList from './FoodList';
 import TalukaList from './TalukaList';
 import TalukaFilter from './TalukaFilter';
+import SuggestLink from './SuggestLink';
 import KnownFor from './KnownFor';
 import WikiSummary from './WikiSummary';
 import MaharashtraMap from './MaharashtraMap';
@@ -66,6 +67,7 @@ export default function DistrictView({ districtId }) {
             <>
               <TalukaFilter talukas={district.talukas} counts={counts} active={taluka} onChange={setTaluka} />
               <PlaceList key={taluka ?? 'all'} places={shown} />
+              <SuggestLink districtId={districtId} />
             </>
           )}
           {tab === 'food' && <FoodList foods={foodList} districtId={districtId} />}

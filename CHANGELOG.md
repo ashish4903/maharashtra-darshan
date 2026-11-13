@@ -6,6 +6,8 @@ All notable changes to this project are listed here. The format follows [Keep a 
 
 ### Added
 
+- “Suggest a place”: a GitHub issue form asking for the name, district, type and Wikipedia article. It is linked from every district’s places (pre-filled with that district), from empty lists and from the footer.
+
 - Weather on place pages: a 4-day forecast (sky, high and low, chance of rain) from Open-Meteo, which is free, needs no API key and is credited on the page. Only the place’s coordinates are sent.
 
 - Festivals and fairs: 13 festivals with their timing, linked to their places. They appear in a home-page carousel ordered by what’s coming up, on a month-by-month calendar (`#/festivals`), and on place pages under “Festivals here”.

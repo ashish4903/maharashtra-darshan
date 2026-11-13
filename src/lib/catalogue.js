@@ -140,6 +140,13 @@ export function search(query) {
   };
 }
 
+/** The GitHub issue form for suggestions (.github/ISSUE_TEMPLATE/suggest-a-place.yml), pre-filled with a district. */
+export const SUGGEST_URL = 'https://github.com/ashish4903/maharashtra-darshan/issues/new?template=suggest-a-place.yml';
+export const suggestUrl = (districtId) => {
+  const district = districtId && getDistrict(districtId);
+  return district ? `${SUGGEST_URL}&district=${encodeURIComponent(shortName(district.name))}` : SUGGEST_URL;
+};
+
 export const mapUrl = ([lat, lon]) =>
   `https://www.openstreetmap.org/?mlat=${lat}&mlon=${lon}#map=13/${lat}/${lon}`;
 
