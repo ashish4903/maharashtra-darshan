@@ -136,6 +136,50 @@ describe('App', () => {
     expect(screen.getByText(/मराठी आवाज नाही/)).toBeTruthy();
   });
 
+  it('walks a history trail through time, on the map and in the address', async () => {
+    const user = userEvent.setup();
+    render(<App />);
+    await user.click(screen.getByRole('link', { name: /Shivaji Maharaj and Swarajya/ }));
+    expect(screen.getByRole('heading', { level: 1, name: /Shivaji Maharaj and Swarajya/ })).toBeTruthy();
+
+    const player = screen.getByRole('region', { name: 'Timeline' });
+    expect(within(player).getByRole('heading', { level: 2, name: 'Shivneri Fort' })).toBeTruthy();
+    expect(within(player).getByText(/born at the fort on 19 February 1630/)).toBeTruthy();
+    expect(within(player).getByRole('link', { name: /^Wikipedia: Shivneri/ })).toBeTruthy();
+    expect(window.location.hash).toBe('#/trail/shivaji/1');
+    // The map draws the story so far: one stop
+    expect(within(player).getAllByRole('link', { name: /^Stop \d+:/ })).toHaveLength(1);
+
+    await user.click(within(player).getByRole('button', { name: /Later/ }));
+    expect(within(player).getByRole('heading', { level: 2, name: 'Torna Fort' })).toBeTruthy();
+    expect(within(player).getAllByRole('link', { name: /^Stop \d+:/ })).toHaveLength(2);
+    expect(window.location.hash).toBe('#/trail/shivaji/2');
+
+    // Jump from the timeline list, and the slider follows
+    const story = screen.getByRole('region', { name: 'The whole story' });
+    await user.click(within(story).getByRole('button', { name: /Raigad Fort/ }));
+    expect(within(player).getByRole('heading', { level: 2, name: 'Raigad Fort' })).toBeTruthy();
+    expect(within(player).getByRole('slider').value).toBe(String(within(story).getAllByRole('button').length - 1));
+    expect(within(player).getByRole('button', { name: /Later/ }).disabled).toBe(true);
+
+    // The place page links back to the trail at its stop
+    await user.click(within(player).getByRole('link', { name: 'Raigad Fort' }));
+    await new Promise((r) => setTimeout(r, 0));
+    const inHistory = screen.getByText('In history:').closest('p');
+    expect(within(inHistory).getByRole('link', { name: /Shivaji Maharaj and Swarajya/ }).getAttribute('href')).toMatch(
+      /^#\/trail\/shivaji\/\d+$/,
+    );
+  });
+
+  it('opens a trail at a shared stop, in Marathi', async () => {
+    localStorage.setItem('maharashtra-darshan-lang-v1', 'mr');
+    window.location.hash = '#/trail/freedom/4';
+    render(<App />);
+    const player = screen.getByRole('region', { name: 'कालपट' });
+    expect(within(player).getByText('१९४२–१९४४')).toBeTruthy();
+    expect(within(player).getByText(/भारत छोडो आंदोलन/)).toBeTruthy();
+  });
+
   it('opens a place with its Wikipedia summary and nearby places', async () => {
     const ajanta = places.find((p) => p.name === 'Ajanta Caves');
     window.location.hash = `#/place/${ajanta.id}`;

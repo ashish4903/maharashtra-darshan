@@ -11,6 +11,9 @@ import {
   circuitPlaces,
   circuits,
   circuitsWith,
+  trailStops,
+  trails,
+  trailsWith,
   coverImage,
   festivals,
   foodSpotQuery,
@@ -96,6 +99,22 @@ describe('generated data', () => {
     const url = mapsSearchUrl('Misal pav in Kolhapur');
     expect(url).toBe('https://www.google.com/maps/search/?api=1&query=Misal%20pav%20in%20Kolhapur');
     expect(url).not.toMatch(/key=/);
+  });
+
+  it('has history trails of listed places, each event sourced, in both languages', () => {
+    expect(trails.length).toBeGreaterThanOrEqual(4);
+    for (const trail of trails) {
+      expect(trail.nameMr && trail.aboutMr).toBeTruthy();
+      const stops = trailStops(trail);
+      expect(stops).toHaveLength(trail.stops.length);
+      for (const s of stops) {
+        expect(s.when && s.whenMr && s.event && s.eventMr).toBeTruthy();
+        expect(s.sources.length).toBeGreaterThan(0);
+        expect(s.sources.every((x) => x.url.startsWith('https://en.wikipedia.org/wiki/'))).toBe(true);
+      }
+    }
+    const shivneri = trailsWith(trails.find((t) => t.id === 'shivaji').stops[0].place);
+    expect(shivneri[0].stop.when).toBe('1630');
   });
 
   it('has circuits made of listed places', () => {

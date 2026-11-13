@@ -14,7 +14,8 @@
     "data": "node scripts/build-data.mjs",
     "outline": "node scripts/build-outline.mjs",
     "suggest": "node scripts/suggest-places.mjs",
-    "og-image": "node scripts/og-image.mjs"
+    "og-image": "node scripts/og-image.mjs",
+    "trails": "node scripts/trails.mjs"
   },
   "dependencies": {
     "react": "^19.3.1",

@@ -1871,3 +1871,159 @@ section + section,
 .listen-compact {
   flex-basis: 100%;
 }
+
+/* History trails: a story walked in time order */
+.trail-player {
+  margin-block: 1rem 1.5rem;
+}
+
+.trail-now {
+  display: grid;
+  gap: 0.9rem;
+  padding: 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+}
+
+/* Short on phones, so the timeline controls stay in view */
+.trail-photo {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  max-height: 190px;
+  object-fit: cover;
+  border-radius: var(--radius-sm);
+}
+
+.trail-controls .listen-compact {
+  flex-basis: auto;
+}
+
+.trail-when {
+  margin: 0;
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: var(--accent);
+  font-variant-numeric: tabular-nums;
+}
+
+.trail-place {
+  margin: 0.1rem 0 0;
+  font-size: 1.25rem;
+}
+
+.trail-district {
+  margin: 0;
+}
+
+.trail-event {
+  margin: 0.5rem 0;
+  font-size: 1.05rem;
+}
+
+.trail-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.9rem;
+}
+
+.chip:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.trail-play {
+  font-weight: 700;
+}
+
+.trail-slider input {
+  width: 100%;
+  margin-top: 0.9rem;
+  accent-color: var(--accent);
+}
+
+.trail-step {
+  margin: 0.2rem 0 0;
+  font-size: 0.9rem;
+}
+
+.trail-timeline ol {
+  display: grid;
+  gap: 0.25rem;
+  margin: 0 0 0.75rem;
+  padding: 0 0 0 1rem;
+  list-style: none;
+  border-left: 3px solid var(--line);
+}
+
+.trail-timeline li {
+  position: relative;
+}
+
+.trail-timeline li::before {
+  content: '';
+  position: absolute;
+  top: 1.05rem;
+  left: calc(-1rem - 7.5px);
+  width: 12px;
+  height: 12px;
+  background: var(--surface);
+  border: 3px solid var(--line);
+  border-radius: 50%;
+}
+
+.trail-timeline li.is-past::before {
+  border-color: var(--accent);
+}
+
+.trail-timeline li.is-current::before {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.trail-timeline button {
+  display: grid;
+  gap: 0.1rem;
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  font: inherit;
+  color: inherit;
+  text-align: left;
+  background: none;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+
+.trail-timeline button:hover {
+  background: var(--surface-2);
+}
+
+.trail-timeline li.is-current button {
+  background: var(--accent-soft);
+  border-color: var(--line);
+}
+
+.trail-timeline .trail-when {
+  font-size: 0.95rem;
+}
+
+.trail-event-short {
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+
+@media (min-width: 600px) {
+  .trail-now {
+    grid-template-columns: minmax(0, 2fr) minmax(0, 3fr);
+    align-items: start;
+  }
+
+  .trail-photo {
+    aspect-ratio: 16 / 10;
+    max-height: none;
+  }
+}

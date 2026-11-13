@@ -17,6 +17,7 @@ import {
   KINDS,
   areaName,
   circuitsWith,
+  trailsWith,
   commonsUrl,
   festivalsAt,
   foodsIn,
@@ -31,7 +32,7 @@ import {
 import { nearest } from '../lib/geo';
 
 export default function PlaceView({ placeId }) {
-  const { t, kind, name, otherName } = useLang();
+  const { t, lang, kind, name, otherName } = useLang();
   const place = getPlace(placeId);
   const district = getDistrict(place.district);
   const region = getRegion(place.region);
@@ -41,7 +42,7 @@ export default function PlaceView({ placeId }) {
   const taluka = place.taluka && district.talukas.find((x) => x.id === place.taluka);
   const partOf = circuitsWith(place.id);
   const summary = useWikiSummary(place.wikipedia);
-  const script = (lang) => placeScript(lang, { place, district, taluka, summary: summary.text });
+  const script = (l) => placeScript(l, { place, district, taluka, summary: summary.text });
 
   return (
     <article className={`level place-page region-${place.region}`}>
@@ -138,6 +139,21 @@ export default function PlaceView({ placeId }) {
                 <span key={c.id}>
                   {i > 0 && ', '}
                   <a href={`#/circuit/${c.id}`}>🧭 {name(c)}</a>
+                </span>
+              ))}
+            </p>
+          )}
+
+          {trailsWith(place.id).length > 0 && (
+            <p className="part-of">
+              {t('trail.onTrail')}{' '}
+              {trailsWith(place.id).map(({ trail, stop }, i) => (
+                <span key={trail.id}>
+                  {i > 0 && ', '}
+                  <a href={`#/trail/${trail.id}/${trail.stops.indexOf(stop) + 1}`}>
+                    {trail.icon} {name(trail)}
+                  </a>{' '}
+                  <span className="muted">({(lang === 'mr' && stop.whenMr) || stop.when})</span>
                 </span>
               ))}
             </p>

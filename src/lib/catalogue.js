@@ -41,6 +41,15 @@ export const getCircuit = (id) => circuits.find((c) => c.id === id);
 export const circuitPlaces = (circuit) => circuit.places.map(getPlace).filter(Boolean);
 export const circuitsWith = (placeId) => circuits.filter((c) => c.places.includes(placeId));
 
+/** History trails: a story in time order, one place per stop (each event sourced). */
+export const trails = data.trails ?? [];
+export const getTrail = (id) => trails.find((t) => t.id === id);
+export const trailStops = (trail) =>
+  trail.stops.map((s) => ({ ...s, place: getPlace(s.place) })).filter((s) => s.place);
+/** [{ trail, stop }] for every trail that passes through a place. */
+export const trailsWith = (placeId) =>
+  trails.flatMap((trail) => trail.stops.filter((s) => s.place === placeId).map((stop) => ({ trail, stop })));
+
 /** Why a place or dish is best in some months (see data/curated.json "seasons"). */
 export const SEASON_ICONS = { waterfall: '🌧️', flowers: '🌸', birds: '🦩', monsoon: '🌿', summer: '🏔️', fruit: '🍊' };
 

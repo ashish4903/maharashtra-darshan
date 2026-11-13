@@ -18,6 +18,7 @@
 
 import { readFile, writeFile } from 'node:fs/promises';
 import { commonsImage, geocode, slug, sourceText } from './extras.mjs';
+import { buildTrails } from './trails.mjs';
 
 /** Great-circle distance in km (same as src/lib/geo.js). */
 function distanceKm([lat1, lon1], [lat2, lon2]) {
@@ -499,6 +500,12 @@ async function main() {
     if (item.coords && !inState(item.coords)) problems.push(`"${item.name}": coordinates ${item.coords} are outside Maharashtra`);
   }
 
+  // History trails: every event and year is checked against one sentence
+  // of a cited article (see trails.mjs)
+  const built = await buildTrails(curated.trails, { wikipedia, placeIds });
+  problems.push(...built.problems);
+  const { trails } = built;
+
   for (const n of notes) console.log('note:', n);
   if (problems.length) {
     for (const p of problems) console.error('problem:', p);
@@ -517,11 +524,12 @@ async function main() {
     foods,
     circuits,
     festivals,
+    trails,
   };
   await writeFile(OUT, JSON.stringify(data, null, 1) + '\n');
   const talukas = districts.reduce((n, d) => n + d.talukas.length, 0);
   console.log(
-    `Wrote ${regions.length} regions, ${districts.length} districts, ${talukas} talukas, ${places.length} places, ${foods.length} foods, ${circuits.length} circuits, ${festivals.length} festivals.`,
+    `Wrote ${regions.length} regions, ${districts.length} districts, ${talukas} talukas, ${places.length} places, ${foods.length} foods, ${circuits.length} circuits, ${festivals.length} festivals, ${trails.length} trails.`,
   );
 }
 
