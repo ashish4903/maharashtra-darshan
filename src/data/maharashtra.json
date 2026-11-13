@@ -10188,48 +10188,6 @@
    "verifiedBy": "wikipedia"
   },
   {
-   "id": "x-maa-kalanka-devi-temple",
-   "name": "Maa Kalanka Devi Temple",
-   "kind": "temple",
-   "region": "vidarbha",
-   "district": "Q520510",
-   "coords": [
-    20.7618,
-    77.1921
-   ],
-   "coordsFrom": "openstreetmap",
-   "source": "https://akola.gov.in/en/tourist-place/maa-kalanka-devi-temple/",
-   "sourceName": "akola.gov.in"
-  },
-  {
-   "id": "x-katepurna-wildlife-sanctuary",
-   "name": "Katepurna Wildlife Sanctuary",
-   "kind": "nature",
-   "region": "vidarbha",
-   "district": "Q520510",
-   "image": {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Katepurna_Wildlife_Sanctuary.jpg",
-    "file": "Katepurna Wildlife Sanctuary.jpg",
-    "licence": "CC BY-SA 4.0"
-   },
-   "source": "https://akola.gov.in/en/tourist-place/katepurna/",
-   "sourceName": "akola.gov.in"
-  },
-  {
-   "id": "x-salasar-balaji-temple-akola",
-   "name": "Salasar Balaji Temple, Akola",
-   "kind": "temple",
-   "region": "vidarbha",
-   "district": "Q520510",
-   "coords": [
-    20.69,
-    76.9778
-   ],
-   "coordsFrom": "openstreetmap",
-   "source": "https://akola.gov.in/en/tourist-place/salasarmandir/",
-   "sourceName": "akola.gov.in"
-  },
-  {
    "id": "x-maha-samadhi-bhumi",
    "name": "Maha Samadhi Bhumi",
    "kind": "heritage",
@@ -10279,20 +10237,6 @@
    "district": "Q1813857",
    "source": "https://bhandara.gov.in/tourist-place/gosekhurd-dam/",
    "sourceName": "bhandara.gov.in"
-  },
-  {
-   "id": "x-rajwade-sanshodhan-mandal-museum",
-   "name": "Rajwade Sanshodhan Mandal museum",
-   "kind": "heritage",
-   "region": "north-maharashtra",
-   "district": "Q1797383",
-   "coords": [
-    21.1305,
-    74.4901
-   ],
-   "coordsFrom": "openstreetmap",
-   "source": "https://dhule.gov.in/en/tourist-place/history-v-k-rajwade-research-board/",
-   "sourceName": "dhule.gov.in"
   },
   {
    "id": "x-somnur-sangam",
@@ -10440,20 +10384,6 @@
    "sourceName": "jalgaon.gov.in"
   },
   {
-   "id": "x-chhota-kashmir",
-   "name": "Chhota Kashmir",
-   "kind": "nature",
-   "region": "konkan",
-   "district": "Q2085374",
-   "coords": [
-    19.1693,
-    72.8588
-   ],
-   "coordsFrom": "openstreetmap",
-   "source": "https://mumbaisuburban.gov.in/en/tourist-place/chhota-kashmir/",
-   "sourceName": "mumbaisuburban.gov.in"
-  },
-  {
    "id": "x-khekranala-lake",
    "name": "Khekranala Lake",
    "kind": "nature",
@@ -10496,67 +10426,6 @@
    "sourceName": "nagpur.gov.in"
   },
   {
-   "id": "x-kaleshwar-temple",
-   "name": "Kaleshwar Temple",
-   "kind": "temple",
-   "region": "marathwada",
-   "district": "Q692389",
-   "coords": [
-    19.1199,
-    77.2839
-   ],
-   "coordsFrom": "openstreetmap",
-   "source": "https://nanded.gov.in/en/tourist-place/kaleshwar-temple/",
-   "sourceName": "nanded.gov.in"
-  },
-  {
-   "id": "x-unkeshwar-mahadev-temple",
-   "name": "Unkeshwar Mahadev Temple",
-   "kind": "temple",
-   "region": "marathwada",
-   "district": "Q692389",
-   "coords": [
-    19.8562,
-    78.2503
-   ],
-   "coordsFrom": "openstreetmap",
-   "source": "https://nanded.gov.in/en/tourist-place/unkeshwar-mahadev-temple/",
-   "sourceName": "nanded.gov.in"
-  },
-  {
-   "id": "x-hottal-temples",
-   "name": "Hottal temples",
-   "kind": "heritage",
-   "region": "marathwada",
-   "district": "Q692389",
-   "coords": [
-    18.5497,
-    77.5791
-   ],
-   "coordsFrom": "openstreetmap",
-   "image": {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/SidhheshwarTemple_Hottal.jpg",
-    "file": "SidhheshwarTemple Hottal.jpg",
-    "licence": "CC BY-SA 3.0"
-   },
-   "source": "https://nanded.gov.in/en/tourist-place/hottal/",
-   "sourceName": "nanded.gov.in"
-  },
-  {
-   "id": "x-bavari-nagar-mahavihar-dabhad",
-   "name": "Bavari Nagar Mahavihar, Dabhad",
-   "kind": "temple",
-   "region": "marathwada",
-   "district": "Q692389",
-   "coords": [
-    19.2356,
-    77.3561
-   ],
-   "coordsFrom": "openstreetmap",
-   "source": "https://nanded.gov.in/en/tourist-place/bavari-nagar-dabhad-mahavihar/",
-   "sourceName": "nanded.gov.in"
-  },
-  {
    "id": "x-astamba",
    "name": "Astamba",
    "kind": "pilgrimage",
@@ -10583,91 +10452,6 @@
    "coordsFrom": "openstreetmap",
    "source": "https://nandurbar.gov.in/en/tourist-place/shirishkumar/",
    "sourceName": "nandurbar.gov.in"
-  },
-  {
-   "id": "x-hanuman-point-jawhar",
-   "name": "Hanuman Point, Jawhar",
-   "kind": "nature",
-   "region": "konkan",
-   "district": "Q18003119",
-   "coords": [
-    19.9125,
-    73.2252
-   ],
-   "coordsFrom": "openstreetmap",
-   "image": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Jaivilas_Palace_from_Hanuman_Point%2C_Jawhar.jpg/960px-Jaivilas_Palace_from_Hanuman_Point%2C_Jawhar.jpg",
-    "file": "Jaivilas Palace from Hanuman Point, Jawhar.jpg",
-    "licence": "CC BY-SA 4.0"
-   },
-   "source": "https://palghar.gov.in/en/tourist-place/hanuman-point/",
-   "sourceName": "palghar.gov.in"
-  },
-  {
-   "id": "x-shirpamal-jawhar",
-   "name": "Shirpamal, Jawhar",
-   "kind": "heritage",
-   "region": "konkan",
-   "district": "Q18003119",
-   "coords": [
-    19.9125,
-    73.2252
-   ],
-   "coordsFrom": "openstreetmap",
-   "image": {
-    "src": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Shirpamal_Jawhar.jpg",
-    "file": "Shirpamal Jawhar.jpg",
-    "licence": "CC BY-SA 4.0"
-   },
-   "source": "https://palghar.gov.in/en/tourist-place/shirpamal/",
-   "sourceName": "palghar.gov.in"
-  },
-  {
-   "id": "x-kalmandavi-waterfall",
-   "name": "Kalmandavi Waterfall",
-   "kind": "nature",
-   "region": "konkan",
-   "district": "Q18003119",
-   "coords": [
-    19.9125,
-    73.2252
-   ],
-   "coordsFrom": "openstreetmap",
-   "source": "https://palghar.gov.in/en/tourist-place/kalmandavi-waterfall/",
-   "sourceName": "palghar.gov.in"
-  },
-  {
-   "id": "x-hiradpada-waterfall",
-   "name": "Hiradpada Waterfall",
-   "kind": "nature",
-   "region": "konkan",
-   "district": "Q18003119",
-   "coords": [
-    19.9972,
-    73.224
-   ],
-   "coordsFrom": "openstreetmap",
-   "image": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Hiradpada_Waterfall%2C_Jawhar.jpg/960px-Hiradpada_Waterfall%2C_Jawhar.jpg",
-    "file": "Hiradpada Waterfall, Jawhar.jpg",
-    "licence": "CC BY-SA 4.0"
-   },
-   "source": "https://palghar.gov.in/en/tourist-place/hiradpada-waterfall/",
-   "sourceName": "palghar.gov.in"
-  },
-  {
-   "id": "x-mahalakshmi-temple-dahanu",
-   "name": "Mahalakshmi Temple, Dahanu",
-   "kind": "temple",
-   "region": "konkan",
-   "district": "Q18003119",
-   "coords": [
-    19.9407,
-    72.9345
-   ],
-   "coordsFrom": "openstreetmap",
-   "source": "https://palghar.gov.in/en/tourist-place/mahalakshmi-temple/",
-   "sourceName": "palghar.gov.in"
   },
   {
    "id": "x-charthana",
@@ -10956,25 +10740,6 @@
    "sourceName": "washim.gov.in"
   },
   {
-   "id": "x-lokmanya-tilak-s-birthplace",
-   "name": "Lokmanya Tilak’s birthplace",
-   "kind": "heritage",
-   "region": "konkan",
-   "district": "Q1771768",
-   "coords": [
-    17.2826,
-    73.457
-   ],
-   "coordsFrom": "openstreetmap",
-   "image": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Lokmanya_Tilak_Birthplace_in_Ratnagiri_03.jpg/960px-Lokmanya_Tilak_Birthplace_in_Ratnagiri_03.jpg",
-    "file": "Lokmanya Tilak Birthplace in Ratnagiri 03.jpg",
-    "licence": "CC BY-SA 4.0"
-   },
-   "source": "https://ratnagiri.gov.in/en/tourist-place/birthplace-of-lokmanya-tilak/",
-   "sourceName": "ratnagiri.gov.in"
-  },
-  {
    "id": "x-tipeshwar-wildlife-sanctuary",
    "name": "Tipeshwar Wildlife Sanctuary",
    "kind": "nature",
@@ -11024,25 +10789,6 @@
    "coordsFrom": "openstreetmap",
    "source": "https://jalna.gov.in/tourism/",
    "sourceName": "jalna.gov.in"
-  },
-  {
-   "id": "x-anjaneri",
-   "name": "Anjaneri",
-   "kind": "hill-station",
-   "region": "north-maharashtra",
-   "district": "Q1797269",
-   "coords": [
-    19.946,
-    73.5868
-   ],
-   "coordsFrom": "openstreetmap",
-   "image": {
-    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Anjaneri_mountain%2Cnashik.jpg/960px-Anjaneri_mountain%2Cnashik.jpg",
-    "file": "Anjaneri mountain,nashik.jpg",
-    "licence": "CC BY-SA 4.0"
-   },
-   "source": "https://nashik.gov.in/tourism/",
-   "sourceName": "nashik.gov.in"
   },
   {
    "id": "x-anchaleshwar-temple",
@@ -11221,6 +10967,54 @@
    "wikipedia": "https://en.wikipedia.org/wiki/Sev_puri"
   },
   {
+   "id": "Q2663618",
+   "name": "Alphonso mango",
+   "nameMr": "हापूस आंबा",
+   "description": "named mango cultivar originated in India",
+   "type": "produce",
+   "region": "konkan",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/44/Mangoes_in_Bangalore_%282025%29_19.jpg/960px-Mangoes_in_Bangalore_%282025%29_19.jpg",
+    "file": "Mangoes_in_Bangalore_(2025)_19.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Alphonso_mango"
+  },
+  {
+   "id": "Q131538448",
+   "name": "Alibag White onion",
+   "description": "type of onion variety from India",
+   "type": "produce",
+   "region": "konkan",
+   "district": "Q2019683",
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Alibag_White_Onions_from_Pezari_village_of_Alibag_taluka.jpg",
+    "file": "Alibag_White_Onions_from_Pezari_village_of_Alibag_taluka.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Alibag_White_onion"
+  },
+  {
+   "id": "Q132675509",
+   "name": "Badlapur Jamun",
+   "description": "jamun variety grown in Maharashtra, India",
+   "type": "produce",
+   "region": "konkan",
+   "district": "Q943099",
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/Badlapur_Jambhul.jpg",
+    "file": "Badlapur_Jambhul.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Badlapur_Jamun"
+  },
+  {
+   "id": "Q132675822",
+   "name": "Bahadoli Jamun",
+   "description": "jamun variety grown in Maharashtra, India",
+   "type": "produce",
+   "region": "konkan",
+   "district": "Q18003119",
+   "wikipedia": "https://en.wikipedia.org/wiki/Bahadoli_Jamun"
+  },
+  {
    "id": "Q3537640",
    "name": "Misal pav",
    "nameMr": "मिसळपाव",
@@ -11349,6 +11143,72 @@
    "wikipedia": "https://en.wikipedia.org/wiki/Jalgaon_banana"
   },
   {
+   "id": "Q131447790",
+   "name": "Jalgaon Bharit Brinjal",
+   "description": "type of Brinjal variety from India",
+   "type": "produce",
+   "region": "north-maharashtra",
+   "district": "Q1797291",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Jalgaon_Bharit_Brinjals_Light_Green_Variety_Maharashtra_India.jpg/960px-Jalgaon_Bharit_Brinjals_Light_Green_Variety_Maharashtra_India.jpg",
+    "file": "Jalgaon_Bharit_Brinjals_Light_Green_Variety_Maharashtra_India.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Jalgaon_Bharit_Brinjal"
+  },
+  {
+   "id": "Q24945071",
+   "name": "Nashik grape",
+   "description": "variety of grape",
+   "type": "produce",
+   "region": "north-maharashtra",
+   "district": "Q1797269",
+   "image": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Grape_vineyards_Viticulture_Farming_Sula_winery_Nasik_Maharashtra_India.jpg/960px-Grape_vineyards_Viticulture_Farming_Sula_winery_Nasik_Maharashtra_India.jpg",
+    "file": "Grape_vineyards_Viticulture_Farming_Sula_winery_Nasik_Maharashtra_India.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Nashik_grape"
+  },
+  {
+   "id": "Q131516077",
+   "name": "Lasalgaon onion",
+   "description": "type of onion variety from India",
+   "type": "produce",
+   "region": "north-maharashtra",
+   "district": "Q1797269",
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/be/Lasalgaon_Manganga_Gulabi_Onions_freshly_plucked_from_a_field.jpg",
+    "file": "Lasalgaon_Manganga_Gulabi_Onions_freshly_plucked_from_a_field.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Lasalgaon_onion"
+  },
+  {
+   "id": "Q131904758",
+   "name": "Navapur Tur Dal",
+   "description": "type of Pigeon pea from Maharashtra, India",
+   "type": "produce",
+   "region": "north-maharashtra",
+   "district": "Q1623525",
+   "wikipedia": "https://en.wikipedia.org/wiki/Navapur_Tur_Dal"
+  },
+  {
+   "id": "Q131747661",
+   "name": "Nandurbar Amchur",
+   "description": "type of Spice powder variety from Maharashtra, India",
+   "type": "produce",
+   "region": "north-maharashtra",
+   "district": "Q1623525",
+   "wikipedia": "https://en.wikipedia.org/wiki/Nandurbar_Amchur"
+  },
+  {
+   "id": "Q131286463",
+   "name": "Nandurbar Mirchi",
+   "description": "chilli variety grown in Maharashtra, India",
+   "type": "produce",
+   "region": "north-maharashtra",
+   "district": "Q1623525",
+   "wikipedia": "https://en.wikipedia.org/wiki/Nandurbar_Mirchi"
+  },
+  {
    "id": "Q6956585",
    "name": "Naan qalia",
    "type": "dish",
@@ -11367,6 +11227,59 @@
    "type": "produce",
    "region": "marathwada",
    "wikipedia": "https://en.wikipedia.org/wiki/Marathwada_Kesar_mango"
+  },
+  {
+   "id": "Q132477272",
+   "name": "Beed Custard Apple",
+   "description": "type of Custard apple variety from Maharashtra, India",
+   "type": "produce",
+   "region": "marathwada",
+   "district": "Q814037",
+   "wikipedia": "https://en.wikipedia.org/wiki/Beed_Custard_Apple"
+  },
+  {
+   "id": "Q131824346",
+   "name": "Dagdi Jowar of Jalna",
+   "description": "type of Sorghum variety from Maharashtra, India",
+   "type": "produce",
+   "region": "marathwada",
+   "district": "Q1804863",
+   "wikipedia": "https://en.wikipedia.org/wiki/Dagdi_Jowar_of_Jalna"
+  },
+  {
+   "id": "Q131913804",
+   "name": "Borsuri Tur Dal",
+   "description": "type of Pigeon pea from Maharashtra, India",
+   "type": "produce",
+   "region": "marathwada",
+   "district": "Q1948713",
+   "wikipedia": "https://en.wikipedia.org/wiki/Borsuri_Tur_Dal"
+  },
+  {
+   "id": "Q132861424",
+   "name": "Kasti Coriander",
+   "description": "type of coriander variety from Maharashtra, India",
+   "type": "produce",
+   "region": "marathwada",
+   "district": "Q1948713",
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Kasti_Coriander_closeup.jpg",
+    "file": "Kasti_Coriander_closeup.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Kasti_Coriander"
+  },
+  {
+   "id": "Q131703685",
+   "name": "Vasmat turmeric",
+   "description": "type of Turmeric cultivated in Maharashtra, India",
+   "type": "produce",
+   "region": "marathwada",
+   "district": "Q2087615",
+   "image": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/7/74/Vasmat_Turmeric_fingers.jpg",
+    "file": "Vasmat_Turmeric_fingers.jpg"
+   },
+   "wikipedia": "https://en.wikipedia.org/wiki/Vasmat_turmeric"
   },
   {
    "id": "Q6959015",
@@ -11416,6 +11329,15 @@
     "file": "Waigaon_Turmeric_fingers.jpg"
    },
    "wikipedia": "https://en.wikipedia.org/wiki/Waigaon_turmeric"
+  },
+  {
+   "id": "Q131400074",
+   "name": "Bhandara Chinnor rice",
+   "description": "type of non-Basmati aromatic rice",
+   "type": "produce",
+   "region": "vidarbha",
+   "district": "Q1813857",
+   "wikipedia": "https://en.wikipedia.org/wiki/Bhandara_Chinnor_rice"
   },
   {
    "id": "Q3630852",
@@ -11652,6 +11574,16 @@
     "licence": "CC BY-SA 4.0"
    },
    "source": "https://en.wikipedia.org/wiki/Kolhapur",
+   "sourceName": "en.wikipedia.org"
+  },
+  {
+   "id": "x-kunthalgiri-pedha",
+   "name": "Kunthalgiri pedha",
+   "description": "A sweet Kunthalgiri, near Bhum, is famous for.",
+   "type": "dish",
+   "region": "marathwada",
+   "district": "Q1647186",
+   "source": "https://en.wikipedia.org/wiki/Bhoom_taluka",
    "sourceName": "en.wikipedia.org"
   },
   {

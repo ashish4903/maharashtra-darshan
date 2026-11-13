@@ -739,14 +739,10 @@
 
   "extras": {
     "places": [
-      { "name": "Maa Kalanka Devi Temple", "district": "Akola", "kind": "temple", "source": "https://akola.gov.in/en/tourist-place/maa-kalanka-devi-temple/", "evidence": "Kalanka", "geocode": "Kalanka Devi Temple, Akola" },
-      { "name": "Katepurna Wildlife Sanctuary", "district": "Akola", "kind": "nature", "source": "https://akola.gov.in/en/tourist-place/katepurna/", "evidence": "Katepurna", "geocode": "Katepurna Wildlife Sanctuary", "photo": "Katepurna Wildlife Sanctuary.jpg" },
-      { "name": "Salasar Balaji Temple, Akola", "district": "Akola", "kind": "temple", "source": "https://akola.gov.in/en/tourist-place/salasarmandir/", "evidence": "Salasar", "geocode": "Salasar Balaji Mandir, Akola" },
       { "name": "Maha Samadhi Bhumi", "district": "Bhandara", "kind": "heritage", "source": "https://bhandara.gov.in/tourist-place/maha-samadhi-bhumi/", "evidence": "Maha Samadhi", "geocode": "Mahasamadhi Bhumi, Pauni" },
       { "name": "Rawanwadi Dam", "district": "Bhandara", "kind": "nature", "source": "https://bhandara.gov.in/tourist-place/rawanwadi-dam-2/", "evidence": "Rawanwadi", "geocode": "Rawanwadi, Bhandara" },
       { "name": "Korambhi Devi Temple", "district": "Bhandara", "kind": "temple", "source": "https://bhandara.gov.in/tourist-place/korambhi-temple/", "evidence": "Korambhi", "geocode": "Korambhi, Bhandara" },
       { "name": "Gosikhurd Dam", "district": "Bhandara", "kind": "nature", "source": "https://bhandara.gov.in/tourist-place/gosekhurd-dam/", "evidence": "Gosekhurd", "geocode": "Gosikhurd Dam" },
-      { "name": "Rajwade Sanshodhan Mandal museum", "district": "Dhule", "kind": "heritage", "source": "https://dhule.gov.in/en/tourist-place/history-v-k-rajwade-research-board/", "evidence": "Rajwade", "geocode": "Rajwade Sanshodhan Mandal, Dhule" },
       { "name": "Somnur Sangam", "district": "Gadchiroli", "kind": "nature", "source": "https://gadchiroli.gov.in/tourist-place/somnur-sangam-ta-sironcha/", "evidence": "Somnur", "geocode": "Somnur, Sironcha" },
       { "name": "Chaprala Wildlife Sanctuary", "district": "Gadchiroli", "kind": "nature", "source": "https://gadchiroli.gov.in/tourist-place/chaprala-wildlife-sanctuary/", "evidence": "Chaprala", "geocode": "Chaprala Wildlife Sanctuary", "photo": "View of Chaprala Wildlife Sanctuary.jpg" },
       { "name": "Wadadham Fossil Park", "district": "Gadchiroli", "kind": "heritage", "source": "https://gadchiroli.gov.in/tourist-place/wadadham-fossils-park/", "evidence": "Wadadham", "geocode": "Wadadham, Sironcha" },
@@ -757,21 +753,11 @@
       { "name": "Unapdev hot springs", "district": "Jalgaon", "kind": "nature", "source": "https://jalgaon.gov.in/en/tourist-place/unapdev-hot-water-fountain/", "evidence": "Unapdev", "geocode": "Unapdev" },
       { "name": "Swinging Towers of Farkande", "district": "Jalgaon", "kind": "heritage", "source": "https://jalgaon.gov.in/en/tourist-place/swinging-towers-of-farkande/", "evidence": "Farkande", "geocode": "Farkande, Erandol", "photo": "Swinging Towers of Farkande.jpg" },
       { "name": "Manudevi Temple", "district": "Jalgaon", "kind": "temple", "source": "https://jalgaon.gov.in/en/tourist-place/manudevi-temple/", "evidence": "Manudevi", "geocode": "Manudevi Temple, Adgaon" },
-      { "name": "Chhota Kashmir", "district": "Mumbai Suburban", "kind": "nature", "source": "https://mumbaisuburban.gov.in/en/tourist-place/chhota-kashmir/", "evidence": "Chhota Kashmir", "geocode": "Chhota Kashmir, Aarey" },
       { "name": "Khekranala Lake", "district": "Nagpur", "kind": "nature", "source": "https://nagpur.gov.in/tourist-place/khekranala-lake/", "evidence": "Khekranala", "geocode": "Khekranala, Nagpur" },
       { "name": "Satpuda Botanical Garden", "district": "Nagpur", "kind": "nature", "source": "https://nagpur.gov.in/tourist-place/satpuda-botanical-garden/", "evidence": "Satpuda Botanical", "geocode": "Satpuda Botanical Garden, Nagpur" },
       { "name": "Gandhi Sagar Lake", "district": "Nagpur", "kind": "nature", "source": "https://nagpur.gov.in/tourist-place/gandhi-sagar-lake/", "evidence": "Gandhi Sagar", "geocode": "Gandhisagar Lake, Nagpur" },
-      { "name": "Kaleshwar Temple", "district": "Nanded", "kind": "temple", "source": "https://nanded.gov.in/en/tourist-place/kaleshwar-temple/", "evidence": "Kaleshwar", "geocode": "Kaleshwar Temple, Nanded" },
-      { "name": "Unkeshwar Mahadev Temple", "district": "Nanded", "kind": "temple", "source": "https://nanded.gov.in/en/tourist-place/unkeshwar-mahadev-temple/", "evidence": "Unkeshwar", "geocode": "Unkeshwar, Kinwat" },
-      { "name": "Hottal temples", "district": "Nanded", "kind": "heritage", "source": "https://nanded.gov.in/en/tourist-place/hottal/", "evidence": "Hottal", "geocode": "Hottal, Degloor", "photo": "SidhheshwarTemple Hottal.jpg" },
-      { "name": "Bavari Nagar Mahavihar, Dabhad", "district": "Nanded", "kind": "temple", "source": "https://nanded.gov.in/en/tourist-place/bavari-nagar-dabhad-mahavihar/", "evidence": "Dabhad", "geocode": "Dabhad, Nanded" },
       { "name": "Astamba", "district": "Nandurbar", "kind": "pilgrimage", "source": "https://nandurbar.gov.in/en/tourist-place/asthamba-nandurbar/", "evidence": "Asthamba", "geocode": "Astamba, Akrani" },
       { "name": "Shirish Kumar Mehta memorial", "district": "Nandurbar", "kind": "heritage", "source": "https://nandurbar.gov.in/en/tourist-place/shirishkumar/", "evidence": "Shirish", "geocode": "Nandurbar" },
-      { "name": "Hanuman Point, Jawhar", "district": "Palghar", "kind": "nature", "source": "https://palghar.gov.in/en/tourist-place/hanuman-point/", "evidence": "Hanuman Point", "geocode": "Jawhar", "photo": "Jaivilas Palace from Hanuman Point, Jawhar.jpg" },
-      { "name": "Shirpamal, Jawhar", "district": "Palghar", "kind": "heritage", "source": "https://palghar.gov.in/en/tourist-place/shirpamal/", "evidence": "Shirpamal", "geocode": "Jawhar", "photo": "Shirpamal Jawhar.jpg" },
-      { "name": "Kalmandavi Waterfall", "district": "Palghar", "kind": "nature", "source": "https://palghar.gov.in/en/tourist-place/kalmandavi-waterfall/", "evidence": "Kalmandavi", "geocode": "Kalmandavi, Jawhar" },
-      { "name": "Hiradpada Waterfall", "district": "Palghar", "kind": "nature", "source": "https://palghar.gov.in/en/tourist-place/hiradpada-waterfall/", "evidence": "Hiradpada", "geocode": "Hiradpada, Jawhar", "photo": "Hiradpada Waterfall, Jawhar.jpg" },
-      { "name": "Mahalakshmi Temple, Dahanu", "district": "Palghar", "kind": "temple", "source": "https://palghar.gov.in/en/tourist-place/mahalakshmi-temple/", "evidence": "Mahalakshmi", "geocode": "Mahalaxmi Temple, Dahanu" },
       { "name": "Charthana", "district": "Parbhani", "kind": "heritage", "source": "https://parbhani.gov.in/en/tourist-place/chaarthana/", "evidence": "Chaarthana", "geocode": "Charthana, Jintur", "photo": "Charthana Village Stepwell.jpg" },
       { "name": "Mudgaleshwar Temple, Mudgal", "district": "Parbhani", "kind": "temple", "source": "https://parbhani.gov.in/en/tourist-place/mudgaleshwar-temple-mudgal/", "evidence": "Mudgaleshwar", "geocode": "Mudgal, Pathri" },
       { "name": "Mrityunjaya Pardeshwar Temple", "district": "Parbhani", "kind": "temple", "source": "https://parbhani.gov.in/en/tourist-place/mrityunjaya-pardeshwar-temple-mercury-shivlinga-parbhani/", "evidence": "Pardeshwar", "geocode": "Pardeshwar Temple, Parbhani" },
@@ -791,12 +777,10 @@
       { "name": "Balaji Temple, Washim", "district": "Washim", "kind": "temple", "source": "https://washim.gov.in/en/tourist-place/balaji-mandir-washim/", "evidence": "Balaji", "geocode": "Balaji Mandir, Washim" },
       { "name": "Padmatirtha", "district": "Washim", "kind": "temple", "source": "https://washim.gov.in/en/tourist-place/padmatirtha-washim/", "evidence": "Padmatirtha", "geocode": "Padmatirtha, Washim" },
       { "name": "Antariksha Parshvanath Jain Temple, Shirpur", "district": "Washim", "kind": "temple", "source": "https://washim.gov.in/en/tourist-place/jain-temple-shirpur-jain/", "evidence": "Shirpur", "geocode": "Shirpur Jain, Malegaon" },
-      { "name": "Lokmanya Tilak’s birthplace", "district": "Ratnagiri", "kind": "heritage", "source": "https://ratnagiri.gov.in/en/tourist-place/birthplace-of-lokmanya-tilak/", "evidence": "Tilak", "geocode": "Tilak Ali, Ratnagiri", "photo": "Lokmanya Tilak Birthplace in Ratnagiri 03.jpg" },
       { "name": "Tipeshwar Wildlife Sanctuary", "district": "Yavatmal", "kind": "nature", "source": "https://yavatmal.gov.in/en/tourist-place/name-of-tourist-place-to-visit/", "evidence": "Tipeshwar", "geocode": "Tipeshwar Wildlife Sanctuary" },
       { "name": "Baba Kambalposh Dargah, Arni", "district": "Yavatmal", "kind": "temple", "source": "https://yavatmal.gov.in/en/tourist-places/", "evidence": "Kambalposh", "geocode": "Arni, Yavatmal" },
       { "name": "Matsyodari Devi Temple, Ambad", "district": "Jalna", "kind": "temple", "source": "https://jalna.gov.in/tourism/", "evidence": "Matsyodari", "geocode": "Ambad, Jalna" },
       { "name": "Rajur Ganpati Temple", "district": "Jalna", "kind": "temple", "source": "https://jalna.gov.in/tourism/", "evidence": "Rajur", "geocode": "Rajur, Bhokardan" },
-      { "name": "Anjaneri", "district": "Nashik", "kind": "hill-station", "source": "https://nashik.gov.in/tourism/", "evidence": "Anjaneri", "geocode": "Anjaneri, Trimbakeshwar", "photo": "Anjaneri mountain,nashik.jpg" },
       { "name": "Anchaleshwar Temple", "district": "Chandrapur", "kind": "temple", "source": "https://chanda.nic.in/en/tourist-places/", "evidence": "Anchaleshwar", "geocode": "Anchaleshwar Temple, Chandrapur", "photo": "0101421 Anchaleswar Mahadev Temple, Chandrapur Fort, Maharashtra 002.jpg" }
     ],
     "foods": [
@@ -1139,5 +1123,26 @@
         }
       ]
     }
-  ]
+  ],
+  "paused": {
+    "why": "Not built while their source site cannot be reached (checked 2026-11-13: akola.gov.in, dhule.gov.in, mumbaisuburban.gov.in, nanded.gov.in, nashik.gov.in, palghar.gov.in, ratnagiri.gov.in). They move back into extras.places automatically when it answers.",
+    "places": [
+      { "name": "Maa Kalanka Devi Temple", "district": "Akola", "kind": "temple", "source": "https://akola.gov.in/en/tourist-place/maa-kalanka-devi-temple/", "evidence": "Kalanka", "geocode": "Kalanka Devi Temple, Akola" },
+      { "name": "Katepurna Wildlife Sanctuary", "district": "Akola", "kind": "nature", "source": "https://akola.gov.in/en/tourist-place/katepurna/", "evidence": "Katepurna", "geocode": "Katepurna Wildlife Sanctuary", "photo": "Katepurna Wildlife Sanctuary.jpg" },
+      { "name": "Salasar Balaji Temple, Akola", "district": "Akola", "kind": "temple", "source": "https://akola.gov.in/en/tourist-place/salasarmandir/", "evidence": "Salasar", "geocode": "Salasar Balaji Mandir, Akola" },
+      { "name": "Rajwade Sanshodhan Mandal museum", "district": "Dhule", "kind": "heritage", "source": "https://dhule.gov.in/en/tourist-place/history-v-k-rajwade-research-board/", "evidence": "Rajwade", "geocode": "Rajwade Sanshodhan Mandal, Dhule" },
+      { "name": "Chhota Kashmir", "district": "Mumbai Suburban", "kind": "nature", "source": "https://mumbaisuburban.gov.in/en/tourist-place/chhota-kashmir/", "evidence": "Chhota Kashmir", "geocode": "Chhota Kashmir, Aarey" },
+      { "name": "Kaleshwar Temple", "district": "Nanded", "kind": "temple", "source": "https://nanded.gov.in/en/tourist-place/kaleshwar-temple/", "evidence": "Kaleshwar", "geocode": "Kaleshwar Temple, Nanded" },
+      { "name": "Unkeshwar Mahadev Temple", "district": "Nanded", "kind": "temple", "source": "https://nanded.gov.in/en/tourist-place/unkeshwar-mahadev-temple/", "evidence": "Unkeshwar", "geocode": "Unkeshwar, Kinwat" },
+      { "name": "Hottal temples", "district": "Nanded", "kind": "heritage", "source": "https://nanded.gov.in/en/tourist-place/hottal/", "evidence": "Hottal", "geocode": "Hottal, Degloor", "photo": "SidhheshwarTemple Hottal.jpg" },
+      { "name": "Bavari Nagar Mahavihar, Dabhad", "district": "Nanded", "kind": "temple", "source": "https://nanded.gov.in/en/tourist-place/bavari-nagar-dabhad-mahavihar/", "evidence": "Dabhad", "geocode": "Dabhad, Nanded" },
+      { "name": "Hanuman Point, Jawhar", "district": "Palghar", "kind": "nature", "source": "https://palghar.gov.in/en/tourist-place/hanuman-point/", "evidence": "Hanuman Point", "geocode": "Jawhar", "photo": "Jaivilas Palace from Hanuman Point, Jawhar.jpg" },
+      { "name": "Shirpamal, Jawhar", "district": "Palghar", "kind": "heritage", "source": "https://palghar.gov.in/en/tourist-place/shirpamal/", "evidence": "Shirpamal", "geocode": "Jawhar", "photo": "Shirpamal Jawhar.jpg" },
+      { "name": "Kalmandavi Waterfall", "district": "Palghar", "kind": "nature", "source": "https://palghar.gov.in/en/tourist-place/kalmandavi-waterfall/", "evidence": "Kalmandavi", "geocode": "Kalmandavi, Jawhar" },
+      { "name": "Hiradpada Waterfall", "district": "Palghar", "kind": "nature", "source": "https://palghar.gov.in/en/tourist-place/hiradpada-waterfall/", "evidence": "Hiradpada", "geocode": "Hiradpada, Jawhar", "photo": "Hiradpada Waterfall, Jawhar.jpg" },
+      { "name": "Mahalakshmi Temple, Dahanu", "district": "Palghar", "kind": "temple", "source": "https://palghar.gov.in/en/tourist-place/mahalakshmi-temple/", "evidence": "Mahalakshmi", "geocode": "Mahalaxmi Temple, Dahanu" },
+      { "name": "Lokmanya Tilak’s birthplace", "district": "Ratnagiri", "kind": "heritage", "source": "https://ratnagiri.gov.in/en/tourist-place/birthplace-of-lokmanya-tilak/", "evidence": "Tilak", "geocode": "Tilak Ali, Ratnagiri", "photo": "Lokmanya Tilak Birthplace in Ratnagiri 03.jpg" },
+      { "name": "Anjaneri", "district": "Nashik", "kind": "hill-station", "source": "https://nashik.gov.in/tourism/", "evidence": "Anjaneri", "geocode": "Anjaneri, Trimbakeshwar", "photo": "Anjaneri mountain,nashik.jpg" }
+    ]
+  }
 }

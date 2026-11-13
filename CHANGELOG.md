@@ -6,8 +6,13 @@ All notable changes to this project are listed here. The format follows [Keep a 
 
 ### Added
 
+- 17 more dishes and GI-tagged produce, giving 11 more districts food of their own: Alphonso mango (Konkan), Alibag White onion, Badlapur and Bahadoli jamun, Nashik grape, Lasalgaon onion, Navapur tur dal, Nandurbar amchur and mirchi, Jalgaon bharit brinjal, Beed custard apple, Dagdi jowar of Jalna, Borsuri tur dal, Kasti coriander, Vasmat turmeric, Bhandara Chinnor rice and Kunthalgiri pedha. Each is checked against its Wikipedia article (Kunthalgiri pedha against the Bhoom taluka article).
 - History trails: walk through a story on the map, in time order. A timeline slider (or Play) moves through the stops while the map draws the route so far. Four trails with 32 stops: Shivaji Maharaj and Swarajya, Saints and the Wari, Caves to the Peshwas, and the Road to freedom and equality, in English and Marathi. Every event and year is checked against one sentence of the cited Wikipedia article (`npm run trails`). Place pages link to their trail stop (“In history”), and stops can be shared, listened to, or planned as a trip.
 - Listen mode: a 🔊 Listen button on every place page and on each trip day reads it aloud in English or Marathi, using the device’s own voice (nothing is recorded or sent). It has pause, stop and three speeds. Without a Marathi or Hindi voice it reads in English and says so; Wikipedia text is always read with an English voice.
+
+### Changed
+
+- 16 places sourced from district websites that could not be reached when the data was built (Akola, Dhule, Mumbai Suburban, Nanded, Nashik, Palghar, Ratnagiri) are hidden until their source can be checked again. They are kept in `data/curated.json` under `paused`.
 
 ### Fixed
 
