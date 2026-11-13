@@ -99,6 +99,14 @@ npm run build
 
 The app needs no API keys, accounts or `.env` file. It has no tracking and no cookies. Its only network requests are to Wikipedia and Wikimedia Commons (summaries and photos) and Open-Meteo (forecasts, sending only a place’s coordinates). Google Maps links are plain links: nothing is sent to Google unless the visitor clicks one.
 
+## Releases
+
+The version is in `package.json` and the notes are in [CHANGELOG.md](CHANGELOG.md). To publish a release:
+1. Add the changes under a new `## [x.y.z] - date` section in the changelog.
+2. Raise `version` in `package.json` in the same pull request.
+
+When it’s merged, CI creates the GitHub Release `vx.y.z` with those notes. CI also fails if the current version has no changelog section.
+
 ## Licence
 
 The code is under the [MIT](LICENSE) licence.
