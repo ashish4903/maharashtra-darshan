@@ -3,6 +3,14 @@ import { parseHash, toHash } from './route';
 import { places } from './catalogue';
 
 describe('route', () => {
+  it('reads a history trail, with an optional stop', () => {
+    expect(parseHash('#/trail/shivaji')).toEqual({ view: 'trail', id: 'shivaji' });
+    expect(parseHash('#/trail/shivaji/4')).toEqual({ view: 'trail', id: 'shivaji', stop: 4 });
+    expect(parseHash('#/trail/shivaji/x')).toEqual({ view: 'trail', id: 'shivaji' });
+    expect(parseHash('#/trail/nope')).toEqual({ view: 'home' });
+    expect(toHash({ view: 'trail', id: 'shivaji', stop: 4 })).toBe('#/trail/shivaji/4');
+  });
+
   it('reads regions, districts, places and the trip from the hash', () => {
     expect(parseHash('#/region/vidarbha')).toEqual({ view: 'region', id: 'vidarbha' });
     expect(parseHash('#/district/Q1797367')).toEqual({ view: 'district', id: 'Q1797367' });

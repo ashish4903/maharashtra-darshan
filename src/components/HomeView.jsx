@@ -6,10 +6,11 @@ import PlaceCard from './PlaceCard';
 import FoodCard from './FoodCard';
 import NearMe from './NearMe';
 import CircuitCard from './CircuitCard';
+import TrailCard from './TrailCard';
 import FestivalCard from './FestivalCard';
 import BestThisMonth from './BestThisMonth';
 import useLang from '../lib/useLang';
-import { STATEWIDE, circuits, featuredPlaces, festivals, foodsIn, regions, upcomingFestivals } from '../lib/catalogue';
+import { STATEWIDE, circuits, trails, featuredPlaces, festivals, foodsIn, regions, upcomingFestivals } from '../lib/catalogue';
 
 export default function HomeView() {
   const { t } = useLang();
@@ -30,6 +31,16 @@ export default function HomeView() {
           </div>
         </div>
       </section>
+
+      {trails.length > 0 && (
+        <Carousel title={t('home.trails')} subtitle={t('home.trailsSub')}>
+          {trails.map((tr) => (
+            <li key={tr.id}>
+              <TrailCard trail={tr} />
+            </li>
+          ))}
+        </Carousel>
+      )}
 
       <Carousel title={t('home.circuits')} subtitle={t('home.circuitsSub')}>
         {circuits.map((c) => (

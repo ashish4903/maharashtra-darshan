@@ -12101,5 +12101,491 @@
    "wikipedia": "https://en.wikipedia.org/wiki/Sarangkheda",
    "description": "village in Maharashtra, India"
   }
+ ],
+ "trails": [
+  {
+   "id": "shivaji",
+   "name": "Shivaji Maharaj and Swarajya",
+   "nameMr": "शिवाजी महाराज आणि स्वराज्य",
+   "icon": "🚩",
+   "about": "From his birth at Shivneri to his coronation at Raigad: the forts where Swarajya was won, defended and crowned, in the order it happened.",
+   "aboutMr": "शिवनेरीवरील जन्मापासून रायगडावरील राज्याभिषेकापर्यंत: जिथे स्वराज्य जिंकले, राखले आणि राज्याभिषेकाने पूर्ण झाले ते किल्ले, घडले त्याच क्रमाने.",
+   "source": "https://en.wikipedia.org/wiki/Shivaji",
+   "stops": [
+    {
+     "place": "Q3520074",
+     "when": "1630",
+     "whenMr": "१६३०",
+     "event": "Shivaji Maharaj is born at the fort on 19 February 1630 and spends his childhood here.",
+     "eventMr": "१९ फेब्रुवारी १६३० रोजी शिवाजी महाराजांचा जन्म या किल्ल्यावर झाला; त्यांचे बालपण इथेच गेले.",
+     "sources": [
+      {
+       "title": "Shivneri Fort",
+       "url": "https://en.wikipedia.org/wiki/Shivneri_Fort"
+      }
+     ]
+    },
+    {
+     "place": "Q7825964",
+     "when": "1646",
+     "whenMr": "१६४६",
+     "event": "At sixteen, he captures Torna: the first fort of Swarajya.",
+     "eventMr": "वयाच्या सोळाव्या वर्षी महाराजांनी तोरणा जिंकला: स्वराज्याचा पहिला किल्ला.",
+     "sources": [
+      {
+       "title": "Torna Fort",
+       "url": "https://en.wikipedia.org/wiki/Torna_Fort"
+      }
+     ]
+    },
+    {
+     "place": "Q7286112",
+     "when": "After Torna",
+     "whenMr": "तोरण्यानंतर",
+     "event": "With treasure found at Torna he builds Rajgad, the first capital of Swarajya for almost 26 years.",
+     "eventMr": "तोरण्यावर सापडलेल्या खजिन्यातून महाराजांनी राजगड बांधला; जवळपास २६ वर्षे ही स्वराज्याची पहिली राजधानी होती.",
+     "sources": [
+      {
+       "title": "Shivaji",
+       "url": "https://en.wikipedia.org/wiki/Shivaji"
+      },
+      {
+       "title": "Rajgad",
+       "url": "https://en.wikipedia.org/wiki/Rajgad"
+      }
+     ]
+    },
+    {
+     "place": "Q3582929",
+     "when": "1659",
+     "whenMr": "१६५९",
+     "event": "Below its ramparts, on 10 November 1659, he defeats the Bijapur general Afzal Khan in the Battle of Pratapgad.",
+     "eventMr": "१० नोव्हेंबर १६५९ रोजी याच किल्ल्याखाली प्रतापगडच्या लढाईत महाराजांनी विजापूरचा सरदार अफझलखान याचा पराभव केला.",
+     "sources": [
+      {
+       "title": "Pratapgad",
+       "url": "https://en.wikipedia.org/wiki/Pratapgad"
+      }
+     ]
+    },
+    {
+     "place": "Q7131008",
+     "when": "1660",
+     "whenMr": "१६६०",
+     "event": "Besieged here by Siddi Johar’s army from May 1660, he escapes at night on 13 July with Baji Prabhu Deshpande, towards Vishalgad.",
+     "eventMr": "मे १६६० पासून सिद्दी जौहरच्या वेढ्यात अडकलेले महाराज १३ जुलैच्या रात्री बाजीप्रभू देशपांडे यांच्यासोबत विशाळगडाकडे निसटले.",
+     "sources": [
+      {
+       "title": "Panhala Fort",
+       "url": "https://en.wikipedia.org/wiki/Panhala_Fort"
+      }
+     ]
+    },
+    {
+     "place": "Q11954902",
+     "when": "1660",
+     "whenMr": "१६६०",
+     "event": "At the Pavan Khind pass near Vishalgad, Baji Prabhu Deshpande holds back the pursuing army until Shivaji reaches safety, and dies there.",
+     "eventMr": "विशाळगडाजवळच्या पावनखिंडीत महाराज सुखरूप पोहोचेपर्यंत बाजीप्रभू देशपांडे यांनी पाठलाग करणारी फौज रोखून धरली आणि तिथेच प्राण अर्पण केले.",
+     "sources": [
+      {
+       "title": "Battle of Pavan Khind",
+       "url": "https://en.wikipedia.org/wiki/Battle_of_Pavan_Khind"
+      }
+     ]
+    },
+    {
+     "place": "Q13413791",
+     "when": "1664–1667",
+     "whenMr": "१६६४–१६६७",
+     "event": "His sea fort, built between 1664 and 1667, guards the Konkan coast.",
+     "eventMr": "१६६४ ते १६६७ दरम्यान बांधलेला महाराजांचा सागरी किल्ला कोकण किनाऱ्याचे रक्षण करतो.",
+     "sources": [
+      {
+       "title": "Sindhudurg Fort",
+       "url": "https://en.wikipedia.org/wiki/Sindhudurg_Fort"
+      }
+     ]
+    },
+    {
+     "place": "Q3824072",
+     "when": "1665",
+     "whenMr": "१६६५",
+     "event": "Under Mughal pressure he signs the Treaty of Purandar, keeping only twelve of his forts.",
+     "eventMr": "मुघलांच्या दबावाखाली महाराजांनी पुरंदरचा तह केला; त्यांच्याकडे फक्त बारा किल्ले राहिले.",
+     "sources": [
+      {
+       "title": "Purandar Fort",
+       "url": "https://en.wikipedia.org/wiki/Purandar_Fort"
+      },
+      {
+       "title": "Rajgad",
+       "url": "https://en.wikipedia.org/wiki/Rajgad"
+      }
+     ]
+    },
+    {
+     "place": "Q3078248",
+     "when": "1670",
+     "whenMr": "१६७०",
+     "event": "Tanaji Malusare wins the fort back in the Battle of Sinhagad.",
+     "eventMr": "सिंहगडच्या लढाईत तानाजी मालुसरे यांनी किल्ला परत जिंकला.",
+     "sources": [
+      {
+       "title": "Sinhagad",
+       "url": "https://en.wikipedia.org/wiki/Sinhagad"
+      }
+     ]
+    },
+    {
+     "place": "Q7404420",
+     "when": "1672",
+     "whenMr": "१६७२",
+     "event": "The Marathas defeat the Mughals in open battle at Salher.",
+     "eventMr": "साल्हेरच्या मैदानी लढाईत मराठ्यांनी मुघलांचा पराभव केला.",
+     "sources": [
+      {
+       "title": "Salher",
+       "url": "https://en.wikipedia.org/wiki/Salher"
+      }
+     ]
+    },
+    {
+     "place": "Q3626515",
+     "when": "1674",
+     "whenMr": "१६७४",
+     "event": "Crowned king, Shivaji Maharaj makes Raigad the capital of Hindavi Swarajya.",
+     "eventMr": "राज्याभिषेकानंतर शिवाजी महाराजांनी रायगड ही हिंदवी स्वराज्याची राजधानी केली.",
+     "sources": [
+      {
+       "title": "Raigad Fort",
+       "url": "https://en.wikipedia.org/wiki/Raigad_Fort"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "saints",
+   "name": "Saints and the Wari",
+   "nameMr": "संत आणि वारी",
+   "icon": "🛕",
+   "about": "Eight centuries of the Warkari tradition: Vithoba’s temple at Pandharpur and the saints whose palkhis still walk there every Ashadh.",
+   "aboutMr": "वारकरी परंपरेची आठ शतके: पंढरपूरचे विठोबा मंदिर आणि ज्या संतांच्या पालख्या आजही दर आषाढीला तिथे जातात ते संत.",
+   "source": "https://en.wikipedia.org/wiki/Pandharpur_Vari",
+   "stops": [
+    {
+     "place": "Q1779418",
+     "when": "1189",
+     "whenMr": "११८९",
+     "event": "An inscription dated 1189 records the first small shrine to Vithoba here.",
+     "eventMr": "११८९ सालचा शिलालेख इथे विठोबाचे पहिले छोटे मंदिर उभारल्याची नोंद करतो.",
+     "sources": [
+      {
+       "title": "Pandharpur",
+       "url": "https://en.wikipedia.org/wiki/Pandharpur"
+      }
+     ]
+    },
+    {
+     "place": "Q589653",
+     "when": "1296",
+     "whenMr": "१२९६",
+     "event": "Sant Dnyaneshwar takes samadhi here in 1296. His palkhi still leaves from Alandi for the Wari.",
+     "eventMr": "१२९६ मध्ये संत ज्ञानेश्वरांनी इथे समाधी घेतली. त्यांची पालखी आजही आळंदीहून वारीला निघते.",
+     "sources": [
+      {
+       "title": "Dnyaneshwar",
+       "url": "https://en.wikipedia.org/wiki/Dnyaneshwar"
+      },
+      {
+       "title": "Pandharpur Vari",
+       "url": "https://en.wikipedia.org/wiki/Pandharpur_Vari"
+      }
+     ]
+    },
+    {
+     "place": "Q2445534",
+     "when": "c. 1533–1600",
+     "whenMr": "सु. १५३३–१६००",
+     "event": "The home town and samadhi of Sant Eknath, celebrated every year at the Nath Shashti yatra.",
+     "eventMr": "संत एकनाथांचे गाव आणि समाधीस्थान; दरवर्षी नाथषष्ठीच्या यात्रेत त्यांचे स्मरण होते.",
+     "sources": [
+      {
+       "title": "Paithan",
+       "url": "https://en.wikipedia.org/wiki/Paithan"
+      },
+      {
+       "title": "Eknath",
+       "url": "https://en.wikipedia.org/wiki/Eknath"
+      }
+     ]
+    },
+    {
+     "place": "Q1192430",
+     "when": "1650",
+     "whenMr": "१६५०",
+     "event": "The home of Sant Tukaram, who died in 1650. His palkhi to Pandharpur sets out from Dehu every Ashadh.",
+     "eventMr": "संत तुकारामांचे गाव; त्यांचे निधन १६५० मध्ये झाले. त्यांची पालखी दर आषाढीला देहूहून पंढरपूरला निघते.",
+     "sources": [
+      {
+       "title": "Dehu",
+       "url": "https://en.wikipedia.org/wiki/Dehu"
+      },
+      {
+       "title": "Tukaram",
+       "url": "https://en.wikipedia.org/wiki/Tukaram"
+      }
+     ]
+    },
+    {
+     "place": "Q2566517",
+     "when": "1878",
+     "whenMr": "१८७८",
+     "event": "Sant Gajanan Maharaj first appears here, probably on 23 February 1878.",
+     "eventMr": "संत गजानन महाराज बहुधा २३ फेब्रुवारी १८७८ रोजी इथे प्रथम प्रकट झाले.",
+     "sources": [
+      {
+       "title": "Gajanan Maharaj",
+       "url": "https://en.wikipedia.org/wiki/Gajanan_Maharaj"
+      }
+     ]
+    },
+    {
+     "place": "Q1949112",
+     "when": "1858–1918",
+     "whenMr": "१८५८–१९१८",
+     "event": "Sai Baba returns to Shirdi in 1858 and stays. After his death in 1918, his samadhi becomes the Samadhi Mandir.",
+     "eventMr": "साईबाबा १८५८ मध्ये शिर्डीला परत आले आणि इथेच राहिले. १९१८ मधील त्यांच्या निधनानंतर त्यांच्या समाधीचे समाधी मंदिर झाले.",
+     "sources": [
+      {
+       "title": "Sai Baba of Shirdi",
+       "url": "https://en.wikipedia.org/wiki/Sai_Baba_of_Shirdi"
+      },
+      {
+       "title": "Shirdi",
+       "url": "https://en.wikipedia.org/wiki/Shirdi"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "caves-to-peshwas",
+   "name": "Caves to the Peshwas: 2,000 years",
+   "nameMr": "लेण्यांपासून पेशव्यांपर्यंत: २००० वर्षे",
+   "icon": "🏛️",
+   "about": "Buddhist caves carved before the common era, a temple cut from a single rock, a capital moved from Delhi, and the seat of the Peshwas.",
+   "aboutMr": "इसवी सनापूर्वी कोरलेली बौद्ध लेणी, एकाच खडकातून कोरलेले मंदिर, दिल्लीहून हलवलेली राजधानी आणि पेशव्यांचे निवासस्थान.",
+   "source": "https://en.wikipedia.org/wiki/History_of_Maharashtra",
+   "stops": [
+    {
+     "place": "Q15040934",
+     "when": "3rd century BCE",
+     "whenMr": "इ.स.पू. तिसरे शतक",
+     "event": "Fourteen Buddhist caves in the Satmala range, among the earliest rock-cut caves in India.",
+     "eventMr": "सातमाळा डोंगररांगेतील चौदा बौद्ध लेणी: भारतातील सर्वात जुन्या कोरीव लेण्यांपैकी एक.",
+     "sources": [
+      {
+       "title": "Pitalkhora",
+       "url": "https://en.wikipedia.org/wiki/Pitalkhora"
+      }
+     ]
+    },
+    {
+     "place": "Q854709",
+     "when": "2nd century BCE",
+     "whenMr": "इ.स.पू. दुसरे शतक",
+     "event": "Its chaitya hall is perhaps the earliest that survives.",
+     "eventMr": "इथले चैत्यगृह बहुधा आजवर टिकलेले सर्वात जुने चैत्यगृह आहे.",
+     "sources": [
+      {
+       "title": "Bhaja Caves",
+       "url": "https://en.wikipedia.org/wiki/Bhaja_Caves"
+      }
+     ]
+    },
+    {
+     "place": "Q184427",
+     "when": "2nd century BCE – 480 CE",
+     "whenMr": "इ.स.पू. दुसरे शतक – इ.स. ४८०",
+     "event": "Thirty Buddhist cave monuments, carved and painted from the 2nd century BCE to about 480 CE.",
+     "eventMr": "इ.स.पू. दुसऱ्या शतकापासून इ.स. ४८० पर्यंत कोरलेली आणि रंगवलेली तीस बौद्ध लेणी.",
+     "sources": [
+      {
+       "title": "Ajanta Caves",
+       "url": "https://en.wikipedia.org/wiki/Ajanta_Caves"
+      }
+     ]
+    },
+    {
+     "place": "Q1356198",
+     "when": "1st century CE",
+     "whenMr": "इ.स. पहिले शतक",
+     "event": "Begun in the 1st century, it grew into an important Buddhist settlement on the Konkan coast.",
+     "eventMr": "पहिल्या शतकात सुरू झालेली ही लेणी कोकण किनाऱ्यावरील महत्त्वाची बौद्ध वसाहत बनली.",
+     "sources": [
+      {
+       "title": "Kanheri Caves",
+       "url": "https://en.wikipedia.org/wiki/Kanheri_Caves"
+      }
+     ]
+    },
+    {
+     "place": "Q649384",
+     "when": "5th–6th century",
+     "whenMr": "पाचवे–सहावे शतक",
+     "event": "Cave temples, mainly to Shiva, built between the 5th and 6th century.",
+     "eventMr": "पाचव्या ते सहाव्या शतकात कोरलेली, मुख्यतः शिवाला समर्पित लेणी मंदिरे.",
+     "sources": [
+      {
+       "title": "Elephanta Caves",
+       "url": "https://en.wikipedia.org/wiki/Elephanta_Caves"
+      }
+     ]
+    },
+    {
+     "place": "Q1268562",
+     "when": "756–773",
+     "whenMr": "७५६–७७३",
+     "event": "A whole temple sculpted from a single rock, mostly under the Rashtrakuta king Krishna I.",
+     "eventMr": "एकाच खडकातून कोरलेले संपूर्ण मंदिर; बहुतांश काम राष्ट्रकूट राजा कृष्ण पहिला याच्या काळात झाले.",
+     "sources": [
+      {
+       "title": "Kailasa Temple, Ellora",
+       "url": "https://en.wikipedia.org/wiki/Kailasa_Temple%2C_Ellora"
+      }
+     ]
+    },
+    {
+     "place": "Q88667786",
+     "when": "1187 · 1327",
+     "whenMr": "११८७ · १३२७",
+     "event": "Built around 1187 by the Yadavas as Devagiri. In 1327 Muhammad bin Tughluq renamed it Daulatabad and moved his capital here from Delhi.",
+     "eventMr": "यादवांनी सुमारे ११८७ मध्ये देवगिरी म्हणून बांधला. १३२७ मध्ये मुहम्मद बिन तुघलकाने त्याचे नाव दौलताबाद ठेवले आणि आपली राजधानी दिल्लीहून इथे हलवली.",
+     "sources": [
+      {
+       "title": "Daulatabad Fort",
+       "url": "https://en.wikipedia.org/wiki/Daulatabad_Fort"
+      }
+     ]
+    },
+    {
+     "place": "Q856259",
+     "when": "1660",
+     "whenMr": "१६६०",
+     "event": "A mausoleum commissioned in 1660 in memory of Dilras Banu Begum, Aurangzeb’s wife.",
+     "eventMr": "औरंगजेबाची पत्नी दिलरस बानू बेगम हिच्या स्मरणार्थ १६६० मध्ये बांधायला घेतलेली कबर.",
+     "sources": [
+      {
+       "title": "Bibi Ka Maqbara",
+       "url": "https://en.wikipedia.org/wiki/Bibi_Ka_Maqbara"
+      }
+     ]
+    },
+    {
+     "place": "Q1351060",
+     "when": "1732–1818",
+     "whenMr": "१७३२–१८१८",
+     "event": "Built in 1732, it is the seat of the Peshwas of the Maratha Confederacy until 1818.",
+     "eventMr": "१७३२ मध्ये बांधलेला शनिवारवाडा १८१८ पर्यंत मराठा संघराज्याच्या पेशव्यांचे निवासस्थान होता.",
+     "sources": [
+      {
+       "title": "Shaniwar Wada",
+       "url": "https://en.wikipedia.org/wiki/Shaniwar_Wada"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "freedom",
+   "name": "Road to freedom and equality",
+   "nameMr": "स्वातंत्र्य आणि समतेचा मार्ग",
+   "icon": "🇮🇳",
+   "about": "Gandhi’s Mumbai home, Ambedkar’s satyagraha for water, the Quit India years, the last British troops leaving, and Deekshabhoomi.",
+   "aboutMr": "गांधीजींचे मुंबईतील घर, पाण्यासाठी आंबेडकरांचा सत्याग्रह, भारत छोडो आंदोलनाची वर्षे, शेवटच्या ब्रिटिश तुकडीचे जाणे आणि दीक्षाभूमी.",
+   "source": "https://en.wikipedia.org/wiki/Indian_independence_movement",
+   "stops": [
+    {
+     "place": "Q3634413",
+     "when": "1917–1934",
+     "whenMr": "१९१७–१९३४",
+     "event": "Gandhi’s Mumbai headquarters for about 17 years, where his use of the charkha began.",
+     "eventMr": "सुमारे १७ वर्षे गांधीजींचे मुंबईतील मुख्यालय; इथेच त्यांचा चरख्याशी संबंध सुरू झाला.",
+     "sources": [
+      {
+       "title": "Mani Bhavan",
+       "url": "https://en.wikipedia.org/wiki/Mani_Bhavan"
+      }
+     ]
+    },
+    {
+     "place": "Q17009209",
+     "when": "1927",
+     "whenMr": "१९२७",
+     "event": "On 20 March 1927 Dr B. R. Ambedkar leads the satyagraha for untouchables’ right to use water from the public tank at Mahad.",
+     "eventMr": "२० मार्च १९२७ रोजी डॉ. बाबासाहेब आंबेडकरांनी महाडच्या सार्वजनिक तळ्याचे पाणी वापरण्याच्या अस्पृश्यांच्या हक्कासाठी सत्याग्रह केला.",
+     "sources": [
+      {
+       "title": "Mahad Satyagraha",
+       "url": "https://en.wikipedia.org/wiki/Mahad_Satyagraha"
+      }
+     ]
+    },
+    {
+     "place": "Q3630222",
+     "when": "1936",
+     "whenMr": "१९३६",
+     "event": "Gandhi moves to Segaon near Wardha in 1936, renames it Sevagram, ‘village of service’, and lives here until his death.",
+     "eventMr": "१९३६ मध्ये गांधीजी वर्ध्याजवळच्या सेगावला राहायला आले, त्याचे नाव ‘सेवाग्राम’ (सेवेचे गाव) ठेवले आणि अखेरपर्यंत इथेच राहिले.",
+     "sources": [
+      {
+       "title": "Sevagram",
+       "url": "https://en.wikipedia.org/wiki/Sevagram"
+      }
+     ]
+    },
+    {
+     "place": "Q2344976",
+     "when": "1942–1944",
+     "whenMr": "१९४२–१९४४",
+     "event": "After the Quit India Movement is launched, Gandhi, Kasturba Gandhi and Mahadev Desai are interned here. Kasturba and Mahadev Desai die here.",
+     "eventMr": "भारत छोडो आंदोलन सुरू झाल्यावर गांधीजी, कस्तुरबा आणि महादेव देसाई यांना इथे स्थानबद्ध केले. कस्तुरबा आणि महादेव देसाई यांचे निधन इथेच झाले.",
+     "sources": [
+      {
+       "title": "Aga Khan Palace",
+       "url": "https://en.wikipedia.org/wiki/Aga_Khan_Palace"
+      }
+     ]
+    },
+    {
+     "place": "Q864862",
+     "when": "1948",
+     "whenMr": "१९४८",
+     "event": "The last British troops leave India through the Gateway, on 28 February 1948.",
+     "eventMr": "२८ फेब्रुवारी १९४८ रोजी शेवटची ब्रिटिश तुकडी गेटवेमधून भारत सोडून गेली.",
+     "sources": [
+      {
+       "title": "Gateway of India",
+       "url": "https://en.wikipedia.org/wiki/Gateway_of_India"
+      }
+     ]
+    },
+    {
+     "place": "Q1182325",
+     "when": "1956",
+     "whenMr": "१९५६",
+     "event": "On 14 October 1956 Dr Babasaheb Ambedkar and about 400,000 followers embrace Buddhism here.",
+     "eventMr": "१४ ऑक्टोबर १९५६ रोजी डॉ. बाबासाहेब आंबेडकर आणि त्यांच्या सुमारे चार लाख अनुयायांनी इथे बौद्ध धम्म स्वीकारला.",
+     "sources": [
+      {
+       "title": "Deekshabhoomi",
+       "url": "https://en.wikipedia.org/wiki/Deekshabhoomi"
+      }
+     ]
+    }
+   ]
+  }
  ]
 }

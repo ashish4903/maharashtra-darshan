@@ -10,6 +10,7 @@ import DistrictView from './components/DistrictView';
 import PlaceView from './components/PlaceView';
 import TripView from './components/TripView';
 import CircuitView from './components/CircuitView';
+import TrailView from './components/TrailView';
 import FestivalsView from './components/FestivalsView';
 import SeasonsView from './components/SeasonsView';
 import PlannerView from './components/PlannerView';
@@ -26,6 +27,8 @@ function View({ route }) {
       return <PlaceView placeId={route.id} />;
     case 'circuit':
       return <CircuitView circuitId={route.id} />;
+    case 'trail':
+      return <TrailView trailId={route.id} stop={route.stop} />;
     case 'festivals':
       return <FestivalsView />;
     case 'seasons':
