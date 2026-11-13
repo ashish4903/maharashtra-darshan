@@ -6,8 +6,9 @@ import PlaceCard from './PlaceCard';
 import FoodCard from './FoodCard';
 import NearMe from './NearMe';
 import CircuitCard from './CircuitCard';
+import FestivalCard from './FestivalCard';
 import useLang from '../lib/useLang';
-import { STATEWIDE, circuits, featuredPlaces, foodsIn, regions } from '../lib/catalogue';
+import { STATEWIDE, circuits, featuredPlaces, festivals, foodsIn, regions, upcomingFestivals } from '../lib/catalogue';
 
 export default function HomeView() {
   const { t } = useLang();
@@ -34,6 +35,23 @@ export default function HomeView() {
           </li>
         ))}
       </Carousel>
+
+      {festivals.length > 0 && (
+        <Carousel
+          title={t('festival.title')}
+          subtitle={
+            <>
+              {t('festival.homeSub')} · <a href="#/festivals">{t('festival.all')}</a>
+            </>
+          }
+        >
+          {upcomingFestivals().map((f) => (
+            <li key={f.id}>
+              <FestivalCard festival={f} />
+            </li>
+          ))}
+        </Carousel>
+      )}
 
       <Carousel title={t('home.mustSee')} subtitle={t('home.mustSeeSub')}>
         {featuredPlaces(3).map((p) => (

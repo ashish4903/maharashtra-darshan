@@ -34,6 +34,7 @@ One place to explore Maharashtra region by region: Konkan, Western Maharashtra, 
   - the Pandharpur Wari
 
   Every stop is checked against the circuit’s Wikipedia source or the stop’s own article.
+- **Festivals and fairs:** 13 festivals, including the Pandharpur Wari, Ganeshotsav, Navaratri, the Nashik Kumbh (2027) and the Sarangkheda horse fair. They appear month by month and are linked to their places; the home page shows what’s coming up. Each festival’s timing and places are checked against Wikipedia.
 - **Near me:** lists the places closest to you. Your location never leaves your device.
 - **Surprise me:** opens a random place.
 - **Search:** works in English or Marathi and forgives spelling. For example:
@@ -57,6 +58,7 @@ Nothing is written from memory. Every entry has a source:
 | Which districts belong to each region | The Wikipedia article for each division or region |
 | Photos | The lead image of each Wikipedia article, only when it is freely licensed, from [Wikimedia Commons](https://commons.wikimedia.org/). Each place's page links to the photo's file page for author and licence. |
 | Circuits | Each stop’s membership is found in the circuit’s Wikipedia article (for example Ashtavinayaka), or in the stop’s own article (“one of the twelve Jyotirlingas”) |
+| Festivals | Each festival’s Wikipedia article must contain its timing words (for example Bhadrapada and August), and must name each linked place, or that place’s article must name the festival |
 | Place summaries | Loaded live from the Wikipedia article when a place's page opens, and credited there (CC BY-SA 4.0) |
 | State outline on the map | [Natural Earth](https://www.naturalearthdata.com/) (public domain), built by `npm run outline` |
 

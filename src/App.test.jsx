@@ -206,6 +206,21 @@ describe('App', () => {
     expect(screen.getByText('Nearby places')).toBeTruthy();
   });
 
+  it('lists festivals month by month and on their places', async () => {
+    window.location.hash = '#/festivals';
+    render(<App />);
+    expect(screen.getByRole('heading', { level: 1, name: 'Festivals and fairs' })).toBeTruthy();
+    const august = screen.getByRole('region', { name: 'August' });
+    expect(within(august).getByRole('heading', { level: 3, name: 'Ganesh Chaturthi' })).toBeTruthy();
+    expect(screen.getByRole('region', { name: 'Every few years' })).toBeTruthy();
+
+    cleanup();
+    const pandharpur = places.find((p) => p.name === 'Pandharpur');
+    window.location.hash = `#/place/${pandharpur.id}`;
+    render(<App />);
+    expect(screen.getByRole('link', { name: /Pandharpur Vari/ })).toBeTruthy();
+  });
+
   it('searches in Marathi', async () => {
     const user = userEvent.setup();
     render(<App />);

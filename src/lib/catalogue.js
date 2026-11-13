@@ -41,6 +41,18 @@ export const getCircuit = (id) => circuits.find((c) => c.id === id);
 export const circuitPlaces = (circuit) => circuit.places.map(getPlace).filter(Boolean);
 export const circuitsWith = (placeId) => circuits.filter((c) => c.places.includes(placeId));
 
+/** Festivals and fairs; `months` are 1–12 (empty for ones held every few years). */
+export const festivals = data.festivals ?? [];
+export const festivalsAt = (placeId) => festivals.filter((f) => f.places.includes(placeId));
+
+/** How many months until a festival next comes round (0 = this month). */
+export const monthsUntil = (festival, month) =>
+  festival.months.length ? Math.min(...festival.months.map((m) => (m - month + 12) % 12)) : Infinity;
+
+/** Festivals in order of when they next come round, from `month` (1–12). */
+export const upcomingFestivals = (month = new Date().getMonth() + 1) =>
+  [...festivals].sort((a, b) => monthsUntil(a, month) - monthsUntil(b, month));
+
 /**
  * Places with photos, a few from each region. data/curated.json lists the
  * best-known places of each district first, so the first ones are used.

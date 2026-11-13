@@ -13,6 +13,7 @@ import {
   areaName,
   circuitsWith,
   commonsUrl,
+  festivalsAt,
   foodsIn,
   getDistrict,
   getPlace,
@@ -113,6 +114,23 @@ export default function PlaceView({ placeId }) {
                 <span key={c.id}>
                   {i > 0 && ', '}
                   <a href={`#/circuit/${c.id}`}>🧭 {name(c)}</a>
+                </span>
+              ))}
+            </p>
+          )}
+
+          {festivalsAt(place.id).length > 0 && (
+            <p className="part-of">
+              {t('festival.here')}{' '}
+              {festivalsAt(place.id).map((f, i) => (
+                <span key={f.id}>
+                  {i > 0 && ', '}
+                  <a href={f.wikipedia} target="_blank" rel="noreferrer">
+                    🪔 {name(f)}
+                  </a>{' '}
+                  <span className="muted" lang="en">
+                    ({f.when})
+                  </span>
                 </span>
               ))}
             </p>

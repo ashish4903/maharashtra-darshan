@@ -1480,6 +1480,52 @@ section + section,
   margin-top: 1.25rem;
 }
 
+/* Festivals */
+.festival-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.festival-card .card-link {
+  flex: 1;
+}
+
+.card-badge.is-soon {
+  background: var(--accent);
+}
+
+.festival-when {
+  -webkit-line-clamp: 3;
+}
+
+.festival-places {
+  margin: 0;
+  padding: 0.6rem 1rem;
+  border-top: 1px solid var(--line);
+  background: var(--surface-2);
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.festival-month + .festival-month {
+  margin-top: 2rem;
+}
+
+.festival-month h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 0.75rem;
+}
+
+.festival-now {
+  padding: 0.15rem 0.6rem;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.8rem;
+}
+
 /* Circuits */
 .circuit-card {
   display: flex;

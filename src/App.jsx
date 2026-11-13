@@ -10,6 +10,7 @@ import DistrictView from './components/DistrictView';
 import PlaceView from './components/PlaceView';
 import TripView from './components/TripView';
 import CircuitView from './components/CircuitView';
+import FestivalsView from './components/FestivalsView';
 import Footer from './components/Footer';
 import { parseHash } from './lib/route';
 
@@ -23,6 +24,8 @@ function View({ route }) {
       return <PlaceView placeId={route.id} />;
     case 'circuit':
       return <CircuitView circuitId={route.id} />;
+    case 'festivals':
+      return <FestivalsView />;
     case 'trip':
       return <TripView sharedIds={route.ids} />;
     default:

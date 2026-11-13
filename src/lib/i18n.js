@@ -168,6 +168,18 @@ const en = {
   'circuit.allAdded': '✓ All in my trip',
   'circuit.source': '📖 Source on Wikipedia',
 
+  'festival.title': 'Festivals and fairs',
+  'festival.homeSub': 'Coming up first',
+  'festival.all': 'See the whole year',
+  'festival.intro': 'The year’s festivals and fairs, month by month, starting now. Each links to its Wikipedia article.',
+  'festival.thisMonth': 'This month',
+  'festival.nextMonth': 'Next month',
+  'festival.where': 'Where:',
+  'festival.here': 'Festivals here:',
+  'festival.occasional': 'Every few years',
+  'festival.note':
+    'Festivals follow the Hindu lunar calendar, so their dates move a little each year. Check the date before you travel.',
+
   'footer.data':
     'Districts, talukas, names and descriptions come from {wikidata} (CC0). Every place and dish links to its {wikipedia} article. Photos are freely licensed images from {commons}, credited on each place’s page. Map outline from {naturalEarth} (public domain). Data updated {date}.',
   'footer.code': 'Source code',
@@ -338,6 +350,17 @@ const mr = {
   'circuit.addAll': '♥ सर्व माझ्या सहलीत जोडा',
   'circuit.allAdded': '✓ सर्व सहलीत आहेत',
   'circuit.source': '📖 Wikipedia वरील स्रोत',
+
+  'festival.title': 'सण आणि यात्रा',
+  'festival.homeSub': 'लवकरच येणारे आधी',
+  'festival.all': 'संपूर्ण वर्ष पाहा',
+  'festival.intro': 'वर्षभरातील सण आणि यात्रा, महिन्यानुसार, आत्तापासून. प्रत्येकाला त्याचा Wikipedia लेख जोडलेला आहे.',
+  'festival.thisMonth': 'या महिन्यात',
+  'festival.nextMonth': 'पुढील महिन्यात',
+  'festival.where': 'कुठे:',
+  'festival.here': 'इथले सण:',
+  'festival.occasional': 'काही वर्षांतून एकदा',
+  'festival.note': 'सण हिंदू पंचांगानुसार येतात, त्यामुळे तारखा दरवर्षी थोड्या बदलतात. प्रवासापूर्वी तारीख तपासा.',
 
   'footer.data':
     'जिल्हे, तालुके, नावे आणि वर्णने {wikidata} (CC0) वरून. प्रत्येक ठिकाण आणि पदार्थाला त्याचा {wikipedia} लेख जोडलेला आहे. छायाचित्रे {commons} वरील मुक्त परवान्याची आहेत, प्रत्येक ठिकाणाच्या पानावर श्रेय दिले आहे. नकाशाची रेषा {naturalEarth} (सार्वजनिक) वरून. माहिती अद्ययावत: {date}.',
