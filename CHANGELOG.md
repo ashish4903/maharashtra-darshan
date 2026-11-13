@@ -6,6 +6,11 @@ All notable changes to this project are listed here. The format follows [Keep a 
 
 ### Added
 
+- Smarter search, with the best matches first. It now:
+  - tolerates spelling variants (Kolhapoor) and small typos (ajnta)
+  - understands Marathi words typed in English letters (killa, mandir, ganpati, leni, talav)
+  - combines a place type with a district (“fort pune”)
+
 - Marathi interface. A मराठी / English switch in the header translates every button, tab, filter, count and message, and the choice is remembered in the browser. Browsers set to Marathi start in Marathi. Names of regions, districts, talukas, places, dishes and circuits show in Marathi, with English alongside.
 
 - Circuits: 7 themed routes. Each has a page planned like a trip (map, days, directions) and “Add all to my trip”. Place pages show which circuits they are part of.

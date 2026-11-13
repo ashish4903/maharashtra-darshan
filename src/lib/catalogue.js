@@ -1,6 +1,7 @@
 // Read-only helpers over the generated data. Components use these instead of
 // reading src/data/maharashtra.json directly.
 import data from '../data/maharashtra.json';
+import { score } from './fuzzy';
 
 // `one` labels a single card, `label` a filter button
 export const KINDS = {
@@ -87,28 +88,43 @@ export function foodsIn({ region, district } = {}) {
 export const countKinds = (list) =>
   list.reduce((counts, p) => ({ ...counts, [p.kind]: (counts[p.kind] ?? 0) + 1 }), {});
 
-const matches = (item, q) =>
-  item.name.toLowerCase().includes(q) ||
-  (item.nameMr ?? '').includes(q) ||
-  (item.highlight ?? '').toLowerCase().includes(q) ||
-  (item.knownFor ?? []).some((k) => k.label.toLowerCase().includes(q));
+const namesOf = (item) =>
+  [item.name, item.nameMr, item.highlight, ...(item.knownFor ?? []).map((k) => k.label)].filter(Boolean).join(' · ');
+
+/** Items matching the query, best first (see lib/fuzzy.js). */
+function ranked(list, query, extra = () => '', limit = 40) {
+  return list
+    .map((item) => ({ item, s: score(query, namesOf(item), extra(item)) }))
+    .filter((x) => x.s > 0)
+    .sort((a, b) => b.s - a.s)
+    .slice(0, limit)
+    .map((x) => x.item);
+}
 
 /** Places in each taluka of a district: Map(talukaId -> count) */
 export const talukaCounts = (districtId) =>
   placesIn({ district: districtId }).reduce((m, p) => (p.taluka ? m.set(p.taluka, (m.get(p.taluka) ?? 0) + 1) : m), new Map());
 
-/** Searches regions, districts, talukas, places and dishes in English or Marathi. */
+/**
+ * Searches regions, districts, talukas, places and dishes in English or
+ * Marathi, forgiving spelling variants and small typos. Places also match on
+ * their district, region and type, so "fort pune" lists Pune's forts.
+ */
 export function search(query) {
-  const q = query.trim().toLowerCase();
-  if (q.length < 2) return { regions: [], districts: [], talukas: [], places: [], foods: [] };
+  if (query.trim().length < 2) return { regions: [], districts: [], talukas: [], places: [], foods: [] };
+  const placeContext = (p) =>
+    [getDistrict(p.district)?.name, getRegion(p.region)?.name, KINDS[p.kind]?.one, KINDS[p.kind]?.label, p.kind].join(' ');
   return {
-    regions: regions.filter((r) => matches(r, q)),
-    districts: districts.filter((d) => matches(d, q)),
-    talukas: districts.flatMap((d) =>
-      d.talukas.filter((t) => matches(t, q)).map((t) => ({ ...t, district: d.id })),
+    regions: ranked(regions, query),
+    districts: ranked(districts, query),
+    talukas: ranked(
+      districts.flatMap((d) => d.talukas.map((t) => ({ ...t, district: d.id }))),
+      query,
+      (t) => getDistrict(t.district)?.name ?? '',
+      15,
     ),
-    places: places.filter((p) => matches(p, q)),
-    foods: foods.filter((f) => matches(f, q)),
+    places: ranked(places, query, placeContext),
+    foods: ranked(foods, query, (f) => [getDistrict(f.district)?.name, getRegion(f.region)?.name].join(' ')),
   };
 }
 
