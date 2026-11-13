@@ -1,7 +1,12 @@
 import { useState } from 'react';
+import { thumbAt } from '../lib/catalogue';
 
-/** A Wikimedia Commons photo, or a coloured panel with an icon when there is none. */
-export default function Photo({ image, alt, icon, className = '', eager = false }) {
+/**
+ * A Wikimedia Commons photo, or a coloured panel with an icon when there is none.
+ * `width` picks a smaller thumbnail for small slots (cards 500, thumbnails 250):
+ * a 500px card photo is about a third of the 960px one.
+ */
+export default function Photo({ image, alt, icon, className = '', eager = false, width = 500 }) {
   const [failed, setFailed] = useState(false);
   if (!image || failed) {
     return (
@@ -13,7 +18,7 @@ export default function Photo({ image, alt, icon, className = '', eager = false 
   return (
     <img
       className={`photo ${className}`}
-      src={image.src}
+      src={thumbAt(image.src, width)}
       alt={alt}
       loading={eager ? 'eager' : 'lazy'}
       decoding="async"

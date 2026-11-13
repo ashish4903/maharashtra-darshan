@@ -67,6 +67,12 @@ export const coverImage = ({ region, district }) =>
 
 export const randomPlace = (random = Math.random) => places[Math.floor(random() * places.length)];
 
+/**
+ * The same Wikimedia thumbnail at another standard width (250, 330, 500, 960…):
+ * ".../960px-Ajanta.jpg" -> ".../500px-Ajanta.jpg". Other URLs are left alone.
+ */
+export const thumbAt = (src, width) => src.replace(/\/\d+px-([^/]+)$/, `/${width}px-$1`);
+
 export const commonsUrl = (file) => 'https://commons.wikimedia.org/wiki/File:' + encodeURIComponent(file);
 
 export const districtsOf = (regionId) =>

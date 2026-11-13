@@ -4,7 +4,7 @@ import Photo from './Photo';
 export default function Banner({ image, icon, kicker, title, titleMr, children }) {
   return (
     <header className="banner">
-      <Photo image={image} alt="" icon={icon} className="banner-photo" eager />
+      <Photo image={image} alt="" icon={icon} className="banner-photo" eager width={960} />
       <div className="banner-text">
         {kicker && <p className="banner-kicker">{kicker}</p>}
         <h1>
