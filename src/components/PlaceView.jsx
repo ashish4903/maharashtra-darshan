@@ -9,6 +9,8 @@ import Carousel from './Carousel';
 import PlaceCard from './PlaceCard';
 import FoodCard from './FoodCard';
 import Weather from './Weather';
+import Gallery from './Gallery';
+import GettingThere from './GettingThere';
 import SeasonNote from './SeasonNote';
 import useLang from '../lib/useLang';
 import useWikiSummary from '../lib/useWikiSummary';
@@ -132,6 +134,8 @@ export default function PlaceView({ placeId }) {
 
           <Weather coords={place.coords} />
 
+          <GettingThere place={place} />
+
           {partOf.length > 0 && (
             <p className="part-of">
               {t('place.partOf')}{' '}
@@ -187,6 +191,10 @@ export default function PlaceView({ placeId }) {
               .
             </p>
           )}
+          {place.commons && (
+            <Gallery category={place.commons} skipFile={place.image?.file} placeName={name(place)} />
+          )}
+
           {place.coordsFrom === 'openstreetmap' && (
             <p className="source-note">
               {t('place.osm')}{' '}

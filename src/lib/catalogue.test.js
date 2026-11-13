@@ -6,6 +6,7 @@ import {
   STATEWIDE,
   SUGGEST_URL,
   bestIn,
+  getHub,
   monthRange,
   areaName,
   circuitPlaces,
@@ -224,5 +225,35 @@ describe('helpers', () => {
     expect(search('विदर्भ').regions.map((r) => r.id)).toEqual(['vidarbha']);
     expect(search('haveli').talukas[0].district).toBe(districts.find((d) => d.name === 'Pune district').id);
     expect(search('a').places).toEqual([]);
+  });
+});
+
+describe('festival names', () => {
+  it('drops Wikipedia disambiguation from names but keeps the article link', () => {
+    const pola = festivals.find((f) => f.wikipedia.endsWith('/Pola_(festival)'));
+    expect(pola.name).toBe('Pola');
+    expect(festivals.filter((f) => /\(.*\)$/.test(f.name))).toEqual([]);
+  });
+});
+
+describe('getting there', () => {
+  it('points every place with coordinates at a station and an airport that exist', () => {
+    for (const p of places.filter((x) => x.coords)) {
+      for (const [key, kind] of [
+        ['station', 'station'],
+        ['airport', 'airport'],
+      ]) {
+        const hub = getHub(p[key]?.id);
+        expect(hub?.kind, `${p.name} ${key}`).toBe(kind);
+        expect(hub.wikipedia).toMatch(/^https:\/\/en\.wikipedia\.org\/wiki\//);
+        expect(Number.isInteger(p[key].km) && p[key].km >= 0).toBe(true);
+      }
+      expect(getHub(p.airport.id).code).toMatch(/^[A-Z]{3}$/);
+    }
+  });
+
+  it('never suggests a closed, metro or goods station', () => {
+    const shown = new Set(places.filter((x) => x.station).map((x) => getHub(x.station.id).name));
+    expect([...shown].filter((n) => /colaba railway|metro|monorail|goods/i.test(n))).toEqual([]);
   });
 });
