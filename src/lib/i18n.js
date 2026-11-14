@@ -15,7 +15,7 @@ const en = {
   'nav.home': 'Maharashtra Darshan home',
 
   'search.label': 'Search',
-  'search.placeholder': 'Search a district, taluka, place or dish (English or मराठी)',
+  'search.placeholder': 'Search places, dishes, districts…',
   'search.clear': 'Clear search',
   'search.results': 'Search results',
   'search.none': 'Nothing matches “{q}”.',
@@ -310,7 +310,7 @@ const mr = {
   'nav.home': 'महाराष्ट्र दर्शन मुखपृष्ठ',
 
   'search.label': 'शोध',
-  'search.placeholder': 'जिल्हा, तालुका, ठिकाण किंवा पदार्थ शोधा (मराठी किंवा English)',
+  'search.placeholder': 'ठिकाण, पदार्थ, जिल्हा शोधा…',
   'search.clear': 'शोध पुसा',
   'search.results': 'शोध निकाल',
   'search.none': '“{q}” साठी काहीही सापडले नाही.',

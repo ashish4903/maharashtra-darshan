@@ -1,20 +1,24 @@
 /* Mobile-first. Wider layouts are added with min-width media queries. */
 :root {
-  --bg: #fdf8f2;
-  --surface: #ffffff;
-  --surface-2: #f6ede3;
-  --text: #22180f;
-  --muted: #6e6156;
-  --line: #ecdfd1;
-  --accent: #c2410c;
-  --accent-strong: #9a3412;
-  --accent-soft: #ffedd5;
-  --hero-from: #7c2d12;
-  --hero-to: #c2410c;
-  --shadow: 0 1px 2px rgb(60 30 10 / 6%), 0 6px 20px rgb(60 30 10 / 8%);
-  --shadow-hover: 0 2px 4px rgb(60 30 10 / 8%), 0 14px 34px rgb(60 30 10 / 16%);
-  --radius: 16px;
-  --radius-sm: 10px;
+  --bg: #faf6f0;
+  --surface: #fffdf9;
+  --surface-2: #f3ebe0;
+  --text: #241c16;
+  --muted: #74675b;
+  --line: #e9dfd2;
+  --accent: #b4480f;
+  --accent-strong: #8c350a;
+  --accent-soft: #fbeadb;
+  --gold: #b8892f;
+  --gold-text: #85601a;
+  --hero-from: #3b1a0c;
+  --hero-to: #8c350a;
+  --shadow: 0 1px 2px rgb(60 35 15 / 5%), 0 4px 16px rgb(60 35 15 / 6%);
+  --shadow-hover: 0 2px 6px rgb(60 35 15 / 7%), 0 18px 40px rgb(60 35 15 / 14%);
+  --radius: 18px;
+  --radius-sm: 12px;
+  --serif: 'Fraunces Variable', 'Tiro Devanagari Marathi', Georgia, serif;
+  --sans: 'Mukta', system-ui, -apple-system, 'Segoe UI', 'Noto Sans Devanagari', sans-serif;
 
   /* One colour per region */
   --konkan: #0e7490;
@@ -24,8 +28,9 @@
   --vidarbha: #be123c;
 
   color-scheme: light dark;
-  font-family: system-ui, -apple-system, 'Segoe UI', 'Noto Sans', 'Noto Sans Devanagari', sans-serif;
-  line-height: 1.5;
+  font-family: var(--sans);
+  font-size: 106.25%;
+  line-height: 1.55;
   color: var(--text);
   background: var(--bg);
   -webkit-font-smoothing: antialiased;
@@ -33,17 +38,19 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #14100d;
-    --surface: #1f1914;
-    --surface-2: #2a221b;
-    --text: #f6eee7;
-    --muted: #b8aa9d;
-    --line: #382d24;
-    --accent: #fb923c;
-    --accent-strong: #fdba74;
-    --accent-soft: #3a2314;
-    --hero-from: #431407;
-    --hero-to: #7c2d12;
+    --bg: #13100d;
+    --surface: #1c1713;
+    --surface-2: #27201a;
+    --text: #f4ece3;
+    --muted: #b3a597;
+    --line: #342a22;
+    --accent: #f0a05a;
+    --accent-strong: #f8c28e;
+    --accent-soft: #35231a;
+    --gold: #d9b26a;
+    --gold-text: #d9b26a;
+    --hero-from: #1e0e06;
+    --hero-to: #5c2408;
     --shadow: 0 1px 2px rgb(0 0 0 / 30%), 0 6px 20px rgb(0 0 0 / 30%);
     --shadow-hover: 0 2px 4px rgb(0 0 0 / 35%), 0 14px 34px rgb(0 0 0 / 45%);
     --konkan: #22d3ee;
@@ -51,6 +58,12 @@
     --north-maharashtra: #a3e635;
     --marathwada: #c4b5fd;
     --vidarbha: #fb7185;
+  }
+
+  /* :root raises specificity above the light rules further down */
+  :root .card-badge,
+  :root .save-button {
+    background: rgb(28 23 19 / 85%);
   }
 }
 
@@ -79,13 +92,47 @@ main:focus {
 h1,
 h2,
 h3 {
+  font-family: var(--serif);
+  font-weight: 600;
+  font-optical-sizing: auto;
   line-height: 1.2;
+  letter-spacing: -0.01em;
   overflow-wrap: anywhere;
 }
 
 h2 {
-  font-size: 1.35rem;
-  margin: 0 0 0.25rem;
+  font-size: 1.6rem;
+  margin: 0 0 0.3rem;
+}
+
+/* Section headings get a small gold rule above them */
+section > h2:first-child,
+.carousel-head h2,
+.explore h2 {
+  position: relative;
+  padding-top: 0.85rem;
+}
+
+section > h2:first-child::before,
+.carousel-head h2::before,
+.explore h2::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.25rem;
+  height: 3px;
+  border-radius: 3px;
+  background: var(--gold);
+}
+
+/* Small uppercase labels keep their plain look */
+section > h2.intro-heading:first-child {
+  padding-top: 0;
+}
+
+section > h2.intro-heading:first-child::before {
+  display: none;
 }
 
 ul {
@@ -159,7 +206,7 @@ ul {
 .button-primary {
   color: #fff;
   background: var(--accent);
-  box-shadow: 0 4px 14px rgb(194 65 12 / 35%);
+  box-shadow: 0 6px 18px -6px rgb(140 53 10 / 55%);
 }
 
 .button-primary:hover {
@@ -178,7 +225,8 @@ ul {
 }
 
 .button-ghost:hover {
-  border-color: var(--accent);
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--line));
+  background: var(--accent-soft);
 }
 
 /* ---------- Header ---------- */
@@ -212,11 +260,14 @@ ul {
 .brand-mark {
   display: grid;
   place-items: center;
-  width: 2.2rem;
-  height: 2.2rem;
-  border-radius: 12px;
-  background: linear-gradient(135deg, var(--hero-from), var(--hero-to));
-  font-size: 1.15rem;
+  width: 2.3rem;
+  height: 2.3rem;
+  border-radius: 50%;
+  background: linear-gradient(140deg, var(--hero-to), var(--hero-from));
+  box-shadow:
+    inset 0 0 0 2px rgb(255 255 255 / 15%),
+    0 0 0 1px color-mix(in srgb, var(--gold) 60%, transparent);
+  font-size: 1.1rem;
 }
 
 .brand-text {
@@ -226,7 +277,9 @@ ul {
 }
 
 .brand-name {
-  font-weight: 800;
+  font-family: var(--serif);
+  font-size: 1.12rem;
+  font-weight: 600;
   letter-spacing: -0.01em;
 }
 
@@ -345,8 +398,15 @@ section + section,
   background: var(--surface);
   border: 1px solid var(--line);
   border-radius: 999px;
-  box-shadow: var(--shadow);
+  box-shadow: 0 1px 2px rgb(60 35 15 / 4%);
   appearance: none;
+  transition:
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.search input:hover {
+  border-color: color-mix(in srgb, var(--gold) 45%, var(--line));
 }
 
 .search input::-webkit-search-cancel-button {
@@ -354,8 +414,9 @@ section + section,
 }
 
 .search input:focus {
-  outline: 2px solid var(--accent);
-  outline-offset: 1px;
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 4px color-mix(in srgb, var(--accent) 16%, transparent);
 }
 
 .search-clear {
@@ -376,44 +437,80 @@ section + section,
 /* ---------- Hero ---------- */
 .hero {
   position: relative;
+  isolation: isolate;
   overflow: hidden;
-  padding: 2rem 1.25rem;
-  border-radius: calc(var(--radius) + 8px);
-  color: #fff7ed;
-  background:
-    radial-gradient(circle at 85% 15%, rgb(253 186 116 / 45%), transparent 45%),
-    linear-gradient(135deg, var(--hero-from), var(--hero-to));
-  box-shadow: var(--shadow);
+  padding: 2.25rem 1.25rem 1.5rem;
+  border-radius: calc(var(--radius) + 6px);
+  color: #fff8ef;
+  background: linear-gradient(135deg, var(--hero-from), var(--hero-to));
+  box-shadow: var(--shadow-hover);
 }
 
-.hero::after {
-  /* A soft line of hills along the bottom */
+/* The photo sits behind a warm dusk wash so the text always reads */
+.hero-photo {
+  position: absolute;
+  inset: 0;
+  z-index: -2;
+}
+
+.hero::before {
   content: '';
   position: absolute;
-  inset: auto 0 0 0;
-  height: 70px;
-  background: rgb(255 255 255 / 8%);
-  clip-path: polygon(0 100%, 0 55%, 12% 30%, 22% 52%, 35% 18%, 48% 50%, 60% 26%, 74% 56%, 86% 34%, 100% 60%, 100% 100%);
-  pointer-events: none;
+  inset: 0;
+  z-index: -1;
+  background:
+    linear-gradient(90deg, rgb(30 12 4 / 88%) 0%, rgb(30 12 4 / 62%) 50%, rgb(30 12 4 / 20%) 100%),
+    linear-gradient(0deg, rgb(30 12 4 / 70%) 0%, transparent 45%);
+}
+
+.hero-content {
+  position: relative;
 }
 
 .hero-kicker {
-  margin: 0 0 0.5rem;
-  font-weight: 600;
-  opacity: 0.9;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0 0 0.75rem;
+  font-family: 'Tiro Devanagari Marathi', var(--serif);
+  font-size: 1.05rem;
+  color: #f3d49a;
+}
+
+.hero-kicker::before {
+  content: '';
+  width: 1.75rem;
+  height: 1px;
+  background: currentColor;
 }
 
 .hero h1 {
-  max-width: 18ch;
+  max-width: 16ch;
   margin: 0;
-  font-size: 2rem;
+  font-size: 2.3rem;
+  font-weight: 500;
+  line-height: 1.08;
   letter-spacing: -0.02em;
 }
 
 .hero-lead {
-  max-width: 55ch;
-  margin: 0.85rem 0 1.25rem;
-  opacity: 0.92;
+  max-width: 52ch;
+  margin: 1rem 0 1.5rem;
+  font-size: 1.05rem;
+  opacity: 0.9;
+}
+
+.hero-credit {
+  position: absolute;
+  right: 0.9rem;
+  bottom: 0.5rem;
+  margin: 0;
+  font-size: 0.72rem;
+  opacity: 0.7;
+}
+
+.hero-credit a {
+  color: inherit;
 }
 
 .hero-actions {
@@ -425,29 +522,62 @@ section + section,
 }
 
 .hero .button-primary {
-  background: #fff7ed;
-  color: var(--accent-strong);
-  box-shadow: none;
+  background: #fff8ef;
+  color: #8c350a;
+  box-shadow: 0 8px 24px -8px rgb(0 0 0 / 50%);
+}
+
+.hero .button-primary:hover {
+  background: #fff;
 }
 
 .hero .button-ghost {
-  background: rgb(255 255 255 / 12%);
-  border-color: rgb(255 255 255 / 35%);
+  background: rgb(255 255 255 / 10%);
+  border-color: rgb(255 255 255 / 30%);
   color: #fff;
+  backdrop-filter: blur(6px);
+}
+
+.hero .button-ghost:hover {
+  background: rgb(255 255 255 / 20%);
 }
 
 .hero-stats {
-  position: relative;
-  z-index: 1;
   display: flex;
   flex-wrap: wrap;
-  gap: 0.5rem 1.25rem;
-  margin-top: 1.5rem;
-  font-size: 0.9rem;
+  gap: 0.75rem 0;
+  margin-top: 2rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid rgb(255 255 255 / 18%);
+}
+
+.hero-stats li {
+  display: flex;
+  flex-direction: column;
+  padding: 0 1.25rem;
+  line-height: 1.1;
+}
+
+.hero-stats li:first-child {
+  padding-left: 0;
+}
+
+.hero-stats li + li {
+  border-left: 1px solid rgb(255 255 255 / 18%);
 }
 
 .hero-stats strong {
-  font-size: 1.25rem;
+  font-family: var(--serif);
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: #f3d49a;
+}
+
+.hero-stats span {
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.8;
 }
 
 /* ---------- Explore: map + regions ---------- */
@@ -687,20 +817,53 @@ section + section,
   flex-direction: column;
   justify-content: flex-end;
   min-height: 132px;
-  padding: 1rem;
+  padding: 1rem 1.15rem;
   background:
-    linear-gradient(90deg, color-mix(in srgb, var(--region) 85%, black) 0%, transparent 85%),
-    linear-gradient(0deg, rgb(0 0 0 / 45%), transparent 70%);
+    linear-gradient(90deg, color-mix(in srgb, var(--region) 70%, rgb(15 8 4)) 0%, color-mix(in srgb, var(--region) 35%, transparent) 55%, transparent 90%),
+    linear-gradient(0deg, rgb(15 8 4 / 55%), transparent 75%);
 }
 
 .region-name {
-  font-size: 1.3rem;
-  font-weight: 800;
+  font-family: var(--serif);
+  font-size: 1.45rem;
+  font-weight: 500;
+  line-height: 1.15;
+}
+
+.region-mr {
+  font-family: 'Tiro Devanagari Marathi', var(--serif);
+  font-size: 0.95rem;
+  opacity: 0.85;
 }
 
 .region-stats {
-  font-size: 0.85rem;
-  opacity: 0.9;
+  margin-top: 0.3rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+  opacity: 0.85;
+}
+
+.region-card::after {
+  content: '→';
+  position: absolute;
+  right: 1rem;
+  bottom: 0.9rem;
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: 1px solid rgb(255 255 255 / 45%);
+  color: #fff;
+  font-size: 0.95rem;
+  background: rgb(255 255 255 / 10%);
+  backdrop-filter: blur(4px);
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.region-card:hover::after {
+  transform: translateX(3px);
+  background: rgb(255 255 255 / 25%);
 }
 
 /* ---------- Photos ---------- */
@@ -734,14 +897,24 @@ section + section,
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
   transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    border-color 0.25s ease;
 }
 
 .card:hover,
 .card:focus-within {
-  transform: translateY(-3px);
+  transform: translateY(-4px);
+  border-color: color-mix(in srgb, var(--region, var(--accent)) 30%, var(--line));
   box-shadow: var(--shadow-hover);
+}
+
+/* Cards that are a single link (trails, circuits) */
+a.card {
+  display: flex;
+  flex-direction: column;
+  color: inherit;
+  text-decoration: none;
 }
 
 .card-link {
@@ -768,23 +941,37 @@ section + section,
 
 .card-badge {
   position: absolute;
-  left: 0.6rem;
-  bottom: 0.6rem;
-  padding: 0.2rem 0.6rem;
+  left: 0.7rem;
+  bottom: 0.7rem;
+  padding: 0.2rem 0.65rem;
   border-radius: 999px;
-  background: rgb(20 12 6 / 70%);
-  color: #fff;
-  font-size: 0.75rem;
+  background: rgb(255 250 243 / 88%);
+  color: var(--region, var(--accent-strong));
+  font-size: 0.76rem;
   font-weight: 600;
-  backdrop-filter: blur(4px);
+  letter-spacing: 0.01em;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 15%);
+  backdrop-filter: blur(6px);
+}
+
+/* A soft fade at the foot of each photo */
+.card-media::after {
+  content: '';
+  position: absolute;
+  inset: 55% 0 0;
+  background: linear-gradient(0deg, rgb(20 10 4 / 28%), transparent);
+  pointer-events: none;
+}
+
+.card-media .card-badge {
+  z-index: 1;
 }
 
 .card-body {
   display: flex;
   flex: 1;
   flex-direction: column;
-  padding: 0.85rem 1rem 1rem;
-  border-top: 3px solid var(--region, var(--accent));
+  padding: 0.95rem 1.1rem 1.05rem;
 }
 
 .card-body p {
@@ -793,12 +980,19 @@ section + section,
 
 .card-title {
   margin: 0 0 0.1rem;
-  font-size: 1.05rem;
+  font-size: 1.18rem;
+  font-weight: 600;
+  line-height: 1.25;
 }
 
 .card-mr {
   color: var(--muted);
   font-size: 0.95rem;
+}
+
+.card-mr[lang='mr'],
+.banner h1 [lang='mr'] {
+  font-family: 'Tiro Devanagari Marathi', var(--serif);
 }
 
 .card-text {
@@ -816,27 +1010,34 @@ section + section,
   flex-wrap: wrap;
   gap: 0.25rem 0.9rem;
   margin-top: auto !important;
-  padding-top: 0.6rem;
+  padding-top: 0.75rem;
   font-size: 0.82rem;
   font-weight: 600;
+  letter-spacing: 0.01em;
   color: var(--region, var(--accent));
+}
+
+.card-meta:empty {
+  display: none;
 }
 
 .save-button {
   position: absolute;
-  top: 0.6rem;
-  right: 0.6rem;
+  z-index: 1;
+  top: 0.7rem;
+  right: 0.7rem;
   display: grid;
   place-items: center;
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 2.3rem;
+  height: 2.3rem;
   border: 0;
   border-radius: 50%;
-  background: rgb(255 255 255 / 92%);
+  background: rgb(255 250 243 / 90%);
   color: #be123c;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   cursor: pointer;
-  box-shadow: 0 2px 8px rgb(0 0 0 / 20%);
+  box-shadow: 0 2px 10px rgb(0 0 0 / 18%);
+  backdrop-filter: blur(6px);
   transition: transform 0.15s ease;
 }
 
@@ -891,8 +1092,8 @@ section + section,
 }
 
 .carousel-arrows button {
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 2.5rem;
+  height: 2.5rem;
   border: 1px solid var(--line);
   border-radius: 50%;
   background: var(--surface);
@@ -900,10 +1101,16 @@ section + section,
   font-size: 1.4rem;
   line-height: 1;
   cursor: pointer;
+  transition:
+    background 0.2s ease,
+    color 0.2s ease,
+    border-color 0.2s ease;
 }
 
 .carousel-arrows button:hover:not(:disabled) {
-  border-color: var(--accent);
+  border-color: var(--text);
+  background: var(--text);
+  color: var(--bg);
 }
 
 .carousel-arrows button:disabled {
@@ -977,23 +1184,28 @@ section + section,
 .banner-text {
   position: relative;
   width: 100%;
-  padding: 3rem 1.25rem 1.25rem;
-  background: linear-gradient(0deg, rgb(10 6 3 / 80%) 0%, rgb(10 6 3 / 35%) 60%, transparent 100%);
+  padding: 4rem 1.25rem 1.35rem;
+  background: linear-gradient(0deg, rgb(20 10 4 / 85%) 0%, rgb(20 10 4 / 40%) 55%, transparent 100%);
 }
 
 .banner-kicker {
   display: inline-block;
-  margin: 0 0 0.4rem;
-  padding: 0.15rem 0.6rem;
+  margin: 0 0 0.6rem;
+  padding: 0.2rem 0.75rem;
   border-radius: 999px;
-  background: var(--region, var(--accent));
+  background: rgb(255 250 243 / 14%);
+  border: 1px solid rgb(255 255 255 / 35%);
+  backdrop-filter: blur(6px);
   font-size: 0.8rem;
-  font-weight: 700;
+  font-weight: 600;
+  letter-spacing: 0.03em;
 }
 
 .banner h1 {
   margin: 0;
-  font-size: 1.85rem;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 1.1;
   letter-spacing: -0.02em;
 }
 
@@ -1012,6 +1224,8 @@ section + section,
 
 .level-layout {
   display: grid;
+  /* minmax(0, …): a wide row (chips, tabs, swipeable buttons) scrolls instead of widening the page */
+  grid-template-columns: minmax(0, 1fr);
   gap: 1.5rem;
   margin-top: 1.25rem;
 }
@@ -1191,11 +1405,12 @@ section + section,
 
 .intro-heading {
   margin: 0 0 0.5rem;
-  font-size: 0.8rem;
-  font-weight: 700;
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  color: var(--muted);
+  letter-spacing: 0.09em;
+  color: var(--gold-text);
 }
 
 .known-for {
@@ -1290,23 +1505,29 @@ section + section,
 }
 
 .facts div {
-  padding: 0.75rem 0.9rem;
+  padding: 0.8rem 1rem;
   border-radius: var(--radius-sm);
   background: var(--surface);
   border: 1px solid var(--line);
 }
 
 .facts dt {
-  font-size: 0.75rem;
-  font-weight: 700;
+  font-size: 0.72rem;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.05em;
-  color: var(--muted);
+  letter-spacing: 0.09em;
+  color: var(--gold-text);
 }
 
 .facts dd {
   margin: 0.15rem 0 0;
+  font-size: 1.02rem;
   font-weight: 600;
+}
+
+.facts dd a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
 }
 
 /* Getting there: nearest station and airport on place pages */
@@ -1365,11 +1586,13 @@ section + section,
 }
 
 .summary {
-  padding: 1.1rem 1.25rem;
-  border-left: 4px solid var(--region, var(--accent));
+  padding: 1.25rem 1.4rem;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--region, var(--accent));
   border-radius: var(--radius-sm);
   background: var(--surface);
-  font-size: 1.02rem;
+  font-size: 1.06rem;
+  line-height: 1.7;
 }
 
 .summary p {
@@ -1787,8 +2010,9 @@ section + section,
   flex: 1;
 }
 
-.card-badge.is-soon {
+:root .card-badge.is-soon {
   background: var(--accent);
+  color: var(--surface);
 }
 
 .festival-when {
@@ -1875,28 +2099,59 @@ section + section,
 
 /* Footer */
 .site-footer {
-  padding: 1.5rem 16px 2.5rem;
+  position: relative;
+  padding: 2.25rem 16px 2.75rem;
   border-top: 1px solid var(--line);
   font-size: 0.85rem;
+  line-height: 1.65;
   color: var(--muted);
+}
+
+/* A small gold ornament on the footer rule */
+.site-footer::before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  width: 8px;
+  height: 8px;
+  background: var(--gold);
+  transform: translateX(-50%) rotate(45deg);
+  box-shadow: 0 0 0 5px var(--bg);
+}
+
+.site-footer a {
+  color: var(--text);
+  text-decoration-color: color-mix(in srgb, var(--gold) 70%, transparent);
+  text-underline-offset: 3px;
 }
 
 /* ---------- Wider screens ---------- */
 @media (min-width: 600px) {
   .hero {
-    padding: 3rem 2.5rem;
+    padding: 4rem 3rem 2.5rem;
   }
 
   .hero h1 {
-    font-size: 2.75rem;
+    font-size: 3.4rem;
   }
 
   .banner {
-    min-height: 300px;
+    min-height: 340px;
   }
 
   .banner h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
+  }
+
+  .banner-text {
+    padding: 5rem 2rem 1.75rem;
+  }
+
+  section + section,
+  .carousel,
+  .near-me {
+    margin-top: 3.5rem;
   }
 
   .card-grid,
@@ -2150,5 +2405,222 @@ section + section,
   .trail-photo {
     aspect-ratio: 16 / 10;
     max-height: none;
+  }
+}
+
+/* ---------- Phones: compact layout (under 600px) ---------- */
+@media (max-width: 599px) {
+  /* Header on one line: the logo already links home, so "Explore" is hidden */
+  .site-header-inner {
+    gap: 0.5rem;
+    padding: 0.5rem 16px;
+  }
+
+  .brand {
+    gap: 0.5rem;
+    min-width: 0;
+  }
+
+  .brand-mark {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+
+  .brand-name {
+    font-size: 0.95rem;
+    white-space: nowrap;
+  }
+
+  .brand-mr {
+    font-size: 0.72rem;
+    white-space: nowrap;
+  }
+
+  .site-nav {
+    flex: none;
+    align-items: center;
+  }
+
+  .site-nav a[href='#/'] {
+    display: none;
+  }
+
+  .site-nav a,
+  .lang-switch {
+    padding: 0.4rem 0.65rem;
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+
+  /* Home hero: main action full width, the other two side by side */
+  .hero {
+    padding: 1.5rem 1.1rem;
+  }
+
+  .hero h1 {
+    font-size: 1.75rem;
+  }
+
+  .hero-lead {
+    font-size: 0.95rem;
+  }
+
+  .hero-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+
+  .hero-actions > :first-child {
+    grid-column: 1 / -1;
+  }
+
+  .hero-actions .button {
+    justify-content: center;
+    padding: 0.6rem 0.75rem;
+    font-size: 0.9rem;
+    white-space: nowrap;
+  }
+
+  /* Stats in a tidy 3-column grid; no dividers when they wrap */
+  .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.9rem 0.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .hero-stats li,
+  .hero-stats li + li {
+    padding: 0;
+    border: 0;
+  }
+
+  .hero-stats strong {
+    font-size: 1.4rem;
+  }
+
+  .hero-stats span {
+    font-size: 0.72rem;
+  }
+
+  .hero-credit {
+    position: static;
+    margin-top: 1rem;
+    text-align: right;
+  }
+
+  /* Place lists: a small square photo beside the text instead of a tall card */
+  .card-grid {
+    gap: 0.75rem;
+  }
+
+  .card-grid .place-card .card-link {
+    flex-direction: row;
+  }
+
+  .card-grid .place-card .card-media {
+    flex: 0 0 112px;
+    aspect-ratio: auto;
+    min-height: 112px;
+  }
+
+  .card-grid .place-card .photo-empty {
+    font-size: 2rem;
+  }
+
+  /* only the kind's icon on the photo; its name stays for screen readers */
+  .card-grid .place-card .card-badge {
+    left: 0.4rem;
+    bottom: 0.4rem;
+    padding: 0.15rem 0.35rem;
+    font-size: 0;
+  }
+
+  .card-grid .place-card .card-badge > span {
+    font-size: 0.85rem;
+  }
+
+  .card-grid .place-card .card-body {
+    min-width: 0;
+    padding: 0.7rem 2.9rem 0.75rem 0.9rem;
+  }
+
+  .card-grid .place-card .card-title {
+    font-size: 1rem;
+  }
+
+  .card-grid .place-card .card-meta {
+    padding-top: 0.4rem;
+  }
+
+  .card-grid .place-card .save-button {
+    top: 0.5rem;
+    right: 0.5rem;
+    width: 2.1rem;
+    height: 2.1rem;
+    box-shadow: none;
+    background: var(--surface-2);
+  }
+
+  /* Place page: the actions in one row you can swipe */
+  .place-actions {
+    flex-wrap: nowrap;
+    margin: 0 -16px;
+    padding: 0.1rem 16px 0.4rem;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+
+  .place-actions::-webkit-scrollbar {
+    display: none;
+  }
+
+  .place-actions > * {
+    flex: none;
+  }
+
+  /* Getting there: the Directions button goes under the name */
+  .getting-there li {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr);
+    align-items: start;
+    row-gap: 0.5rem;
+  }
+
+  /* Weather: the four days in one row */
+  .weather-days {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.4rem;
+  }
+
+  .weather-days li {
+    padding: 0.6rem 0.25rem;
+  }
+
+  /* the icon already shows it; screen readers still hear the label */
+  .weather-label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+
+  .weather-icon {
+    font-size: 1.5rem;
+  }
+
+  .weather-temp {
+    font-size: 0.85rem;
+  }
+
+  .getting-there-go {
+    grid-column: 2;
+    justify-self: start;
+    padding: 0.45rem 0.9rem;
+    font-size: 0.85rem;
   }
 }
