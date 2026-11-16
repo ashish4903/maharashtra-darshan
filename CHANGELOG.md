@@ -16,12 +16,13 @@ All notable changes to this project are listed here. The format follows [Keep a 
 ### Changed
 
 - A more elegant look: serif headings with a Marathi serif for Devanagari, a fort photo behind the home page title, cleaner cards, region tiles and place pages, and a matching dark mode. Fonts are bundled with the site, so no font service is called.
-- Phone layout: the header fits on one line (the logo leads home), the home page buttons sit side by side, place lists use compact cards with a small photo (a district page is about a third as long), a place’s actions are one row you can swipe, and the search box hint is shorter so it isn’t cut off.
+- Phone layout: the header fits on one line (the logo leads home), the home page buttons sit side by side, place lists use compact cards with a small photo (a district page is about a third as long), a place’s actions wrap onto full-width rows so every button is in view, and the search box hint is shorter so it isn’t cut off.
 - 16 places sourced from district websites that could not be reached when the data was built (Akola, Dhule, Mumbai Suburban, Nanded, Nashik, Palghar, Ratnagiri) are hidden until their source can be checked again. They are kept in `data/curated.json` under `paused`.
 
 ### Fixed
 
 - On phones, district and place pages no longer run past the right edge of the screen (cut-off chips, tabs, cards and weather).
+- On phones, the getaway planner no longer runs past the right edge (the “I like” chips wrap and the drop-downs fill their row), and the ↗ on a dish’s Google Maps link no longer drops onto a line of its own.
 - Carousel arrows: they no longer show on rows where every card already fits (such as History trails on a wide screen), and each arrow turns off at its end of the row.
 
 ## [1.1.0] - 2026-11-13
