@@ -7,9 +7,10 @@ import { MAP_HEIGHT, MAP_WIDTH, outlinePath, project } from '../lib/geo';
  * Interactive map: one bubble per district (coloured by region) and a dot per
  * place. Hover or focus a bubble to see its details; select it to open the
  * district. `region`, `district` and `place` highlight part of the map;
- * `route` (places in order) draws a numbered trip.
+ * `route` (places in order) draws a numbered trip. `legend={false}` drops the
+ * region key where region cards beside the map already do its job.
  */
-export default function MaharashtraMap({ region, district, place, route, label }) {
+export default function MaharashtraMap({ region, district, place, route, label, legend = true }) {
   const { t, name } = useLang();
   const [hover, setHover] = useState(null);
   const [legendRegion, setLegendRegion] = useState(null);
@@ -110,22 +111,24 @@ export default function MaharashtraMap({ region, district, place, route, label }
         </div>
       </div>
 
-      <figcaption className="map-legend">
-        {regions.map((r) => (
-          <a
-            key={r.id}
-            href={`#/region/${r.id}`}
-            className={`legend-item region-${r.id}${r.id === activeRegion ? ' is-active' : ''}`}
-            onMouseEnter={() => setLegendRegion(r.id)}
-            onMouseLeave={() => setLegendRegion(null)}
-            onFocus={() => setLegendRegion(r.id)}
-            onBlur={() => setLegendRegion(null)}
-          >
-            <span className="legend-swatch" aria-hidden="true" />
-            {name(r)}
-          </a>
-        ))}
-      </figcaption>
+      {legend && (
+        <figcaption className="map-legend">
+          {regions.map((r) => (
+            <a
+              key={r.id}
+              href={`#/region/${r.id}`}
+              className={`legend-item region-${r.id}${r.id === activeRegion ? ' is-active' : ''}`}
+              onMouseEnter={() => setLegendRegion(r.id)}
+              onMouseLeave={() => setLegendRegion(null)}
+              onFocus={() => setLegendRegion(r.id)}
+              onBlur={() => setLegendRegion(null)}
+            >
+              <span className="legend-swatch" aria-hidden="true" />
+              {name(r)}
+            </a>
+          ))}
+        </figcaption>
+      )}
     </figure>
   );
 }

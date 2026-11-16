@@ -118,6 +118,26 @@ export const commonsUrl = (file) => 'https://commons.wikimedia.org/wiki/File:' +
 export const districtsOf = (regionId) =>
   getRegion(regionId)?.districts.map(getDistrict).sort((a, b) => a.name.localeCompare(b.name)) ?? [];
 
+/**
+ * A place's or dish's description, or null when it only names a type and a
+ * place that the card already shows ("village in Maharashtra, India",
+ * "type of onion variety from India", "Indian snack"). Curated descriptions
+ * (full sentences ending in a full stop) are always kept.
+ */
+export function usefulDescription(item) {
+  const text = item.description?.trim();
+  if (!text) return null;
+  // A sentence of ours, or a year or century ("16th-century fort", "built 1557"), is worth showing
+  if (text.endsWith('.') || /\d/.test(text)) return text;
+  const words = text
+    .replace(/^(?:type|variety|kind) of\s+/i, '')
+    .replace(/\s+(?:(?:grown|cultivated|originated|originating)\s+)?(?:in|from|near)\s+[A-Z].*$/, '')
+    .replace(/\s+of\s+(?:South\s+)?India$/, '')
+    .split(/\s+/);
+  const generic = words.length <= 2 || (words.length === 3 && /^Indian$/i.test(words[0]));
+  return generic ? null : text;
+}
+
 /** "Nagpur district" -> "Nagpur", "Haveli taluka" -> "Haveli" */
 export const shortName = (name) =>
   name

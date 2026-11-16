@@ -37,7 +37,41 @@ import {
   suggestUrl,
   talukaCounts,
   thumbAt,
+  usefulDescription,
 } from './catalogue';
+
+describe('usefulDescription', () => {
+  const check = (description) => usefulDescription({ description });
+
+  it('drops descriptions that only name a type and a place', () => {
+    for (const d of [
+      'village in Maharashtra, India',
+      'fort in Raigad district, Maharashtra, India',
+      'hill station near Mumbai, Maharashtra',
+      'type of onion variety from India',
+      'jamun variety grown in Maharashtra, India',
+      'Indian snack',
+      'Indian Spicy dish',
+      'Maharashtra, India',
+    ]) {
+      expect(check(d), d).toBeNull();
+    }
+    expect(usefulDescription({})).toBeNull();
+  });
+
+  it('keeps descriptions that say something more', () => {
+    for (const d of [
+      'railway station and UNESCO World Heritage Site in Mumbai',
+      '16th-century fort in Sindhudurg, Maharashtra, India',
+      'mosque in Jalna, India, built 1557',
+      'Royal Palace of Peshwas',
+      'cuisine of South Konkan region',
+      'Varan (dal) with rice.',
+    ]) {
+      expect(check(d), d).toBe(d);
+    }
+  });
+});
 
 describe('generated data', () => {
   it('puts each of the 36 districts in exactly one region', () => {

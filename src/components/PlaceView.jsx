@@ -30,6 +30,7 @@ import {
   mapsSearchUrl,
   places,
   shortName,
+  usefulDescription,
 } from '../lib/catalogue';
 import { nearest } from '../lib/geo';
 
@@ -39,6 +40,7 @@ export default function PlaceView({ placeId }) {
   const district = getDistrict(place.district);
   const region = getRegion(place.region);
   const icon = KINDS[place.kind].icon;
+  const description = usefulDescription(place);
   const nearby = place.coords ? nearest(place.coords, places, 8, place.id) : [];
   const food = foodsIn({ district: place.district });
   const taluka = place.taluka && district.talukas.find((x) => x.id === place.taluka);
@@ -57,9 +59,9 @@ export default function PlaceView({ placeId }) {
         titleMr={otherName(place)}
       >
         {place.highlight && <p className="banner-highlight">★ {place.highlight}</p>}
-        {place.description && (
+        {description && (
           <p className="banner-stats" lang="en">
-            {place.description}
+            {description}
           </p>
         )}
       </Banner>
