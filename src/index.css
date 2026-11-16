@@ -1951,7 +1951,10 @@ a.card {
   font-weight: 700;
 }
 
+/* Chips wrap inside the form instead of pushing past its edge */
 .planner-field .chips {
+  flex-wrap: wrap;
+  min-width: 0;
   margin: 0;
 }
 
@@ -2564,21 +2567,16 @@ a.card {
     background: var(--surface-2);
   }
 
-  /* Place page: the actions in one row you can swipe */
-  .place-actions {
-    flex-wrap: nowrap;
-    margin: 0 -16px;
-    padding: 0.1rem 16px 0.4rem;
-    overflow-x: auto;
-    scrollbar-width: none;
+  /* Place, trail, circuit and planner actions: every button in view, rows filled edge to edge */
+  .place-actions > *,
+  .place-actions .listen > .button {
+    flex: 1 1 auto;
+    justify-content: center;
   }
 
-  .place-actions::-webkit-scrollbar {
-    display: none;
-  }
-
-  .place-actions > * {
-    flex: none;
+  /* Planner: each select fills its row */
+  .planner-field select {
+    flex: 1 1 100%;
   }
 
   /* Getting there: the Directions button goes under the name */
