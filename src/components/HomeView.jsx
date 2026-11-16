@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Hero from './Hero';
 import MaharashtraMap from './MaharashtraMap';
 import RegionCard from './RegionCard';
@@ -14,6 +15,8 @@ import { STATEWIDE, circuits, trails, featuredPlaces, festivals, foodsIn, region
 
 export default function HomeView() {
   const { t } = useLang();
+  // Hovering a region card lights up its districts on the map, so the map needs no key here
+  const [highlight, setHighlight] = useState(null);
   return (
     <>
       <Hero />
@@ -23,10 +26,10 @@ export default function HomeView() {
       <section id="explore" className="explore" aria-labelledby="explore-heading">
         <h2 id="explore-heading">{t('home.chooseRegion')}</h2>
         <div className="explore-layout">
-          <MaharashtraMap />
+          <MaharashtraMap region={highlight} legend={false} />
           <div className="region-grid">
             {regions.map((r) => (
-              <RegionCard key={r.id} region={r} />
+              <RegionCard key={r.id} region={r} onHighlight={setHighlight} />
             ))}
           </div>
         </div>

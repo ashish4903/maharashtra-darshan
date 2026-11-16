@@ -17,6 +17,8 @@ All notable changes to this project are listed here. The format follows [Keep a 
 
 - A more elegant look: serif headings with a Marathi serif for Devanagari, a fort photo behind the home page title, cleaner cards, region tiles and place pages, and a matching dark mode. Fonts are bundled with the site, so no font service is called.
 - Phone layout: the header fits on one line (the logo leads home), the home page buttons sit side by side, place lists use compact cards with a small photo (a district page is about a third as long), a place’s actions wrap onto full-width rows so every button is in view, and the search box hint is shorter so it isn’t cut off.
+- Cleaner cards: a place’s or dish’s Wikidata description is shown only when it says more than the type and the place the card already shows (“village in Maharashtra, India” and “Indian snack” are left out; “16th-century fort in Sindhudurg” and our own descriptions stay). About three in four were only type and place. The same applies to the place page header.
+- Home page map: the region key under the map is gone, since the region cards beside it do the same job; hovering or focusing a region card now lights up its districts on the map. Other maps keep their key.
 - 16 places sourced from district websites that could not be reached when the data was built (Akola, Dhule, Mumbai Suburban, Nanded, Nashik, Palghar, Ratnagiri) are hidden until their source can be checked again. They are kept in `data/curated.json` under `paused`.
 
 ### Fixed

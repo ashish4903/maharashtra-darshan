@@ -25,6 +25,21 @@ const go = async (hash) => {
 };
 
 describe('App', () => {
+  it('lights up a region on the home map while its card is hovered', async () => {
+    const user = userEvent.setup();
+    const { container } = render(<App />);
+    expect(container.querySelector('.map-legend')).toBeNull();
+    expect(container.querySelectorAll('.map-district.is-dim')).toHaveLength(0);
+
+    await user.hover(screen.getByRole('link', { name: /^Vidarbha/ }));
+    const lit = container.querySelectorAll('.map-district:not(.is-dim)');
+    expect(lit.length).toBe(districts.filter((d) => d.region === 'vidarbha').length);
+    expect([...lit].every((el) => el.classList.contains('region-vidarbha'))).toBe(true);
+
+    await user.unhover(screen.getByRole('link', { name: /^Vidarbha/ }));
+    expect(container.querySelectorAll('.map-district.is-dim')).toHaveLength(0);
+  });
+
   it('goes from a region to a district and its talukas', async () => {
     const user = userEvent.setup();
     render(<App />);
@@ -281,8 +296,8 @@ describe('App', () => {
     await user.click(screen.getByRole('button', { name: /View in Marathi/ }));
     expect(document.documentElement.lang).toBe('mr');
     expect(screen.getByRole('heading', { level: 2, name: 'विभाग निवडा' })).toBeTruthy();
-    // Region card and map legend
-    expect(screen.getAllByRole('link', { name: /^विदर्भ/ }).length).toBeGreaterThan(1);
+    // Region card
+    expect(screen.getAllByRole('link', { name: /^विदर्भ/ }).length).toBeGreaterThan(0);
     expect(screen.getByRole('link', { name: /माझी सहल/ })).toBeTruthy();
     expect(localStorage.getItem('maharashtra-darshan-lang-v1')).toBe('mr');
 

@@ -1,7 +1,7 @@
 import Photo from './Photo';
 import SeasonNote from './SeasonNote';
 import useLang from '../lib/useLang';
-import { foodSpotQuery, getDistrict, getRegion, mapsSearchUrl, shortName } from '../lib/catalogue';
+import { foodSpotQuery, getDistrict, getRegion, mapsSearchUrl, shortName, usefulDescription } from '../lib/catalogue';
 
 /**
  * A dish or local produce. The card opens its Wikipedia article; the footer
@@ -11,6 +11,7 @@ export default function FoodCard({ food, fromHere = false, districtId, near }) {
   const { t, name, otherName, lang } = useLang();
   const district = food.district && getDistrict(food.district);
   const region = getRegion(food.region);
+  const description = usefulDescription(food);
   const area = district ? shortName(name(district)) : region ? name(region) : t('food.statewide');
   const produce = food.type === 'produce';
 
@@ -42,9 +43,9 @@ export default function FoodCard({ food, fromHere = false, districtId, near }) {
             </p>
           )}
           <SeasonNote item={food} />
-          {food.description && (
+          {description && (
             <p className="card-text" lang="en">
-              {food.description}
+              {description}
             </p>
           )}
           <p className="card-meta">
