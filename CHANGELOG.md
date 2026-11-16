@@ -4,6 +4,10 @@ All notable changes to this project are listed here. The format follows [Keep a 
 
 ## [Unreleased]
 
+## [1.2.0] - 2026-11-15
+
+History and a new look. Walk history trails on the map, listen to a place or a trip day read aloud, see how to get there, browse more photos, and find more festivals and food, in a more elegant design that works better on phones.
+
 ### Added
 
 - 8 more festivals and fairs (21 in all): Pola, Narali Poornima, Vata Purnima, Dhammachakra Pravartan Din at Deekshabhoomi, Kartiki (Prabodhini) Ekadashi at Pandharpur, the Bandra Fair, the Sawai Gandharva Bhimsen Festival in Pune, and Hola Mohalla at Hazur Sahib, Nanded. Each date and place is checked against its Wikipedia article. Festival names no longer show Wikipedia’s disambiguation (“Pola”, not “Pola (festival)”).
